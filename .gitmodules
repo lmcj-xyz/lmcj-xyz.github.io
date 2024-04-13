@@ -1,6 +1,3 @@
-[submodule "themes/blank"]
-	path = themes/blank
-	url = git@codeberg.org:lmcj/blank.git
-[submodule "themes/risotto"]
-	path = themes/risotto
-	url = https://github.com/joeroe/risotto
+[submodule "themes/lugo"]
+	path = themes/lugo
+	url = https://github.com/LukeSmithxyz/lugo
