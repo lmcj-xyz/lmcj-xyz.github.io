@@ -1,0 +1,1794 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>What is LM doing?</title>
+	<link>https://lmcj-xyz.github.io/categories/</link>
+	<description>Recent content in Categories on What is LM doing?</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-gb</language>
+	<lastBuildDate>Sat, 24 Feb 2024 18:30:54 +0000</lastBuildDate>
+    
+        <atom:link href="https://lmcj-xyz.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Leeds Statistics &amp; Probability PGR Seminar Term 2 2023-24</title>
+		<link>https://lmcj-xyz.github.io/stats-seminar/2023-24-term2/</link>
+		<pubDate>Wed, 28 Feb 2024 23:16:32 +0000</pubDate>
+		
+		<guid>https://lmcj-xyz.github.io/stats-seminar/2023-24-term2/</guid>
+		<description>&lt;p&gt;This is &lt;em&gt;Term 2 2023-24&lt;/em&gt;, so all the dates below correspond to the year 2024&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Copyright disclaimer: The titles and abstracts of the talks are the property of the speakers and their colaborators.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;0228&#34;&gt;February 28th&lt;/h2&gt;
+&lt;h3 id=&#34;comparing-two-functional-principal-component-models&#34;&gt;Comparing two functional principal component models&lt;/h3&gt;
+&lt;p&gt;by &lt;em&gt;Sonia Dembowska&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;evolution-of-social-decision-making&#34;&gt;Evolution of social decision-making&lt;/h3&gt;
+&lt;p&gt;by &lt;em&gt;Anna Sigalou&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;0313&#34;&gt;March 13th&lt;/h2&gt;
+&lt;h3 id=&#34;a-short-introduction-to-stochastic-calculus&#34;&gt;A short introduction to stochastic calculus&lt;/h3&gt;
+&lt;p&gt;by &lt;em&gt;Yukun Cao&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Abstract: As we dive into the world of randomness, a precise way to integrate with respect to a stochastic process is needed. However, the usual way of Lebesgue integral is usually not enough. We will have to consider a new way of integration: Ito integral.  We will examine the construction of Brownian motion and Ito integral with respect to Brownian motion and if time permitting some properties of this new way of integration.&lt;/p&gt;
+&lt;h2 id=&#34;0327&#34;&gt;March 27th&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Abdulla Al Mugharrid&lt;/em&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>CV Professional</title>
+		<link>https://lmcj-xyz.github.io/cv_pro/</link>
+		<pubDate>Sun, 25 Feb 2024 09:55:59 +0000</pubDate>
+		
+		<guid>https://lmcj-xyz.github.io/cv_pro/</guid>
+		<description>&lt;p&gt;You can also download the &lt;a href=&#34;https://lmcj-xyz.github.io/docs/cv_pro.pdf&#34;&gt;PDF version&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Last updated: &lt;em&gt;25th Feb 2024&lt;/em&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;luis-mario-chaparro-jáquez&#34;&gt;Luis Mario Chaparro Jáquez&lt;/h1&gt;
+&lt;h2 id=&#34;contact&#34; class=&#34;unnumbered&#34;&gt;Contact information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Phone: (+44) 0792 709 4658&lt;/li&gt;
+&lt;li&gt;Email: &lt;a href=&#34;mailto:pro@lmcj.xyz&#34;&gt;pro@lmcj.xyz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Website: &lt;a href=&#34;https://lmcj.xyz&#34;&gt;lmcj.xyz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LinkedIn: &lt;a href=&#34;https://linkedin.com/in/lmcj&#34;&gt;linkedin.com/in/lmcj&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technical-skills&#34; class=&#34;unnumbered&#34;&gt;Technical skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mathematics:&lt;/strong&gt; Stochastic Calculus, Partial Differential Equations (PDEs), Numerical Methods, Stochastic Processes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Programming:&lt;/strong&gt; Python, C, R.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Software and technologies:&lt;/strong&gt; Linux based OSs, Microsoft Windows, Spreadsheets software (LibreOffice Calc, Microsoft Excel and Google Sheets), LaTeX.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;education&#34; class=&#34;unnumbered&#34;&gt;Education&lt;/h2&gt;
+&lt;h3 id=&#34;phd-mathematics&#34; class=&#34;unnumbered&#34;&gt;PhD Mathematics&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;University of Leeds, UK, 2021-Present (Deadline set on the 31st December 2024).&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Delved into the study of the convergence analysis of numerical schemes for SDEs with drifts living in spaces of distributions (generalized functions), as opposed to the classical case where coefficients of SDEs are functions which we can simply evaluate, in addition of implementing robust numerical schemes for the analysis of multiple cases of the problem. Although this academic work is highly theoretical the applicability of the foundational knowledge in probability, and in particular SDEs, for derivative pricing is a topic which fascinates me.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This research was presented in a number of domestic and international conferences always having the opportunity to discuss results with the top researchers in the field, where I benefited from having an energetic approach to collaboration.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Organized the Statistics and Probability Postgraduate Researchers&amp;rsquo; Seminar and served as PGR representative for my fellow Statistics students, which helped me develop extra logistic and organisation skills.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;beng-engineering-mathematics&#34; class=&#34;unnumbered&#34;&gt;BEng Engineering Mathematics&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Autonomous University of Chihuahua, Mexico, 2015-2020&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Wrote a thesis reviewing modern probability theory from the point of view of measure theory allowing me to gain the some of the knowledge required to start my PhD and starting to think in a research oriented way.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Established the Science Club &amp;ldquo;Johan Carl Friedrich Gauss&amp;rdquo;, which I presided it for 3 years and allowed me to enhance my communication and logistic skills. This club provided to my faculty a regular space for researchers and students to present their work.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;work-experience&#34; class=&#34;unnumbered&#34;&gt;Work experience&lt;/h2&gt;
+&lt;h3 id=&#34;the-brilliant-club-scholars-programme&#34; class=&#34;unnumbered&#34;&gt;The Brilliant Club Scholars Programme&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Tutor&lt;/em&gt;, UK, 2021-Present.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Delivered tutorials in three different terms for talented students from under-represented backgrounds with the aim of sparking interest in higher education, where I treated topics I felt passionate about in the hope to inspire students.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Strengthened communications skills by explaining advanced topics to a non-specialized and diverse audience, also allowed me to gain knowledge about the British school system.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;grupo-chaol-s.a.-de-c.v.&#34; class=&#34;unnumbered&#34;&gt;Grupo Chaol S.A. de C.V.&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Data analyst&lt;/em&gt;, Mexico, 2019-2021.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Processed data obtained by the VIAKO app using the R programming language in order to help the decision making process for the company using tools from data visualization and statistics.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exercised the knowledge on the R programming language and libraries like the &lt;em&gt;Tidyverse&lt;/em&gt; and &lt;em&gt;Shiny&lt;/em&gt; to analyse data and present results.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Improved the knowledge of spreadsheets helping to optimize inventory, and human resources processes using spreadsheets software such as Microsoft Excel and Google Sheets.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>A Sed One Liner to Fix Date Format in Text Files</title>
+		<link>https://lmcj-xyz.github.io/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</link>
+		<pubDate>Sat, 24 Feb 2024 18:30:54 +0000</pubDate>
+		
+		<guid>https://lmcj-xyz.github.io/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</guid>
+		<description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;p&gt;This is a &lt;em&gt;know your tools entry&lt;/em&gt;, although I absolutely don&amp;rsquo;t know my tools as you will see if you read.&lt;/p&gt;
+&lt;p&gt;The following &amp;ldquo;one-liner&amp;rdquo; will change any wiki style link with a date string formatted as &amp;ldquo;Feb 22nd, 2024&amp;rdquo; to &amp;ldquo;2024-02-22&amp;rdquo;, god&amp;rsquo;s intended way to write a date.&lt;/p&gt;
+&lt;p&gt;Please forgive the search and replace gore of the second &lt;code&gt;sed&lt;/code&gt;.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sed -E &amp;#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&amp;#39; &amp;#34;$1&amp;#34; | 
+	sed -E &amp;#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&amp;#39; | 
+	sed -E &amp;#39;s;-([0-9])\];-0\1];&amp;#39; &amp;gt; &amp;#34;$1&amp;#34;.done
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;the-lore&#34;&gt;The lore&lt;/h2&gt;
+&lt;p&gt;I had a problem: &lt;a href=&#34;https://logseq.com/&#34;&gt;Logseq&lt;/a&gt; is my note taking software of choice, it&amp;rsquo;s an &lt;a href=&#34;https://en.wikipedia.org/wiki/Outliner&#34;&gt;outliner&lt;/a&gt; which stores files in Markdown format so they are &lt;em&gt;time-proof&lt;/em&gt;. Anyway, I wanted my Logseq wiki to be interoperable with &lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; because the latter respects the Markdown a bit more than the former.&lt;/p&gt;
+&lt;p&gt;In Logseq you can create Journals/Daily notes, which are ways to track your daily tasks, meetings, or regular notes; or at least that is what I do.
+A Journal is just another Markdown file and you can edit it as any other page, and one of the most convenient things of Logseq are its commands.
+There is a very convenient command called &amp;ldquo;Date picker&amp;rdquo;, the way to use commands in Logseq is to type &amp;ldquo;/&amp;rdquo;, then a menu pops up and you can search for the command you need, so if you continue typing &amp;ldquo;dat&amp;hellip;&amp;rdquo; it will autocomplete to &amp;ldquo;Date picker&amp;rdquo;, very handy.
+However by default Logseq does two things I deeply hate:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Journals/Daily notes&amp;rsquo; filenames are in format &amp;ldquo;YYYY_MM_DD.md&amp;rdquo;, (yes with underscores), which conflicts with the standard way Obsidian does it.&lt;/li&gt;
+&lt;li&gt;The date picker inserts a wiki style link with the format &lt;code&gt;[[MMM DDoo, YYYY]]&lt;/code&gt;. If that is not clear,
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;MMM&lt;/code&gt; means localized month with three letters, e.g. &amp;ldquo;Aug&amp;rdquo; for August in english, &amp;ldquo;ago&amp;rdquo; for August in Spanish.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;DDoo&lt;/code&gt; is the ordinal day of the month, e.g. 14th&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I don&amp;rsquo;t think this is standard notation for date formats but that&amp;rsquo;s beyond the point.
+So for instance for the 2 February 2024, the date picker will insert the link &lt;code&gt;[[Feb 2nd, 2024]]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The first point is easy to fix, just modify either the settings in Obsidian or Logseq for both of them to agree in the way they use Journals/Daily notes.
+The second point however, is more difficult, especially if you have been using Logseq for a few years and never bothered about how to configure it until recently (like me).
+Why is this a problem? You may ask.
+Well, Logseq has absolutely no problem following those links because internally it handles the date conversions or something like that, however when Obsidian sees a wikilink like
+&lt;code&gt;[[The name of the file]]&lt;/code&gt;
+it searches the working directory for a file called
+&lt;code&gt;The name of the file.md&lt;/code&gt;,
+so, if your link is
+&lt;code&gt;[[Feb 24th, 2024]]&lt;/code&gt;
+Obsidian will look for
+&lt;code&gt;Feb 24th, 2024.md&lt;/code&gt;
+not for the actual name of the file
+&lt;code&gt;2024_02_24.md&lt;/code&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Oh by the way, to solve the problem of the file names not being the same in Obsidian and Logseq,&lt;/p&gt;
+&lt;p&gt;In Obsidian you go to
+&lt;code&gt;Settings-&amp;gt;Options-&amp;gt;Core plugins-&amp;gt;Daily Notes&lt;/code&gt; and then you change the date format to &lt;code&gt;YYYY_MM_DD&lt;/code&gt;.
+If you want to play by default Logseq rules, or if you want to use a more conventional name then set it to &lt;code&gt;YYYY-MM-DD&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In Logseq go to
+&lt;code&gt;Settings-&amp;gt;General-&amp;gt;Custom configuration&lt;/code&gt;
+and then you will edit the configuration file
+&lt;code&gt;config.edn&lt;/code&gt;
+(you can just search for it and edit it on your preferred text editor of course),
+look for the line which says
+&lt;code&gt;:journal/file-name-format&lt;/code&gt;
+uncomment it and set the vale to the date format you want, in my case I actually wanted &amp;ldquo;yyyy-MM-dd&amp;rdquo;, so the line reads&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;:journal/file-name-format &amp;#34;yyyy-MM-dd&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;additionally you can also set the page title format to&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;:journal/page-title-format &amp;#34;yyyy-MM-dd&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;so Logseq displays the actual title of the note.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-to-do-what-to-do&#34;&gt;What to do, what to do&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;The obvious solution is to create a small script which changes the date format to what I want, in fact I thought of migrating the whole thing into an Obsidian format and I found &lt;a href=&#34;https://github.com/NishantTharani/LogSeqToObsidian/tree/main&#34;&gt;this Python script&lt;/a&gt;, but then I realized I don&amp;rsquo;t really want to do this, I like Logseq, I just need to tweak it a bit.
+But then I did go and read the script and thought I could just steal the function called &lt;code&gt;update_files_and_tags&lt;/code&gt; in the file &lt;a href=&#34;https://github.com/NishantTharani/LogSeqToObsidian/blob/main/convert_notes.py&#34;&gt;convert_notes.py&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This seemed overkill, I literally need to edit some files, I am sure I can do it with the standard &lt;a href=&#34;https://www.gnu.org/software/coreutils/&#34;&gt;Coreutils&lt;/a&gt;, so I embarked on the thrilling adventure of learning a bit about &lt;code&gt;sed&lt;/code&gt;, &lt;code&gt;date&lt;/code&gt; and &lt;code&gt;grep&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;this-is-what-i-did&#34;&gt;This is what I did&lt;/h2&gt;
+&lt;p&gt;My attempts were relentless&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;tried-using-date&#34;&gt;Tried using &lt;code&gt;date&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;I thought we can use &lt;code&gt;date&lt;/code&gt; by either looping over the lines of a file like so&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;while read -r line; do 
+    echo $(date -d &amp;#34;$line&amp;#34; +%Y-%m-%d); 
+done &amp;lt; filename.md
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;because I went and read the answers to &lt;a href=&#34;https://stackoverflow.com/questions/43697746/how-to-change-date-format-in-linux-unix-text-file&#34;&gt;this StackOverflow question&lt;/a&gt; and I thought, &amp;ldquo;oh that looks quite smart&amp;rdquo; NOOOOOOT. One can simply go an read the manual (literally the first displayed screen) by typing &lt;a href=&#34;https://www.man7.org/linux/man-pages/man1/date.1.html&#34;&gt;&lt;code&gt;man date&lt;/code&gt;&lt;/a&gt; and realize that the &lt;code&gt;-f&lt;/code&gt; flag will save you from doing a silly loop, so you can also do&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;date -f filename.md +%Y-%m-%d
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Those are more or less equivalent, the &lt;code&gt;-d&lt;/code&gt; flag reads a string which in the loop will be each line of the file, while the &lt;code&gt;-f&lt;/code&gt; flag reads the entire file and tries applying the date format to each line.&lt;/p&gt;
+&lt;p&gt;The problem of those approaches is that they expect you to have exactly the date you want to change in each line, no more no less&amp;hellip;or I guess so, I haven&amp;rsquo;t tried extensively, nevertheless this is not what I wanted.
+Remember I am applying this to my notes, in the files the dates are within the text.
+Besides, if a particular line had a date that I want to change this is always going to be enclosed by &lt;code&gt;[[&lt;/code&gt; and &lt;code&gt;]]&lt;/code&gt;, and this makes it not understandable for the command &lt;code&gt;date&lt;/code&gt;.
+And one more thing, &lt;code&gt;date&lt;/code&gt; doesn&amp;rsquo;t do ordinal numbers, &amp;ldquo;Feb 2nd, 2024&amp;rdquo; is not recognizable as a date for the utility &lt;code&gt;date&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;then-using-sed-and-date&#34;&gt;Then using &lt;code&gt;sed&lt;/code&gt; and &lt;code&gt;date&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;Then I found somebody (also in StackOverflow but I cannot find the link any more) suggesting to use &lt;code&gt;sed&lt;/code&gt; to convert your strings into &lt;code&gt;date&lt;/code&gt; recognizable dates and then piping into &lt;code&gt;date&lt;/code&gt;.
+At this point I wasn&amp;rsquo;t sure how &lt;code&gt;date&lt;/code&gt; actually works, it took me a few attempts to learn that &lt;code&gt;date&lt;/code&gt; is expecting no more than an actual date as the first string in a line as I mentioned above.&lt;/p&gt;
+&lt;p&gt;This, however gave me an idea&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;just-use-sed-man&#34;&gt;Just use &lt;code&gt;sed&lt;/code&gt;, man&lt;/h3&gt;
+&lt;p&gt;Why don&amp;rsquo;t we just use &lt;code&gt;sed&lt;/code&gt; to find dates through a regular expression and change it for what we want, at this moment I thought &amp;ldquo;I will make a very ingenious one-liner to brag about on the internet&amp;rdquo;, just to realize that piping will just work.
+Embrace the &lt;a href=&#34;https://grugbrain.dev/&#34;&gt;gruging&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Oh, what is piping?
+Normally a command has an output, for instance&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;echo &amp;quot;Hello&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;will print the string &amp;ldquo;Hello&amp;rdquo; on your console, if you want to use the output of a command as the argument for other command you can use the pipe operator &lt;code&gt;|&lt;/code&gt; to redirect the output to another utility, e.g.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;echo &amp;quot;Hello&amp;quot; | grep &amp;quot;H&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;which although this is a silly example it will take the word string &amp;ldquo;Hello&amp;rdquo; and feed it to &lt;code&gt;grep&lt;/code&gt;, which will highlight the match of the letter &amp;ldquo;H&amp;rdquo; in the word &amp;ldquo;Hello&amp;rdquo;.
+If you want, go and read more &lt;a href=&#34;https://www.redhat.com/sysadmin/pipes-command-line-linux&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;First, I went and read this &lt;a href=&#34;https://csiro-data-school.github.io/regex/index.html&#34;&gt;intro to regular expressions&lt;/a&gt;, because obviously I don&amp;rsquo;t remember such things and I need to go and learn every time I need to use them. Really nice tutorial though. And along the way I was implementing my solution.&lt;/p&gt;
+&lt;p&gt;So I went by steps, let us first find our wikilinks with dates, we can use &lt;code&gt;grep&lt;/code&gt; just so we can see what we find, and then afterwards use &lt;code&gt;sed&lt;/code&gt; to substitute.
+Both have the same syntax for regex.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;grep -E &amp;#39;\[\[([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4})\]\]&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The line above will find the wikilinks of this format &lt;code&gt;[[MMM DDoo, YYY]]&lt;/code&gt; and show them to you, once you are sure it works you can make your substitution by placing that into a search and replace thing in sed, this would be&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sed -E &amp;#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&amp;#39; &amp;#34;$1&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;There are a few things to notice there, first I realized I don&amp;rsquo;t actually need to match &lt;code&gt;[[&lt;/code&gt; and &lt;code&gt;]]&lt;/code&gt; because all the instances where I have dates have been inserted with the date picker and it always creates wikilinks anyway, so it&amp;rsquo;s redundant.
+Second, see that I have some things enclosed in circle brackets, like &lt;code&gt;([a-zA-Z]{3})&lt;/code&gt;, this is so I can make back-references, so when we encircle our matches we can refer to them within &lt;code&gt;sed&lt;/code&gt; by typing &lt;code&gt;\#&lt;/code&gt;, this is backlash and the number of the match.
+This is why in the replacement string we have &lt;code&gt;\4-\1-\2&lt;/code&gt;, we want to substitute our match with the matches 4, 1 and 2 separated by dashes.
+Notice that we skipped &lt;code&gt;\3&lt;/code&gt; this is because &lt;code&gt;\3&lt;/code&gt; matches the ordinal suffix which we don&amp;rsquo;t want.
+I presume if I didn&amp;rsquo;t enclose the suffix in circle brackets it wouldn&amp;rsquo;t have matter but then I wouldn&amp;rsquo;t be able to match those strings, although I could have just matched them using &lt;code&gt;[a-z]{2}&lt;/code&gt;, this is matching any two consecutive lower-case letters.&lt;/p&gt;
+&lt;p&gt;So let&amp;rsquo;s explain that regex above before going to the next ones which are much simpler.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;([a-zA-Z]{3})
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;[a-zA-Z]&lt;/code&gt; matches any letter from the English language, and since this is localized that is enough, then &lt;code&gt;{3}&lt;/code&gt; is a quantifier which says &amp;ldquo;whatever is before me, make it three&amp;rdquo;. You can put any positive integer &lt;em&gt;n&lt;/em&gt; instead of 3 (I guess it could be non-negative but why would you match zero letters?).
+I encircle the three letters so I can refer back to it, this will have the reference &lt;code&gt;\1&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;\s([0-9]{1,})
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;matches a space with &lt;code&gt;\s&lt;/code&gt;, then &lt;code&gt;[0-9]&lt;/code&gt; matches any digit and the quantifier &lt;code&gt;{1,}&lt;/code&gt; says &amp;ldquo;whatever is before me, give me at least one&amp;rdquo;, this is because the day will have either one or two digits. I could have used &lt;code&gt;{1,2}&lt;/code&gt; which limits you to find 1 or 2 or whatever is before, but I just thought about that while writing this entry so I didn&amp;rsquo;t.
+I encircle the one or two digits so I can refer back to it, this will have the reference &lt;code&gt;\2&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(st|nd|rd|th)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Is an &lt;em&gt;or&lt;/em&gt; statement, so I am asking for either one of the strings &amp;ldquo;st&amp;rdquo;, &amp;ldquo;nd&amp;rdquo;, &amp;ldquo;rd&amp;rdquo; or &amp;ldquo;th&amp;rdquo;, the ordinal suffixes in English.
+I encircle the suffix so I can refer back to it, this will have the reference &lt;code&gt;\3&lt;/code&gt;, although I will not use it but I think for the &lt;em&gt;or&lt;/em&gt; statement I cannot not encircle it anyway.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;,\s([0-9]{4})
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Finally, I want to match a literal comma, a space and four digits.
+I encircle the four digits so I can refer back to it, this will have the reference &lt;code&gt;\3&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Then this matches will be substituted by&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;\4-\1-\2
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;which is the references of the matches before, so if I had the link
+&lt;code&gt;[[Feb 24th, 2024]]&lt;/code&gt;
+it will be substituted to
+&lt;code&gt;[[2024-Feb-24]]&lt;/code&gt;.
+This is close but it&amp;rsquo;s not quite what I want, because it has first of all the month still as &lt;code&gt;MMM&lt;/code&gt; and if the day was a single digit &lt;code&gt;n&lt;/code&gt; the last part of the new date will be a single digit &lt;code&gt;n&lt;/code&gt; instead of the desired output &lt;code&gt;0n&lt;/code&gt;.
+So, it&amp;rsquo;s time for PIPING.&lt;/p&gt;
+&lt;p&gt;Oh and at the end I have &lt;code&gt;$1&lt;/code&gt;, this is just the file argument of a script call, because I wrote this as a &lt;a href=&#34;https://www.gnu.org/software/bash/&#34;&gt;shell/bash&lt;/a&gt; script and I call it by typing &lt;code&gt;./ldate filename.md&lt;/code&gt;, so this will call the &lt;code&gt;sed&lt;/code&gt; command on the file &lt;code&gt;filename.md&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;the-piping&#34;&gt;The piping&lt;/h3&gt;
+&lt;p&gt;Originally I wanted to call everything together but I realise I actually need the output from the sed above and then I want to substitute the month and the day if it has a single digit.&lt;/p&gt;
+&lt;p&gt;So I did a big pattern matching sequence for each month of the year which you can see here&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sed -E &amp;#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Yes, it&amp;rsquo;s ugly, but it works. I wanted to do something smarter like the dictionary used by the Logseq to Obsidian migration script I mentioned above, I wanted to solve this quickly so I can write a blog entry about it, five minutes of web browsing didn&amp;rsquo;t give me the answer so here we are.&lt;/p&gt;
+&lt;p&gt;This just does what it says, first looks for the string &amp;ldquo;-Jan-&amp;rdquo; and changes it by &amp;ldquo;-01-&amp;rdquo;, then for the string &amp;ldquo;Feb&amp;rdquo; and replaces it by &amp;ldquo;-02-&amp;rdquo;, you get the idea.
+The dashes were necessary because I may have those strings in other places and I don&amp;rsquo;t want them changed, for one there is a person I know called &lt;em&gt;Jan&lt;/em&gt; and sometimes I refer to this person in my notes because I may need to remember I have a meeting with him or something, so I don&amp;rsquo;t want his name changed by &amp;ldquo;01&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Note, that here my search and replace is bookended by forward slashes &lt;code&gt;/&lt;/code&gt; instead of semi-colons &lt;code&gt;;&lt;/code&gt; as I did before.
+This is for convenience, and readability, you can use any character that you are not going to match.&lt;/p&gt;
+&lt;p&gt;The final step is the following&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;	sed -E &amp;#39;s;-([0-9])\];-0\1];&amp;#39; &amp;gt; &amp;#34;$1&amp;#34;.done
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Here the match is&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;-([0-9])\]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;which is one dash &lt;code&gt;-&lt;/code&gt;, exactly one digit &lt;code&gt;[0-9]&lt;/code&gt;, and one closing square bracket &lt;code&gt;\]&lt;/code&gt;, I enclose the digit and refer to it in the substitution as &lt;code&gt;\1&lt;/code&gt;.
+This pattern is easy but it can be dangerous, the trick here is to think that I only care about digits which are between a dash and a closing square bracket.
+If I don&amp;rsquo;t account for that, I will be matching digits everywhere and that could be problematic.&lt;/p&gt;
+&lt;p&gt;Then, at the end I forward the output of the piping into a file which is going to be called &lt;code&gt;filename.md.done&lt;/code&gt; if I called the script on a file called &lt;code&gt;filename.md&lt;/code&gt;.
+Just to have some backup, doing that you just move all files called &lt;code&gt;*.md&lt;/code&gt; to where you want them and remove the &lt;code&gt;.done&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;And that&amp;rsquo;s it, that&amp;rsquo;s how you do it, or at least one way to do it.
+I am sure there are more elegant ways.&lt;/p&gt;
+&lt;p&gt;The way I applied it was by calling a loop over the files of the directory when I wanted to apply it, i.e.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;for filename in *;
+    do ./ldate &amp;#34;${filename}&amp;#34;;
+done
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This calls my script &lt;code&gt;./ldate&lt;/code&gt; over each file in the current working directory.
+You could potentially add the script to a directory on your &lt;code&gt;PATH&lt;/code&gt; and not have to move your script around, but I didn&amp;rsquo;t do it because most likely I won&amp;rsquo;t need the script ever again, so I just spent a few hours writing a &amp;ldquo;one-liner&amp;rdquo; sed to change the date format in files and documenting it on this entry.&lt;/p&gt;
+&lt;p&gt;It was quite fun.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>We Need Mediocre Reviews</title>
+		<link>https://lmcj-xyz.github.io/posts/2024-02-21-mediocre-reviews/</link>
+		<pubDate>Wed, 21 Feb 2024 17:41:23 +0000</pubDate>
+		
+		<guid>https://lmcj-xyz.github.io/posts/2024-02-21-mediocre-reviews/</guid>
+		<description>&lt;p&gt;Currently I am in a character development arc, in particular dealing with moving because the building management in my building is awful and has just left a leak to make my flat unfit for habitation, and because of that I have learned that one has to be very wary about the company or person which manages the building where you live.
+And in this search it seems like people who provide reviews for these kind of things have a very strong opinion either positive or negative.
+Which makes sense, since normally you only have to deal with the building management of a place when things go wrong, so you will either love them or hate them.&lt;/p&gt;
+&lt;p&gt;However, although helpful to know when somebody is unreliable or a darling, we also need to know when they are just &lt;em&gt;mhe&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I see sometimes that in a five star rating for anything, we see a distribution of opinions which looks like the &lt;em&gt;sign of the horns&lt;/em&gt;, e.g.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./2024-02-21-horns.png&#34; alt=&#34;Graph of ratings&#34;&gt;&lt;/p&gt;
+&lt;p&gt;And my problem is that this picture is no representative because if I was to just saw the average rating of the service I would assume that the service is just mediocre, and then when I see the breakdown of it is just as useless since the amount of people who love it is very similar to the amount of people who hat it.&lt;/p&gt;
+&lt;p&gt;We need to be able to assess mediocrity, and I have been guilty as well of not providing useful feedback to the mediocre places, but will start that now hoping to make a small difference for those others who also look for a review saying honest things about services, products or places which are just &lt;em&gt;mhe&lt;/em&gt;.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Leeds Statistics &amp; Probability PGR Seminar Term 1 2023-24</title>
+		<link>https://lmcj-xyz.github.io/stats-seminar/2023-24-term1/</link>
+		<pubDate>Wed, 18 Oct 2023 23:16:32 +0000</pubDate>
+		
+		<guid>https://lmcj-xyz.github.io/stats-seminar/2023-24-term1/</guid>
+		<description>&lt;p&gt;This is &lt;em&gt;Term 1 2023-24&lt;/em&gt;, so all the dates below correspond to the year 2023&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Copyright disclaimer: The titles and abstracts of the talks are the property of the speakers and their colaborators.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;1018&#34;&gt;18th October&lt;/h2&gt;
+&lt;h3 id=&#34;euler-maruyama-scheme-for-sdes-with-distributional-drifts-linear-and-mckean-vlasov&#34;&gt;Euler-Maruyama scheme for SDEs with distributional drifts: linear and McKean-Vlasov&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Luis Mario Chaparro Jáquez&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We present an Euler scheme developed to solve SDEs with distributional drifts belonging to a Hölder-Zygmund space and unit diffusion driven by a standard Brownian motion. In particular the empirical and theoretical results for the linear SDE case and the advances on an alternative approach to the numerical solution of one type of McKean-Vlasov SDEs.&lt;/p&gt;
+&lt;p&gt;This is joint work with Elena Issoglio (University of Torino) and Jan Palczewski (University of Leeds).&lt;/p&gt;
+&lt;h2 id=&#34;1025&#34;&gt;25th October&lt;/h2&gt;
+&lt;h3 id=&#34;decision-making-using-social-information&#34;&gt;Decision-making Using Social Information&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Anna Sigalou&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;For the first part of this talk, I will present my recent (and ongoing) work on the evolution of decision-making rules in groups of social agents. In the second part, I will provide a brief introduction on social information, its relevance as a research subject, and some applications and open questions.&lt;/p&gt;
+&lt;h2 id=&#34;1101&#34;&gt;1st November&lt;/h2&gt;
+&lt;h3 id=&#34;the-regular-case-of-optimal-stopping&#34;&gt;The Regular Case of Optimal Stopping&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Jacob Smith&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The study of optimal stopping problems has a long history, but the seminal work by El Karoui expanded the reach of the analysis. In this talk, I will present the first generalisation of problems of optimal stopping and the solution methods.&lt;/p&gt;
+&lt;h2 id=&#34;1108&#34;&gt;8th November&lt;/h2&gt;
+&lt;h3 id=&#34;stats-new-starters-introduction&#34;&gt;Stats new starters introduction&lt;/h3&gt;
+&lt;p&gt;This is an opportunity for the new PhD students (starting 2023) to introduce themselves, meet the rest of people in the department and talk a bit about their interests.&lt;/p&gt;
+&lt;h2 id=&#34;1115&#34;&gt;15th November&lt;/h2&gt;
+&lt;h3 id=&#34;interpreting-machine-learning-models-based-on-shapley-values&#34;&gt;Interpreting machine learning models based on Shapley values&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Mingrui Zhang&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Machine learning models excel in prediction but lack in interpretation because they are “black boxes”. Our study focuses on finding the important variables in machine learning models to get some insight of them. Firstly, we use Shapley values to calculate a contribution for each variable on each prediction. Second, we do Shapley regression on those Shapley values and predictions. From the efficiency property of Shapley values, the coefficients for important variables in Shapley regression should be close to 1. However, the number of data needed to observe convergence to 1 may be large. We tried penalized linear regression and Bayesian approach to “speed up” the convergence. We discussed reason why these two methods does not works well and the pitfall of Shapley regression.&lt;/p&gt;
+&lt;h3 id=&#34;functional-principal-component-analysis-for-longitudinally-captured-mri-datasets&#34;&gt;Functional Principal Component Analysis for Longitudinally Captured MRI Datasets&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Sonia Dembowska&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Imaging plays an integral role in the diagnosis and monitoring of neurodegenerative diseases. Currently, the common methods for such diseases include models for biomarkers extracted from imaging data. Methods for the temporal modeling of images themselves remain limited due to the high dimensionality of the problem. Our aim is to model longitudinally disease progression using complete images. We propose a novel Functional Principal Component Analysis (FPCA) model which includes a cross sectional component for the high dimensional data and a time component to model longitudinal dependency. Our contributions include the proposed model and its estimation to circumvent the computational burden due to high dimensionality.&lt;/p&gt;
+&lt;p&gt;Our model is obtained by applying Mercer’s theorem on the marginal covariance function of the images where we integrate over time. The time component is modeled in the individual specific score functions. For estimation of the model, we propose a method which comprises a singular value decomposition of the inner products of the underlying processes for each time point and a regression component to estimate the scores. As we are modeling disease progression, we account for longitudinal data in the temporal component by using splines for the scores and longitudinal mixed models.&lt;/p&gt;
+&lt;p&gt;We apply our method to  Alzheimer&amp;rsquo;s Disease Neuroimaging Initiative data that provides imaging data and diagnosis for 382 subjects with Alzheimer&amp;rsquo;s disease. We will use the score functions to relate to outcomes. Separately, we study the model performance in simulation studies to measure our ability to reconstruct original data and forecast patient disease using the scores.&lt;/p&gt;
+&lt;h2 id=&#34;1121&#34;&gt;21st November&lt;/h2&gt;
+&lt;h3 id=&#34;bayesian-cart-for-insurance-pricing&#34;&gt;Bayesian CART for insurance pricing&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Yaojun Zhang&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The accuracy and interpretability of a (non-life) insurance pricing model are essential qualities to ensure fair and transparent premiums for policy-holders, that reflect their risk. In recent years, classification and regression trees (CARTs) and their ensembles have gained popularity in the actuarial literature, since they offer good prediction performance and are relatively easy to interpret. In this paper, we introduce Bayesian CART models for insurance pricing. To this end, we introduce a general MCMC algorithm using data augmentation methods for posterior tree exploration. We also introduce the deviance information criterion (DIC) for tree model selection. The proposed models are able to identify trees which can better classify the policy-holders into risk groups. Simulations and real insurance data will be used to illustrate the applicability of these models.&lt;/p&gt;
+&lt;h2 id=&#34;1129&#34;&gt;29th November&lt;/h2&gt;
+&lt;h3 id=&#34;regularisation-by-multiplicative-noise-for-reaction-diffusion-equations&#34;&gt;Regularisation by multiplicative noise for reaction-diffusion equations&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Teodor Holland&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We consider the stochastic reaction-diffusion equation in
+$1+1$
+dimensions driven by multiplicative space-time white noise with distributional drift belonging in the negative Besov-Hölder space
+$C^\alpha$
+with
+$\alpha&amp;gt;−1$.
+We assume that the diffusion coefficient is sufficiently regular and nondegenerate. By using a combination of stochastic sewing and Malliavin calculus, we show that the equation admits a unique strong solution. As a by-product we also obtain quantitative bounds for the density of the multiplicative stochastic heat equation and its derivatives.&lt;/p&gt;
+&lt;h2 id=&#34;1206&#34;&gt;6th December&lt;/h2&gt;
+&lt;h3 id=&#34;classification-trees-based-on-distance-measures-and-discriminant-functions&#34;&gt;Classification trees based on distance measures and discriminant functions&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Yijun Fu&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The Classification and Regression Tree (CART) (Breiman, 1984), a decision tree algorithm used for classification, is one of the most important machine learning algorithms and has been wildly used in many fields. However, CART generates classification trees using only one feature in each split, which may lead to a complex tree structure and high computational cost. Various distance-based trees, linear discriminant and quadratic discriminant-based trees have been proposed. This talk investigates four distance-based classification tree models which simplify the tree structure and can improve the performance of CART. We propose classification tree models using Euclidean distance, Mahalanobis distance, Linear discriminant function and Quadratic discriminant function to define splitting rules. A modified cost-complexity pruning method is combined with our proposed distance-based classification trees to avoid overfitting. We compare the performance of our proposed models with that of CART on simulated and real data sets.&lt;/p&gt;
+&lt;h3 id=&#34;exit-games-with-asymmetric-information&#34;&gt;Exit Games with Asymmetric information&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Yukun Cao&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The exit timing is one of the most important decisions in the business world. Numerous empirical studies show that a mistake could result in substantial financial loss. The exit game concerns two firms who are competing in a declining industry trying to decide when to exit the market. They each know their private type i.e. their profit or loss if they choose to leave the market. We will examine the best strategy for a firm under two different settings. The first one is where it is optimal for a monopolist to stay in the market forever and the second one is where there exists an optimal stopping time for the monopolist. We used the guess-and-verify process and constructed a belief process.&lt;/p&gt;
+&lt;h2 id=&#34;1213&#34;&gt;13th December&lt;/h2&gt;
+&lt;h3 id=&#34;functional-principal-component-analysis-for-time-varying-binary-networks&#34;&gt;Functional principal component analysis for time-varying binary networks&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Puchong Paophan&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This study addresses the challenge of analysing time-varying binary network data, commonly seen in dynamic systems like brain region interactions and muscle movements. Due to the limited capabilities of current statistical tools for such data, we propose a novel method using functional principal component analysis (FPCA). This technique transforms the interaction networks into vectors of binary functions (multivariate functional data). By adopting a finite Karhunen-Loéve representation for each univariate component, we establish a Bernoulli likelihood and apply a majorisation-minimisation algorithm for parameter estimation. Subsequently, we leverage the connection between univariate and multivariate FPCA in finite decomposition to derive multivariate functional principal components and scores. These are beneficial for subsequent analyses, including regression and clustering. The effectiveness of our approach is validated through simulations and its application to data involving muscle interactions, proving its capability to elicit significant insights from time-varying binary networks.&lt;/p&gt;
+&lt;h3 id=&#34;statistical-analyses-on-human-smiles&#34;&gt;Statistical Analyses on Human Smiles&lt;/h3&gt;
+&lt;p&gt;Xiangyu Wu&lt;/p&gt;
+&lt;p&gt;Dynamical facial expressions are able to express crucial emotional feelings, hence, they form a critical part in daily life. Among these expressions, smile is extraordinarily important, as it is the most salient expression and the most frequently used. In reality, some people may suffer from facial disfigurement, such as cleft lips, when they were born. Studies have shown that people with cleft lip may experience a series of difficulties in everyday life and social problems as they may be marginalised by society. Surgeries are capable of resolving at least part of these abnormalities for cleft patients. Hence, it is important to quantify to what extent surgical interventions can recover a normal lip. This involves assessing bilateral symmetry statistically. We perform various analyses on data containing cleft patients and normal subjects in order to distinguish them.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Leeds Stats PGR Seminar 2022-23 Term 2</title>
+		<link>https://lmcj-xyz.github.io/stats-seminar/2022-23-term2/</link>
+		<pubDate>Fri, 10 Feb 2023 11:51:41 +0100</pubDate>
+		
+		<guid>https://lmcj-xyz.github.io/stats-seminar/2022-23-term2/</guid>
+		<description>&lt;p&gt;This is &lt;em&gt;Term 2 2022-23&lt;/em&gt;, so all the dates below correspond to the year 2023&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Copyright disclaimer: The titles and abstracts of the talks are the property of the speakers and their colaborators.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;0210&#34;&gt;February 10th&lt;/h2&gt;
+&lt;h3 id=&#34;na&#34;&gt;Regression Analysis for Directional Data&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Norah Almasoud&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this project, the aim is to build a regression model to predict the effect of linear explanatory variables on a circular response variable. Circular regressions are classified into two groups based on the data type. One group with a circular response variable and the other group with a linear response variable. There are two classes in each group. When the response variable is linear we have linear-linear regression and circular-linear regression. On the other hand, we have linear-circular regression and circular-circular regression when the response variable is circular. Here we concentrate on regression models with circular response variable, more specifically linear-circular regression. Regression models of this type are common in a variety of applications such as medicine, biology, geology, and meteorology. For example, the dependence of an animal’s movement direction on the distance travelled and the dependence of wind direction on wind speed Fisher and Lee [1992].&lt;/p&gt;
+&lt;h2 id=&#34;0224&#34;&gt;February 24th&lt;/h2&gt;
+&lt;h3 id=&#34;inverse-problem-under-the-bayesian-view---based-on-the-medical-image-application&#34;&gt;Inverse Problem under the Bayesian view&amp;mdash;based on the medical image application&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Muyang Zhang&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I am going to talk about something serious which is not relative to my project&amp;rsquo;s statistical results, as in, bias, variance and MSE (Mean Square Error) are not the most exciting.  My first two years of work are&amp;mdash;to understand the meaning of the inverse problem, Bayesian methods with homogenous/inhomogeneous parameters.  Therefore, it consists of the definition of each term and reasons why we are looking into them. Since it is close to the final stage of being a PhD candidate, it is the time to reveal &amp;ldquo;the mystery cover&amp;rdquo; and provide a certain explanation.&lt;/p&gt;
+&lt;h2 id=&#34;0310&#34;&gt;March 10th&lt;/h2&gt;
+&lt;h3 id=&#34;bayesian-cart-models-for-insurance-claims-frequency&#34;&gt;Bayesian CART models for insurance claims frequency&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Yaojun Zhang&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Accuracy and interpretability of a (non-life) insurance pricing model are essential qualities to ensure fair and transparent premiums for policy-holders, that reflect their risk. In recent years, the classification and regression trees (CARTs) and their ensembles have gained popularity in the actuarial literature, since they offer good prediction performance and are relatively easily interpretable. In this talk, we introduce Bayesian CART models for insurance pricing, with a particular focus on claims frequency modelling. Additionally to the common Poisson and negative binomial (NB) distributions used for claims frequency, we implement Bayesian CART for the zero-inflated Poisson (ZIP) distribution to address the difficulty arising from the imbalanced insurance claims data. To this end, we introduce a general MCMC algorithm using data augmentation methods for posterior tree exploration. We also introduce the deviance information criterion (DIC) for the tree model selection. The proposed models are able to identify trees which can better classify the policy-holders into risk groups. Some simulations and real insurance data will be discussed to illustrate the applicability of these models.&lt;/p&gt;
+&lt;h2 id=&#34;0324&#34;&gt;March 24th&lt;/h2&gt;
+&lt;h3 id=&#34;data-analysis-for-the-kidney-transplant-patients-data-and-the-smart-citys-data-by-parametric-and-nonparametric-functional-data-clustering-method&#34;&gt;Data analysis for the kidney transplant patient&amp;rsquo;s data and the smart city&amp;rsquo;s data by parametric and nonparametric functional data clustering method&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Mizhen Xie&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;As modern sensors are being applied in many aspects of daily life, more and more high-frequency data arises. This type of data, usually considered functional data, needs to be appropriately analysed. This presentation focuses on clustering real-world data using parametric and nonparametric clustering methods.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Numismatics</title>
+		<link>https://lmcj-xyz.github.io/numismatics/</link>
+		<pubDate>Sun, 05 Feb 2023 01:13:17 +0000</pubDate>
+		
+		<guid>https://lmcj-xyz.github.io/numismatics/</guid>
+		<description>&lt;p&gt;This is my coin and bank notes collection.
+Nothing fancy, mostly circulating tender.&lt;/p&gt;
+&lt;h1 id=&#34;méxico-mexican-peso&#34;&gt;México (Mexican peso)&lt;/h1&gt;
+&lt;h2 id=&#34;circulating-coins&#34;&gt;Circulating coins&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Denomination&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Year&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Picture&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Design&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;10 pesos&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;10 pesos&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2000&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;5 pesos&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;5 pesos&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2008&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2 pesos&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2 pesos&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Unkn&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1 peso&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;50 cents&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;circulating-notes&#34;&gt;Circulating notes&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Denomination&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Year&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Picture&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Design&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1000 pesos&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;500 pesos&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;200 pesos&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;100 pesos&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;50 pesos&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;50 pesos&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;20 pesos&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;20 pesos&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;out-of-circulation-coins&#34;&gt;Out of circulation coins&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Denomination&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Year&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Picture&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Design&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;20 pesos&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1982&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;5 centavos&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1936&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;special-coins&#34;&gt;Special coins&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Coin&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Year&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Picture&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Design&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1 Oz. Plata Libertad&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;united-kingdom-pound-sterling&#34;&gt;United Kingdom (Pound sterling)&lt;/h1&gt;
+&lt;h2 id=&#34;circulating-coins-1&#34;&gt;Circulating coins&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Denomination&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Year&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Picture&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Design&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2 pounds&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2012&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2 pounds&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2005&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1 pound&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2020&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;50 pence&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2019&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;20 pence&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2011&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;20 pence&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1982&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;10 pence&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2015&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;5 pence&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2012&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;5 pence&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1991&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1 penny&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2012&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1 penny&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2007&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;circulating-notes-1&#34;&gt;Circulating notes&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Denomination&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Year&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Picture&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Design&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;10 pounds&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2006&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;5 pounds&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2005&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;special-coins-1&#34;&gt;Special coins&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Denomination&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Year&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Picture&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Design&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1 farthing&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;Italy&#34;&gt;Italy (Euro)&lt;/h1&gt;
+&lt;h2 id=&#34;ITCirculating&#34;&gt;Circulating coins&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Denomination&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Year&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Obverse&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Reverse&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2 euros&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2018&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/numis_eur_it/EUR2_obv.jpg&#34; alt=&#34;Euro Italiano Anverso 2EUR&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/numis_eur_it/EUR2_rev.jpg&#34; alt=&#34;Euro Italiano Reverso 2EUR&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1 euro&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2008&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/numis_eur_it/EUR1_obv.jpg&#34; alt=&#34;Euro Italiano Anverso 1EUR&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/numis_eur_it/EUR1_rev.jpg&#34; alt=&#34;Euro Italiano Reverso 1EUR&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;50 cents&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2020&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/numis_eur_it/EUR05_obv.jpg&#34; alt=&#34;Euro Italiano Anverso 50c&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/numis_eur_it/EUR05_rev.jpg&#34; alt=&#34;Euro Italiano Reverso 50c&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;20 cents&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/numis_eur_it/EUR02_obv.jpg&#34; alt=&#34;Euro Italiano Anverso 20c&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/numis_eur_it/EUR02_rev.jpg&#34; alt=&#34;Euro Italiano Reverso 20c&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;10 cents&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/numis_eur_it/EUR01_obv.jpg&#34; alt=&#34;Euro Italiano Anverso 10c&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/numis_eur_it/EUR01_rev.jpg&#34; alt=&#34;Euro Italiano Reverso 10c&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;5 cents&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/numis_eur_it/EUR005_obv.jpg&#34; alt=&#34;Euro Italiano Anverso 5c&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/numis_eur_it/EUR005_rev.jpg&#34; alt=&#34;Euro Italiano Reverso 5c&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2 cents&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2013&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/numis_eur_it/EUR002_obv.jpg&#34; alt=&#34;Euro Italiano Anverso 2c&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/numis_eur_it/EUR002_rev.jpg&#34; alt=&#34;Euro Italiano Reverso 2c&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1 cent&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2015&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/numis_eur_it/EUR001_obv.jpg&#34; alt=&#34;Euro Italiano Anverso 1c&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/numis_eur_it/EUR001_rev.jpg&#34; alt=&#34;Euro Italiano Reverso 1c&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;india-indian-rupee&#34;&gt;India (Indian rupee)&lt;/h1&gt;
+&lt;h2 id=&#34;circulating-coins-2&#34;&gt;Circulating coins&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Denomination&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Year&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Picture&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Design&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;20 rupees&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2021&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;10 rupees&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2015&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;5 rupees&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2014&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2 rupees&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2016&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1 rupee&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2014&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1 rupee&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2003&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;circulating-notes-2&#34;&gt;Circulating notes&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Denomination&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Year&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Picture&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Design&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;100 rupees&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2022&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;10 rupees&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2017&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;thailand-thai-baht&#34;&gt;Thailand (Thai baht)&lt;/h1&gt;
+&lt;h2 id=&#34;circulating-coins-3&#34;&gt;Circulating coins&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Denomination&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Year&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Picture&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Design&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;10 baht&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Unkn&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1 baht&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Unkn&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1 baht&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Unkn&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;25 satang&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Unkn&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;united-states-of-america&#34;&gt;United States of America&lt;/h1&gt;
+&lt;h2 id=&#34;circulating-notes-3&#34;&gt;Circulating notes&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Denomination&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Year&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Picture&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Design&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1 dollar&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2013&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Leeds Stats PGR Seminar 2022-23 Term 1</title>
+		<link>https://lmcj-xyz.github.io/stats-seminar/2022-23-term1/</link>
+		<pubDate>Fri, 07 Oct 2022 11:51:41 +0100</pubDate>
+		
+		<guid>https://lmcj-xyz.github.io/stats-seminar/2022-23-term1/</guid>
+		<description>&lt;p&gt;This is &lt;em&gt;Term 1 2022-23&lt;/em&gt;, so all the dates below correspond to the year 2022.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Copyright disclaimer: The titles and abstracts of the talks are the property of the speakers and their colaborators.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;1014&#34;&gt;October 14th&lt;/h2&gt;
+&lt;h3 id=&#34;lc&#34;&gt;An Euler-Maruyama scheme for SDEs with distributional drift&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Luis Mario Chaparro Jaquez&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The Euler-Maruyama scheme is a widely used numerical method to compute approximations of the solutions to SDEs.
+When the coefficients have sufficient regularity the strong convergence rate is known to be
+$1/2$.
+Current research studies the convergence rate when those conditions are not satisfied.
+In particular, we proved that when we have an SDE&lt;/p&gt;
+&lt;p&gt;$$
+X_t = \int_0^t b(s, X_s) ds + W_t
+$$&lt;/p&gt;
+&lt;p&gt;with the drift coefficient
+$b$
+in the space of Schwartz distributions
+$\mathcal{S}&amp;rsquo;(\mathbb{R})$
+we can create a numerical scheme with convergence rate up to
+$1/2-\epsilon$.&lt;/p&gt;
+&lt;h3 id=&#34;as&#34;&gt;Evolution of social decision-making rules&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Anna Sigalou&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Social animals live in uncertain environments and rely on cues to navigate them.
+To make decisions, they use public and social information which they process using decision-making strategies.
+This process is often modelled by observing collective behaviour, and finding a model that leads to these collective dynamics.
+Here we attempt the opposite: we first try to identify plausible individual decision-making rules, and then see how they can lead to the observed collective behaviours.
+We investigate how individual decision-making affects the group’s collective behaviour, how this group reaches optimal and evolutionary stable behaviour, and we explore how the different decision-making strategies compete with each-other.&lt;/p&gt;
+&lt;h2 id=&#34;1028&#34;&gt;October 28th&lt;/h2&gt;
+&lt;h3 id=&#34;yf&#34;&gt;Distance-Based Classification Trees&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Yijun Fu&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Abstract: The classification tree is an important supervised machine learning approach for classification problems. The four proposed distance-based classification tree algorithms and comparisons among their performances is our main interest. Hence, this talk will give a brief introduction about classification trees and discuss the performances of four proposed distance-based classification tree algorithms, including some primary applications. At the end, the main factors that affect the accuracy of proposed distance-based classification trees will be explained.&lt;/p&gt;
+&lt;h3 id=&#34;js&#34;&gt;Dynkin Games with Partial and Asymmetric Information&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Jacob Smith&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Abstract: Dynkin games are two player stopping games where both players have an incentive to wait for the other to stop. We introduce an asymmetry of information through an exogenous random variable, whose outcome is only known by one player. Moreover, we let the players choose from mixed strategies (randomised stopping times), which allows us to find equilibria in a wider selection of games. Our work consists of: finding the game’s value and Nash equilibria at all times during the game; finding properties of the optimal strategies; and finding relevant martingale and sub/ super-martingale properties of the value.&lt;/p&gt;
+&lt;h2 id=&#34;1111&#34;&gt;November 11th&lt;/h2&gt;
+&lt;h3 id=&#34;pp&#34;&gt;Network-valued functional data analysis with application in New York taxi network&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Puchong Paophan&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Abstract: Network-valued functional data or dynamic network is a network which changes over time. This type of functional data is increasingly available in many applications, such as social interactions, connections between regions in the brain or transport networks. However, it lacks a suitable statistical analysis tool, so it motivated us to develop a framework for the statistical analysis of dynamic networks. In this work, we focus on networks represented as graph Laplacian matrices for which we choose an appropriate metric and define projections to transform graph Laplacian matrices in Euclidean space. This allows us to calculate the means of dynamic networks in the original space and perform functional principal component analysis (FPCA) in the Euclidean space. Finally, we apply the methodology to New York taxi networks.&lt;/p&gt;
+&lt;h3 id=&#34;mz&#34;&gt;Interpreting machine learning models&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Mingrui Zhang&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Abstract: Machine learning models excel in prediction but lack in interpretation because they are “black boxes”. Our study focuses on finding the important variables in machine learning models to get some insight of them. Firstly, we use Shapley values to calculate a contribution for each variable on each prediction. Second, we do Shapley regression on those Shapley values and predictions. From the efficiency property of Shapley values, the coefficients for important variables in Shapley regression should be close to 1. However, the number of data needed to observe convergence to 1 may be large.  We consider a special case that specialists might have prior knowledge of variables’ importance. Hence, we add a Bayesian prior to the coefficients to “speed up” the convergence. We demonstrate Bayesian Shapley regression for a simple simulation and show we can successfully detect the noise variable.&lt;/p&gt;
+&lt;h2 id=&#34;1125&#34;&gt;November 25th&lt;/h2&gt;
+&lt;h3 id=&#34;sd&#34;&gt;Spatio-Functional Principal Component Analysis for brain fMRI&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Sonia Dembowska&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Abstract: Images are frequently used in clinical settings, but statistical models are still limited. Our work is motivated by experimental data on brain fMRI images captured on 15 subjects whilst performing decision-making tasks. The images were acquired every 2.5 s during the investigation providing each subject with a time series of 3 dimensional images representing their brain activity, each patient also received a clinically-derived risk score at the end. The goal of the study was to associate the images to the clinical outcome. The method used to achieve this goal reduced the temporal dataset to one image by taking the difference of the first three images in one time series. This approach is arbitrary and does not address the full response of a subject over time. We propose a novel method using functional data analysis which decomposes the spatio-temporal images into time-independent principal components and time-dependent score functions. Our functional principal component analysis (FPCA) method preserves the spatial relationships between pixels in the observed data including the temporal aspect. The components hold the spatial information and are three-dimensional whilst we let the scores depend on time and represent individual variation with respect to the components. The novelty of the method is two-fold: firstly, we create a functional principal component analysis model to deal with three-dimensional images for clinical analysis where space and time are detangled. Secondly, the method of parameter estimation is done such that computational requirements are minimal, as we avoid calculating the covariance matrix used to estimate principal components. This makes our method computationally fast. Data analysis reveals that our score functions are able to predict the clinical risk with high accuracy, outperforming the previous method that is unable to account for time. In 10 of the tasks performed, the individual score functions have predicted the risk rating of subjects with an average RMSE of 0.788 whilst the average RMSE of the old method is 2.497. Our result shows meaningful insights and better clinical predictions can be obtained when modelling temporal aspects of image data.&lt;/p&gt;
+&lt;h3 id=&#34;af&#34;&gt;Discriminative Performance for Non-Proportional Hazards Survival Models&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Alfensi Faruk&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Abstract: Standard discriminative measures are no more appropriately applied to evaluate the performance of survival models due to censoring. We propose a discriminative measure for non-proportional hazard models as an unbiased version of Antolini&amp;rsquo;s time-dependent concordance. The convergence of our estimator is shown based on Nolan and Pollard&amp;rsquo;s results for U-statistics. We apply them to survival neural networks and random survival forests hyperparameter tuning.&lt;/p&gt;
+&lt;h2 id=&#34;1209&#34;&gt;December 9th&lt;/h2&gt;
+&lt;h3 id=&#34;vd&#34;&gt;Probabilistic Volumetric Positioning of High Energy Photons in Monolithic Crystals for Positron Emission Tomography&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Viet Dao&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Abstract: In this work we employ simulations to calibrate the positioning algorithm and determine its error for a Lutetium– Yttrium Oxyorthosilicate monolithic crystal (LYSO)-based position emission tomography (PET) scanner. Using the centre of gravity method, with a bias, to extract position of photoelectric interactions, we measure the standard deviation of estimated position (x, y and depth) from true position. Finally, we simulate a point source scan with the system. The resulting data are processed and reconstructed using Software for Tomographic Image Reconstruction (STIR) with depth encoding. We found that introducing bias decreases standard deviation for X, Y position within a monolithic crystal from “2.62mm” to “1.81mm”.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Academic Profile</title>
+		<link>https://lmcj-xyz.github.io/academic/</link>
+		<pubDate>Mon, 05 Sep 2022 23:14:12 +0100</pubDate>
+		
+		<guid>https://lmcj-xyz.github.io/academic/</guid>
+		<description>&lt;p&gt;Currently I am a PhD student working under the supervision of
+&lt;a href=&#34;https://sites.google.com/view/elenaissoglio/home&#34;&gt;Elena Issoglio&lt;/a&gt;
+and
+&lt;a href=&#34;https://www1.maths.leeds.ac.uk/~jp/&#34;&gt;Jan Palczewski&lt;/a&gt;
+on a project concerning theoretical analysis and implementation of numerical schemes stochastic differential equations with singular coefficients.&lt;/p&gt;
+&lt;h2 id=&#34;Interests&#34;&gt;Research interests&lt;/h2&gt;
+&lt;p&gt;My research interests are a combination of stochastic analysis and numerical analysis with strong links to partial differential equations, in particular:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Theoretical Analysis and Numerical Methods for Stochastic Differencial Equations with singular coefficients:&lt;/strong&gt;
+We aim to find results concerning the convergence rates of SDEs with coefficients living in spaces of generalised functions, in particular with drifs in Hölder-Zygmund spaces.
+Also for one type of non-linear SDEs, namely involving the law of the solution known as McKean-Vlasov SDEs, we also study the case with distributional coefficients in Hölder-Zygmund spaces.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;Presentations&#34;&gt;Material from presentations&lt;/h2&gt;
+&lt;h3 id=&#34;turin-bath-phd-workshop-in-applied-probability-and-statistics&#34;&gt;Turin-Bath PhD Workshop in Applied Probability and Statistics&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://samba.ac.uk/turin-bath-phd-workshop-in-applied-probability-and-statistics-19-21-june-2023/&#34;&gt;About the event&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lmcj-xyz.github.io/docs/2023_06_turin-bath_workshop_handout.pdf&#34;&gt;Handout (version 1.0)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lmcj-xyz.github.io/docs/2023_06_turin-bath_workshop_slides.pdf&#34;&gt;Slides (version 1.0)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;sdes-with-low-regularity-coefficients-theory-and-numerics&#34;&gt;SDEs with Low-regularity Coefficients: Theory and Numerics&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/view/singular-sdes2023/home&#34;&gt;About the event&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lmcj-xyz.github.io/docs/2023_09_sdes.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;postgraduate-online-probability-seminar&#34;&gt;Postgraduate Online Probability Seminar&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pg-prob-sem.github.io/sdes/Luis/&#34;&gt;About the event&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lmcj-xyz.github.io/docs/POPS-2023-11-29.pdf&#34;&gt;Slides (blackboard style let&amp;rsquo;s go!)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Academic CV</title>
+		<link>https://lmcj-xyz.github.io/cv_ac/</link>
+		<pubDate>Sun, 04 Sep 2022 20:32:52 +0100</pubDate>
+		
+		<guid>https://lmcj-xyz.github.io/cv_ac/</guid>
+		<description>&lt;p&gt;You can also &lt;a href=&#34;https://lmcj-xyz.github.io/docs/cv_ac.pdf&#34;&gt;download the PDF version&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;luis-mario-chaparro-jáquez&#34;&gt;Luis Mario Chaparro Jáquez&lt;/h2&gt;
+&lt;p&gt;2nd year PhD Student at the University of Leeds&lt;br&gt;
+Updated: September 5th 2022&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;contact-information&#34;&gt;Contact information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;UoL Profile:&lt;/strong&gt; &lt;a href=&#34;https://eps.leeds.ac.uk/faculty-engineering-physical-sciences/pgr/8775/luis-mario-chaparro-jaquez&#34;&gt;luis-mario-chaparro-jaquez&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personal Website:&lt;/strong&gt; &lt;a href=&#34;https://www.lmcj.xys&#34;&gt;lmcj.xyz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Work E-mail:&lt;/strong&gt; &lt;a href=&#34;mailto:mmlmcj@leeds.ac.uk&#34;&gt;mmlmcj@leeds.ac.uk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personal E-mail:&lt;/strong&gt; &lt;a href=&#34;mailto:lmcj@lmcj.xyz&#34;&gt;academic@lmcj.xyz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LinkedIn:&lt;/strong&gt; &lt;a href=&#34;https://www.linkedin.com/in/lmcj/&#34;&gt;lmcj&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PhD: Mathematics.&lt;/strong&gt; School of Mathematics, University of Leeds.
+Leeds, UK. January 2021-present.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Undergraduate: Engineering Mathematics.&lt;/strong&gt; Facultad de Ingeniería,
+Universidad Autónoma de Chihuahua. Chihuahua, México. August
+2015-December 2019.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Programming languages:&lt;/strong&gt; C, Python, R.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Spanish, English, Italian.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;research-experience&#34; class=&#34;unnumbered&#34;&gt;Research experience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PhD Project.&lt;/strong&gt; &amp;ldquo;Theoretical analysis of numerical schemes for SDEs&amp;rdquo;. About the developement of theoretical frameworks to implement numerical schemes for SDEs and McKean SDEs with distributional drifts. &lt;em&gt;Supervisors: Dr. Elena Issoglio and Dr. Jan Palczweski&lt;/em&gt;. University of Leeds.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Undergraduate thesis.&lt;/strong&gt; &amp;ldquo;Probability theory with a measure theoretical approach&amp;rdquo;. About the introduction to probability theory from an engineering context. &lt;em&gt;Supervisor: Dr. José Luis Herrera Aguilar&lt;/em&gt;. Universidad Autónoma de Chihuahua.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;work-experience&#34;&gt;Work experience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tutor and Grader&lt;/strong&gt;. University of Leeds. Leeds, UK. 2022 -
+Present.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tutor&lt;/strong&gt;. The Brilliant Club. Leeds, UK. 2021 - Present.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data analyst&lt;/strong&gt;. Grupo Chaol S.A. de C.V. Cuauhtémoc, México. June
+2019 - 2020.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Physics laboratory assistant&lt;/strong&gt;. Universidad Autónoma de Chihuahua.
+Chihuahua, México. August 2018 - December 2018.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;volunteering&#34;&gt;Volunteering&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;President of the Science Club &amp;ldquo;Johann Carl Friedrich Gauss&amp;rdquo; of the
+Faculty of Engineering&lt;/strong&gt;. Chihuahua, México. August 25, 2016 to May
+16, 2019.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trainer for the Mexican Mathematical Olympiad in Chihuahua&lt;/strong&gt;.
+Cuauhtémoc, México. 2015-2017.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;talks-t-and-poster-sessions-p&#34;&gt;Talks [t] and poster sessions [p]&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[p] &lt;strong&gt;Convergence Rate for the Numerical Solution of SDEs with
+Distributional Drift in Besov Spaces&lt;/strong&gt;. PGR Seminar School of
+Mathematics. University of Leeds. Leeds, UK. June, 2022.&lt;/li&gt;
+&lt;li&gt;[p] &lt;strong&gt;Convergence Rate for the Numerical Solution of SDEs with
+Distributional Drift in Besov Spaces&lt;/strong&gt;. Third Italian Meeting on
+Probability and Mathematical Statistics. Alma Mater Studiorum
+Università di Bologna. Bologna, Italy. June 13-16, 2022.&lt;/li&gt;
+&lt;li&gt;[t] &lt;strong&gt;Approximation of Generalised Functions for Numerical
+Solutions of SDEs&lt;/strong&gt;. PGR Statistics Seminar University of Leeds.
+Leeds, UK. December 8th, 2021.&lt;/li&gt;
+&lt;li&gt;[p] &lt;strong&gt;Un camino de métodos probabilísticos a probabilidad formal
+(A path from probabilistic methods to probability theory)&lt;/strong&gt;.
+Undergraduate thesis report. Poster session. National Congress of
+the Mexican Mathematical Society. UANL, Faculty of Physical and
+Mathematical Sciences. Monterrey, México. October, 2019.&lt;/li&gt;
+&lt;li&gt;[t] &lt;strong&gt;De métodos probabilísticos a probabilidad formal (From
+probabilistic methods to probability theory)&lt;/strong&gt;. Undergraduate thesis
+report. Talks Season Aug-Dec 2019 of the Science Club &amp;ldquo;Johann Carl
+Friedrich Gauss. UACH, Faculty of Engineering. Chihuahua, México.
+September 5th, 2019.&lt;/li&gt;
+&lt;li&gt;[t] &lt;strong&gt;Face recognition: Implementation of the Viola-Jones
+Algorithm&lt;/strong&gt;. Talk for high school students. State wide conferences
+season for the &amp;ldquo;Third State Contest of Physics and Mathematics&amp;rdquo;.
+Chihuahua, México. March 30 to April 30, 2017.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;schools-s-workshops-conferences-or-seminars-w-and-contests-c&#34;&gt;Schools [s], workshops, conferences or seminars [w] and contests [c]&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[w] &lt;strong&gt;&amp;ldquo;5th Meeting of Mexican Mathematicians in the World&amp;rdquo;&lt;/strong&gt; Casa
+Matemática Oaxaca. Oaxaca, México. (Online). 5-10 December 2021.&lt;/li&gt;
+&lt;li&gt;[w] &lt;strong&gt;&amp;ldquo;Seminar Series on Probability and Financial Mathematics&amp;rdquo;&lt;/strong&gt;.
+University of Leeds. Leeds, UK. (Online). 2021/2022.&lt;/li&gt;
+&lt;li&gt;[w] &lt;strong&gt;&amp;ldquo;British Early Career Mathematicians&amp;rsquo; Colloquium&amp;rdquo;&lt;/strong&gt;.
+University of Birmingham. Birmingham, UK. (Online). 15-16 July 2021.&lt;/li&gt;
+&lt;li&gt;[w] &lt;strong&gt;&amp;ldquo;6th Berlin Workshop for Young Researchers on Mathematical
+Finance&amp;rdquo;&lt;/strong&gt;. Humboldt-Universität zu Berlin. Berlin, Germany.
+(Online). 23-25 August 2021.&lt;/li&gt;
+&lt;li&gt;[w] &lt;strong&gt;&amp;ldquo;Bath Mathematical Symposium on PDE and Randomness: Summer
+School&amp;rdquo;&lt;/strong&gt;. University of Bath. Bath, UK. (Online). 1-3 September
+2021&lt;/li&gt;
+&lt;li&gt;[w] &lt;strong&gt;&amp;ldquo;Conference Beyond the Boundaries&amp;rdquo;&lt;/strong&gt;. University of Leeds.
+Leeds, UK. (Online). 4-7 May 2021.&lt;/li&gt;
+&lt;li&gt;[w] &lt;strong&gt;&amp;ldquo;Stochastic Processes and Their Friends&amp;rdquo;&lt;/strong&gt;. University of
+Leeds. Leeds, UK. (Online). 18-19 March 2021.&lt;/li&gt;
+&lt;li&gt;[w] &lt;strong&gt;&amp;ldquo;Seminar Series on Probability and Financial Mathematics&amp;rdquo;&lt;/strong&gt;.
+University of Leeds. Leeds, UK. (Online). 2020/2021.&lt;/li&gt;
+&lt;li&gt;[s] &lt;strong&gt;&amp;ldquo;XVII Escuela de Probabilidad y Estadística&amp;rdquo;&lt;/strong&gt;. CIMAT
+(&lt;em&gt;Research Institute in Mathematics&lt;/em&gt;). Guanajuato, México. March
+27-29, 2019.&lt;/li&gt;
+&lt;li&gt;[s] &lt;strong&gt;&amp;ldquo;Escuela de Matemáticas de América Latina y el Caribe:
+EMALCA 2018&amp;rdquo; (&lt;em&gt;School of Mathematics of Latin America and the
+Caribbean&lt;/em&gt;)&lt;/strong&gt;. Faculty of Physical and Mathematical Sciences - UANL.
+San Nicolás de Los Garza, México. December 3-14, 2018.&lt;/li&gt;
+&lt;li&gt;[w] &lt;strong&gt;&amp;ldquo;Workshop on recent trends for the numerical solution of
+Partial Differential Equations&amp;rdquo;&lt;/strong&gt;. CIMAT (&lt;em&gt;Research Institute in
+Mathematics&lt;/em&gt;). Guanajuato, México. April 17-21, 2018.&lt;/li&gt;
+&lt;li&gt;[s] &lt;strong&gt;&amp;ldquo;XV Escuela de Verano de Matemáticas&amp;rdquo; (&lt;em&gt;XV Summer School in
+Mathematics&lt;/em&gt;)&lt;/strong&gt;. UCIM-UNAM (Institute of Mathematics of the National
+Autonomous University of Mexico, Cuernavaca Unit). Cuernavaca,
+México. June 25-29, 2018.&lt;/li&gt;
+&lt;li&gt;[w] &lt;strong&gt;&amp;ldquo;Taller Introductorio a Java&amp;rdquo; (&lt;em&gt;Introductory Workshop to
+Java&lt;/em&gt;)&lt;/strong&gt;. UACH, Faculty of Engineering. Chihuahua, México. October
+23-27, 2017.&lt;/li&gt;
+&lt;li&gt;[s] &lt;strong&gt;Participation as student in the club &amp;ldquo;Networks: a tour from
+brains to friends&amp;rdquo; in the 2017 summer edition of &amp;ldquo;Clubes de Ciencia
+México&amp;rdquo; (&lt;em&gt;Science Clubs Mexico&lt;/em&gt;)&lt;/strong&gt;. UACH, Faculty of Engineering.
+Chihuahua, México. August 6-12, 2017.&lt;/li&gt;
+&lt;li&gt;[c] &lt;strong&gt;First place in the &amp;ldquo;I Contest of Mathematical Skills&amp;rdquo;&lt;/strong&gt;.
+UACH, Faculty of Engineering. Chihuahua, México. May 6, 2016.&lt;/li&gt;
+&lt;li&gt;[w] &lt;strong&gt;Workshop &amp;ldquo;Geometría para Entrenadores Olímpicos&amp;rdquo; (&lt;em&gt;Geometry
+for Olympic Trainers&lt;/em&gt;)&lt;/strong&gt;. Pachuca, México. March 17-20, 2016.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>External links and contact info</title>
+		<link>https://lmcj-xyz.github.io/external/</link>
+		<pubDate>Sun, 04 Sep 2022 20:22:29 +0100</pubDate>
+		
+		<guid>https://lmcj-xyz.github.io/external/</guid>
+		<description>&lt;p&gt;You can contact me over&amp;hellip;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Email: &lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;mailto:contact@lmcj.xyz&#34;&gt;contact@lmcj.xyz&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;Mastodon: &lt;a href=&#34;https://mastodon.online/@lmcj&#34;&gt;@lmcj@mastodon.online&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;development&#34;&gt;Development&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://codeberg.org/lmcj/&#34;&gt;Codeberg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmcjxyz/&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;academic&#34;&gt;Academic&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://eps.leeds.ac.uk/faculty-engineering-physical-sciences/pgr/8775/luis-mario-chaparro-jaquez&#34;&gt;University of Leeds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Luis-Mario-Chaparro-Jaquez&#34;&gt;ResearchGate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://orcid.org/0000-0003-3913-4869&#34;&gt;ORCID&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;professional&#34;&gt;Professional&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/feed/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Donations</title>
+		<link>https://lmcj-xyz.github.io/donations/</link>
+		<pubDate>Sun, 04 Sep 2022 16:22:58 +0100</pubDate>
+		
+		<guid>https://lmcj-xyz.github.io/donations/</guid>
+		<description>&lt;p&gt;If you like what I do, consider donating for me to keep posting stuff.&lt;/p&gt;
+&lt;h2 id=&#34;monero-xmr&#34;&gt;Monero (XMR)&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/donate/monero.png&#34; alt=&#34;XMR&#34;&gt;&lt;/p&gt;
+&lt;p&gt;🔗 URI: &lt;a href=&#34;monero:8A9rcsarfMKDEjobzYMTEvinoaiMgyMgKKYtvQUpQ6gkaALpVymYmu8TDE7cRA2M4CXkoYfpuEeadBuqUp2JKNXyBAo1koZ&#34;&gt;monero:8A9rcsarfMKDEjobzYMTEvinoaiMgyMgKKYtvQUpQ6gkaALpVymYmu8TDE7cRA2M4CXkoYfpuEeadBuqUp2JKNXyBAo1koZ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;🏠 Address: &lt;code&gt;8A9rcsarfMKDEjobzYMTEvinoaiMgyMgKKYtvQUpQ6gkaALpVymYmu8TDE7cRA2M4CXkoYfpuEeadBuqUp2JKNXyBAo1koZ&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;bitcoin-btc&#34;&gt;Bitcoin (BTC)&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/donate/bitcoin.png&#34; alt=&#34;XMR&#34;&gt;&lt;/p&gt;
+&lt;p&gt;🔗 URI: &lt;a href=&#34;bitcoin:bc1q87rya5v6n8fpn4p6k90ctufrslgq3cflxvrkre?message=Donations%20website&#34;&gt;bitcoin:bc1q87rya5v6n8fpn4p6k90ctufrslgq3cflxvrkre?message=Donations%20website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;🏠 Address: &lt;code&gt;bc1q87rya5v6n8fpn4p6k90ctufrslgq3cflxvrkre&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;paypal&#34;&gt;PayPal&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/donate/paypal.png&#34; alt=&#34;paypal&#34;&gt;&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href=&#34;https://paypal.me/LChaparroJaquez?country.x=GB&amp;amp;locale.x=en_GB&#34;&gt;PayPal.me&lt;/a&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>How to Fix Metadata of Pdf Files</title>
+		<link>https://lmcj-xyz.github.io/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</link>
+		<pubDate>Tue, 07 Jun 2022 23:56:15 +0200</pubDate>
+		
+		<guid>https://lmcj-xyz.github.io/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</guid>
+		<description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Important disclaimer:&lt;/strong&gt; For your own benefit you should never run random commands you find on the internet, this is why whenever I tell you to run a command, immediately after I will let you know exactly what it does. Feel free to check the documentation of the command to be sure I am not lying to you.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is a follow up of the quick entry I made previously on &lt;a href=&#34;https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/&#34;&gt;how to put metadata on your LaTeX generated documents&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In this tutorial I will tell you how to do three things:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Anonymise your PDF files removing rubbish metadata and optimize them for loading&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Write &lt;strong&gt;useful&lt;/strong&gt; metadata to help file organization&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Rename files based on the metadata you consciously wrote&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you want to see more about why metadata is important you can read &lt;a href=&#34;https://guides.lib.unc.edu/metadata/importance&#34;&gt;this [2 min]&lt;/a&gt;, and if you want to see why is important to not have more meta information in your files than necessary, then read &lt;a href=&#34;https://safecomputing.umich.edu/privacy/consider-metadata&#34;&gt;this [5 mins]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you do not care about any of that, then why are you reading this?&lt;/p&gt;
+&lt;h3 id=&#34;requirements&#34;&gt;Requirements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The programs &lt;code&gt;exiftool&lt;/code&gt;, &lt;code&gt;pdftk&lt;/code&gt; and &lt;code&gt;qpdf&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Some &lt;code&gt;.pdf&lt;/code&gt; files to work with&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bear in mind that I have only tried this on a Linux machine. Chances are, this works on any other OS since all the tools above are available for any OS, but that is for you to figure out.&lt;/p&gt;
+&lt;h2 id=&#34;anonymise-your-files&#34;&gt;Anonymise your files&lt;/h2&gt;
+&lt;p&gt;To anonymise files I stole the code from &lt;a href=&#34;https://gist.github.com/hubgit/6078384&#34;&gt;this gist&lt;/a&gt; and &lt;a href=&#34;https://blog.snapdragon.cc/2015/08/28/shell-function-to-remove-all-metadata-from-pdf/&#34;&gt;this blog entry&lt;/a&gt;, huge thanks to these people for sharing.&lt;/p&gt;
+&lt;p&gt;There they explain what each tool does, but on the spirit of self-containment I will let you know what we achieve with this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Remove/update objects that contain information in the &lt;code&gt;.pdf&lt;/code&gt; file&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Remove the pointers to the objects&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Linearise your file for fast web loading&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/sh
+# make it a function (optional)
+clean(){
+  # pdftk dumps data from a file
+  pdftk $1 dump_data | \
+   # select all the lines starting with (InfoValue) 
+   # and the next to it
+   sed -e &amp;#39;s/\(InfoValue:\)\s.*/\1\ /g&amp;#39; | \
+   # remove what sed just retrieved
+   pdftk $1 update_info - output clean-$1
+  
+  # remove all tags and create a new file with the
+  # prefix &amp;#34;clean-&amp;#34;
+  exiftool -all:all= clean-$1
+  # print tags
+  exiftool -all:all clean-$1
+  # remove embeded stuff
+  exiftool -extractEmbedded -all:all clean-$1
+  # linearize and save in a new file with the prefix &amp;#34;clean2-&amp;#34;
+  qpdf --linearize clean-$1 clean2-$1
+  
+  # these just print metadata
+  pdftk clean2-$1 dump_data
+  exiftool clean2-$1
+  pdfinfo -meta clean2-$1
+}
+
+# you can add this loop for this to just put the file in the
+# directory you want it to run and then run it (optional)
+for FILE in *; do clean $FILE; done
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Okay, if you take this snippet as it is, you need to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Create a file, say you called it &lt;code&gt;pdfclean&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Move it to the directory where you have all your &lt;code&gt;.pdf&lt;/code&gt; files&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make it executable with &lt;code&gt;chmod +x pdfclean&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;And run it by typing &lt;code&gt;./pdfclean&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That is what I recommend doing, because as you can tell, the function is made to run over a single file, and that is why you need to loop at the end.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Other options are to take the function &lt;code&gt;clean()&lt;/code&gt; and put it into your &lt;code&gt;.bashrc&lt;/code&gt;, &lt;code&gt;.zshrc&lt;/code&gt; &lt;code&gt;.profile&lt;/code&gt; or wherever your shell stuff loads, and then you will be able to run &lt;code&gt;clean &amp;lt;name of your file&amp;gt;.pdf&lt;/code&gt; just as a normal shell command. I would recommend calling the function something more memorable though.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So, now you have anonymised files! Yay!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Oh! One more thing. As you saw, the snippet above will create three additional files for each file that you processed, which most likely you do not want. So, I recommend moving everything except for the files with the prefix &lt;code&gt;clean2-&lt;/code&gt; to some directory that you can call &lt;code&gt;./unclean/&lt;/code&gt; or whatever. I have not removed the creation of additional files because is good to have backups, but you can do it if you live life to the fullest and do not care for data loss.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;write-useful-metadata-to-your-files&#34;&gt;Write useful metadata to your files&lt;/h2&gt;
+&lt;p&gt;So, we want to create a &lt;code&gt;.csv&lt;/code&gt; because is an easy way to save tags for files, and we will make use of &lt;code&gt;exiftool&lt;/code&gt; which can write tags from &lt;code&gt;.csv&lt;/code&gt; files.&lt;/p&gt;
+&lt;p&gt;The first thing we need to do is to get the names of all our files. There are different way to do this, you just need to be in the directory where your files are and&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;run &lt;code&gt;exiftool -SourceFile -csv . &amp;gt; tags.csv&lt;/code&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;or &lt;code&gt;ls &amp;gt; tags.csv&lt;/code&gt; and then make the name of the column inside the file &lt;code&gt;SourceFile&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The first (and better) option can be used instead of the option &lt;code&gt;-common&lt;/code&gt; or without any, in order to load more metadata, but I don not find that useful because makes the file more messy, your choice.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Suppose you used the first option (such a smart individual you are) it will create a &lt;code&gt;.csv&lt;/code&gt; that uses comma as a separator (duhh), but you do not want that. Use something odd enough that it cannot be confused with a character in the name of your files, something like &lt;code&gt;^&lt;/code&gt;, &lt;code&gt;@&lt;/code&gt;, character that is not used commonly while writing, I will use &lt;code&gt;^&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This can be done in any text editor with search and replace functionality, or you could use any spreadsheet software to make it, be ware that spreadsheet software can do nasty stuff sometimes.&lt;/p&gt;
+&lt;p&gt;I do, however, recommend to use any spreadsheet software to add all the tags you want. Or a text editor is fine too.&lt;/p&gt;
+&lt;p&gt;If you use a spreadsheet software to deal with your &lt;code&gt;.csv&lt;/code&gt; file, just remember to tell it what to use as separator, in the case of LibreOffice Calc you should have a pop up window like this:&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/2022-06-08-solution-metadata/popup.png&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Calc pop up&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;And then you will have a file like this:&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/2022-06-08-solution-metadata/csvfile.png&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Calc file&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Actually if you have followed the tutorial, the third column on that image will be for you in the first column and will have the name &lt;code&gt;SourceFile&lt;/code&gt;, this image is just for illustrative purposes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So here comes the tedious part, you will have to add to your &lt;code&gt;csv&lt;/code&gt; file all the tags you want, to have in the metadata. I only want &lt;em&gt;title&lt;/em&gt; and &lt;em&gt;author&lt;/em&gt;, probably &lt;em&gt;edition&lt;/em&gt; is useful. IDK, do as you please but remember that this is clerical work and there is no way to escape it if you want to benefit from having useful meta information in your files.
+This is why &lt;a href=&#34;https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/&#34;&gt;you must add metadata to your files&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Remember to put the name of tags you want in the first row.&lt;/p&gt;
+&lt;p&gt;Now that you have your &lt;code&gt;.csv&lt;/code&gt; just check if some of your tags have weird characters or spaces, and if so, make sure to deal with that appropriately. By weird characters I mean anything &lt;a href=&#34;https://www.oreilly.com/library/view/learning-the-bash/1565923472/ch01s09.html&#34;&gt;that can mean something for the shell&lt;/a&gt;, because we want to use the metadata to rename files. Remember?&lt;/p&gt;
+&lt;p&gt;Now everything is ready, so you just need to run&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;exiftool -csv=tags.csv -csvDelim ^ .
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In this case &lt;code&gt;exiftool&lt;/code&gt; will use your beautiful &lt;code&gt;.csv&lt;/code&gt; file with the option &lt;code&gt;-csv=tags.csv&lt;/code&gt;, then &lt;code&gt;-csvDelim ^&lt;/code&gt; tells it to use &lt;code&gt;^&lt;/code&gt; as separator, and the dot &lt;code&gt;.&lt;/code&gt; is indicating to scan the current directory.&lt;/p&gt;
+&lt;p&gt;And now you have nicely labelled pdf files! Brilliant!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;One thing to note. I mention to be careful of &lt;em&gt;weird characters&lt;/em&gt; in your tags&amp;hellip;well sometimes you will have actually &lt;em&gt;weird characters&lt;/em&gt; in your title or some other tag. For instance you might have a &lt;strong&gt;totally legal&lt;/strong&gt; copy of the book &lt;em&gt;Measure, Integration &amp;amp; Real Analysis&lt;/em&gt; by &lt;em&gt;Sheldon Axler&lt;/em&gt;, and you can see that it has a &lt;code&gt;&amp;amp;&lt;/code&gt; in the title. Well it is likely you want to deal with those cases separately for the sake of simplicity.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;rename-files-using-metadata&#34;&gt;Rename files using metadata&lt;/h2&gt;
+&lt;p&gt;Now, finally got to the point that make me do all these things: Renaming files using metadata.&lt;/p&gt;
+&lt;p&gt;Well, since you already have nicely tagged files you only need to run&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;exiftool &amp;#39;-filename&amp;lt;$author---$title.%e&amp;#39; .
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;And &lt;strong&gt;PUFF!&lt;/strong&gt; Just like that, like magic, &lt;code&gt;exiftool&lt;/code&gt; will change the &lt;code&gt;SourceFile&lt;/code&gt; and &lt;code&gt;FileName&lt;/code&gt; tags using the option &lt;code&gt;-filename&lt;/code&gt; giving it the &lt;code&gt;author&lt;/code&gt;, and &lt;code&gt;title&lt;/code&gt; tags, and the extension of the file with &lt;code&gt;%e&lt;/code&gt; to all the files in the directory, this the dot &lt;code&gt;.&lt;/code&gt; at the end. And of course, not only will change the tags, but also will rename them.&lt;/p&gt;
+&lt;p&gt;And that is it, you can of course you can backup your tags by using again &lt;code&gt;exiftool -csv . &amp;gt; tags.csv&lt;/code&gt; and then you can manage them from there since the only thing you need to do to update your files now is to use the command above.&lt;/p&gt;
+&lt;h2 id=&#34;future-work&#34;&gt;Future work&lt;/h2&gt;
+&lt;p&gt;In my obsession to have proper means of organization for my resources, I want to create some kind of PDF manager, and I already have a couple of ideas.&lt;/p&gt;
+&lt;p&gt;What I want is to use the basic tools that I have used here to have a program that is listening to some directories and notify of changes on them for you to add the metadata and rename the files. Similar to what Zotero does.&lt;/p&gt;
+&lt;p&gt;It can potentially make use of identifiers such as DOI, ISBN and such, but need to think properly about that because obviously the metadata from there is rather contaminated and also can be bad. If you do not believe me it can be bad, just download a book directly from the Springer site (if you University has that kind of access and you can do it for free) and run &lt;code&gt;exiftool&lt;/code&gt; on that, you will see.&lt;/p&gt;
+&lt;p&gt;Listening to what happens in directories must be easy enough, since I am planning to do this for Linux first and there we have events for it, &lt;a href=&#34;https://www.kernel.org/doc/html/latest/filesystems/dnotify.html&#34;&gt;as you can see here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Also I want something that is triggered both if you add files in the command line or graphically, and that it prompts the interface of the program either in the command line or on a graphic window accordingly.&lt;/p&gt;
+&lt;p&gt;As per recommendation of &lt;a href=&#34;https://luevano.xyz/&#34;&gt;EL DAVID&lt;/a&gt; I plan to prototype in shell and use &lt;code&gt;Python&lt;/code&gt; for the project. Also I want to use &lt;code&gt;GTK-4&lt;/code&gt; because we are no more in the XII century.&lt;/p&gt;
+&lt;p&gt;But anyway, those are some ideas.&lt;/p&gt;
+&lt;p&gt;Will update on that regard when I start I guess.&lt;/p&gt;
+&lt;h2 id=&#34;other-updates-personal-things-too&#34;&gt;Other updates, personal things too&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;If you use several editors to work on projects with LaTeX or perhaps you have collaborators, you might find extremely annoying that each editor or person has their own mind and have decided that indentation is a &lt;em&gt;matter of taste&lt;/em&gt;. And since it is actually (in many cases) a matter of taste, I want to create some small program with &lt;code&gt;AWK&lt;/code&gt; to fix that stuff, and make your documents to your own taste. I reckon this might be unnecessary to do, because I am sure I can achieve what I want in half a second using Vim, but it is still a good little practice run for development using some other language.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tomorrow I will go to Bologna to present a poster in the &lt;a href=&#34;https://site.unibo.it/probstat/en&#34;&gt;Third Italian Meeting on Probability and Mathematical Statistics&lt;/a&gt;, so I hope to post some pictures about that next weekend.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;And finally I decided to go back to do music. Particularly when I am back in Leeds I plan to buy a guitar and start learning classical guitar the right way, I am pretty excited about that. Also, have been recently experimenting with my voice to sing Mexican and Latin American traditional songs, so there is that. Do not think I will share that online anytime soon but anyway.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Please Put Metadata in Your LaTeX Files</title>
+		<link>https://lmcj-xyz.github.io/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/</link>
+		<pubDate>Tue, 07 Jun 2022 23:20:48 +0200</pubDate>
+		
+		<guid>https://lmcj-xyz.github.io/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/</guid>
+		<description>&lt;p&gt;Today I wanted to homogenize the naming on my &lt;strong&gt;totally legally downloaded&lt;/strong&gt; (😉) collection of maths books, just to (unsurprisingly) see just how messed up the metadata of files you get online is.&lt;/p&gt;
+&lt;p&gt;And well, I will fix that for my files but it takes some time, and I will gift you the method I came up with to do so, once I finish. But for now, and since I was of course also guilty of not adding metadata to my documents before today, this is just a reminder of how to add metadata to documents typesetted with LaTeX.&lt;/p&gt;
+&lt;p&gt;Make sure you are using the package &lt;code&gt;hyperref&lt;/code&gt; (which you should because your documents also have bookmarks and links between sections and things. Don&amp;rsquo;t they? 😑) and in your preamble just add this:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;\hypersetup{pdftitle={Title of your file}, 
+		pdfsubject={The subject of your file}, 
+	        pdfauthor={The authors of your file},
+		pdfkeywords={The keywords of your file}
+	       }
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;And that is it!&lt;/p&gt;
+&lt;p&gt;Just as reference, if I add the following to my file&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;\hypersetup{pdftitle={Convergence rate of $X^N - X$ for McKean equations}, 
+		pdfsubject={Probability}, 
+	        pdfauthor={Luis Mario Chaparro Jáquez},
+		pdfkeywords={SDEs, Besov Space, Feynman-Kac}
+	       }
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and then I trow an &lt;code&gt;exiftool&lt;/code&gt; at &lt;code&gt;main.pdf&lt;/code&gt; will have the following metadata:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lmcj-xyz.github.io/images/2022-06-07-metadata/metadata.png&#34; alt=&#34;exiftool&#34;&gt;&lt;/p&gt;
+&lt;p&gt;There are many other ways to add useful and non intrusive metadata to files, but I guess if you use LaTeX this is the easiest way.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Using KaTex Locally for Maths Typesetting in Hugo</title>
+		<link>https://lmcj-xyz.github.io/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</link>
+		<pubDate>Sun, 05 Jun 2022 12:53:26 +0200</pubDate>
+		
+		<guid>https://lmcj-xyz.github.io/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</guid>
+		<description>&lt;p&gt;If you work or study on mathematics related fields and have a website, you might often want to share your knowledge with the world.
+Of course, doing it is rather easy with many website creation tools, and there are also many tutorials to do it with any tool you can think of.&lt;/p&gt;
+&lt;p&gt;So, I want to tell you how to do it using the static site generator
+&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;
+and the JavaScript library
+&lt;a href=&#34;https://katex.org/&#34;&gt;KaTeX&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I will tell you how to do it sourcing locally the scripts (the &lt;em&gt;kind of&lt;/em&gt; difficult way), because most tutorials only show you how to do it with remote files.
+If instead you want to know how to do it with remote files (the easy way) because you clearly don&amp;rsquo;t care about saving precious miliseconds while your website loads, there are many tutorials to do it, some of them are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://katex.org/docs/browser.html&#34;&gt;the official documentation&lt;/a&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://mertbakir.gitlab.io/hugo/math-typesetting-in-hugo/&#34;&gt;this blog entry by Mert Bakir&lt;/a&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;and &lt;a href=&#34;https://hyperupcall.github.io/blog/posts/render-latex-with-katex-in-hugo-blog/&#34;&gt;this one by Edwin Kofler&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Jokes aside, bear in mind that KaTeX is really fast, so using the remote files is already great, but it can always be faster and also I like to have things locally.&lt;/p&gt;
+&lt;p&gt;Additionally I will give you a script (tested on Linux, but might work in other OS if you tweak it properly) to update KaTeX if you use the local version of them.&lt;/p&gt;
+&lt;p&gt;Just for reference of how KaTeX renders stuff here is a small mathematical sentence:&lt;/p&gt;
+&lt;p&gt;Let
+$b(t, \cdot) \in \mathcal{C}^{-\beta}$,
+for
+$0 &amp;lt; \beta &amp;lt; 1/2$
+i.e.
+$b$
+belongs to a Hölder-Zygmund space with negative order, then let us define, formally, the following SDE&lt;/p&gt;
+&lt;p&gt;$$X_t = X_0 + \int_0^t b(s, X_s) ds + W_t$$&lt;/p&gt;
+&lt;p&gt;Now that you saw how beatiful this is, let us start.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; I am breaking down the process step by step, and that is why it looks very long, in reality it won&amp;rsquo;t take you more than 10 mins to do the hardest version, so don&amp;rsquo;t be discouraged if this looks too long.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;my-hugo-directory-tree&#34;&gt;My Hugo directory tree&lt;/h2&gt;
+&lt;p&gt;First let me quickly lay the ground about the folder structure I have, and in this way you can extrapolate it for your own case:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.
+|__archetypes/
+|__config.toml
+|__content/
+|__data/
+|__katex/
+|__layouts/
+   |__partials/
+|__public/
+|__resources/
+|__static/
+   |__css
+   |__scripts
+|__themes/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Attention:&lt;/strong&gt; the &lt;code&gt;katex/&lt;/code&gt; directory is not necessary to have from the beginning since it is where your downloaded scripts will be, and it will be created when you extract the archive.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Attention again:&lt;/strong&gt; Also, of course the folder structure is more complex, but only the relevant parts are listed here.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We will only work on the directories
+&lt;code&gt;layouts/&lt;/code&gt;
+&lt;code&gt;static/&lt;/code&gt;
+&lt;code&gt;katex/&lt;/code&gt;
+and
+&lt;code&gt;themes/&lt;/code&gt;,
+although to be honest, most of what we will do is on the first two.&lt;/p&gt;
+&lt;h2 id=&#34;download-the-scripts&#34;&gt;Download the scripts&lt;/h2&gt;
+&lt;p&gt;To download the scripts, you have two options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fire up the terminal and type
+&lt;code&gt;wget https://github.com/KaTeX/KaTeX/releases/download/v0.15.6/katex.tar.gz&lt;/code&gt;
+(as far as I am concerned, you can use &lt;code&gt;wget&lt;/code&gt; on any OS)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Go to
+&lt;a href=&#34;https://github.com/KaTeX/KaTeX/releases&#34;&gt;the releases page of KaTeX&lt;/a&gt;
+and download the either the
+&lt;code&gt;tarball&lt;/code&gt;
+or the
+&lt;code&gt;zip&lt;/code&gt;
+file, depending with what thing you are more comfortable, both archiving formats work on any OS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Attention:&lt;/strong&gt; For the first option you &lt;strong&gt;must&lt;/strong&gt; check what version is the most recent, so you anyway should go to the releases page from option 2.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Make sure the
+&lt;code&gt;katex&lt;/code&gt;
+directory is in your main Hugo folder.&lt;/p&gt;
+&lt;p&gt;Once you download it you will unpack your archive, in Linux you can use (in the terminal):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;tar -xvf &amp;lt;tarball file&amp;gt;&lt;/code&gt; where the options for &lt;code&gt;tar&lt;/code&gt; mean &lt;code&gt;-x&lt;/code&gt; extract, &lt;code&gt;-v&lt;/code&gt; is verbose output (you can totally exclude it but I like verbose commands) and &lt;code&gt;-f&lt;/code&gt; tells &lt;code&gt;tar&lt;/code&gt; to use the file you are giving.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;unzip &amp;lt;zip file&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Or if you don&amp;rsquo;t want to use the terminal, just open your graphical file browser and extract the archive from there.&lt;/p&gt;
+&lt;h2 id=&#34;move-the-files&#34;&gt;Move the files&lt;/h2&gt;
+&lt;p&gt;Now you will have a folder called
+&lt;code&gt;katex&lt;/code&gt;
+with the following contents&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;katex/
+|__contrib/
+|__fonts/
+|__katex.css
+|__katex.js
+|__katex.min.css
+|__katex.min.js
+|__katex.mjs
+|__README.md
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The important parts from there are
+&lt;code&gt;fonts/&lt;/code&gt;,
+&lt;code&gt;katex.js&lt;/code&gt;
+and
+&lt;code&gt;katex.css&lt;/code&gt;.
+The
+&lt;code&gt;contrib/&lt;/code&gt;
+directory can be important if you want to add some extra functionality, which by the way we will do here.&lt;/p&gt;
+&lt;p&gt;So, for the sake of this tutorial you will move the files like this&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The directory &lt;code&gt;fonts/&lt;/code&gt; and the file &lt;code&gt;katex.css&lt;/code&gt; go inside &lt;code&gt;static/css/&lt;/code&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;the file &lt;code&gt;katex.js&lt;/code&gt; go inside &lt;code&gt;static/scripts/katex/&lt;/code&gt;, and&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;optionally (but mandatory if you follow exactly this particular tutorial) the file &lt;code&gt;contrib/auto-render.js&lt;/code&gt; will go in &lt;code&gt;static/scripts/katex&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Attention:&lt;/strong&gt; You can also use the &lt;code&gt;katex.min.js&lt;/code&gt; and &lt;code&gt;katex.min.css&lt;/code&gt; which are &amp;ldquo;minimal&amp;rdquo; version of the files.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;make-your-website-use-the-files-you-just-moved&#34;&gt;Make your website use the files you just moved&lt;/h2&gt;
+&lt;p&gt;First, on the &lt;code&gt;layouts/partials/&lt;/code&gt; directory you need one &lt;a href=&#34;https://gohugo.io/templates/partials/&#34;&gt;partial template&lt;/a&gt;
+and you can name it &lt;code&gt;katex.html&lt;/code&gt;, add the following content to that file&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;{{ &amp;quot;css/katex.css&amp;quot; | relURL }}&amp;quot;&amp;gt;
+
+&amp;lt;script defer src=&amp;quot;{{ &amp;quot;scripts/katex/katex.js&amp;quot; | relURL }}&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+&amp;lt;script defer src=&amp;quot;{{ &amp;quot;scripts/katex/auto-render.js&amp;quot; | relURL }}&amp;quot; onload=&amp;quot;renderMathInElement(document.body);&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+&amp;lt;script&amp;gt;
+    document.addEventListener(&amp;quot;DOMContentLoaded&amp;quot;, function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: &amp;quot;$$&amp;quot;, right: &amp;quot;$$&amp;quot;, display: true},
+                {left: &amp;quot;$&amp;quot;, right: &amp;quot;$&amp;quot;, display: false}
+            ]
+        });
+    });
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you moved the files where I mentioned above this will work.&lt;/p&gt;
+&lt;p&gt;The first line loads the stylesheet &lt;code&gt;katex.css&lt;/code&gt;, the second the script &lt;code&gt;katex.js&lt;/code&gt;, the third the extension &lt;code&gt;auto-render.js&lt;/code&gt;, which renders all the math inside of text, and the last chunk will make possible inline equations, which most likely you want to have.&lt;/p&gt;
+&lt;p&gt;The third line is optional if you are not interested in using &lt;a href=&#34;https://katex.org/docs/autorender.html&#34;&gt;auto-render.js&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now, depending on where do you want to load your scripts, this can be a little tricky; but the way I like adding scripts to an &lt;code&gt;HTML&lt;/code&gt; file, is on the &lt;code&gt;head&lt;/code&gt;. So if you want to do it like that, then in &lt;code&gt;layouts/partials/&lt;/code&gt; you will create (unless you already have it) a template called &lt;code&gt;head.html&lt;/code&gt; and you will add there the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ if .Params.maths }}{{ partial &amp;quot;katex.html&amp;quot; . }}{{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Attention:&lt;/strong&gt; You can add scripts in the &lt;code&gt;footer&lt;/code&gt; or &lt;code&gt;header&lt;/code&gt; or &lt;code&gt;body&lt;/code&gt;, do it as you prefer I am just following the current advice about where to load scripts, because it is no longer the 17th century and we have things like &lt;code&gt;async&lt;/code&gt; and &lt;code&gt;defer&lt;/code&gt;, which I am using here. For more info about those things see &lt;a href=&#34;https://stackoverflow.com/a/24070373&#34;&gt;this SO answer&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This will check in the frontmatter if you enabled &lt;code&gt;maths&lt;/code&gt; in that post, therefore from now on whenever you want to add maths in a post you must add, in the frontmatter, the line&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+maths: true
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Because of that I would, of course, suggest to add it in your &lt;a href=&#34;https://gohugo.io/content-management/archetypes/&#34;&gt;archetypes&lt;/a&gt;, and if you don&amp;rsquo;t need it for a certain post you just make it &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Attention:&lt;/strong&gt; The reason we are doing this, is so that no unnecessary &lt;code&gt;js&lt;/code&gt; code is loaded everywhere and it is only used where needed, if you are not interested in that, then go and add all the scripts into the base template. Which I strongly disapprove and won&amp;rsquo;t tell you how to do it (it might depend on your theme), you might be able to figure that out on your own.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Finally, there is kind of a tricky part, which depending on how you have your Hugo project can or cannot be neccessary, it might also depend on your theme.
+The thing is that the &lt;code&gt;head.html&lt;/code&gt; file that we created, might not be loaded into your base &lt;code&gt;html&lt;/code&gt; template, and you will have to look for your main template file and add the line&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ partial &amp;quot;head&amp;quot; . }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;In my particular case&lt;/strong&gt; (and be very mindful that this is a particular case), I am using a modified version of the theme &lt;a href=&#34;https://themes.gohugo.io/themes/smol/&#34;&gt;smol&lt;/a&gt; and have kept some of the structure of the theme, so I added the line above in the file &lt;code&gt;themes/smol/layouts/_default/baseof.html&lt;/code&gt; inside the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; section. But this will depend on your own project.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Update at 6 Jun 2022:&lt;/strong&gt; Turns out the above is not as dependant of the theme, since most themes have the same structure and you can very safely go and add the line to your &lt;code&gt;themes/&amp;lt;your theme&amp;gt;/layouts/_default/baseof.html&lt;/code&gt; file. You just need to add it according to the file that loads scripts.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Update at 25 Feb 2024:&lt;/strong&gt; It&amp;rsquo;s best if you don&amp;rsquo;t touch your theme folder ever again unless necessary, but instead copy the &lt;code&gt;baseof.html&lt;/code&gt; to your website&amp;rsquo;s &lt;code&gt;layouts&lt;/code&gt; directory and edit the one there, Hugo will override the theme&amp;rsquo;s setting if it finds a file with the same name in the base directory, this applies to any file from your theme. So this is for instance a better way to change your &lt;code&gt;style.css&lt;/code&gt; as well.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;final-words&#34;&gt;Final words&lt;/h2&gt;
+&lt;p&gt;There you go, you must now be able to use KaTeX on you Hugo website, of course syntax is like LaTeX and you will use &lt;code&gt;$ $&lt;/code&gt; for inline equations and &lt;code&gt;$$ $$&lt;/code&gt; for blocks.&lt;/p&gt;
+&lt;p&gt;Have fun!&lt;/p&gt;
+&lt;h2 id=&#34;bonus-script-to-update-katex-linux&#34;&gt;Bonus: Script to update KaTeX (Linux)&lt;/h2&gt;
+&lt;p&gt;This is only tested on Linux, but might as well work in any other OS with the appropriate modifications, for that reason I will explain what each command does, and you can look for the commands that do the same in your OS (in MacOS might even work as it is).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Create a file named as you want to name it, I want it to be &lt;code&gt;update_katex&lt;/code&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;make it executable by running &lt;code&gt;chmod +x update_katex&lt;/code&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;add the following content&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/sh
+curl -s https://api.github.com/repos/KaTeX/KaTeX/releases/latest \
+| grep &amp;#34;browser_download_url.*tar.gz&amp;#34; \
+| cut -d : -f 2,3 \
+| tr -d \&amp;#34; \
+| wget -qi -
+
+tar -xf katex.tar.gz
+rm katex.tar.gz
+cp -r katex/fonts/ static/css/
+cp katex/katex.css static/css/
+cp katex/katex.js static/scripts/katex/
+cp katex/contrib/auto-render.js static/scripts/katex/
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let me explain the code above, first the pipelines sequence:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;curl&lt;/code&gt; retrieves the &lt;code&gt;json&lt;/code&gt; file with the releases information, and the option &lt;code&gt;-s&lt;/code&gt; is to make it silent,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;grep&lt;/code&gt; looks for the pattern in quotes and returns the line that contains it,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;cut&lt;/code&gt; deletes/keeps fragments of a string, the option &lt;code&gt;-d :&lt;/code&gt; makes it look for the character &lt;code&gt;:&lt;/code&gt; and make it the delimitator, so that with &lt;code&gt;-f&lt;/code&gt; we chose the fragments with respect to the delimitator, in this case &lt;code&gt;2,3&lt;/code&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;tr -d \&amp;quot;&lt;/code&gt; deletes the quotes&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;we used &lt;code&gt;wget&lt;/code&gt; before but now we give it the option &lt;code&gt;-q&lt;/code&gt; for it to be quiet and &lt;code&gt;-i&lt;/code&gt; to give it a file, &lt;code&gt;-&lt;/code&gt; makes it take the value of that comes from the pipeline.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And then the rest of the commands are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;tar -xf katex.tar.gz&lt;/code&gt; extracts file,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;rm katex.tar.gz&lt;/code&gt; deletes the compressed archive,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;And then you copy stuff with &lt;code&gt;cp&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Acerca de toma de notas, hacer una wiki y así</title>
+		<link>https://lmcj-xyz.github.io/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/</link>
+		<pubDate>Sun, 20 Mar 2022 15:51:15 +0000</pubDate>
+		
+		<guid>https://lmcj-xyz.github.io/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/</guid>
+		<description>&lt;p&gt;Hace poco decidí mantener mis notas de todo lo posible usando el plugin para vim/neovim&lt;br&gt;
+vimwiki pero terminé usando Obsidian.&lt;/p&gt;
+&lt;p&gt;Todo comenzó cuando por el inicio de febrero &lt;a href=&#34;https://www.luevano.xyz/&#34;&gt;EL DAVID&lt;/a&gt; me recordó que &lt;a href=&#34;https://joplinapp.org/&#34;&gt;Joplin&lt;/a&gt; existe, lo que derivó en una conversación sobre toma de notas y &lt;em&gt;sISteMas dE gEStIón De COnOcIMiEnTo&lt;/em&gt; (PKM por Personal Knowledge Management) y salió a relucir &lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt;. Sobre lo cual EL DAVID dijo:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;El pedo es que es de paga y no pienso pagar por un explorador de archivos glorificado.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A lo que yo contesté (después de ir a ver):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;No güey, la versión personal es gratis.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A raíz de esto, me dediqué a investigar más sobre estos sistemas porque ciertamente necesitaba una solución para mi toma de notas que hasta la fecha ha sido un caos, y caí (también El David me comentó) en la cuenta de que mucho de esto está basado en un método de toma de notas llamado &lt;a href=&#34;https://es.wikipedia.org/wiki/Zettelkasten&#34;&gt;Zettelkasten&lt;/a&gt;, el cual se basa en ordenar las notas jerárquicamente y típicamente por cronología, utilizando etiquetas y demás meta información para relacionar las notas unas con otras. Mira la verdad es que puedo estar mal, porque no es un método que me interese demasiado, mi mente funciona mejor por categorías (o al menos eso pensaba) y este método aparentemente no las utiliza mucho, si quieres leer más al respecto por aquí están unos cuantos enlaces:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zettelkasten.de/&#34;&gt;El sitio zettelkasten.de&lt;/a&gt; &amp;mdash; donde tienen foros y hablan únicamente sobre este método, incluso promueven un software para MacOS.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.zettlr.com/en/guides/guide-zettelkasten/&#34;&gt;La guía para Zettelkasten de Zettlr&lt;/a&gt; &amp;mdash; intenté utilizar este software que es &lt;em&gt;muuuuuuuuy&lt;/em&gt; bueno pero no es para mí, de hecho si te gusta el método Zettelkasten yo lo recomendaría antes que Obsidian.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://forum.obsidian.md/t/obsidian-zettelkasten/1999&#34;&gt;Un post de Obsidian&lt;/a&gt; &amp;mdash; donde hablan sobre esto y la raza agrega consejos e interpretaciones.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ahora, cuando digo que a mí no me interesa el método Zettelkasten porque no se adapta a mi forma de pensar, eso no quiere decir que no se adaptará a ti si también prefieres organizar las cosas por categorías como yo. Precisamente en esos links puedes ver que hay muchísimas formas de organizarse con este sistema. En mi caso simplemente no encontré la forma de adaptar mi forma de tomar notas. De hecho otra cosa que te recomendaría sería buscar contenido sobre Obsidian en YouTube, por ejemplo puedes buscar a &lt;a href=&#34;https://www.youtube.com/results?search_query=bryan+jenks+%26%26+obsidian&#34;&gt;Bryan Jenks&lt;/a&gt; quien parece que es de lo único que habla. Además de este método hay otros, y en principio todos pueden unirse de una manera que se te acomode.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Desde que comencé a escribir esta entrada he estado usando mi nuevo sistema regularmente y descubierto algunas cosas, en particular, el método Zettelkasten es muy útil para tomar notas de una manera más rápida, porque entonces no tienes que pensar en la taxonomía de tu sistema antes de comenzar a hacer notas y simplemente dejar que la estructura surja naturalmente haciendo enlaces entre las notas. Estoy pensando seriamente en cambiar mi sistema de nuevo para evitar esta estructura pre-diseñada que tenía, y que ahora veo quizá no es lo mejor, esto lo expandiré en otra entrada.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sin embargo, fuera del método como tal, mi búsqueda era por el software perfecto para ejecutar mi toma de notas. Mis necesidades son más o menos las siguientes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Evitar usar el mouse.&lt;/li&gt;
+&lt;li&gt;Archivos de texto (control de versiones y &lt;em&gt;futureproof&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Categorías.&lt;/li&gt;
+&lt;li&gt;Sincronizar ente dispositivos.&lt;/li&gt;
+&lt;li&gt;Agregar notas a mi página.&lt;/li&gt;
+&lt;li&gt;Escribir matemáticas.&lt;/li&gt;
+&lt;li&gt;Citar desde mi base de datos de referencias (Zotero, BibLaTeX).&lt;/li&gt;
+&lt;li&gt;Agregar imágenes y demás archivos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Y como siempre ningún software puede ser todo para todos, entonces si todas estas cosas no existen por default debería haber la forma de agregar &lt;em&gt;plugins&lt;/em&gt; o algo por el estilo.&lt;/p&gt;
+&lt;h2 id=&#34;lo-que-he-intentado&#34;&gt;Lo que he intentado&lt;/h2&gt;
+&lt;p&gt;Todo esto es sobre todo porque durante el último año he tenido tantos problemas para organizar la información, he intentado de todo, usar papel y lápiz, y termino teniendo un desastre de hojas poco organizado, además el no tener una casa fija me detiene a esto porque realmente no tengo suficiente espacio para tener todo esto organizado y en el momento en que deba mudarme cómo le voy a hacer para mover mis notas, todo se puede perder.&lt;/p&gt;
+&lt;p&gt;Para evitar el acumular papel he intentado usar Xournal++ o OneNote para mantener notas escritas a mano pero en mi computadora, y uno pensaría que OneNote es suficiente para esto por la forma en que se estructura, pero de entrada la única razón por la que lo uso es porque tengo Windows en la compu de la escuela, y cuando acabe el doctorado esa compu va a regresar a la escuela y yo no voy a usar Windows en una compu personal.&lt;/p&gt;
+&lt;p&gt;Pero aún así, OneNote es un programa que no me llena en el sentido de que si quiero utilizarlo para escribir algo que pueda utilizar para mi tesis o algún artículo, y dado a que se usa LaTeX para eso, no hay mejor que tener todo en archivos de texto. Además tiene un montón de bugs horribles de los que ni quiero hablar. &lt;a href=&#34;https://xournalpp.github.io/&#34;&gt;Xournal++&lt;/a&gt; es el mejor software para notas a mano que he encontrado, quizá en MacOS hay algo mejor y lo que tú quieras, pero no tengo la experiencia por ahí. El problema de Xournal++ es de nuevo que, obvio, no guarda las cosas en archivos de texto el soporte de LaTeX es mejor que en OneNote, pero no como uno quisiera, y en contraste con OneNote, no hay manera de organizar tus notas dentro del programa, claro que puedes tener todo organizado en directorios (lo cual he hecho) pero la verdad es que no es lo mismo, pierdes el flujo de trabajo.&lt;/p&gt;
+&lt;p&gt;E incluso he intentado usar una wiki, precisamente con Vimwiki, que es un &lt;em&gt;plugin&lt;/em&gt; para Vim/Neovim y está súper bien implementado, pero de alguna forma cuando lo intenté usar en el pasado nunca encontré la forma de organizarme con ello, quizá no estaba en el &lt;em&gt;mindset&lt;/em&gt; correcto. Sin embargo como comencé a ver tantas cosas respecto al uso de PKM decidí darle otra oportunidad ya que estos métodos típicamente permiten tener archivos de texto, los cuales puedes versionar y tener en un repositorio o cualquier otra forma de almacenamiento que te guste, obvio también con sus problemas, pero ya estaba vendido a la idea.&lt;/p&gt;
+&lt;h2 id=&#34;opciones-para-crear-un-pkm&#34;&gt;Opciones para crear un PKM&lt;/h2&gt;
+&lt;p&gt;Terminé reduciéndome a las siguientes opciones:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://vimwiki.github.io/&#34;&gt;Vimwiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Así es, estaba ahuevado a usar Vimwiki ya que esto permite tener todo el poder de Vim en tus manos e integrarlo con un montón más de cosas que de todos modos ya hago con Vim. Pero de forma más realista hay algunas otras cosas que necesitaba y por eso en realidad mis opciones poco a poco fui descubriendo más software para el mismo propósito y consideré estar abierto a usar los siguientes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://vimwiki.github.io/&#34;&gt;Vimwiki&lt;/a&gt; o algún otro plugin por el estilo&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt;, el cual estaba (y aún estoy) reacio a usar porque no es software libre&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zettlr.com/&#34;&gt;Zettlr&lt;/a&gt;, software libre y muy buena opción&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Esto dependiendo de cual probara ser una mejor opción. De tal forma que en lo que sigue voy a explicar mi viaje a través de cada uno y decir en qué casos recomiendo cada uno.&lt;/p&gt;
+&lt;h2 id=&#34;vimwiki&#34;&gt;Vimwiki&lt;/h2&gt;
+&lt;p&gt;Por cierto que mencioné usar ya sea este o algún otro plugin similar, en particular los otros que considero son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lervag/wiki.vim&#34;&gt;wiki.vim&lt;/a&gt; &amp;mdash; inspirado en Vimwiki pero realmente esta hecho &lt;em&gt;from scratch&lt;/em&gt;, una ventaja ante Vimwiki es el uso de Pandoc para convertir archivos a otros formatos, mientras que Vimwiki puede únicamente convertir a HTML si y sólo si estás usando su sintaxis, entonces puedes usar Markdown (a continuación hablo de eso).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/fcpg/vim-waikiki&#34;&gt;Waikiki&lt;/a&gt; &amp;mdash; inspirado en Vimwiki pero sin muchas de las características porque el autor decidió que no necesitaba todo lo que Vimwiki ofrece, honestamente creo que voy a pasarme a usar Waikiki porque en ocasiones puedo querer usar Vim para editar esto.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pero vamos a Vimwiki, ya agregué el link varias veces pero aquí esta una vez más por si lo quieres calar: &lt;a href=&#34;https://vimwiki.github.io/&#34;&gt;https://vimwiki.github.io/&lt;/a&gt;. Qué puedo decir de Vimwiki, es un plugin maravilloso.&lt;/p&gt;
+&lt;h3 id=&#34;las-características&#34;&gt;Las características&lt;/h3&gt;
+&lt;p&gt;Es lo que he usado más, a continuación una lista de algunas de las características:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tiene una sintaxis propia, los archivos tienen extensión &lt;code&gt;.wiki&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Tab&lt;/em&gt; para saltar entre los links.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Enter&lt;/em&gt; para seguir links.&lt;/li&gt;
+&lt;li&gt;Exportar a HTML con toda la estructura de tu wiki (directorios) de tal forma que puedes hacer una página web.&lt;/li&gt;
+&lt;li&gt;Soporte de matemáticas (LaTeX), pero obvio Vim no puede pre-visualizarlas entonces para esto debes mandarlo a HTML y usar MathJax, lo cual no es tan malo (es como cuando escribes algo en LaTeX y lo quieres estar visualizando a cada rato &lt;strong&gt;porque no le sabes&lt;/strong&gt;), además con conceal puedes ver más o menos lo que escribes.&lt;/li&gt;
+&lt;li&gt;Etiquetas para filtrado.&lt;/li&gt;
+&lt;li&gt;Los links a archivos son de verdad, nada de usar alguna solución escondida para buscarlos, los estoy viendo Zettlr y Obsidian, tienes la opción de decorarlos obviamente, y con el conceal de vim los escondes.&lt;/li&gt;
+&lt;li&gt;TODO EL PODER DE VIM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;el-problema&#34;&gt;El problema&lt;/h3&gt;
+&lt;p&gt;Sin embargo anteriormente dije que terminé usando Obsidian, ¿porque si me gusta Vimwiki no estoy usándolo? Bueno el problema es que la sintaxis es única y no es muy usada fuera de Vim, y aunque es tan rica como Markdown (o incluso más), el hecho de que no sea tan usada hace que existan pocas soluciones para algo fuera de Vim. Puede utilizar Markdown de hecho, pero en ese caso no podrás exportar a HTML lo que estás haciendo, la exportación a HTML solamente es soportada con la sintaxis de Vimwiki.&lt;br&gt;
+Y como menciono, aunque la solución para ver lo que escribes en mates está &lt;em&gt;okey&lt;/em&gt;, sigue interrumpiendo tu flujo de trabajo y no hay como tener algo que te muestre lo que escribes en tiempo real como Zettlr y Obsidian.&lt;/p&gt;
+&lt;p&gt;Otra cosa es que la integración con tu base de datos de referencias obvio no esta hecha desde el plugin, claro que puedes integrarla con Vim y listo, pero yo lo que quisiera es una forma de citar dentro de mi escrito de alguna manera, es decir en cada página de la wiki quiero tener una lista de referencias al final o bien una forma de ir rápidamente a saber qué diablos estoy citando, lo cual estaba haciendo literal copiando y pegando desde Zotero, como si estuviéramos en el pinche siglo XVII.&lt;br&gt;
+Entonces esto no esta tan ideal.&lt;/p&gt;
+&lt;p&gt;Dado que estas dos cosas son una parte gigante de lo que hago actualmente, no puedo tener soluciones sub-óptimas para ello, de hecho si tengo tantas cosas en mi camino para hacer notas para el doctorado esto me afectaría gravemente en mi desempeño y no queremos eso.&lt;br&gt;
+Por lo tanto Vimwiki no puedo usarlo, al menos para notas del doctorado que se traten de matemáticas.&lt;/p&gt;
+&lt;p&gt;Otra cosa que en ocasiones necesito es agregar imágenes a mi texto (gráficas y así) y obvio Vim no sirve para esto porque pues es en la terminal, y aunque según sé hay terminales que te permiten ver imágenes, como &lt;em&gt;kitty&lt;/em&gt;, aún no estoy preparado para configurarme eso.&lt;/p&gt;
+&lt;h3 id=&#34;cuándo-usar-vimwiki&#34;&gt;Cuándo usar Vimwiki&lt;/h3&gt;
+&lt;p&gt;Aún cuando Vimwiki no será mi principal herramienta de toma de notas, creo que tiene muchas características que hacen tu vida muy sencilla &lt;strong&gt;si eres un usuario de Vim&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Entonces yo pienso usar Vimwiki (o Waikiki), para notas sobre otras cosas que no envuelvan matemáticas. Al final del día en mi wiki también guardo mis notas de lecturas, programación, y cualquier otra cosa que vaya aprendiendo en mi vida. Por lo que únicamente el doctorado no lo puedo manejar con Vimwiki.&lt;/p&gt;
+&lt;p&gt;Recuerda que la idea de usar Markdown, es poder leerlo así como está, en particular con las capacidades de conceal de Vim tienes para leer la mayoría de lo que escribes en Markdown sin ningún problema.&lt;/p&gt;
+&lt;h2 id=&#34;zettlr&#34;&gt;Zettlr&lt;/h2&gt;
+&lt;p&gt;Dejo de nuevo el link por aquí, sobre todo si puede ser de utilidad para ti: &lt;a href=&#34;https://www.zettlr.com/&#34;&gt;https://www.zettlr.com/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Zettlr es un software muy poderoso para editar archivos de Markdown y tiene casi todas las características que Obsidian tiene y más, y como es software libre obvio era lo que pensaba usar cuando vi que Vimwiki no iba a ser una buena solución.&lt;/p&gt;
+&lt;h3 id=&#34;las-características-1&#34;&gt;Las características&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Evitar usar el mouse.&lt;/li&gt;
+&lt;li&gt;Archivos de texto (control de versiones y &lt;em&gt;futureproof&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Categorías.&lt;/li&gt;
+&lt;li&gt;Sincronizar ente dispositivos.&lt;/li&gt;
+&lt;li&gt;Escribir matemáticas.&lt;/li&gt;
+&lt;li&gt;Citar desde mi base de datos de referencias (Zotero, BibLaTeX).&lt;/li&gt;
+&lt;li&gt;Agregar imágenes y demás archivos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sí, adivinaste, la lista de arriba es exactamente la misma que puse más arriba sobre mis necesidades para mi sistema excepto por una cosa (la encontraste), pero aún así no estoy usando Zettlr, ¿por qué? Bueno, primero permite que te explique porque es que cumple todo&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tiene modo Vim (debes usar el mouse pero solamente para interactuar con le resto de la GUI, y además tiene shortcuts)&lt;/li&gt;
+&lt;li&gt;Es un editor de Markdown.&lt;/li&gt;
+&lt;li&gt;Soporta etiquetas, carpetas y demás.&lt;/li&gt;
+&lt;li&gt;De nuevo, es un editor de Markdown entonces la sincronización la llevo a cabo con &lt;em&gt;git&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Puedes pre-visualizar matemáticas.&lt;/li&gt;
+&lt;li&gt;Integración directa con Zotero.&lt;/li&gt;
+&lt;li&gt;Puedes ver otros archivos de cualquier tipo e incluirlos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;el-problema-1&#34;&gt;El problema&lt;/h3&gt;
+&lt;p&gt;¿Sí viste lo que falta? Falta poder incluirlo en mi página. Zettlr puede exportar tus archivos a cualquier formato que quieras porque utiliza &lt;em&gt;Pandoc&lt;/em&gt; y eso está muy bien, sin embargo la forma en que los exporta es la siguiente:&lt;/p&gt;
+&lt;p&gt;Imagina que esta es la estructura de tu directorio&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;directorio
+|
+|__archivo1.md
+|__archivo2.md
+|
+|__subdirectorio1
+|  |__archivo11.md
+|
+|__subdirectorio2
+   |__archivo21.md
+   |__archivo22.md
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Zettlr va a convertir esta estructura en un vector aplanado que te muestre los archivos en ese orden, de forma que tendrás un arreglo&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;archivo1.md, archivo2.md, archivo11.md, archivo21.md, archivo22.md]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Y luego va a concatenar todos esos archivos en un solo archivo del tipo al que quieras exportar tu trabajo.&lt;/p&gt;
+&lt;p&gt;Esta solución no es mala, de hecho está excelente, si estás escribiendo un libro o un artículo. Pero mis notas no son para eso, mis notas son para mí y para ponerlas en mi sitio web. De forma que yo lo que quiero es una forma de exportar todas mis notas y que se respete la estructura de directorios, y se cree es estructura.&lt;/p&gt;
+&lt;p&gt;Otro problema es la forma en que maneja los links, esta sí me dio mucho asco. Zettlr tiene una forma excelente de buscar los archivos en tu directorio, de forma que simplemente tecleas &lt;code&gt;[[&lt;/code&gt; y te ofrece los archivos a usar, igualito que Obsidian. El problema es que no puede usar las rutas verdaderas de los archivos, si las usas se queda bien pendejo y no puede encontrarte nada. Otro problema es que para manejar links internos no puedes utilizar links de Markdown, es decir los &lt;code&gt;[descripción](link.a.algo)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Estos son exclusivamente para cosas externas, de forma que si quieres utilizar Zettlr para abrirlos, debes establecer Zettlr como tu programa predeterminado para abrir archivos &lt;code&gt;.md&lt;/code&gt;, lo cual definitivamente no es una opción, además de que si sí lo haces literal lo que vas a hacer es lanzar Zettlr de nuevo y tomando en cuenta que usa &lt;em&gt;eLEcTrOn&lt;/em&gt; puede que no sea la idea más sensible. Los links internos deben ser &lt;em&gt;wikilinks&lt;/em&gt;, es decir &lt;code&gt;[[link.interno|descripción]]&lt;/code&gt; lo cual no es estándar en Markdown y si no utilizas Zettlr para exportar (que ya vimos que en mi caso no es una opción) va a ser un pedo.&lt;/p&gt;
+&lt;h3 id=&#34;cuando-usar-zettlr&#34;&gt;Cuando usar Zettlr&lt;/h3&gt;
+&lt;p&gt;Aún cuando acabo de decir que Zettlr es una pendejada (y si ves mis &lt;em&gt;commits&lt;/em&gt;) concluirías lo mismo, considero que Zettlr es un programa súper cabrón y que si no fuera porque no he jugado tanto con él quizá ya hubiera encontrado la forma de evitar estos problemas que encontré, pero bueno, necesitaba una solución rápida, no puedo dejar de trabajar nomás porque no estoy contento con el software.&lt;/p&gt;
+&lt;p&gt;Dicho eso, yo recomiendo usar Zettlr en dos casos principales:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Estas haciendo un proyecto, escribiendo un libro, un artículo y solamente necesitas al final exportar eso a PDF o cualquier otra cosa. Aquí realmente brilla, porque se integra con Zotero, puedes usar Markdown o LaTeX, al final exportar y todo se queda junto.&lt;/li&gt;
+&lt;li&gt;Quieres hacer un Zettelkasten, de hecho tienen por ahí unas guías para ello:&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.zettlr.com/en/guides/guide-zettelkasten/&#34;&gt;Guide Zettelkasten&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.zettlr.com/en/academic/zkn-method/&#34;&gt;Zettelkasten Method&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zettlr.com/post/what-is-a-zettelkasten&#34;&gt;WTF is a Zettelkasten?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h2&gt;
+&lt;p&gt;Obsidian es software de propietario, pero debo reconocer que hasta el momento es la mejor herramienta para mi caso de uso, por aquí te dejo el link: &lt;a href=&#34;https://obsidian.md/&#34;&gt;https://obsidian.md/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Yo suelo usar software libre tanto como puedo, pero también creo que hay que ser tan ecléctico como se pueda, en ocasiones las mejores herramientas son de propietario y no tiene sentido hacerse la vida difícil por querer adherirse a ciertos principios. Me cuesta muchísimo trabajo, pero es una forma más inteligente de trabajar.&lt;/p&gt;
+&lt;h3 id=&#34;las-características-2&#34;&gt;Las características&lt;/h3&gt;
+&lt;p&gt;Esencialmente tiene exactamente las mismas características de Zettlr excepto por la integración con Zotero. También es una pendejada para exportar a HTML.&lt;/p&gt;
+&lt;p&gt;Tiene cantidad de plugins para hacer cosas, pero no uso mas que tres al momento:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dy-sh/obsidian-consistent-attachments-and-links&#34;&gt;obsidian-consistent-attachment-and-links&lt;/a&gt; &amp;mdash; mantiene consistencia con los links, es decir evita que obsidian use sus métodos de búsqueda para los links y te permite tener las rutas completas, y evita el uso de &lt;em&gt;wikilinks&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/joeyuping/quick_latex_obsidian&#34;&gt;quick_latex_obsidian&lt;/a&gt; &amp;mdash; provee algunos snippets para usar LaTeX, tipo &lt;em&gt;UltiSnips&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hans/obsidian-citation-plugin&#34;&gt;obsidian-citation-plugin&lt;/a&gt; &amp;mdash; integra Obsidian con tu base de datos de referencia, lo hace de una manera muy especial que pensé al inicio que no me serviría pero en realidad considero que es muy útil&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aunque los plugins son bien útiles, la verdad es que no estoy seguro si me quedaré con Obsidian, no quiero modificar mi forma de trabajar alrededor de Obsidian. Simplemente no me gusta confiar en que Obsidian siempre estará ahí, porque es de propietario y muchos intereses se mueven alrededor del dinero, por lo que en cualquier momento se puede convertir en &lt;em&gt;shitware&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Pero en general Obsidian, es un programa muy chingón, tiene shortcuts sensibles, modo Vim, la pre-visualización de mates e imágenes está preciosa (&lt;em&gt;chef kiss&lt;/em&gt;), el plugin para mates es muy similar a &lt;em&gt;UltiSnips&lt;/em&gt; aunque según entiendo no puedes agregar más snippets (puedo estar equivocado), y puedes hacer que se comporte exactamente como quieras con los plugins.&lt;/p&gt;
+&lt;h3 id=&#34;el-problema-2&#34;&gt;El problema&lt;/h3&gt;
+&lt;p&gt;Me duele en el &lt;em&gt;cora&lt;/em&gt; tener que usar software de propietario, pero es lo mejor hasta el momento.&lt;/p&gt;
+&lt;p&gt;Además los plugins son bien dañinos si en algún momento quiero cambiarme (y de hecho es el plan) a Zettlr, porque entonces todas las herramientas que utilice ahí no se van a traducir a Zettlr. Es por eso que solamente estoy utilizando unos cuantos que de hecho no cambian mucho mi flujo de trabajo y únicamente ayudan a mantener consistencia en los archivos.&lt;/p&gt;
+&lt;h3 id=&#34;cuándo-usar-obsidian&#34;&gt;Cuándo usar Obsidian&lt;/h3&gt;
+&lt;p&gt;Bueno, pues aparentemente en mi caso. Y en general es una opción muy buena para comenzar con esta onda de los PKM, porque la raza que usa Obsidian está obsesionada con esto y hay muchísimo contenido para aprender, muchísimos tipos de flujos de trabajo que puedes adaptar.&lt;/p&gt;
+&lt;h2 id=&#34;conclusión&#34;&gt;Conclusión&lt;/h2&gt;
+&lt;p&gt;Continuaré usando Obsidian en conjunto con Vimwiki, y calando Zettlr para ver si puedo evitar las cosas que no me gustaron y cambiarme completamente a Zettlr.&lt;/p&gt;
+&lt;p&gt;En particular creo que continuaré usando Zettlr en caso de que quiera escribir algún artículo o algo por el estilo, la verdad esa funcionalidad me gustó mucho, y la forma en que se integra con Zotero está bellísima.&lt;/p&gt;
+&lt;p&gt;Aún debo encontrar una manera de exportar mis notas a HTML, y lo que seguramente voy a hacer es un script con Pandoc o bien usar &lt;a href=&#34;https://github.com/luevano/pyssg&#34;&gt;pyssg&lt;/a&gt;, y cuando tenga eso y si encuentro una forma de evitar el manejo terrible que tiene Zettlr con los links, seguro me pasaré a usar Zettlr porque la neta estoy mucho más cómodo usando software libre.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Me he rendido y usaré WordPress</title>
+		<link>https://lmcj-xyz.github.io/posts/2022-03-20-me-he-rendido-y-usare-wordpress/</link>
+		<pubDate>Sun, 20 Mar 2022 02:49:20 +0000</pubDate>
+		
+		<guid>https://lmcj-xyz.github.io/posts/2022-03-20-me-he-rendido-y-usare-wordpress/</guid>
+		<description>&lt;p&gt;Después de un montón de tiempo intentando varias maneras de manejar mi sitio web, he caído en la cuenta de que en mi afán de tener una configuración mínima y con pocas dependencias no he logrado nada, lo cual se traduce también en mi productividad y demás cosas en las que no voy a ahondar.&lt;/p&gt;
+&lt;p&gt;Por lo tanto decidí &lt;em&gt;deployear&lt;/em&gt; un sitio de WordPress en &lt;a href=&#34;https://vultr.com/&#34;&gt;Vultr&lt;/a&gt;, y comenzar a realmente compartir lo que hago porque si no nunca voy a estar contento con la forma en que tengo las cosas.&lt;/p&gt;
+&lt;p&gt;Mi problema es sobre todo la influencia, a veces ridícula, de gente en el mundo de &lt;em&gt;liNuX&lt;/em&gt; de usar software minimalista. Lo cual considero que es muy bueno e intento hacerlo cuanto puedo, sin embargo en ocasiones simplemente no es la mejor herramienta para lo que quieres hacer o no tienes el tiempo, la habilidad o la paciencia para configurar las herramientas a tu gusto. Por lo tanto opciones como WordPress, que por cierto es software libre, llegan a salvar el día.&lt;/p&gt;
+&lt;p&gt;Me ha tomado mucho tiempo convencerme de que esta es la mejor opción para mí, e incluso aún no estoy del todo convencido, es por eso que tengo la idea de seguir trabajando en &lt;a href=&#34;https://github.com/luevano/pyssg&#34;&gt;pyssg&lt;/a&gt; de &lt;a href=&#34;https://www.luevano.xyz&#34;&gt;EL DAVID&lt;/a&gt;. Además tengo que aún aprender cómo manejar este servidor, definitivamente me gustaría no depender de la interfaz web de WordPress y poder simplemente escribir algunas cosas en &lt;em&gt;html&lt;/em&gt; y subirlas o algo por el estilo. Claro que pretendo usar la interfaz web, que me es muy útil sobre todo para cuando escriba sobre matemáticas. De hecho en ese sentido tengo ya hecha una entrada sobre cómo fue que decidí usar Obsidian sobre otras opciones para la toma de notas, luego publico eso.&lt;/p&gt;
+&lt;p&gt;También espero por aquí poder publicar fotos en una manera más fluida, luego me agüita no compartir las fotos de mi vida con alguna gente. Y no, no las voy a poner directo en FB o IG.&lt;/p&gt;
+&lt;p&gt;Aún quiero ver en esta cosa como puedo acomodar unos subdominios, porque no me gusta que esté en puras carpetas. Y ver si puedo separar no sólo con categorías, si no también hacer como mini-sitios como los tenía en la otra página.&lt;/p&gt;
+&lt;p&gt;En fin por el momento me despido, y pues a ver qué tal queda esto, quizá mañana acomodo la entrada sobre la toma de notas.&lt;/p&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>

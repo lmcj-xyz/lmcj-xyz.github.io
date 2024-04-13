@@ -1,0 +1,94 @@
+body {
+	font-family: sans-serif;
+	background: #292522;
+	color: #ECE1D7;
+}
+
+main {
+	max-width: 800px ;
+	margin: auto ;
+}
+
+ul {
+	padding: 5px;
+}
+
+a:link {
+	color: #7B9695;
+}
+a:hover {
+	color: #89B3B6;
+}
+a:visited {
+	color: #89B3B6;
+}
+
+strong {
+	/*animation: color-change 5s infinite;*/
+}
+
+em {
+	/*animation: color-change 5s infinite;*/
+}
+@keyframes color-change {
+  0% { color: #ECE1D7; }
+  20% { color: #C1A78E; }
+  40% { color: #403A36; }
+  80% { color: #C1A78E; }
+  100% { color: #ECE1D7; }
+}
+
+nav {
+	border-bottom: 1px solid #ECE1D7;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline;
+	padding: 5px;
+	background: #7B9695;
+}
+nav ul li a:link {
+	color: #292522;
+}
+nav ul li a:hover {
+	color: #34302C;
+}
+nav ul li a:visited {
+	color: #34302C;
+}
+
+img {
+	max-width: 100% ;
+}
+
+header h1 {
+	text-align: center ;
+}
+
+footer {
+	text-align: center ;
+	clear: both ;
+}
+
+/* For TAGLIST.HTML */
+.taglist {
+	text-align: center ;
+	clear: both ;
+}
+
+/* For NEXTPREV.HTML */
+#nextprev {
+	/* The container for both the previous and next articles. */
+}
+#prevart {
+	float: left ;
+	text-align: left ;
+}
+#nextart {
+	float: right ;
+	text-align: right ;
+}
+#nextart,#prevart {
+	max-width: 33% ;
+}

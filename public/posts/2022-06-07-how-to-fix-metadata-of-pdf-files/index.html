@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+	<title>How to Fix Metadata of Pdf Files | What is LM doing?</title>
+	<link rel="canonical" href="https://lmcj-xyz.github.io/">
+	<link rel='alternate' type='application/rss+xml' title="What is LM doing? RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+	<link rel="icon" href="/favicon.ico">
+	<meta name="description" content="Important disclaimer: For your own benefit you should never run random commands you find on the internet, this is why whenever I tell you to run a command, immediately after I will let you know exactly what it does. Feel free to check the documentation of the command to be sure I am not lying to you.
+This is a follow up of the quick entry I made previously on how to put metadata on your LaTeX generated documents.">
+	<meta name="keywords" content="Software">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+	
+
+</head>
+<body>
+<nav>
+    <ul>
+	<li><a href="/"><span class=pre></span><span class=menuname>🏠 Home</span></a></li>
+	<li><a class="menuactive" href="/posts/"><span class=pre></span><span class=menuname>📓 Posts</span></a></li>
+    </ul>
+</nav>
+<main>
+<header><h1 id="tag_How to Fix Metadata of Pdf Files">How to Fix Metadata of Pdf Files</h1></header>
+<article>
+
+<blockquote>
+<p><strong>Important disclaimer:</strong> For your own benefit you should never run random commands you find on the internet, this is why whenever I tell you to run a command, immediately after I will let you know exactly what it does. Feel free to check the documentation of the command to be sure I am not lying to you.</p>
+</blockquote>
+<p>This is a follow up of the quick entry I made previously on <a href="https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/">how to put metadata on your LaTeX generated documents</a>.</p>
+<h2 id="introduction">Introduction</h2>
+<p>In this tutorial I will tell you how to do three things:</p>
+<ol>
+<li>
+<p>Anonymise your PDF files removing rubbish metadata and optimize them for loading</p>
+</li>
+<li>
+<p>Write <strong>useful</strong> metadata to help file organization</p>
+</li>
+<li>
+<p>Rename files based on the metadata you consciously wrote</p>
+</li>
+</ol>
+<p>If you want to see more about why metadata is important you can read <a href="https://guides.lib.unc.edu/metadata/importance">this [2 min]</a>, and if you want to see why is important to not have more meta information in your files than necessary, then read <a href="https://safecomputing.umich.edu/privacy/consider-metadata">this [5 mins]</a>.</p>
+<p>If you do not care about any of that, then why are you reading this?</p>
+<h3 id="requirements">Requirements</h3>
+<ul>
+<li>
+<p>The programs <code>exiftool</code>, <code>pdftk</code> and <code>qpdf</code></p>
+</li>
+<li>
+<p>Some <code>.pdf</code> files to work with</p>
+</li>
+</ul>
+<p>Bear in mind that I have only tried this on a Linux machine. Chances are, this works on any other OS since all the tools above are available for any OS, but that is for you to figure out.</p>
+<h2 id="anonymise-your-files">Anonymise your files</h2>
+<p>To anonymise files I stole the code from <a href="https://gist.github.com/hubgit/6078384">this gist</a> and <a href="https://blog.snapdragon.cc/2015/08/28/shell-function-to-remove-all-metadata-from-pdf/">this blog entry</a>, huge thanks to these people for sharing.</p>
+<p>There they explain what each tool does, but on the spirit of self-containment I will let you know what we achieve with this:</p>
+<ol>
+<li>
+<p>Remove/update objects that contain information in the <code>.pdf</code> file</p>
+</li>
+<li>
+<p>Remove the pointers to the objects</p>
+</li>
+<li>
+<p>Linearise your file for fast web loading</p>
+</li>
+</ol>
+<pre tabindex="0"><code>#!/bin/sh
+# make it a function (optional)
+clean(){
+  # pdftk dumps data from a file
+  pdftk $1 dump_data | \
+   # select all the lines starting with (InfoValue) 
+   # and the next to it
+   sed -e &#39;s/\(InfoValue:\)\s.*/\1\ /g&#39; | \
+   # remove what sed just retrieved
+   pdftk $1 update_info - output clean-$1
+  
+  # remove all tags and create a new file with the
+  # prefix &#34;clean-&#34;
+  exiftool -all:all= clean-$1
+  # print tags
+  exiftool -all:all clean-$1
+  # remove embeded stuff
+  exiftool -extractEmbedded -all:all clean-$1
+  # linearize and save in a new file with the prefix &#34;clean2-&#34;
+  qpdf --linearize clean-$1 clean2-$1
+  
+  # these just print metadata
+  pdftk clean2-$1 dump_data
+  exiftool clean2-$1
+  pdfinfo -meta clean2-$1
+}
+
+# you can add this loop for this to just put the file in the
+# directory you want it to run and then run it (optional)
+for FILE in *; do clean $FILE; done
+</code></pre><p>Okay, if you take this snippet as it is, you need to:</p>
+<ol>
+<li>
+<p>Create a file, say you called it <code>pdfclean</code></p>
+</li>
+<li>
+<p>Move it to the directory where you have all your <code>.pdf</code> files</p>
+</li>
+<li>
+<p>Make it executable with <code>chmod +x pdfclean</code></p>
+</li>
+<li>
+<p>And run it by typing <code>./pdfclean</code></p>
+</li>
+</ol>
+<p>That is what I recommend doing, because as you can tell, the function is made to run over a single file, and that is why you need to loop at the end.</p>
+<blockquote>
+<p>Other options are to take the function <code>clean()</code> and put it into your <code>.bashrc</code>, <code>.zshrc</code> <code>.profile</code> or wherever your shell stuff loads, and then you will be able to run <code>clean &lt;name of your file&gt;.pdf</code> just as a normal shell command. I would recommend calling the function something more memorable though.</p>
+</blockquote>
+<p>So, now you have anonymised files! Yay!</p>
+<blockquote>
+<p>Oh! One more thing. As you saw, the snippet above will create three additional files for each file that you processed, which most likely you do not want. So, I recommend moving everything except for the files with the prefix <code>clean2-</code> to some directory that you can call <code>./unclean/</code> or whatever. I have not removed the creation of additional files because is good to have backups, but you can do it if you live life to the fullest and do not care for data loss.</p>
+</blockquote>
+<h2 id="write-useful-metadata-to-your-files">Write useful metadata to your files</h2>
+<p>So, we want to create a <code>.csv</code> because is an easy way to save tags for files, and we will make use of <code>exiftool</code> which can write tags from <code>.csv</code> files.</p>
+<p>The first thing we need to do is to get the names of all our files. There are different way to do this, you just need to be in the directory where your files are and</p>
+<ul>
+<li>
+<p>run <code>exiftool -SourceFile -csv . &gt; tags.csv</code>,</p>
+</li>
+<li>
+<p>or <code>ls &gt; tags.csv</code> and then make the name of the column inside the file <code>SourceFile</code></p>
+</li>
+</ul>
+<blockquote>
+<p>The first (and better) option can be used instead of the option <code>-common</code> or without any, in order to load more metadata, but I don not find that useful because makes the file more messy, your choice.</p>
+</blockquote>
+<p>Suppose you used the first option (such a smart individual you are) it will create a <code>.csv</code> that uses comma as a separator (duhh), but you do not want that. Use something odd enough that it cannot be confused with a character in the name of your files, something like <code>^</code>, <code>@</code>, character that is not used commonly while writing, I will use <code>^</code>.</p>
+<p>This can be done in any text editor with search and replace functionality, or you could use any spreadsheet software to make it, be ware that spreadsheet software can do nasty stuff sometimes.</p>
+<p>I do, however, recommend to use any spreadsheet software to add all the tags you want. Or a text editor is fine too.</p>
+<p>If you use a spreadsheet software to deal with your <code>.csv</code> file, just remember to tell it what to use as separator, in the case of LibreOffice Calc you should have a pop up window like this:</p>
+<figure><img src="/images/2022-06-08-solution-metadata/popup.png" width="80%"/><figcaption>
+            <h4>Calc pop up</h4>
+        </figcaption>
+</figure>
+
+<p>And then you will have a file like this:</p>
+<figure><img src="/images/2022-06-08-solution-metadata/csvfile.png" width="80%"/><figcaption>
+            <h4>Calc file</h4>
+        </figcaption>
+</figure>
+
+<blockquote>
+<p>Actually if you have followed the tutorial, the third column on that image will be for you in the first column and will have the name <code>SourceFile</code>, this image is just for illustrative purposes.</p>
+</blockquote>
+<p>So here comes the tedious part, you will have to add to your <code>csv</code> file all the tags you want, to have in the metadata. I only want <em>title</em> and <em>author</em>, probably <em>edition</em> is useful. IDK, do as you please but remember that this is clerical work and there is no way to escape it if you want to benefit from having useful meta information in your files.
+This is why <a href="https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/">you must add metadata to your files</a>.</p>
+<p>Remember to put the name of tags you want in the first row.</p>
+<p>Now that you have your <code>.csv</code> just check if some of your tags have weird characters or spaces, and if so, make sure to deal with that appropriately. By weird characters I mean anything <a href="https://www.oreilly.com/library/view/learning-the-bash/1565923472/ch01s09.html">that can mean something for the shell</a>, because we want to use the metadata to rename files. Remember?</p>
+<p>Now everything is ready, so you just need to run</p>
+<pre tabindex="0"><code>exiftool -csv=tags.csv -csvDelim ^ .
+</code></pre><p>In this case <code>exiftool</code> will use your beautiful <code>.csv</code> file with the option <code>-csv=tags.csv</code>, then <code>-csvDelim ^</code> tells it to use <code>^</code> as separator, and the dot <code>.</code> is indicating to scan the current directory.</p>
+<p>And now you have nicely labelled pdf files! Brilliant!</p>
+<blockquote>
+<p>One thing to note. I mention to be careful of <em>weird characters</em> in your tags&hellip;well sometimes you will have actually <em>weird characters</em> in your title or some other tag. For instance you might have a <strong>totally legal</strong> copy of the book <em>Measure, Integration &amp; Real Analysis</em> by <em>Sheldon Axler</em>, and you can see that it has a <code>&amp;</code> in the title. Well it is likely you want to deal with those cases separately for the sake of simplicity.</p>
+</blockquote>
+<h2 id="rename-files-using-metadata">Rename files using metadata</h2>
+<p>Now, finally got to the point that make me do all these things: Renaming files using metadata.</p>
+<p>Well, since you already have nicely tagged files you only need to run</p>
+<pre tabindex="0"><code>exiftool &#39;-filename&lt;$author---$title.%e&#39; .
+</code></pre><p>And <strong>PUFF!</strong> Just like that, like magic, <code>exiftool</code> will change the <code>SourceFile</code> and <code>FileName</code> tags using the option <code>-filename</code> giving it the <code>author</code>, and <code>title</code> tags, and the extension of the file with <code>%e</code> to all the files in the directory, this the dot <code>.</code> at the end. And of course, not only will change the tags, but also will rename them.</p>
+<p>And that is it, you can of course you can backup your tags by using again <code>exiftool -csv . &gt; tags.csv</code> and then you can manage them from there since the only thing you need to do to update your files now is to use the command above.</p>
+<h2 id="future-work">Future work</h2>
+<p>In my obsession to have proper means of organization for my resources, I want to create some kind of PDF manager, and I already have a couple of ideas.</p>
+<p>What I want is to use the basic tools that I have used here to have a program that is listening to some directories and notify of changes on them for you to add the metadata and rename the files. Similar to what Zotero does.</p>
+<p>It can potentially make use of identifiers such as DOI, ISBN and such, but need to think properly about that because obviously the metadata from there is rather contaminated and also can be bad. If you do not believe me it can be bad, just download a book directly from the Springer site (if you University has that kind of access and you can do it for free) and run <code>exiftool</code> on that, you will see.</p>
+<p>Listening to what happens in directories must be easy enough, since I am planning to do this for Linux first and there we have events for it, <a href="https://www.kernel.org/doc/html/latest/filesystems/dnotify.html">as you can see here</a>.</p>
+<p>Also I want something that is triggered both if you add files in the command line or graphically, and that it prompts the interface of the program either in the command line or on a graphic window accordingly.</p>
+<p>As per recommendation of <a href="https://luevano.xyz/">EL DAVID</a> I plan to prototype in shell and use <code>Python</code> for the project. Also I want to use <code>GTK-4</code> because we are no more in the XII century.</p>
+<p>But anyway, those are some ideas.</p>
+<p>Will update on that regard when I start I guess.</p>
+<h2 id="other-updates-personal-things-too">Other updates, personal things too</h2>
+<ul>
+<li>
+<p>If you use several editors to work on projects with LaTeX or perhaps you have collaborators, you might find extremely annoying that each editor or person has their own mind and have decided that indentation is a <em>matter of taste</em>. And since it is actually (in many cases) a matter of taste, I want to create some small program with <code>AWK</code> to fix that stuff, and make your documents to your own taste. I reckon this might be unnecessary to do, because I am sure I can achieve what I want in half a second using Vim, but it is still a good little practice run for development using some other language.</p>
+</li>
+<li>
+<p>Tomorrow I will go to Bologna to present a poster in the <a href="https://site.unibo.it/probstat/en">Third Italian Meeting on Probability and Mathematical Statistics</a>, so I hope to post some pictures about that next weekend.</p>
+</li>
+<li>
+<p>And finally I decided to go back to do music. Particularly when I am back in Leeds I plan to buy a guitar and start learning classical guitar the right way, I am pretty excited about that. Also, have been recently experimenting with my voice to sing Mexican and Latin American traditional songs, so there is that. Do not think I will share that online anytime soon but anyway.</p>
+</li>
+</ul>
+
+
+<div id="nextprev">
+<a href="/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/"><div id="prevart">Previous:<br>Please Put Metadata in Your LaTeX Files</div></a>
+<a href="/donations/"><div id="nextart">Next:<br>Donations</div></a>
+</div>
+
+</article>
+</main>
+
+<footer>
+	<a href="https://lmcj-xyz.github.io/">https://lmcj-xyz.github.io/</a><br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>
+</footer>
+
+</body>
+</html>

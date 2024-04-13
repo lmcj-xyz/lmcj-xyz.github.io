@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+	<title>Please Put Metadata in Your LaTeX Files | What is LM doing?</title>
+	<link rel="canonical" href="https://lmcj-xyz.github.io/">
+	<link rel='alternate' type='application/rss+xml' title="What is LM doing? RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+	<link rel="icon" href="/favicon.ico">
+	<meta name="description" content="Today I wanted to homogenize the naming on my totally legally downloaded (😉) collection of maths books, just to (unsurprisingly) see just how messed up the metadata of files you get online is.
+And well, I will fix that for my files but it takes some time, and I will gift you the method I came up with to do so, once I finish. But for now, and since I was of course also guilty of not adding metadata to my documents before today, this is just a reminder of how to add metadata to documents typesetted with LaTeX.">
+	<meta name="keywords" content="Software">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+	
+
+</head>
+<body>
+<nav>
+    <ul>
+	<li><a href="/"><span class=pre></span><span class=menuname>🏠 Home</span></a></li>
+	<li><a class="menuactive" href="/posts/"><span class=pre></span><span class=menuname>📓 Posts</span></a></li>
+    </ul>
+</nav>
+<main>
+<header><h1 id="tag_Please Put Metadata in Your LaTeX Files">Please Put Metadata in Your LaTeX Files</h1></header>
+<article>
+
+<p>Today I wanted to homogenize the naming on my <strong>totally legally downloaded</strong> (😉) collection of maths books, just to (unsurprisingly) see just how messed up the metadata of files you get online is.</p>
+<p>And well, I will fix that for my files but it takes some time, and I will gift you the method I came up with to do so, once I finish. But for now, and since I was of course also guilty of not adding metadata to my documents before today, this is just a reminder of how to add metadata to documents typesetted with LaTeX.</p>
+<p>Make sure you are using the package <code>hyperref</code> (which you should because your documents also have bookmarks and links between sections and things. Don&rsquo;t they? 😑) and in your preamble just add this:</p>
+<pre tabindex="0"><code>\hypersetup{pdftitle={Title of your file}, 
+		pdfsubject={The subject of your file}, 
+	        pdfauthor={The authors of your file},
+		pdfkeywords={The keywords of your file}
+	       }
+</code></pre><p>And that is it!</p>
+<p>Just as reference, if I add the following to my file</p>
+<pre tabindex="0"><code>\hypersetup{pdftitle={Convergence rate of $X^N - X$ for McKean equations}, 
+		pdfsubject={Probability}, 
+	        pdfauthor={Luis Mario Chaparro Jáquez},
+		pdfkeywords={SDEs, Besov Space, Feynman-Kac}
+	       }
+</code></pre><p>and then I trow an <code>exiftool</code> at <code>main.pdf</code> will have the following metadata:</p>
+<p><img src="/images/2022-06-07-metadata/metadata.png" alt="exiftool"></p>
+<p>There are many other ways to add useful and non intrusive metadata to files, but I guess if you use LaTeX this is the easiest way.</p>
+
+
+<div id="nextprev">
+<a href="/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/"><div id="prevart">Previous:<br>Using KaTex Locally for Maths Typesetting in Hugo</div></a>
+<a href="/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/"><div id="nextart">Next:<br>How to Fix Metadata of Pdf Files</div></a>
+</div>
+
+</article>
+</main>
+
+<footer>
+	<a href="https://lmcj-xyz.github.io/">https://lmcj-xyz.github.io/</a><br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>
+</footer>
+
+</body>
+</html>

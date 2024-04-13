@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+	<title>Using KaTex Locally for Maths Typesetting in Hugo | What is LM doing?</title>
+	<link rel="canonical" href="https://lmcj-xyz.github.io/">
+	<link rel='alternate' type='application/rss+xml' title="What is LM doing? RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+	<link rel="icon" href="/favicon.ico">
+	<meta name="description" content="If you work or study on mathematics related fields and have a website, you might often want to share your knowledge with the world. Of course, doing it is rather easy with many website creation tools, and there are also many tutorials to do it with any tool you can think of.
+So, I want to tell you how to do it using the static site generator Hugo and the JavaScript library KaTeX.">
+	<meta name="keywords" content="Software, Mathematics">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+	
+
+<link rel="stylesheet" href="/css/katex.css">
+
+
+<script defer src="/scripts/katex/katex.js"></script>
+
+
+<script defer src="/scripts/katex/auto-render.js" onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+</script>
+
+
+</head>
+<body>
+<nav>
+    <ul>
+	<li><a href="/"><span class=pre></span><span class=menuname>🏠 Home</span></a></li>
+	<li><a class="menuactive" href="/posts/"><span class=pre></span><span class=menuname>📓 Posts</span></a></li>
+    </ul>
+</nav>
+<main>
+<header><h1 id="tag_Using KaTex Locally for Maths Typesetting in Hugo">Using KaTex Locally for Maths Typesetting in Hugo</h1></header>
+<article>
+
+<p>If you work or study on mathematics related fields and have a website, you might often want to share your knowledge with the world.
+Of course, doing it is rather easy with many website creation tools, and there are also many tutorials to do it with any tool you can think of.</p>
+<p>So, I want to tell you how to do it using the static site generator
+<a href="https://gohugo.io/">Hugo</a>
+and the JavaScript library
+<a href="https://katex.org/">KaTeX</a>.</p>
+<p>I will tell you how to do it sourcing locally the scripts (the <em>kind of</em> difficult way), because most tutorials only show you how to do it with remote files.
+If instead you want to know how to do it with remote files (the easy way) because you clearly don&rsquo;t care about saving precious miliseconds while your website loads, there are many tutorials to do it, some of them are:</p>
+<ul>
+<li>
+<p><a href="https://katex.org/docs/browser.html">the official documentation</a>,</p>
+</li>
+<li>
+<p><a href="https://mertbakir.gitlab.io/hugo/math-typesetting-in-hugo/">this blog entry by Mert Bakir</a>,</p>
+</li>
+<li>
+<p>and <a href="https://hyperupcall.github.io/blog/posts/render-latex-with-katex-in-hugo-blog/">this one by Edwin Kofler</a></p>
+</li>
+</ul>
+<p>Jokes aside, bear in mind that KaTeX is really fast, so using the remote files is already great, but it can always be faster and also I like to have things locally.</p>
+<p>Additionally I will give you a script (tested on Linux, but might work in other OS if you tweak it properly) to update KaTeX if you use the local version of them.</p>
+<p>Just for reference of how KaTeX renders stuff here is a small mathematical sentence:</p>
+<p>Let
+$b(t, \cdot) \in \mathcal{C}^{-\beta}$,
+for
+$0 &lt; \beta &lt; 1/2$
+i.e.
+$b$
+belongs to a Hölder-Zygmund space with negative order, then let us define, formally, the following SDE</p>
+<p>$$X_t = X_0 + \int_0^t b(s, X_s) ds + W_t$$</p>
+<p>Now that you saw how beatiful this is, let us start.</p>
+<blockquote>
+<p><strong>Disclaimer:</strong> I am breaking down the process step by step, and that is why it looks very long, in reality it won&rsquo;t take you more than 10 mins to do the hardest version, so don&rsquo;t be discouraged if this looks too long.</p>
+</blockquote>
+<h2 id="my-hugo-directory-tree">My Hugo directory tree</h2>
+<p>First let me quickly lay the ground about the folder structure I have, and in this way you can extrapolate it for your own case:</p>
+<pre><code>.
+|__archetypes/
+|__config.toml
+|__content/
+|__data/
+|__katex/
+|__layouts/
+   |__partials/
+|__public/
+|__resources/
+|__static/
+   |__css
+   |__scripts
+|__themes/
+</code></pre>
+<blockquote>
+<p><strong>Attention:</strong> the <code>katex/</code> directory is not necessary to have from the beginning since it is where your downloaded scripts will be, and it will be created when you extract the archive.</p>
+</blockquote>
+<blockquote>
+<p><strong>Attention again:</strong> Also, of course the folder structure is more complex, but only the relevant parts are listed here.</p>
+</blockquote>
+<p>We will only work on the directories
+<code>layouts/</code>
+<code>static/</code>
+<code>katex/</code>
+and
+<code>themes/</code>,
+although to be honest, most of what we will do is on the first two.</p>
+<h2 id="download-the-scripts">Download the scripts</h2>
+<p>To download the scripts, you have two options:</p>
+<ul>
+<li>
+<p>Fire up the terminal and type
+<code>wget https://github.com/KaTeX/KaTeX/releases/download/v0.15.6/katex.tar.gz</code>
+(as far as I am concerned, you can use <code>wget</code> on any OS)</p>
+</li>
+<li>
+<p>Go to
+<a href="https://github.com/KaTeX/KaTeX/releases">the releases page of KaTeX</a>
+and download the either the
+<code>tarball</code>
+or the
+<code>zip</code>
+file, depending with what thing you are more comfortable, both archiving formats work on any OS.</p>
+</li>
+</ul>
+<blockquote>
+<p><strong>Attention:</strong> For the first option you <strong>must</strong> check what version is the most recent, so you anyway should go to the releases page from option 2.</p>
+</blockquote>
+<p>Make sure the
+<code>katex</code>
+directory is in your main Hugo folder.</p>
+<p>Once you download it you will unpack your archive, in Linux you can use (in the terminal):</p>
+<ul>
+<li>
+<p><code>tar -xvf &lt;tarball file&gt;</code> where the options for <code>tar</code> mean <code>-x</code> extract, <code>-v</code> is verbose output (you can totally exclude it but I like verbose commands) and <code>-f</code> tells <code>tar</code> to use the file you are giving.</p>
+</li>
+<li>
+<p><code>unzip &lt;zip file&gt;</code></p>
+</li>
+</ul>
+<p>Or if you don&rsquo;t want to use the terminal, just open your graphical file browser and extract the archive from there.</p>
+<h2 id="move-the-files">Move the files</h2>
+<p>Now you will have a folder called
+<code>katex</code>
+with the following contents</p>
+<pre><code>katex/
+|__contrib/
+|__fonts/
+|__katex.css
+|__katex.js
+|__katex.min.css
+|__katex.min.js
+|__katex.mjs
+|__README.md
+</code></pre>
+<p>The important parts from there are
+<code>fonts/</code>,
+<code>katex.js</code>
+and
+<code>katex.css</code>.
+The
+<code>contrib/</code>
+directory can be important if you want to add some extra functionality, which by the way we will do here.</p>
+<p>So, for the sake of this tutorial you will move the files like this</p>
+<ul>
+<li>
+<p>The directory <code>fonts/</code> and the file <code>katex.css</code> go inside <code>static/css/</code>,</p>
+</li>
+<li>
+<p>the file <code>katex.js</code> go inside <code>static/scripts/katex/</code>, and</p>
+</li>
+<li>
+<p>optionally (but mandatory if you follow exactly this particular tutorial) the file <code>contrib/auto-render.js</code> will go in <code>static/scripts/katex</code></p>
+</li>
+</ul>
+<blockquote>
+<p><strong>Attention:</strong> You can also use the <code>katex.min.js</code> and <code>katex.min.css</code> which are &ldquo;minimal&rdquo; version of the files.</p>
+</blockquote>
+<h2 id="make-your-website-use-the-files-you-just-moved">Make your website use the files you just moved</h2>
+<p>First, on the <code>layouts/partials/</code> directory you need one <a href="https://gohugo.io/templates/partials/">partial template</a>
+and you can name it <code>katex.html</code>, add the following content to that file</p>
+<pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;{{ &quot;css/katex.css&quot; | relURL }}&quot;&gt;
+
+&lt;script defer src=&quot;{{ &quot;scripts/katex/katex.js&quot; | relURL }}&quot;&gt;&lt;/script&gt;
+
+&lt;script defer src=&quot;{{ &quot;scripts/katex/auto-render.js&quot; | relURL }}&quot; onload=&quot;renderMathInElement(document.body);&quot;&gt;&lt;/script&gt;
+
+&lt;script&gt;
+    document.addEventListener(&quot;DOMContentLoaded&quot;, function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: &quot;$$&quot;, right: &quot;$$&quot;, display: true},
+                {left: &quot;$&quot;, right: &quot;$&quot;, display: false}
+            ]
+        });
+    });
+&lt;/script&gt;
+</code></pre>
+<p>If you moved the files where I mentioned above this will work.</p>
+<p>The first line loads the stylesheet <code>katex.css</code>, the second the script <code>katex.js</code>, the third the extension <code>auto-render.js</code>, which renders all the math inside of text, and the last chunk will make possible inline equations, which most likely you want to have.</p>
+<p>The third line is optional if you are not interested in using <a href="https://katex.org/docs/autorender.html">auto-render.js</a>.</p>
+<p>Now, depending on where do you want to load your scripts, this can be a little tricky; but the way I like adding scripts to an <code>HTML</code> file, is on the <code>head</code>. So if you want to do it like that, then in <code>layouts/partials/</code> you will create (unless you already have it) a template called <code>head.html</code> and you will add there the following:</p>
+<pre><code>{{ if .Params.maths }}{{ partial &quot;katex.html&quot; . }}{{ end }}
+</code></pre>
+<blockquote>
+<p><strong>Attention:</strong> You can add scripts in the <code>footer</code> or <code>header</code> or <code>body</code>, do it as you prefer I am just following the current advice about where to load scripts, because it is no longer the 17th century and we have things like <code>async</code> and <code>defer</code>, which I am using here. For more info about those things see <a href="https://stackoverflow.com/a/24070373">this SO answer</a>.</p>
+</blockquote>
+<p>This will check in the frontmatter if you enabled <code>maths</code> in that post, therefore from now on whenever you want to add maths in a post you must add, in the frontmatter, the line</p>
+<pre><code>---
+maths: true
+---
+</code></pre>
+<p>Because of that I would, of course, suggest to add it in your <a href="https://gohugo.io/content-management/archetypes/">archetypes</a>, and if you don&rsquo;t need it for a certain post you just make it <code>false</code>.</p>
+<blockquote>
+<p><strong>Attention:</strong> The reason we are doing this, is so that no unnecessary <code>js</code> code is loaded everywhere and it is only used where needed, if you are not interested in that, then go and add all the scripts into the base template. Which I strongly disapprove and won&rsquo;t tell you how to do it (it might depend on your theme), you might be able to figure that out on your own.</p>
+</blockquote>
+<p>Finally, there is kind of a tricky part, which depending on how you have your Hugo project can or cannot be neccessary, it might also depend on your theme.
+The thing is that the <code>head.html</code> file that we created, might not be loaded into your base <code>html</code> template, and you will have to look for your main template file and add the line</p>
+<pre><code>{{ partial &quot;head&quot; . }}
+</code></pre>
+<p><strong>In my particular case</strong> (and be very mindful that this is a particular case), I am using a modified version of the theme <a href="https://themes.gohugo.io/themes/smol/">smol</a> and have kept some of the structure of the theme, so I added the line above in the file <code>themes/smol/layouts/_default/baseof.html</code> inside the <code>&lt;head&gt;</code> section. But this will depend on your own project.</p>
+<blockquote>
+<p><strong>Update at 6 Jun 2022:</strong> Turns out the above is not as dependant of the theme, since most themes have the same structure and you can very safely go and add the line to your <code>themes/&lt;your theme&gt;/layouts/_default/baseof.html</code> file. You just need to add it according to the file that loads scripts.</p>
+</blockquote>
+<blockquote>
+<p><strong>Update at 25 Feb 2024:</strong> It&rsquo;s best if you don&rsquo;t touch your theme folder ever again unless necessary, but instead copy the <code>baseof.html</code> to your website&rsquo;s <code>layouts</code> directory and edit the one there, Hugo will override the theme&rsquo;s setting if it finds a file with the same name in the base directory, this applies to any file from your theme. So this is for instance a better way to change your <code>style.css</code> as well.</p>
+</blockquote>
+<h2 id="final-words">Final words</h2>
+<p>There you go, you must now be able to use KaTeX on you Hugo website, of course syntax is like LaTeX and you will use <code>$ $</code> for inline equations and <code>$$ $$</code> for blocks.</p>
+<p>Have fun!</p>
+<h2 id="bonus-script-to-update-katex-linux">Bonus: Script to update KaTeX (Linux)</h2>
+<p>This is only tested on Linux, but might as well work in any other OS with the appropriate modifications, for that reason I will explain what each command does, and you can look for the commands that do the same in your OS (in MacOS might even work as it is).</p>
+<ul>
+<li>
+<p>Create a file named as you want to name it, I want it to be <code>update_katex</code>,</p>
+</li>
+<li>
+<p>make it executable by running <code>chmod +x update_katex</code>,</p>
+</li>
+<li>
+<p>add the following content</p>
+<pre tabindex="0"><code>#!/bin/sh
+curl -s https://api.github.com/repos/KaTeX/KaTeX/releases/latest \
+| grep &#34;browser_download_url.*tar.gz&#34; \
+| cut -d : -f 2,3 \
+| tr -d \&#34; \
+| wget -qi -
+
+tar -xf katex.tar.gz
+rm katex.tar.gz
+cp -r katex/fonts/ static/css/
+cp katex/katex.css static/css/
+cp katex/katex.js static/scripts/katex/
+cp katex/contrib/auto-render.js static/scripts/katex/
+</code></pre></li>
+</ul>
+<p>Let me explain the code above, first the pipelines sequence:</p>
+<ul>
+<li>
+<p><code>curl</code> retrieves the <code>json</code> file with the releases information, and the option <code>-s</code> is to make it silent,</p>
+</li>
+<li>
+<p><code>grep</code> looks for the pattern in quotes and returns the line that contains it,</p>
+</li>
+<li>
+<p><code>cut</code> deletes/keeps fragments of a string, the option <code>-d :</code> makes it look for the character <code>:</code> and make it the delimitator, so that with <code>-f</code> we chose the fragments with respect to the delimitator, in this case <code>2,3</code>,</p>
+</li>
+<li>
+<p><code>tr -d \&quot;</code> deletes the quotes</p>
+</li>
+<li>
+<p>we used <code>wget</code> before but now we give it the option <code>-q</code> for it to be quiet and <code>-i</code> to give it a file, <code>-</code> makes it take the value of that comes from the pipeline.</p>
+</li>
+</ul>
+<p>And then the rest of the commands are:</p>
+<ul>
+<li>
+<p><code>tar -xf katex.tar.gz</code> extracts file,</p>
+</li>
+<li>
+<p><code>rm katex.tar.gz</code> deletes the compressed archive,</p>
+</li>
+<li>
+<p>And then you copy stuff with <code>cp</code>.</p>
+</li>
+</ul>
+
+
+<div id="nextprev">
+<a href="/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/"><div id="prevart">Previous:<br>Acerca de toma de notas, hacer una wiki y así</div></a>
+<a href="/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/"><div id="nextart">Next:<br>Please Put Metadata in Your LaTeX Files</div></a>
+</div>
+
+</article>
+</main>
+
+<footer>
+	<a href="https://lmcj-xyz.github.io/">https://lmcj-xyz.github.io/</a><br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+#!/bin/sh
+curl -s https://api.github.com/repos/KaTeX/KaTeX/releases/latest \
+	| grep "browser_download_url.*tar.gz" \
+	| cut -d : -f 2,3 \
+	| tr -d \" \
+	| wget -qi -
+
+tar -xf katex.tar.gz
+rm katex.tar.gz
+cp -r katex/fonts/ static/css/
+cp katex/katex.css static/css/
+cp katex/katex.js static/scripts/katex/
+cp katex/contrib/auto-render.js static/scripts/katex/
