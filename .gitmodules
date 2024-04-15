@@ -1,3 +1,6 @@
 [submodule "themes/lugo"]
 	path = themes/lugo
 	url = https://github.com/LukeSmithxyz/lugo
+[submodule "themes/melange"]
+	path = themes/melange
+	url = https://github.com/lmcj-xyz/blank
