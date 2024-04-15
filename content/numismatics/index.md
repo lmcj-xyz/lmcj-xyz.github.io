@@ -85,14 +85,14 @@ Nothing fancy, mostly circulating tender.
 
 | Denomination  | Year | Obverse                | Reverse                |
 | :---          | :--- | :---                   | :---                   |
-| 2 euros       | 2018 | ![Euro Italiano Anverso 2EUR](  /images/numis_eur_it/EUR2_obv.jpg) | ![Euro Italiano Reverso 2EUR](  /images/numis_eur_it/EUR2_rev.jpg) |
-| 1 euro        | 2008 | ![Euro Italiano Anverso 1EUR](  /images/numis_eur_it/EUR1_obv.jpg) | ![Euro Italiano Reverso 1EUR](  /images/numis_eur_it/EUR1_rev.jpg) |
-| 50 cents      | 2020 | ![Euro Italiano Anverso 50c]( /images/numis_eur_it/EUR05_obv.jpg) | ![Euro Italiano Reverso 50c]( /images/numis_eur_it/EUR05_rev.jpg) |
-| 20 cents      | 2021 | ![Euro Italiano Anverso 20c]( /images/numis_eur_it/EUR02_obv.jpg) | ![Euro Italiano Reverso 20c]( /images/numis_eur_it/EUR02_rev.jpg) |
-| 10 cents      | 2021 | ![Euro Italiano Anverso 10c]( /images/numis_eur_it/EUR01_obv.jpg) | ![Euro Italiano Reverso 10c]( /images/numis_eur_it/EUR01_rev.jpg) |
-| 5 cents       | 2021 | ![Euro Italiano Anverso 5c](/images/numis_eur_it/EUR005_obv.jpg) | ![Euro Italiano Reverso 5c](/images/numis_eur_it/EUR005_rev.jpg) |
-| 2 cents       | 2013 | ![Euro Italiano Anverso 2c](/images/numis_eur_it/EUR002_obv.jpg) | ![Euro Italiano Reverso 2c](/images/numis_eur_it/EUR002_rev.jpg) |
-| 1 cent        | 2015 | ![Euro Italiano Anverso 1c](/images/numis_eur_it/EUR001_obv.jpg) | ![Euro Italiano Reverso 1c](/images/numis_eur_it/EUR001_rev.jpg) |
+| 2 euros       | 2018 | ![Euro Italiano Anverso 2EUR](  EUR2_obv.jpg) | ![Euro Italiano Reverso 2EUR](  EUR2_rev.jpg) |
+| 1 euro        | 2008 | ![Euro Italiano Anverso 1EUR](  EUR1_obv.jpg) | ![Euro Italiano Reverso 1EUR](  EUR1_rev.jpg) |
+| 50 cents      | 2020 | ![Euro Italiano Anverso 50c]( EUR05_obv.jpg) | ![Euro Italiano Reverso 50c]( EUR05_rev.jpg) |
+| 20 cents      | 2021 | ![Euro Italiano Anverso 20c]( EUR02_obv.jpg) | ![Euro Italiano Reverso 20c]( EUR02_rev.jpg) |
+| 10 cents      | 2021 | ![Euro Italiano Anverso 10c]( EUR01_obv.jpg) | ![Euro Italiano Reverso 10c]( EUR01_rev.jpg) |
+| 5 cents       | 2021 | ![Euro Italiano Anverso 5c](EUR005_obv.jpg) | ![Euro Italiano Reverso 5c](EUR005_rev.jpg) |
+| 2 cents       | 2013 | ![Euro Italiano Anverso 2c](EUR002_obv.jpg) | ![Euro Italiano Reverso 2c](EUR002_rev.jpg) |
+| 1 cent        | 2015 | ![Euro Italiano Anverso 1c](EUR001_obv.jpg) | ![Euro Italiano Reverso 1c](EUR001_rev.jpg) |
 
 # India (Indian rupee)
 

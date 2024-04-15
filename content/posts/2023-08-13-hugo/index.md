@@ -32,11 +32,11 @@ And how come you will tell us how to use GitHub pages if you don't even use it? 
 *You do what you are missing and come back here.
 I'll wait.*
 
-![Waiting for you](/images/gifs/relax.gif)
+![Waiting for you](relax.gif)
 
 **Oh god, finally!
 Okay let's get to work!**
-![Let's start](/images/gifs/work1.gif)
+![Let's start](work1.gif)
 
 ## Create a Hugo website {#create-site}
 
@@ -247,7 +247,7 @@ contains the following
 If you have used HTML before you might be wondering what those cursed curly brackets are? 
 Ahhh!!! 
 Behold the Hugo template.
-![Behold!!!](/images/gifs/behold.gif)
+![Behold!!!](behold.gif)
 
 So, what do we do now?
 Basically the way this works is that in between
@@ -298,7 +298,7 @@ in the
 `config.toml`,
 in my case it looks like this on the tab
 
-{{< figure src="/images/2023-08-13-hugo/title-tag.png" title="The title tag I set on the head tag" >}}
+{{< figure src="title-tag.png" title="The title tag I set on the head tag" >}}
 
 The next one is the standard way to include your CSS file to style the website, nothing fancy.
 But keep this in mind because we will have to create the
@@ -394,7 +394,7 @@ But you probably want something else, don't you?
 
 And the result is this
 
-{{< figure src="/images/2023-08-13-hugo/website.png" title="The result of the modifications to the HTML documents" width="90%" >}}
+{{< figure src="website.png" title="The result of the modifications to the HTML documents" width="90%" >}}
 
 For a complete read on templates go to
 [read the docs on Hugo templating](https://gohugo.io/templates/)
@@ -418,7 +418,7 @@ footer {
 }
 {{< / highlight >}}
 
-{{< figure src="/images/2023-08-13-hugo/website-styled.png" title="The result of the modifications to the HTML documents" width="90%" >}}
+{{< figure src="website-styled.png" title="The result of the modifications to the HTML documents" width="90%" >}}
 
 So now go and explore this and create your own theme.
 

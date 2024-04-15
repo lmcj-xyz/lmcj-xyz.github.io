@@ -121,11 +121,11 @@ I do, however, recommend to use any spreadsheet software to add all the tags you
 
 If you use a spreadsheet software to deal with your `.csv` file, just remember to tell it what to use as separator, in the case of LibreOffice Calc you should have a pop up window like this:
 
-{{<figure src="/images/2022-06-08-solution-metadata/popup.png" title="Calc pop up" width="80%">}}
+{{<figure src="popup.png" title="Calc pop up" width="80%">}}
 
 And then you will have a file like this:
 
-{{<figure src="/images/2022-06-08-solution-metadata/csvfile.png" title="Calc file" width="80%">}}
+{{<figure src="csvfile.png" title="Calc file" width="80%">}}
 
 > Actually if you have followed the tutorial, the third column on that image will be for you in the first column and will have the name `SourceFile`, this image is just for illustrative purposes.
 

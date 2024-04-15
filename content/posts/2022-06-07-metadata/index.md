@@ -40,6 +40,6 @@ Just as reference, if I add the following to my file
 
 and then I trow an `exiftool` at `main.pdf` will have the following metadata:
 
-![exiftool](/images/2022-06-07-metadata/metadata.png)
+![exiftool](metadata.png)
 
 There are many other ways to add useful and non intrusive metadata to files, but I guess if you use LaTeX this is the easiest way.
