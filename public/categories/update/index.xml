@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>What is LM doing?</title>
-	<link>https://lmcj-xyz.github.io/categories/update/</link>
+	<link>https://lmcj.xyz/categories/update/</link>
 	<description>Recent content in Update on What is LM doing?</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-gb</language>
 	<lastBuildDate>Wed, 21 Feb 2024 17:41:23 +0000</lastBuildDate>
     
-        <atom:link href="https://lmcj-xyz.github.io/categories/update/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://lmcj.xyz/categories/update/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Leeds Statistics &amp; Probability PGR Seminar Term 2 2023-24</title>
-		<link>https://lmcj-xyz.github.io/stats-seminar/2023-24-term2/</link>
+		<link>https://lmcj.xyz/stats-seminar/2023-24-term2/</link>
 		<pubDate>Wed, 28 Feb 2024 23:16:32 +0000</pubDate>
 		
-		<guid>https://lmcj-xyz.github.io/stats-seminar/2023-24-term2/</guid>
+		<guid>https://lmcj.xyz/stats-seminar/2023-24-term2/</guid>
 		<description>&lt;p&gt;This is &lt;em&gt;Term 2 2023-24&lt;/em&gt;, so all the dates below correspond to the year 2024&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Copyright disclaimer: The titles and abstracts of the talks are the property of the speakers and their colaborators.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;0228&#34;&gt;February 28th&lt;/h2&gt;
@@ -34,11 +34,11 @@
 	
 	<item>
 		<title>CV Professional</title>
-		<link>https://lmcj-xyz.github.io/cv_pro/</link>
+		<link>https://lmcj.xyz/cv_pro/</link>
 		<pubDate>Sun, 25 Feb 2024 09:55:59 +0000</pubDate>
 		
-		<guid>https://lmcj-xyz.github.io/cv_pro/</guid>
-		<description>&lt;p&gt;You can also download the &lt;a href=&#34;https://lmcj-xyz.github.io/docs/cv_pro.pdf&#34;&gt;PDF version&lt;/a&gt;.&lt;/p&gt;
+		<guid>https://lmcj.xyz/cv_pro/</guid>
+		<description>&lt;p&gt;You can also download the &lt;a href=&#34;https://lmcj.xyz/docs/cv_pro.pdf&#34;&gt;PDF version&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Last updated: &lt;em&gt;25th Feb 2024&lt;/em&gt;.&lt;/p&gt;
 &lt;h1 id=&#34;luis-mario-chaparro-jáquez&#34;&gt;Luis Mario Chaparro Jáquez&lt;/h1&gt;
 &lt;h2 id=&#34;contact&#34; class=&#34;unnumbered&#34;&gt;Contact information&lt;/h2&gt;
@@ -107,10 +107,10 @@
 	
 	<item>
 		<title>A Sed One Liner to Fix Date Format in Text Files</title>
-		<link>https://lmcj-xyz.github.io/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</link>
+		<link>https://lmcj.xyz/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</link>
 		<pubDate>Sat, 24 Feb 2024 18:30:54 +0000</pubDate>
 		
-		<guid>https://lmcj-xyz.github.io/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</guid>
+		<guid>https://lmcj.xyz/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</guid>
 		<description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;p&gt;This is a &lt;em&gt;know your tools entry&lt;/em&gt;, although I absolutely don&amp;rsquo;t know my tools as you will see if you read.&lt;/p&gt;
 &lt;p&gt;The following &amp;ldquo;one-liner&amp;rdquo; will change any wiki style link with a date string formatted as &amp;ldquo;Feb 22nd, 2024&amp;rdquo; to &amp;ldquo;2024-02-22&amp;rdquo;, god&amp;rsquo;s intended way to write a date.&lt;/p&gt;
@@ -266,10 +266,10 @@ You could potentially add the script to a directory on your &lt;code&gt;PATH&lt;
 	
 	<item>
 		<title>We Need Mediocre Reviews</title>
-		<link>https://lmcj-xyz.github.io/posts/2024-02-21-mediocre-reviews/</link>
+		<link>https://lmcj.xyz/posts/2024-02-21-mediocre-reviews/</link>
 		<pubDate>Wed, 21 Feb 2024 17:41:23 +0000</pubDate>
 		
-		<guid>https://lmcj-xyz.github.io/posts/2024-02-21-mediocre-reviews/</guid>
+		<guid>https://lmcj.xyz/posts/2024-02-21-mediocre-reviews/</guid>
 		<description>&lt;p&gt;Currently I am in a character development arc, in particular dealing with moving because the building management in my building is awful and has just left a leak to make my flat unfit for habitation, and because of that I have learned that one has to be very wary about the company or person which manages the building where you live.
 And in this search it seems like people who provide reviews for these kind of things have a very strong opinion either positive or negative.
 Which makes sense, since normally you only have to deal with the building management of a place when things go wrong, so you will either love them or hate them.&lt;/p&gt;
@@ -283,10 +283,10 @@ Which makes sense, since normally you only have to deal with the building manage
 	
 	<item>
 		<title>Leeds Statistics &amp; Probability PGR Seminar Term 1 2023-24</title>
-		<link>https://lmcj-xyz.github.io/stats-seminar/2023-24-term1/</link>
+		<link>https://lmcj.xyz/stats-seminar/2023-24-term1/</link>
 		<pubDate>Wed, 18 Oct 2023 23:16:32 +0000</pubDate>
 		
-		<guid>https://lmcj-xyz.github.io/stats-seminar/2023-24-term1/</guid>
+		<guid>https://lmcj.xyz/stats-seminar/2023-24-term1/</guid>
 		<description>&lt;p&gt;This is &lt;em&gt;Term 1 2023-24&lt;/em&gt;, so all the dates below correspond to the year 2023&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Copyright disclaimer: The titles and abstracts of the talks are the property of the speakers and their colaborators.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;1018&#34;&gt;18th October&lt;/h2&gt;
@@ -347,10 +347,10 @@ We assume that the diffusion coefficient is sufficiently regular and nondegenera
 	
 	<item>
 		<title>Leeds Stats PGR Seminar 2022-23 Term 2</title>
-		<link>https://lmcj-xyz.github.io/stats-seminar/2022-23-term2/</link>
+		<link>https://lmcj.xyz/stats-seminar/2022-23-term2/</link>
 		<pubDate>Fri, 10 Feb 2023 11:51:41 +0100</pubDate>
 		
-		<guid>https://lmcj-xyz.github.io/stats-seminar/2022-23-term2/</guid>
+		<guid>https://lmcj.xyz/stats-seminar/2022-23-term2/</guid>
 		<description>&lt;p&gt;This is &lt;em&gt;Term 2 2022-23&lt;/em&gt;, so all the dates below correspond to the year 2023&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Copyright disclaimer: The titles and abstracts of the talks are the property of the speakers and their colaborators.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;0210&#34;&gt;February 10th&lt;/h2&gt;
@@ -374,10 +374,10 @@ We assume that the diffusion coefficient is sufficiently regular and nondegenera
 	
 	<item>
 		<title>Numismatics</title>
-		<link>https://lmcj-xyz.github.io/numismatics/</link>
+		<link>https://lmcj.xyz/numismatics/</link>
 		<pubDate>Sun, 05 Feb 2023 01:13:17 +0000</pubDate>
 		
-		<guid>https://lmcj-xyz.github.io/numismatics/</guid>
+		<guid>https://lmcj.xyz/numismatics/</guid>
 		<description>&lt;p&gt;This is my coin and bank notes collection.
 Nothing fancy, mostly circulating tender.&lt;/p&gt;
 &lt;h1 id=&#34;méxico-mexican-peso&#34;&gt;México (Mexican peso)&lt;/h1&gt;
@@ -871,10 +871,10 @@ Nothing fancy, mostly circulating tender.&lt;/p&gt;
 	
 	<item>
 		<title>Leeds Stats PGR Seminar 2022-23 Term 1</title>
-		<link>https://lmcj-xyz.github.io/stats-seminar/2022-23-term1/</link>
+		<link>https://lmcj.xyz/stats-seminar/2022-23-term1/</link>
 		<pubDate>Fri, 07 Oct 2022 11:51:41 +0100</pubDate>
 		
-		<guid>https://lmcj-xyz.github.io/stats-seminar/2022-23-term1/</guid>
+		<guid>https://lmcj.xyz/stats-seminar/2022-23-term1/</guid>
 		<description>&lt;p&gt;This is &lt;em&gt;Term 1 2022-23&lt;/em&gt;, so all the dates below correspond to the year 2022.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Copyright disclaimer: The titles and abstracts of the talks are the property of the speakers and their colaborators.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;1014&#34;&gt;October 14th&lt;/h2&gt;
@@ -931,10 +931,10 @@ We investigate how individual decision-making affects the group’s collective b
 	
 	<item>
 		<title>Academic Profile</title>
-		<link>https://lmcj-xyz.github.io/academic/</link>
+		<link>https://lmcj.xyz/academic/</link>
 		<pubDate>Mon, 05 Sep 2022 23:14:12 +0100</pubDate>
 		
-		<guid>https://lmcj-xyz.github.io/academic/</guid>
+		<guid>https://lmcj.xyz/academic/</guid>
 		<description>&lt;p&gt;Currently I am a PhD student working under the supervision of
 &lt;a href=&#34;https://sites.google.com/view/elenaissoglio/home&#34;&gt;Elena Issoglio&lt;/a&gt;
 and
@@ -951,29 +951,29 @@ Also for one type of non-linear SDEs, namely involving the law of the solution k
 &lt;h3 id=&#34;turin-bath-phd-workshop-in-applied-probability-and-statistics&#34;&gt;Turin-Bath PhD Workshop in Applied Probability and Statistics&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://samba.ac.uk/turin-bath-phd-workshop-in-applied-probability-and-statistics-19-21-june-2023/&#34;&gt;About the event&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://lmcj-xyz.github.io/docs/2023_06_turin-bath_workshop_handout.pdf&#34;&gt;Handout (version 1.0)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://lmcj-xyz.github.io/docs/2023_06_turin-bath_workshop_slides.pdf&#34;&gt;Slides (version 1.0)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lmcj.xyz/docs/2023_06_turin-bath_workshop_handout.pdf&#34;&gt;Handout (version 1.0)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lmcj.xyz/docs/2023_06_turin-bath_workshop_slides.pdf&#34;&gt;Slides (version 1.0)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;sdes-with-low-regularity-coefficients-theory-and-numerics&#34;&gt;SDEs with Low-regularity Coefficients: Theory and Numerics&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://sites.google.com/view/singular-sdes2023/home&#34;&gt;About the event&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://lmcj-xyz.github.io/docs/2023_09_sdes.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lmcj.xyz/docs/2023_09_sdes.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;postgraduate-online-probability-seminar&#34;&gt;Postgraduate Online Probability Seminar&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://pg-prob-sem.github.io/sdes/Luis/&#34;&gt;About the event&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://lmcj-xyz.github.io/docs/POPS-2023-11-29.pdf&#34;&gt;Slides (blackboard style let&amp;rsquo;s go!)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lmcj.xyz/docs/POPS-2023-11-29.pdf&#34;&gt;Slides (blackboard style let&amp;rsquo;s go!)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
 	</item>
 	
 	<item>
 		<title>Academic CV</title>
-		<link>https://lmcj-xyz.github.io/cv_ac/</link>
+		<link>https://lmcj.xyz/cv_ac/</link>
 		<pubDate>Sun, 04 Sep 2022 20:32:52 +0100</pubDate>
 		
-		<guid>https://lmcj-xyz.github.io/cv_ac/</guid>
-		<description>&lt;p&gt;You can also &lt;a href=&#34;https://lmcj-xyz.github.io/docs/cv_ac.pdf&#34;&gt;download the PDF version&lt;/a&gt;.&lt;/p&gt;
+		<guid>https://lmcj.xyz/cv_ac/</guid>
+		<description>&lt;p&gt;You can also &lt;a href=&#34;https://lmcj.xyz/docs/cv_ac.pdf&#34;&gt;download the PDF version&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;luis-mario-chaparro-jáquez&#34;&gt;Luis Mario Chaparro Jáquez&lt;/h2&gt;
 &lt;p&gt;2nd year PhD Student at the University of Leeds&lt;br&gt;
 Updated: September 5th 2022&lt;/p&gt;
@@ -1107,10 +1107,10 @@ for Olympic Trainers&lt;/em&gt;)&lt;/strong&gt;. Pachuca, México. March 17-20, 
 	
 	<item>
 		<title>External links and contact info</title>
-		<link>https://lmcj-xyz.github.io/external/</link>
+		<link>https://lmcj.xyz/external/</link>
 		<pubDate>Sun, 04 Sep 2022 20:22:29 +0100</pubDate>
 		
-		<guid>https://lmcj-xyz.github.io/external/</guid>
+		<guid>https://lmcj.xyz/external/</guid>
 		<description>&lt;p&gt;You can contact me over&amp;hellip;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Email: &lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;mailto:contact@lmcj.xyz&#34;&gt;contact@lmcj.xyz&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
@@ -1136,10 +1136,10 @@ for Olympic Trainers&lt;/em&gt;)&lt;/strong&gt;. Pachuca, México. March 17-20, 
 	
 	<item>
 		<title>Donations</title>
-		<link>https://lmcj-xyz.github.io/donate/</link>
+		<link>https://lmcj.xyz/donate/</link>
 		<pubDate>Sun, 04 Sep 2022 16:22:58 +0100</pubDate>
 		
-		<guid>https://lmcj-xyz.github.io/donate/</guid>
+		<guid>https://lmcj.xyz/donate/</guid>
 		<description>&lt;p&gt;If you like what I do, consider donating for me to keep posting stuff.&lt;/p&gt;
 &lt;h2 id=&#34;monero-xmr&#34;&gt;Monero (XMR)&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;monero.png&#34; alt=&#34;XMR&#34;&gt;&lt;/p&gt;
@@ -1157,10 +1157,10 @@ for Olympic Trainers&lt;/em&gt;)&lt;/strong&gt;. Pachuca, México. March 17-20, 
 	
 	<item>
 		<title>How to Fix Metadata of Pdf Files</title>
-		<link>https://lmcj-xyz.github.io/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</link>
+		<link>https://lmcj.xyz/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</link>
 		<pubDate>Tue, 07 Jun 2022 23:56:15 +0200</pubDate>
 		
-		<guid>https://lmcj-xyz.github.io/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</guid>
+		<guid>https://lmcj.xyz/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</guid>
 		<description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Important disclaimer:&lt;/strong&gt; For your own benefit you should never run random commands you find on the internet, this is why whenever I tell you to run a command, immediately after I will let you know exactly what it does. Feel free to check the documentation of the command to be sure I am not lying to you.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1332,10 +1332,10 @@ This is why &lt;a href=&#34;https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put
 	
 	<item>
 		<title>Please Put Metadata in Your LaTeX Files</title>
-		<link>https://lmcj-xyz.github.io/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/</link>
+		<link>https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/</link>
 		<pubDate>Tue, 07 Jun 2022 23:20:48 +0200</pubDate>
 		
-		<guid>https://lmcj-xyz.github.io/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/</guid>
+		<guid>https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/</guid>
 		<description>&lt;p&gt;Today I wanted to homogenize the naming on my &lt;strong&gt;totally legally downloaded&lt;/strong&gt; (😉) collection of maths books, just to (unsurprisingly) see just how messed up the metadata of files you get online is.&lt;/p&gt;
 &lt;p&gt;And well, I will fix that for my files but it takes some time, and I will gift you the method I came up with to do so, once I finish. But for now, and since I was of course also guilty of not adding metadata to my documents before today, this is just a reminder of how to add metadata to documents typesetted with LaTeX.&lt;/p&gt;
 &lt;p&gt;Make sure you are using the package &lt;code&gt;hyperref&lt;/code&gt; (which you should because your documents also have bookmarks and links between sections and things. Don&amp;rsquo;t they? 😑) and in your preamble just add this:&lt;/p&gt;
@@ -1359,10 +1359,10 @@ This is why &lt;a href=&#34;https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put
 	
 	<item>
 		<title>Using KaTex Locally for Maths Typesetting in Hugo</title>
-		<link>https://lmcj-xyz.github.io/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</link>
+		<link>https://lmcj.xyz/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</link>
 		<pubDate>Sun, 05 Jun 2022 12:53:26 +0200</pubDate>
 		
-		<guid>https://lmcj-xyz.github.io/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</guid>
+		<guid>https://lmcj.xyz/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</guid>
 		<description>&lt;p&gt;If you work or study on mathematics related fields and have a website, you might often want to share your knowledge with the world.
 Of course, doing it is rather easy with many website creation tools, and there are also many tutorials to do it with any tool you can think of.&lt;/p&gt;
 &lt;p&gt;So, I want to tell you how to do it using the static site generator
@@ -1611,10 +1611,10 @@ cp katex/contrib/auto-render.js static/scripts/katex/
 	
 	<item>
 		<title>Acerca de toma de notas, hacer una wiki y así</title>
-		<link>https://lmcj-xyz.github.io/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/</link>
+		<link>https://lmcj.xyz/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/</link>
 		<pubDate>Sun, 20 Mar 2022 15:51:15 +0000</pubDate>
 		
-		<guid>https://lmcj-xyz.github.io/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/</guid>
+		<guid>https://lmcj.xyz/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/</guid>
 		<description>&lt;p&gt;Hace poco decidí mantener mis notas de todo lo posible usando el plugin para vim/neovim&lt;br&gt;
 vimwiki pero terminé usando Obsidian.&lt;/p&gt;
 &lt;p&gt;Todo comenzó cuando por el inicio de febrero &lt;a href=&#34;https://www.luevano.xyz/&#34;&gt;EL DAVID&lt;/a&gt; me recordó que &lt;a href=&#34;https://joplinapp.org/&#34;&gt;Joplin&lt;/a&gt; existe, lo que derivó en una conversación sobre toma de notas y &lt;em&gt;sISteMas dE gEStIón De COnOcIMiEnTo&lt;/em&gt; (PKM por Personal Knowledge Management) y salió a relucir &lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt;. Sobre lo cual EL DAVID dijo:&lt;/p&gt;
@@ -1776,10 +1776,10 @@ Por lo tanto Vimwiki no puedo usarlo, al menos para notas del doctorado que se t
 	
 	<item>
 		<title>Me he rendido y usaré WordPress</title>
-		<link>https://lmcj-xyz.github.io/posts/2022-03-20-me-he-rendido-y-usare-wordpress/</link>
+		<link>https://lmcj.xyz/posts/2022-03-20-me-he-rendido-y-usare-wordpress/</link>
 		<pubDate>Sun, 20 Mar 2022 02:49:20 +0000</pubDate>
 		
-		<guid>https://lmcj-xyz.github.io/posts/2022-03-20-me-he-rendido-y-usare-wordpress/</guid>
+		<guid>https://lmcj.xyz/posts/2022-03-20-me-he-rendido-y-usare-wordpress/</guid>
 		<description>&lt;p&gt;Después de un montón de tiempo intentando varias maneras de manejar mi sitio web, he caído en la cuenta de que en mi afán de tener una configuración mínima y con pocas dependencias no he logrado nada, lo cual se traduce también en mi productividad y demás cosas en las que no voy a ahondar.&lt;/p&gt;
 &lt;p&gt;Por lo tanto decidí &lt;em&gt;deployear&lt;/em&gt; un sitio de WordPress en &lt;a href=&#34;https://vultr.com/&#34;&gt;Vultr&lt;/a&gt;, y comenzar a realmente compartir lo que hago porque si no nunca voy a estar contento con la forma en que tengo las cosas.&lt;/p&gt;
 &lt;p&gt;Mi problema es sobre todo la influencia, a veces ridícula, de gente en el mundo de &lt;em&gt;liNuX&lt;/em&gt; de usar software minimalista. Lo cual considero que es muy bueno e intento hacerlo cuanto puedo, sin embargo en ocasiones simplemente no es la mejor herramienta para lo que quieres hacer o no tienes el tiempo, la habilidad o la paciencia para configurar las herramientas a tu gusto. Por lo tanto opciones como WordPress, que por cierto es software libre, llegan a salvar el día.&lt;/p&gt;
