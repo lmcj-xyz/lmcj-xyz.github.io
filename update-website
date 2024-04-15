@@ -1,2 +1,3 @@
 #!/bin/sh
-rsync -avz --delete-after --delete-excluded --exclude={'public/.git'} public/ rime@lmcj.xyz:/var/www/lmcj.xyz/
+# Only relevant when hosted in a VPS
+rsync -avz --delete-after --delete-excluded --exclude={'public/.git'} public/ <user>@lmcj.xyz:/var/www/lmcj.xyz/
