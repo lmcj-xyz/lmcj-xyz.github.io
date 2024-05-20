@@ -19,17 +19,18 @@ Also for one type of non-linear SDEs, namely involving the law of the solution k
 ## Material from presentations {#Presentations}
 
 ### Turin-Bath PhD Workshop in Applied Probability and Statistics
-
 - [About the event](https://samba.ac.uk/turin-bath-phd-workshop-in-applied-probability-and-statistics-19-21-june-2023/)
-- [Handout (version 1.0)](/docs/2023_06_turin-bath_workshop_handout.pdf)
-- [Slides (version 1.0)](/docs/2023_06_turin-bath_workshop_slides.pdf)
+- [Handout (version 1.0)](2023_06_turin-bath_workshop_handout.pdf)
+- [Slides (version 1.0)](2023_06_turin-bath_workshop_slides.pdf)
 
 ### SDEs with Low-regularity Coefficients: Theory and Numerics 
-
 - [About the event](https://sites.google.com/view/singular-sdes2023/home)
-- [Slides](/docs/2023_09_sdes.pdf)
+- [Slides](2023_09_sdes.pdf)
 
 ### Postgraduate Online Probability Seminar
-
 - [About the event](https://pg-prob-sem.github.io/sdes/Luis/)
-- [Slides (blackboard style let's go!)](/docs/POPS-2023-11-29.pdf)
+- [Slides (blackboard style let's go!)](POPS-2023-11-29.pdf)
+
+### Pure PGR Seminar Leeds, 20th May 2024
+- [Notes](2024-05-20-Pure.pdf)
+- [The backboard prep notes](2024-05-20-Blackboard.pdf)

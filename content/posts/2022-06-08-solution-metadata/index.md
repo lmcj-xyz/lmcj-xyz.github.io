@@ -50,7 +50,7 @@ There they explain what each tool does, but on the spirit of self-containment I 
 
 3. Linearise your file for fast web loading
 
-```{sh}
+```
 #!/bin/sh
 # make it a function (optional)
 clean(){
