@@ -33,5 +33,5 @@ Also for one type of non-linear SDEs, namely involving the law of the solution k
 
 ### Markov processes and their friends
 In the Pure PGR Seminar Leeds, 20th May 2024
-- [Notes](2024-05-20-Pure.pdf)
+- [Notes version 1.1](2024-05-20-Pure.pdf) (Added some gray boxes as guidance)
 - [The backboard prep notes](2024-05-20-Blackboard.pdf)

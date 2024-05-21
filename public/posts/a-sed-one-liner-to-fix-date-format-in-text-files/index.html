@@ -5,7 +5,6 @@
 	<link rel="canonical" href="https://lmcj.xyz/">
 	<link rel='alternate' type='application/rss+xml' title="What is LM doing? RSS" href='/index.xml'>
 	<link rel='stylesheet' type='text/css' href='/style.css'>
-	<link rel="icon" href="/favicon.ico">
 	<meta name="description" content="TL;DR This is a know your tools entry, although I absolutely don&rsquo;t know my tools as you will see if you read.
 The following &ldquo;one-liner&rdquo; will change any wiki style link with a date string formatted as &ldquo;Feb 22nd, 2024&rdquo; to &ldquo;2024-02-22&rdquo;, god&rsquo;s intended way to write a date.
 Please forgive the search and replace gore of the second sed.
@@ -25,10 +24,15 @@ sed -E &#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&#39
     </ul>
 </nav>
 <main>
-<header><h1 id="tag_A Sed One Liner to Fix Date Format in Text Files">A Sed One Liner to Fix Date Format in Text Files</h1></header>
+<header><h1 id="tag_A Sed One Liner to Fix Date Format in Text Files"></h1></header>
 <article>
 
-<h2 id="tldr">TL;DR</h2>
+	<main>
+		<article>
+			<h1>A Sed One Liner to Fix Date Format in Text Files</h1>
+			<time datetime="2024-02-24T18:30:54">24.02.2024 18:30</time>
+			<div>
+				<h2 id="tldr">TL;DR</h2>
 <p>This is a <em>know your tools entry</em>, although I absolutely don&rsquo;t know my tools as you will see if you read.</p>
 <p>The following &ldquo;one-liner&rdquo; will change any wiki style link with a date string formatted as &ldquo;Feb 22nd, 2024&rdquo; to &ldquo;2024-02-22&rdquo;, god&rsquo;s intended way to write a date.</p>
 <p>Please forgive the search and replace gore of the second <code>sed</code>.</p>
@@ -179,17 +183,48 @@ done
 You could potentially add the script to a directory on your <code>PATH</code> and not have to move your script around, but I didn&rsquo;t do it because most likely I won&rsquo;t need the script ever again, so I just spent a few hours writing a &ldquo;one-liner&rdquo; sed to change the date format in files and documenting it on this entry.</p>
 <p>It was quite fun.</p>
 
+			</div>
+			
+			<div>
+				<ul id="tags">
+					
+					<li><a href="/tags/software">Software</a></li>
+					
+				</ul>
+			</div>
+			
+			
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/posts/talk-markov-processes-and-their-friends/">Talk: Markov Processes and Their Friends</a></li>
+				
+				<li><a href="/posts/a-sed-one-liner-to-fix-date-format-in-text-files/">A Sed One Liner to Fix Date Format in Text Files</a></li>
+				
+				<li><a href="/posts/2024-02-21-mediocre-reviews/">We Need Mediocre Reviews</a></li>
+				
+				<li><a href="/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/">How to Fix Metadata of Pdf Files</a></li>
+				
+				<li><a href="/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/">Please Put Metadata in Your LaTeX Files</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
 
-<div id="nextprev">
-<a href="/posts/2024-02-21-mediocre-reviews/"><div id="prevart">Previous:<br>We Need Mediocre Reviews</div></a>
-<a href="/cv_pro/"><div id="nextart">Next:<br>CV Professional</div></a>
-</div>
 
 </article>
 </main>
 
 <footer>
-	<a href="https://lmcj.xyz/">https://lmcj.xyz/</a><br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>
+	<a href="https://lmcj.xyz/">https://lmcj.xyz/</a>
 </footer>
 
 </body>
