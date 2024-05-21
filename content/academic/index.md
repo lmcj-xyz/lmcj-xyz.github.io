@@ -31,6 +31,7 @@ Also for one type of non-linear SDEs, namely involving the law of the solution k
 - [About the event](https://pg-prob-sem.github.io/sdes/Luis/)
 - [Slides (blackboard style let's go!)](POPS-2023-11-29.pdf)
 
-### Pure PGR Seminar Leeds, 20th May 2024
+### Markov processes and their friends
+In the Pure PGR Seminar Leeds, 20th May 2024
 - [Notes](2024-05-20-Pure.pdf)
 - [The backboard prep notes](2024-05-20-Blackboard.pdf)
