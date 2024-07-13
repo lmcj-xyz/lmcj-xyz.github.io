@@ -14,7 +14,7 @@ The following "one-liner" will change any wiki style link with a date string for
 
 Please forgive the search and replace gore of the second `sed`.
 
-```
+```sh
 sed -E 's;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;' "$1" | 
 	sed -E 's/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/' | 
 	sed -E 's;-([0-9])\];-0\1];' > "$1".done
