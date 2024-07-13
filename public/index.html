@@ -7,7 +7,7 @@
 	<link rel='alternate' type='application/rss+xml' title="What is LM doing? RSS" href='/index.xml'>
 	<link rel='stylesheet' type='text/css' href='/style.css'>
 	<meta name="description" content="The website of LM I am Luis Mario Chaparro Jáquez (LM for short), a PhD student on mathematics with interests in free software, music and some other stuff.
-Research output Convergence rate of numerical scheme for SDEs with a distributional drift in Besov space. Luis Mario Chaparro Jáquez, Elena Issoglio, Jan Palczewski. Sept 2023. ArXiV. Here you will find&hellip; 📅 Calendar for Leeds Stats &amp; Probability PGR Seminar 🧮 Academic interests and research projects 🏭 Industry CV 🌅 Academic CV and Profile 📔 Blog with updates and other texts 🔗 External links Main pages by date of creation ">
+Research output Convergence rate of numerical scheme for SDEs with a distributional drift in Besov space. Luis Mario Chaparro Jáquez, Elena Issoglio, Jan Palczewski. Sept 2023. ArXiV. Here you will find&hellip; 🧮 Academic interests and research projects 🏭 Industry CV 🌅 Academic CV and Profile 📔 Blog with updates and other texts 🔗 External links ">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index, follow">
 	<meta charset="utf-8">
@@ -27,111 +27,23 @@ Research output Convergence rate of numerical scheme for SDEs with a distributio
 
 	<main>
 		
-		
-			<article>
-	<h1><a href="https://lmcj.xyz/posts/talk-markov-processes-and-their-friends/">Talk: Markov Processes and Their Friends</a></h1>
-	<time datetime="2024-05-21T17:33:13">21.05.2024 17:33</time>
-	
-	<div>
-		I have prepared a talk which I intend to be my &ldquo;sure, I can give a talk&rdquo; if anyone asks me at any point.
-The name is &ldquo;Markov processes and their friends&rdquo; and you can find the first version of it at the end of the Academic profile.
-Or here:
-Notes The backboard prep notes Those notes are the version one of the talk, presented in the Pure PGR Seminar in Leeds.
-		
-			<a href="https://lmcj.xyz/posts/talk-markov-processes-and-their-friends/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://lmcj.xyz/posts/a-sed-one-liner-to-fix-date-format-in-text-files/">A Sed One Liner to Fix Date Format in Text Files</a></h1>
-	<time datetime="2024-02-24T18:30:54">24.02.2024 18:30</time>
-	
-	<a href="/tags/software">Software</a>
-	
-	<div>
-		TL;DR This is a know your tools entry, although I absolutely don&rsquo;t know my tools as you will see if you read.
-The following &ldquo;one-liner&rdquo; will change any wiki style link with a date string formatted as &ldquo;Feb 22nd, 2024&rdquo; to &ldquo;2024-02-22&rdquo;, god&rsquo;s intended way to write a date.
-Please forgive the search and replace gore of the second sed.
-sed -E &#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&#39; &#34;$1&#34; | sed -E &#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&#39; | sed -E &#39;s;-([0-9])\];-0\1];&#39; &gt; &#34;$1&#34;.
-		
-			<a href="https://lmcj.xyz/posts/a-sed-one-liner-to-fix-date-format-in-text-files/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://lmcj.xyz/posts/2024-02-21-mediocre-reviews/">We Need Mediocre Reviews</a></h1>
-	<time datetime="2024-02-21T17:41:23">21.02.2024 17:41</time>
-	
-	<a href="/tags/personal">Personal</a>
-	
-	<div>
-		Currently I am in a character development arc, in particular dealing with moving because the building management in my building is awful and has just left a leak to make my flat unfit for habitation, and because of that I have learned that one has to be very wary about the company or person which manages the building where you live. And in this search it seems like people who provide reviews for these kind of things have a very strong opinion either positive or negative.
-		
-			<a href="https://lmcj.xyz/posts/2024-02-21-mediocre-reviews/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://lmcj.xyz/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/">How to Fix Metadata of Pdf Files</a></h1>
-	<time datetime="2022-06-07T23:56:15">07.06.2022 23:56</time>
-	
-	<a href="/tags/software">Software</a>
-	
-	<div>
-		Important disclaimer: For your own benefit you should never run random commands you find on the internet, this is why whenever I tell you to run a command, immediately after I will let you know exactly what it does. Feel free to check the documentation of the command to be sure I am not lying to you.
-This is a follow up of the quick entry I made previously on how to put metadata on your LaTeX generated documents.
-		
-			<a href="https://lmcj.xyz/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/">Please Put Metadata in Your LaTeX Files</a></h1>
-	<time datetime="2022-06-07T23:20:48">07.06.2022 23:20</time>
-	
-	<a href="/tags/software">Software</a>
-	
-	<div>
-		Today I wanted to homogenize the naming on my totally legally downloaded (😉) collection of maths books, just to (unsurprisingly) see just how messed up the metadata of files you get online is.
-And well, I will fix that for my files but it takes some time, and I will gift you the method I came up with to do so, once I finish. But for now, and since I was of course also guilty of not adding metadata to my documents before today, this is just a reminder of how to add metadata to documents typesetted with LaTeX.
-		
-			<a href="https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://lmcj.xyz/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/">Using KaTex Locally for Maths Typesetting in Hugo</a></h1>
-	<time datetime="2022-06-05T12:53:26">05.06.2022 12:53</time>
-	
-	<a href="/tags/software">Software</a>
-	
-	<a href="/tags/mathematics">Mathematics</a>
-	
-	<div>
-		If you work or study on mathematics related fields and have a website, you might often want to share your knowledge with the world. Of course, doing it is rather easy with many website creation tools, and there are also many tutorials to do it with any tool you can think of.
-So, I want to tell you how to do it using the static site generator Hugo and the JavaScript library KaTeX.
-		
-			<a href="https://lmcj.xyz/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-		<div>
-
-1 of 1
-
-</div>
+		<h1 id="the-website-of-lm">The website of LM</h1>
+<p><em>I am <strong>Luis Mario Chaparro Jáquez</strong> (LM for short), a PhD student on mathematics with interests in free software, music and some other stuff.</em></p>
+<h2 id="research-output">Research output</h2>
+<ul>
+<li><strong>Convergence rate of numerical scheme for SDEs with a distributional drift in Besov space</strong>.
+Luis Mario Chaparro Jáquez, <a href="https://sites.google.com/view/elenaissoglio">Elena Issoglio</a>, <a href="https://www1.maths.leeds.ac.uk/~jp/">Jan Palczewski</a>.
+<em>Sept 2023</em>. <a href="https://arxiv.org/abs/2309.11396">ArXiV</a>.</li>
+</ul>
+<h2 id="here-you-will-find">Here you will find&hellip;</h2>
+<!-- raw HTML omitted -->
+<ul>
+<li>🧮 <a href="/academic">Academic interests and research projects</a></li>
+<li>🏭 <a href="/cv_pro">Industry CV</a></li>
+<li>🌅 <a href="/cv_ac">Academic CV</a> and <a href="/academic">Profile</a></li>
+<li>📔 <a href="/posts/">Blog with updates and other texts</a></li>
+<li>🔗 <a href="/external">External links</a></li>
+</ul>
 
 	</main>
 <aside>

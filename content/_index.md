@@ -10,11 +10,9 @@ Luis Mario Chaparro Jáquez, [Elena Issoglio](https://sites.google.com/view/elen
 
 ## Here you will find...
 
-- 📅 [Calendar for Leeds Stats & Probability PGR Seminar](/stats-seminar)
+<!--- 📅 [Calendar for Leeds Stats & Probability PGR Seminar](/stats-seminar)-->
 - 🧮 [Academic interests and research projects](/academic)
 - 🏭 [Industry CV](/cv_pro)
 - 🌅 [Academic CV](/cv_ac) and [Profile](/academic)
 - 📔 [Blog with updates and other texts](/posts/)
 - 🔗 [External links](/external)
-
-### Main pages by date of creation
