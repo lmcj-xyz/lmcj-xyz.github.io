@@ -36,10 +36,10 @@ sed -E &#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&#39
 <p>This is a <em>know your tools entry</em>, although I absolutely don&rsquo;t know my tools as you will see if you read.</p>
 <p>The following &ldquo;one-liner&rdquo; will change any wiki style link with a date string formatted as &ldquo;Feb 22nd, 2024&rdquo; to &ldquo;2024-02-22&rdquo;, god&rsquo;s intended way to write a date.</p>
 <p>Please forgive the search and replace gore of the second <code>sed</code>.</p>
-<pre tabindex="0"><code>sed -E &#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&#39; &#34;$1&#34; | 
-	sed -E &#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&#39; | 
-	sed -E &#39;s;-([0-9])\];-0\1];&#39; &gt; &#34;$1&#34;.done
-</code></pre><h2 id="the-lore">The lore</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>sed -E <span style="color:#e6db74">&#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&#39;</span> <span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span> | 
+</span></span><span style="display:flex;"><span>	sed -E <span style="color:#e6db74">&#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&#39;</span> | 
+</span></span><span style="display:flex;"><span>	sed -E <span style="color:#e6db74">&#39;s;-([0-9])\];-0\1];&#39;</span> &gt; <span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span>.done
+</span></span></code></pre></div><h2 id="the-lore">The lore</h2>
 <p>I had a problem: <a href="https://logseq.com/">Logseq</a> is my note taking software of choice, it&rsquo;s an <a href="https://en.wikipedia.org/wiki/Outliner">outliner</a> which stores files in Markdown format so they are <em>time-proof</em>. Anyway, I wanted my Logseq wiki to be interoperable with <a href="https://obsidian.md/">Obsidian</a> because the latter respects the Markdown a bit more than the former.</p>
 <p>In Logseq you can create Journals/Daily notes, which are ways to track your daily tasks, meetings, or regular notes; or at least that is what I do.
 A Journal is just another Markdown file and you can edit it as any other page, and one of the most convenient things of Logseq are its commands.
@@ -204,6 +204,8 @@ You could potentially add the script to a directory on your <code>PATH</code> an
 		<div>
 			<ul>
 				
+				<li><a href="/posts/multiple-sandwich/">Multiple Sandwich</a></li>
+				
 				<li><a href="/posts/talk-markov-processes-and-their-friends/">Talk: Markov Processes and Their Friends</a></li>
 				
 				<li><a href="/posts/a-sed-one-liner-to-fix-date-format-in-text-files/">A Sed One Liner to Fix Date Format in Text Files</a></li>
@@ -211,8 +213,6 @@ You could potentially add the script to a directory on your <code>PATH</code> an
 				<li><a href="/posts/2024-02-21-mediocre-reviews/">We Need Mediocre Reviews</a></li>
 				
 				<li><a href="/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/">How to Fix Metadata of Pdf Files</a></li>
-				
-				<li><a href="/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/">Please Put Metadata in Your LaTeX Files</a></li>
 				
 			</ul>
 		</div>

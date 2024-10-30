@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+	<title>Multiple Sandwich | What is LM doing?</title>
+	<link rel="canonical" href="https://lmcj.xyz/">
+	<link rel='alternate' type='application/rss+xml' title="What is LM doing? RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+	<meta name="description" content="Problem: Consider an array A of length m with only non-negative integer entries, then take the sum of the entries of A and denote it by s. And find the smallest number p that is a multiple of m and is greater or equal than s.
+This was a teeny tiny part of a timed coding question that I blew because I decided to, as any good mathematician would do, overthink it.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+	
+
+<link rel="stylesheet" href="/css/katex.css">
+
+
+<script defer src="/scripts/katex/katex.js"></script>
+
+
+<script defer src="/scripts/katex/auto-render.js" onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+</script>
+
+
+</head>
+<body>
+<nav>
+    <ul>
+	<li><a href="/"><span class=pre></span><span class=menuname>🏠 Home</span></a></li>
+	<li><a class="menuactive" href="/posts/"><span class=pre></span><span class=menuname>📓 Posts</span></a></li>
+    </ul>
+</nav>
+<main>
+<header><h1 id="tag_Multiple Sandwich"></h1></header>
+<article>
+
+	<main>
+		<article>
+			<h1>Multiple Sandwich</h1>
+			<time datetime="2024-10-30T08:18:07">30.10.2024 08:18</time>
+			<div>
+				<blockquote>
+<p><strong>Problem:</strong> Consider an array <code>A</code> of length <code>m</code> with only non-negative integer entries, then take the sum of the entries of <code>A</code> and denote it by <code>s</code>.
+And find the smallest number <code>p</code> that is a multiple of <code>m</code> and is greater or equal than <code>s</code>.</p>
+</blockquote>
+<p>This was a teeny tiny part of a timed coding question that I blew because I decided to, as any good mathematician would do, overthink it.
+So I decided to document it since anyway the damage is done.</p>
+<p>My first <em>grug</em> thought was to use a while loop that which stops when we find a multiple of <code>m</code> that is greater or equal than <code>s</code>.
+But then I realized that, I am sure the following holds:</p>
+<blockquote>
+<p><strong>Proposition:</strong> Let $m, n \in \mathbb N$ such that $m \geq n \geq 0$ then there exists $k \in \mathbb N$ such that
+$$kn \leq m \leq (k+1)n.$$</p>
+</blockquote>
+<p>Meaning that for any pair of numbers we can sandwich one in between consecutive multiples of the other.</p>
+<p>That proposition is true, and after my time ran out to solve to overall problem, I decided to prove it.
+But in a reckless move I decided to use that result in my code without having mathematical evidence that it was going to work.</p>
+<p>The way I used it was to take the sum <code>s = sum(A)</code> and the length <code>m = length(A)</code> of the array <code>A</code>
+&mdash;which I will denote as the functions <code>sum</code> and <code>lenght</code> for pseudo code&rsquo;s sake&mdash;
+and take its integer division quotient, this is <code>floor(sum(A) / length(A)</code>.
+So, in this way the smallest multiple of <code>m</code> that is greater than or equal to <code>s</code> is either  <code>floor(sum(A) / length(A)) * sum(A)</code> or  <code>(floor(sum(A) / length(A) + 1) * sum(A)</code> depending on whether or not <code>s</code> is a multiple of <code>m</code>.
+The pseudo code would look like this:</p>
+<pre tabindex="0"><code>if floor(sum(A) / length(A)) * sum(A) &lt; sum(A)
+    then return (floor(sum(A) / length(A)) + 1) * sum(A)
+else return floor(sum(A) / length(A)) * sum(A)
+</code></pre><p>You could of course recover instead the factor that makes the multiple you are after, which is actually more akin to what I needed.
+But the pseudo code and the approach is basically the same.</p>
+<p>So yeh, there you go.
+The point is that we cannot use a mathematical result without a proof, so here is my proof to the proposition above.</p>
+<blockquote>
+<p><em>Proof:</em> If $m$ is a multiple of $n$ then obviously we can find some $k$ such that $m = kn$ or $m = (k+1)n$ and the equalities hold.
+If $m$ is not a multiple of $n$, we know that in particular for any $a, b \in \mathbb N$ where $b \neq 0$ there are $r, q \in \mathbb N$ such that $a = bq + r$ for $r &lt; b$.
+This is called the <a href="https://en.wikipedia.org/wiki/Euclidean_division">division with remainder theorem</a>&mdash;also called Euclidean division.
+So, let $a = m$ and $b = n$ and we have that $m = qn + r$ for $r &lt; n$.
+It&rsquo;s obvious then that $m &gt; qn$ since $r &gt; 0$.
+Moreover, since $r &lt; n$ we have that $m &lt; qn + n = (q + 1)n$.</p>
+</blockquote>
+<p>You may find an either more elegant or more jarring proof, but it&rsquo;s true and now I can rest.</p>
+
+			</div>
+			
+			
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/posts/multiple-sandwich/">Multiple Sandwich</a></li>
+				
+				<li><a href="/posts/talk-markov-processes-and-their-friends/">Talk: Markov Processes and Their Friends</a></li>
+				
+				<li><a href="/posts/a-sed-one-liner-to-fix-date-format-in-text-files/">A Sed One Liner to Fix Date Format in Text Files</a></li>
+				
+				<li><a href="/posts/2024-02-21-mediocre-reviews/">We Need Mediocre Reviews</a></li>
+				
+				<li><a href="/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/">How to Fix Metadata of Pdf Files</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+</article>
+</main>
+
+<footer>
+	<a href="https://lmcj.xyz/">https://lmcj.xyz/</a>
+</footer>
+
+</body>
+</html>

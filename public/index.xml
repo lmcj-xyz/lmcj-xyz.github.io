@@ -6,8 +6,15 @@
     <description>Recent content on What is LM doing?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 21 May 2024 17:33:13 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2024 08:18:07 +0000</lastBuildDate>
     <atom:link href="https://lmcj.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multiple Sandwich</title>
+      <link>https://lmcj.xyz/posts/multiple-sandwich/</link>
+      <pubDate>Wed, 30 Oct 2024 08:18:07 +0000</pubDate>
+      <guid>https://lmcj.xyz/posts/multiple-sandwich/</guid>
+      <description>Problem: Consider an array A of length m with only non-negative integer entries, then take the sum of the entries of A and denote it by s. And find the smallest number p that is a multiple of m and is greater or equal than s.&#xA;This was a teeny tiny part of a timed coding question that I blew because I decided to, as any good mathematician would do, overthink it.</description>
+    </item>
     <item>
       <title>Talk: Markov Processes and Their Friends</title>
       <link>https://lmcj.xyz/posts/talk-markov-processes-and-their-friends/</link>
