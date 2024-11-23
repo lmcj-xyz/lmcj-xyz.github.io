@@ -1,5 +1,6 @@
 body {
 	font-family: sans-serif;
+	font-size: 14pt;
 	background: #292522;
 	color: #ECE1D7;
 }
@@ -39,8 +40,15 @@ em {
 }
 
 nav {
+	margin: auto ;
+	max-width: 800px ;
 	border-bottom: 1px solid #ECE1D7;
 	text-align: center;
+}
+
+aside {
+	margin: auto ;
+	max-width: 800px ;
 }
 
 nav ul li {
@@ -67,6 +75,8 @@ header h1 {
 }
 
 footer {
+	max-width: 800px ;
+	margin: auto ;
 	text-align: center ;
 	clear: both ;
 }
@@ -91,4 +101,11 @@ footer {
 }
 #nextart,#prevart {
 	max-width: 33% ;
+}
+div.highlight {
+  max-width: 800px;
+}
+div.highlight pre {
+  white-space: pre-wrap;
+  word-break: break-word;
 }

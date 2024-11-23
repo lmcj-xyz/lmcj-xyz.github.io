@@ -4,7 +4,7 @@
     <title>What is LM doing?</title>
     <link>https://lmcj.xyz/</link>
     <description>Recent content on What is LM doing?</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 30 Oct 2024 08:18:07 +0000</lastBuildDate>
     <atom:link href="https://lmcj.xyz/index.xml" rel="self" type="application/rss+xml" />
@@ -41,7 +41,7 @@
       <link>https://lmcj.xyz/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</link>
       <pubDate>Sat, 24 Feb 2024 18:30:54 +0000</pubDate>
       <guid>https://lmcj.xyz/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</guid>
-      <description>TL;DR This is a know your tools entry, although I absolutely don&amp;rsquo;t know my tools as you will see if you read.&#xA;The following &amp;ldquo;one-liner&amp;rdquo; will change any wiki style link with a date string formatted as &amp;ldquo;Feb 22nd, 2024&amp;rdquo; to &amp;ldquo;2024-02-22&amp;rdquo;, god&amp;rsquo;s intended way to write a date.&#xA;Please forgive the search and replace gore of the second sed.&#xA;sed -E &amp;#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&amp;#39; &amp;#34;$1&amp;#34; | sed -E &amp;#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&amp;#39; | sed -E &amp;#39;s;-([0-9])\];-0\1];&amp;#39; &amp;gt; &amp;#34;$1&amp;#34;.</description>
+      <description>TL;DR This is a know your tools entry, although I absolutely don&amp;rsquo;t know my tools as you will see if you read.&#xA;The following &amp;ldquo;one-liner&amp;rdquo; will change any wiki style link with a date string formatted as &amp;ldquo;Feb 22nd, 2024&amp;rdquo; to &amp;ldquo;2024-02-22&amp;rdquo;, god&amp;rsquo;s intended way to write a date.&#xA;Please forgive the search and replace gore of the second sed.&#xA;1sed -E &amp;#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&amp;#39; &amp;#34;$1&amp;#34; | 2&#x9;sed -E &amp;#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&amp;#39; | 3&#x9;sed -E &amp;#39;s;-([0-9])\];-0\1];&amp;#39; &amp;gt; &amp;#34;$1&amp;#34;.</description>
     </item>
     <item>
       <title>We Need Mediocre Reviews</title>

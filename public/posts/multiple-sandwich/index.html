@@ -1,49 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 <head>
-	<title>Multiple Sandwich | What is LM doing?</title>
-	<link rel="canonical" href="https://lmcj.xyz/">
-	<link rel='alternate' type='application/rss+xml' title="What is LM doing? RSS" href='/index.xml'>
-	<link rel='stylesheet' type='text/css' href='/style.css'>
-	<meta name="description" content="Problem: Consider an array A of length m with only non-negative integer entries, then take the sum of the entries of A and denote it by s. And find the smallest number p that is a multiple of m and is greater or equal than s.
-This was a teeny tiny part of a timed coding question that I blew because I decided to, as any good mathematician would do, overthink it.">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="robots" content="index, follow">
-	<meta charset="utf-8">
+	<title>Multiple Sandwich</title>
 	
-
-<link rel="stylesheet" href="/css/katex.css">
-
-
-<script defer src="/scripts/katex/katex.js"></script>
-
-
-<script defer src="/scripts/katex/auto-render.js" onload="renderMathInElement(document.body);"></script>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
-            delimiters: [
-                {left: "$$", right: "$$", display: true},
-                {left: "$", right: "$", display: false}
-            ]
-        });
-    });
-</script>
-
-
+	
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/syntax.css">
+	
 </head>
 <body>
-<nav>
-    <ul>
-	<li><a href="/"><span class=pre></span><span class=menuname>🏠 Home</span></a></li>
-	<li><a class="menuactive" href="/posts/"><span class=pre></span><span class=menuname>📓 Posts</span></a></li>
-    </ul>
-</nav>
-<main>
-<header><h1 id="tag_Multiple Sandwich"></h1></header>
-<article>
+	<header>
+	
+	
+	<nav>
+		<ul>
+			
+			<li><a href="/">🏠 Home</a></li>
+			
+			<li><a href="/posts/">📓 Posts</a></li>
+			
+		</ul>
+	</nav>
+	
+</header>
 
+	
 	<main>
 		<article>
 			<h1>Multiple Sandwich</h1>
@@ -69,10 +52,10 @@ But in a reckless move I decided to use that result in my code without having ma
 and take its integer division quotient, this is <code>floor(sum(A) / length(A)</code>.
 So, in this way the smallest multiple of <code>m</code> that is greater than or equal to <code>s</code> is either  <code>floor(sum(A) / length(A)) * sum(A)</code> or  <code>(floor(sum(A) / length(A) + 1) * sum(A)</code> depending on whether or not <code>s</code> is a multiple of <code>m</code>.
 The pseudo code would look like this:</p>
-<pre tabindex="0"><code>if floor(sum(A) / length(A)) * sum(A) &lt; sum(A)
-    then return (floor(sum(A) / length(A)) + 1) * sum(A)
-else return floor(sum(A) / length(A)) * sum(A)
-</code></pre><p>You could of course recover instead the factor that makes the multiple you are after, which is actually more akin to what I needed.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">if floor(sum(A) / length(A)) * sum(A) &lt; sum(A)
+</span></span><span class="line"><span class="ln">2</span><span class="cl">    then return (floor(sum(A) / length(A)) + 1) * sum(A)
+</span></span><span class="line"><span class="ln">3</span><span class="cl">else return floor(sum(A) / length(A)) * sum(A)
+</span></span></code></pre></div><p>You could of course recover instead the factor that makes the multiple you are after, which is actually more akin to what I needed.
 But the pseudo code and the approach is basically the same.</p>
 <p>So yeh, there you go.
 The point is that we cannot use a mathematical result without a proof, so here is my proof to the proposition above.</p>
@@ -115,11 +98,8 @@ Moreover, since $r &lt; n$ we have that $m &lt; qn + n = (q + 1)n$.</p>
 </aside>
 
 
-</article>
-</main>
-
-<footer>
-	<a href="https://lmcj.xyz/">https://lmcj.xyz/</a>
+	<footer>
+	<p>&copy; 2024 <a href="https://lmcj.xyz/">What is LM doing?</a></p>
 </footer>
 
 </body>

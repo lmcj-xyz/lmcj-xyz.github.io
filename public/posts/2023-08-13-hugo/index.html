@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Setting Up a Website Using Hugo, GitHub Pages and a Custom Domain</title>
+	
+	
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/syntax.css">
+	
+</head>
+<body>
+	<header>
+	
+	
+	<nav>
+		<ul>
+			
+			<li><a href="/">🏠 Home</a></li>
+			
+			<li><a href="/posts/">📓 Posts</a></li>
+			
+		</ul>
+	</nav>
+	
+</header>
+
+	
+	<main>
+		<article>
+			<h1>Setting Up a Website Using Hugo, GitHub Pages and a Custom Domain</h1>
+			<time datetime="2023-08-13T11:19:39">13.08.2023 11:19</time>
+			<div>
+				<p>So you have a brand new domain name to show off your stuff on the internet and now want to build a website eh?
+Whats that?
+So&hellip;you say you don&rsquo;t want to pay for and manage your own server and have heard of this things called
+<a href="https://pages.github.com/">GitHub pages</a>
+that all the cool kids are using?
+Well&hellip;not ideal but okay.
+Oh and also you don&rsquo;t want to deal with HTML and CSS as much because <em>iT&rsquo;S hArD</em> and some techy friend told you about a framework called
+<a href="https://gohugo.io/">Hugo</a>
+which makes the creation of static websites quite fun and easy?
+Well hopefully after you read this blog post you will have your shiny new website up and running.</p>
+<p>Why another tutorial?
+You might ask.
+Well for the same reason everyone else makes tutorials, to learn stuff and flex about it.
+And how come you will tell us how to use GitHub pages if you don&rsquo;t even use it? Well I just happen to kind of know.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>Your own domain name (I use <a href="https://www.orangewebsite.com/">orangewebsite</a> but you use whatever you want)</li>
+<li>A GitHub account (<a href="https://github.com/signup">sign up</a> if you don&rsquo;t have one)
+<ul>
+<li>And I guess <a href="https://git-scm.com/">git</a> or <a href="https://desktop.github.com/">the GitHub desktop client</a>, <em>although I have to say that I won&rsquo;t use the latter and if you use it you better know how to because I have no idea and I won&rsquo;t provide you with any guidance on that regard</em></li>
+</ul>
+</li>
+<li>Hugo installed (<a href="https://gohugo.io/installation/">follow the instructions</a> for yor platform)</li>
+</ul>
+<p><em>You do what you are missing and come back here.
+I&rsquo;ll wait.</em></p>
+<p><img src="relax.gif" alt="Waiting for you"></p>
+<p><strong>Oh god, finally!
+Okay let&rsquo;s get to work!</strong>
+<img src="work1.gif" alt="Let&rsquo;s start"></p>
+<h2 id="create-site">Create a Hugo website</h2>
+<p>Since you want to host your website in GitHub, let us make this a git repository</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">git init</span></span></code></pre></div>
+<p>and add the following text
+(which I took from <a href="https://github.com/github/gitignore/blob/main/community/Golang/Hugo.gitignore">here</a>)
+into a file called <code>.gitignore</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="ln"> 1</span><span class="cl"># Generated files by hugo
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">/public/
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">/resources/_gen/
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">/assets/jsconfig.json
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">hugo_stats.json
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl"># Executable may be added to repository
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">hugo.exe
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">hugo.darwin
+</span></span><span class="line"><span class="ln">10</span><span class="cl">hugo.linux
+</span></span><span class="line"><span class="ln">11</span><span class="cl">
+</span></span><span class="line"><span class="ln">12</span><span class="cl"># Temporary lock file while building
+</span></span><span class="line"><span class="ln">13</span><span class="cl">/.hugo_build.lock</span></span></code></pre></div>
+<p>and then make your first commit</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">git add .gitignore
+</span></span><span class="line"><span class="ln">2</span><span class="cl">git commit -m <span class="s2">&#34;First commit&#34;</span></span></span></code></pre></div>
+<p>After this is your responsibility to track the cahnges in the repository, so I would imagine you know how ot use <code>git</code>.
+If not, then go run
+<code>man gittutorial</code>
+on your terminal or check
+<a href="https://git-scm.com/docs/gittutorial">the gittutorial online</a>,
+or I guess any other tutorial like
+<a href="https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/">this article from freeCodeCamp</a>
+or
+<a href="https://www.youtube.com/watch?v=USjZcfj8yxE">this video by Colt Steele</a>.
+If you use the GitHub desktop client you are on your own, god bless your soul.</p>
+<blockquote>
+<p>Oh one more thing:
+if you go to the
+<a href="https://gohugo.io/getting-started/quick-start/">get started guide for Hugo</a>
+you will note that they suggest you to use a theme from the
+<a href="https://themes.gohugo.io/">many Hugo themes available</a>,
+<strong>I will not do that</strong>.
+Instead I will teach you how to create a theme. If you don&rsquo;t care about that then you can skip the section
+<a href="./#your-theme">Create your own theme</a>
+and just follow the instructions to clone a theme as mentioned
+<a href="https://gohugo.io/getting-started/quick-start/#explanation-of-commands">here</a>.</p>
+</blockquote>
+<h3 id="running-hugo">Running hugo</h3>
+<p>We are going to be using the terminal, but it&rsquo;s fine, nothing scary.</p>
+<p>You will first locate yourself on a directory where you want to create the directory for your website.
+Say for instance your <code>Documents</code> directory, or if you have some <code>Repositories</code> directory where you place your software projects then use that I guess, anywhere is fine your <code>home</code> directory is also fine, it doesn&rsquo;t really matter.</p>
+<p>Then on your terminal you will run</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">hugo new site mywebsite</span></span></code></pre></div>
+<p>this will create a directory called
+<code class="code-inline language-bash">mywebsite</code>,
+if you want you can give any other name instead of <code>mywebsite</code>, I personally will run</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">hugo new site mathsposer</span></span></code></pre></div>
+<p>because I will use the domain name
+<a href="https://mathsposer.com">mathsposer.com</a>,
+so feel free to use your domain name.</p>
+<p>Once you do that you will receive a message congratulating you for your sucessful creation of a new website and giving you some more instructions, don&rsquo;t listen to them, they want you to download a theme.
+Or listen to them, I don&rsquo;t really care.</p>
+<p>If you have successfully ignored them and listened to me, then let us explore the directory structure of the project, run</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl"><span class="nb">cd</span> mathsposer <span class="c1"># to change to said directory</span></span></span></code></pre></div>
+<p>and you will see the following structure:</p>
+<ul>
+<li><strong>archetypes/</strong>
+<ul>
+<li><em>default.md</em></li>
+</ul>
+</li>
+<li><em>config.toml</em></li>
+<li><strong>content/</strong></li>
+<li><strong>data/</strong></li>
+<li><strong>layouts/</strong></li>
+<li><strong>public/</strong></li>
+<li><strong>static/</strong></li>
+<li><strong>themes/</strong></li>
+</ul>
+<blockquote>
+<p>Whenever i mention I have a directory structure <strong>bold-with-slash-at-the-end/</strong> represent directories, whereas <em>italic-characters</em> represent files.</p>
+</blockquote>
+<p>And the only thing I will edit for the moment is the
+<code>config.toml</code>
+file, which as you might guess is where we configure our website.
+You will have by default the following</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="ln">1</span><span class="cl"><span class="nx">baseURL</span> <span class="p">=</span> <span class="s1">&#39;http://example.org/&#39;</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="nx">languageCode</span> <span class="p">=</span> <span class="s1">&#39;en-us&#39;</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="nx">title</span> <span class="p">=</span> <span class="s1">&#39;My New Hugo Site&#39;</span></span></span></code></pre></div>
+<p>but I will change it to</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="ln">1</span><span class="cl"><span class="nx">baseURL</span> <span class="p">=</span> <span class="s1">&#39;http://mathsposer.com/&#39;</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="nx">languageCode</span> <span class="p">=</span> <span class="s1">&#39;en-gb&#39;</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="nx">title</span> <span class="p">=</span> <span class="s1">&#39;The website of a Maths Poser&#39;</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="nx">theme</span> <span class="p">=</span> <span class="s1">&#39;nothing&#39;</span></span></span></code></pre></div>
+<p>whereas ideally you will use your own domain name in the
+<code>baseURL</code>
+parameter, change the
+<code>languageCode</code>
+to something that suits you, and modify the
+<code>title</code>
+to reflect the title of your own website, perhaps is your name or something.
+And I added one more thing, which is the
+<code>theme</code>,
+I gave it the value
+<code>nothing</code>
+because that is what I will call my theme, you use the name of the theme of your preference.</p>
+<p>Now before explaining what to do with the files and directories above, we actually need a theme.
+Silly, isn&rsquo;t it?
+But it has its reasons&hellip;don&rsquo;t ask what are the reasons please.</p>
+<h3 id="your-theme">Create your own theme</h3>
+<p>I will repeat this&hellip;if you don&rsquo;t care about learning how themes work and want a precooked theme then do as in
+<a href="https://gohugo.io/getting-started/quick-start/#explanation-of-commands">this guide</a>
+(which is what you should have done anyway&hellip;)</p>
+<p>As many things with Hugo, you start by doing some command line trickery:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">hugo new theme nothing</span></span></code></pre></div>
+<p>where
+<code class="code-inline language-bash">nothing </code>
+is the name of the theme, mine is called
+<code class="code-inline language-bash">nothing </code>
+(remember my <code>config.toml</code> file?)
+because that&rsquo;s what I am going to do,
+<em>nothing</em>.</p>
+<p>Then the following folder structure will appear inside the directory
+<code>nothing</code>:</p>
+<ul>
+<li><strong>archetypes/</strong>
+<ul>
+<li><em>default.md</em></li>
+</ul>
+</li>
+<li><strong>layouts/</strong>
+<ul>
+<li><em>404.html</em></li>
+<li><strong>_default/</strong>
+<ul>
+<li><em>baseof.html</em></li>
+<li><em>list.html</em></li>
+<li><em>single.html</em></li>
+</ul>
+</li>
+<li><em>index.html</em></li>
+<li><strong>partials/</strong>
+<ul>
+<li><em>footer.html</em></li>
+<li><em>header.html</em></li>
+<li><em>head.html</em></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>LICENSE</em></li>
+<li><strong>static/</strong>
+<ul>
+<li><strong>css/</strong></li>
+<li><strong>js/</strong></li>
+</ul>
+</li>
+<li><em>theme.toml</em></li>
+</ul>
+<p>Now, all the files here are going to be empty or almost empty, except for <em>baseof.html</em> which, as the name suggests, is the basic structure of pages
+(or at least the default structure, we&rsquo;ll taltk about that in a second)
+contains the following</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    {{- partial &#34;head.html&#34; . -}}
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">    <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">        {{- partial &#34;header.html&#34; . -}}
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;content&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">        {{- block &#34;main&#34; . }}{{- end }}
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">        {{- partial &#34;footer.html&#34; . -}}
+</span></span><span class="line"><span class="ln">10</span><span class="cl">    <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></span></span></code></pre></div>
+<p>If you have used HTML before you might be wondering what those cursed curly brackets are?
+Ahhh!!!
+Behold the Hugo template.
+<img src="behold.gif" alt="Behold!!!"></p>
+<p>So, what do we do now?
+Basically the way this works is that in between
+<code>{{  }}</code>
+you can put some
+<a href="https://go.dev/">Go code</a>
+or template variables.
+Above we can see two functions being called
+<code>partial</code>
+and
+<code>block</code>, let us explain partial.
+In the directory structure above you have a directory called
+<code>partials</code>
+in this one we have partial
+<code>.html</code>
+documents
+which are used to build our website, so I presume you can guess that the function <code>partial</code> will include the partial documents into the document is being called.
+The sintax is then
+<code>{{ partial &quot;&lt;PATH&gt;/&lt;PARTIAL&gt;.&lt;EXTENSION&gt;&quot; . }}</code></p>
+<p>We are including here three partials into our
+<code>baseof.html</code>
+document, might as well add something into them.</p>
+<p>First the
+<code>head.html</code>
+document.
+The HTML tag
+<code>head</code>
+is used to include metadata from the file, and we will include only two very simple but important things</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="ln">1</span><span class="cl"><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">	<span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>{{ .Site.Title }}<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">	<span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;/css/style.css&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/css&#34;</span> <span class="na">media</span><span class="o">=</span><span class="s">&#34;all&#34;</span> <span class="p">/&gt;</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span></span></span></code></pre></div>
+<p>The
+<code>title</code>
+tag gives the title of the website
+(duh)
+but the way you visualise it is on the tab name of your browser, and you can see that we are using the power of templates here by setting
+<code>{{ .Site.Title }}</code>
+this instructs Hugo to go search the name of the website in the config file and this is going to be whatever you put under the parameter
+<code>title</code>
+in the
+<code>config.toml</code>,
+in my case it looks like this on the tab</p>
+<figure><img src="/posts/2023-08-13-hugo/title-tag.png"><figcaption>
+      <h4>The title tag I set on the head tag</h4>
+    </figcaption>
+</figure>
+
+<p>The next one is the standard way to include your CSS file to style the website, nothing fancy.
+But keep this in mind because we will have to create the
+<code>style.css</code>
+sheet
+under the directory
+<code>static/css/</code>
+of our theme.</p>
+<p>Now let&rsquo;s do something about the
+<code>header.html</code>
+document, what is the header of a website?
+This is normaly the stripe on top which has navigation links and the title of the site.
+By default the file is empty and we will only include one thing:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="ln">1</span><span class="cl"><span class="p">&lt;</span><span class="nt">header</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">	<span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;{{ .Site.BaseURL }}&#34;</span><span class="p">&gt;</span>{{ .Site.Title }}<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="p">&lt;/</span><span class="nt">header</span><span class="p">&gt;</span></span></span></code></pre></div>
+<p>Namely, the link to the website invoked with a template and the template variable
+<code>.Site.BaseURL</code>
+with the displayed text invoked with another variable
+<code>.Site.Title</code>.
+These two variables will search in
+<code>config.toml</code>
+for the
+<code>baseURL</code>
+and
+<code>title</code>
+parameters, and this will be wrapped with the
+<code>header</code>
+tag because we are creating the header of the file.</p>
+<p>Now let us add something to the
+<code>footer.html</code>
+documet, people tend to add contact and attribution information, we will just add</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="ln">1</span><span class="cl"><span class="p">&lt;</span><span class="nt">footer</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">	by lm
+</span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="p">&lt;/</span><span class="nt">footer</span><span class="p">&gt;</span></span></span></code></pre></div>
+<p>which tells people who is making this thing.</p>
+<p>And now
+<strong>what about the block function</strong>
+on
+<code>baseof.html</code>?
+Well, this basically adds whatever thing you define, in our case we have to define the block
+<code>main</code>.
+We can do this in different places, in particular for this first example we will do it in the
+<code>layouts/index.html</code>
+document by adding</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="ln">1</span><span class="cl">{{ define &#34;main&#34; }}  
+</span></span><span class="line"><span class="ln">2</span><span class="cl">{{ .Content }}  
+</span></span><span class="line"><span class="ln">3</span><span class="cl">{{ end }}</span></span></code></pre></div>
+<p>This bit is a usage of templates a bit more complicated than what we have seen, but the gist is that we define something by using
+<code>{{ define &quot;something&quot; }}</code>
+and it ends with
+<code>{{ end }}</code>
+and whatever we type in the middle of that is going to be the content of
+<code>something</code>,
+in this case we have the variable
+<code>.Content</code>
+and that basically calls the content from some file in the
+<code>content</code>
+file of the Hugo project.</p>
+<p>And now let&rsquo;s create the landing page for our website by running the following</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">hugo new content/_index.md</span></span></code></pre></div>
+<p>Note the underscore before the name, this is just to indicate this is the landing page.</p>
+<p>And for this I just added the text</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="ln">1</span><span class="cl">This is a website.
+</span></span><span class="line"><span class="ln">2</span><span class="cl">
+</span></span><span class="line"><span class="ln">3</span><span class="cl">And you don&#39;t need any more than this.
+</span></span><span class="line"><span class="ln">4</span><span class="cl">
+</span></span><span class="line"><span class="ln">5</span><span class="cl">But you probably want something else, don&#39;t you?</span></span></code></pre></div>
+<p>And the result is this</p>
+<figure><img src="/posts/2023-08-13-hugo/website.png" width="90%"><figcaption>
+      <h4>The result of the modifications to the HTML documents</h4>
+    </figcaption>
+</figure>
+
+<p>For a complete read on templates go to
+<a href="https://gohugo.io/templates/">read the docs on Hugo templating</a>
+and in
+<a href="https://pkg.go.dev/text/template">Go templates</a></p>
+<p>One last thing about the theme is to style it a bit by using CSS, for that let us go to the
+<code>style.css</code>
+sheet of our theme, and I will add the following, which I will not explain because you can check for yourself.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="nt">header</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">	<span class="k">background-color</span><span class="p">:</span> <span class="kc">black</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="nt">header</span> <span class="nt">a</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">	<span class="k">color</span><span class="p">:</span> <span class="kc">red</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="nt">footer</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">	<span class="k">color</span><span class="p">:</span> <span class="kc">white</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">	<span class="k">background-color</span><span class="p">:</span> <span class="kc">black</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="p">}</span></span></span></code></pre></div>
+<figure><img src="/posts/2023-08-13-hugo/website-styled.png" width="90%"><figcaption>
+      <h4>The result of the modifications to the HTML documents</h4>
+    </figcaption>
+</figure>
+
+<p>So now go and explore this and create your own theme.</p>
+<h2 id="create-a-github-website">Create a GitHub website</h2>
+<p>Now let us take this baby into the world (wide web).</p>
+<p>This whole thing is naturally based mainly on the documentation from
+<a href="https://pages.github.com/">GitHub</a>,
+<a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hugo</a>,
+and
+<a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages">the custom domain guidance for GitHub pages</a>.</p>
+<blockquote>
+<p>Note that the hosting in
+<code>git</code>
+based platforms isvery popular and you can do it in some other platforms like
+<a href="https://codeberg.page/">Codeberg</a>
+and
+<a href="https://docs.gitlab.com/ee/user/project/pages/">GitLab</a>,
+the procedure might be a bit different but you can just read the docs.</p>
+</blockquote>
+<h3 id="add-your-repo-to-github">Add your repo to GitHub</h3>
+<p>Remember that initially you made the Hugo project into a git repository?
+Now let us commit all the changes by running the following</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">git add .
+</span></span><span class="line"><span class="ln">2</span><span class="cl">git commit -m <span class="s2">&#34;Website ready for the world&#34;</span></span></span></code></pre></div>
+<p>Presumably, you know how to use
+<code>git</code>
+and you have been tracking changes while you were following the tutorial
+(yeh sure&hellip;),
+then the next step is to create a GitHub repository for your website.</p>
+<h3 id="use-your-own-domain-name">Use your own domain name</h3>
+
+			</div>
+			
+			<div>
+				<ul id="tags">
+					
+					<li><a href="/tags/software">software</a></li>
+					
+				</ul>
+			</div>
+			
+			
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/posts/never-forget-the-fundamentals/">Never Forget the Fundamentals</a></li>
+				
+				<li><a href="/posts/what-even-are-statistics-tables/">What Even Are Statistics Tables</a></li>
+				
+				<li><a href="/posts/multiple-sandwich/">Multiple Sandwich</a></li>
+				
+				<li><a href="/posts/talk-markov-processes-and-their-friends/">Talk: Markov Processes and Their Friends</a></li>
+				
+				<li><a href="/posts/a-sed-one-liner-to-fix-date-format-in-text-files/">A Sed One Liner to Fix Date Format in Text Files</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	<footer>
+	<p>&copy; 2024 <a href="http://localhost:1313/">What is LM doing?</a></p>
+</footer>
+
+</body>
+</html>

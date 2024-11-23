@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 <head>
-	<title>Posts | What is LM doing?</title>
-	<link rel="canonical" href="https://lmcj.xyz/">
-	<link rel='alternate' type='application/rss+xml' title="What is LM doing? RSS" href='/index.xml'>
-	<link rel='stylesheet' type='text/css' href='/style.css'>
-	<meta name="description" content="">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="robots" content="index, follow">
-	<meta charset="utf-8">
+	<title>Posts</title>
 	
-
+	
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/syntax.css">
+	<link rel="alternate" type="application/rss+xml" href="/posts/index.xml" title="What is LM doing?">
 </head>
 <body>
-<nav>
-    <ul>
-	<li><a href="/"><span class=pre></span><span class=menuname>🏠 Home</span></a></li>
-	<li><a class="menuactive" href="/posts/"><span class=pre></span><span class=menuname>📓 Posts</span></a></li>
-    </ul>
-</nav>
-<main>
-<header><h1 id="tag_Posts"></h1></header>
-<article>
+	<header>
+	
+	
+	<nav>
+		<ul>
+			
+			<li><a href="/">🏠 Home</a></li>
+			
+			<li><a href="/posts/">📓 Posts</a></li>
+			
+		</ul>
+	</nav>
+	
+</header>
 
+	
 	<main>
 		
 		<div>
@@ -72,7 +76,7 @@ Notes The backboard prep notes Those notes are the version one of the talk, pres
 		TL;DR This is a know your tools entry, although I absolutely don&rsquo;t know my tools as you will see if you read.
 The following &ldquo;one-liner&rdquo; will change any wiki style link with a date string formatted as &ldquo;Feb 22nd, 2024&rdquo; to &ldquo;2024-02-22&rdquo;, god&rsquo;s intended way to write a date.
 Please forgive the search and replace gore of the second sed.
-sed -E &#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&#39; &#34;$1&#34; | sed -E &#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&#39; | sed -E &#39;s;-([0-9])\];-0\1];&#39; &gt; &#34;$1&#34;.
+1sed -E &#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&#39; &#34;$1&#34; | 2	sed -E &#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&#39; | 3	sed -E &#39;s;-([0-9])\];-0\1];&#39; &gt; &#34;$1&#34;.
 		
 			<a href="https://lmcj.xyz/posts/a-sed-one-liner-to-fix-date-format-in-text-files/">Read more...</a>
 		
@@ -212,11 +216,8 @@ Por lo tanto decidí deployear un sitio de WordPress en Vultr, y comenzar a real
 </aside>
 
 
-</article>
-</main>
-
-<footer>
-	<a href="https://lmcj.xyz/">https://lmcj.xyz/</a>
+	<footer>
+	<p>&copy; 2024 <a href="https://lmcj.xyz/">What is LM doing?</a></p>
 </footer>
 
 </body>

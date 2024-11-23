@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 <head>
-	<title>A Sed One Liner to Fix Date Format in Text Files | What is LM doing?</title>
-	<link rel="canonical" href="https://lmcj.xyz/">
-	<link rel='alternate' type='application/rss+xml' title="What is LM doing? RSS" href='/index.xml'>
-	<link rel='stylesheet' type='text/css' href='/style.css'>
-	<meta name="description" content="TL;DR This is a know your tools entry, although I absolutely don&rsquo;t know my tools as you will see if you read.
-The following &ldquo;one-liner&rdquo; will change any wiki style link with a date string formatted as &ldquo;Feb 22nd, 2024&rdquo; to &ldquo;2024-02-22&rdquo;, god&rsquo;s intended way to write a date.
-Please forgive the search and replace gore of the second sed.
-sed -E &#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&#39; &#34;$1&#34; | sed -E &#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&#39; | sed -E &#39;s;-([0-9])\];-0\1];&#39; &gt; &#34;$1&#34;.">
-	<meta name="keywords" content="Software">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="robots" content="index, follow">
-	<meta charset="utf-8">
+	<title>A Sed One Liner to Fix Date Format in Text Files</title>
 	
-
+	
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/syntax.css">
+	
 </head>
 <body>
-<nav>
-    <ul>
-	<li><a href="/"><span class=pre></span><span class=menuname>🏠 Home</span></a></li>
-	<li><a class="menuactive" href="/posts/"><span class=pre></span><span class=menuname>📓 Posts</span></a></li>
-    </ul>
-</nav>
-<main>
-<header><h1 id="tag_A Sed One Liner to Fix Date Format in Text Files"></h1></header>
-<article>
+	<header>
+	
+	
+	<nav>
+		<ul>
+			
+			<li><a href="/">🏠 Home</a></li>
+			
+			<li><a href="/posts/">📓 Posts</a></li>
+			
+		</ul>
+	</nav>
+	
+</header>
 
+	
 	<main>
 		<article>
 			<h1>A Sed One Liner to Fix Date Format in Text Files</h1>
@@ -36,9 +36,9 @@ sed -E &#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&#39
 <p>This is a <em>know your tools entry</em>, although I absolutely don&rsquo;t know my tools as you will see if you read.</p>
 <p>The following &ldquo;one-liner&rdquo; will change any wiki style link with a date string formatted as &ldquo;Feb 22nd, 2024&rdquo; to &ldquo;2024-02-22&rdquo;, god&rsquo;s intended way to write a date.</p>
 <p>Please forgive the search and replace gore of the second <code>sed</code>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>sed -E <span style="color:#e6db74">&#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&#39;</span> <span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span> | 
-</span></span><span style="display:flex;"><span>	sed -E <span style="color:#e6db74">&#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&#39;</span> | 
-</span></span><span style="display:flex;"><span>	sed -E <span style="color:#e6db74">&#39;s;-([0-9])\];-0\1];&#39;</span> &gt; <span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span>.done
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="ln">1</span><span class="cl">sed -E <span class="s1">&#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&#39;</span> <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> <span class="p">|</span> 
+</span></span><span class="line"><span class="ln">2</span><span class="cl">	sed -E <span class="s1">&#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&#39;</span> <span class="p">|</span> 
+</span></span><span class="line"><span class="ln">3</span><span class="cl">	sed -E <span class="s1">&#39;s;-([0-9])\];-0\1];&#39;</span> &gt; <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span>.done
 </span></span></code></pre></div><h2 id="the-lore">The lore</h2>
 <p>I had a problem: <a href="https://logseq.com/">Logseq</a> is my note taking software of choice, it&rsquo;s an <a href="https://en.wikipedia.org/wiki/Outliner">outliner</a> which stores files in Markdown format so they are <em>time-proof</em>. Anyway, I wanted my Logseq wiki to be interoperable with <a href="https://obsidian.md/">Obsidian</a> because the latter respects the Markdown a bit more than the former.</p>
 <p>In Logseq you can create Journals/Daily notes, which are ways to track your daily tasks, meetings, or regular notes; or at least that is what I do.
@@ -82,10 +82,10 @@ and then you will edit the configuration file
 look for the line which says
 <code>:journal/file-name-format</code>
 uncomment it and set the vale to the date format you want, in my case I actually wanted &ldquo;yyyy-MM-dd&rdquo;, so the line reads</p>
-<pre tabindex="0"><code>:journal/file-name-format &#34;yyyy-MM-dd&#34;
-</code></pre><p>additionally you can also set the page title format to</p>
-<pre tabindex="0"><code>:journal/page-title-format &#34;yyyy-MM-dd&#34;
-</code></pre><p>so Logseq displays the actual title of the note.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">:journal/file-name-format &#34;yyyy-MM-dd&#34;
+</span></span></code></pre></div><p>additionally you can also set the page title format to</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">:journal/page-title-format &#34;yyyy-MM-dd&#34;
+</span></span></code></pre></div><p>so Logseq displays the actual title of the note.</p>
 </blockquote>
 <h2 id="what-to-do-what-to-do">What to do, what to do&hellip;</h2>
 <p>The obvious solution is to create a small script which changes the date format to what I want, in fact I thought of migrating the whole thing into an Obsidian format and I found <a href="https://github.com/NishantTharani/LogSeqToObsidian/tree/main">this Python script</a>, but then I realized I don&rsquo;t really want to do this, I like Logseq, I just need to tweak it a bit.
@@ -95,12 +95,12 @@ But then I did go and read the script and thought I could just steal the functio
 <p>My attempts were relentless&hellip;</p>
 <h3 id="tried-using-date">Tried using <code>date</code></h3>
 <p>I thought we can use <code>date</code> by either looping over the lines of a file like so</p>
-<pre tabindex="0"><code>while read -r line; do 
-    echo $(date -d &#34;$line&#34; +%Y-%m-%d); 
-done &lt; filename.md
-</code></pre><p>because I went and read the answers to <a href="https://stackoverflow.com/questions/43697746/how-to-change-date-format-in-linux-unix-text-file">this StackOverflow question</a> and I thought, &ldquo;oh that looks quite smart&rdquo; NOOOOOOT. One can simply go an read the manual (literally the first displayed screen) by typing <a href="https://www.man7.org/linux/man-pages/man1/date.1.html"><code>man date</code></a> and realize that the <code>-f</code> flag will save you from doing a silly loop, so you can also do</p>
-<pre tabindex="0"><code>date -f filename.md +%Y-%m-%d
-</code></pre><p>Those are more or less equivalent, the <code>-d</code> flag reads a string which in the loop will be each line of the file, while the <code>-f</code> flag reads the entire file and tries applying the date format to each line.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">while read -r line; do 
+</span></span><span class="line"><span class="ln">2</span><span class="cl">    echo $(date -d &#34;$line&#34; +%Y-%m-%d); 
+</span></span><span class="line"><span class="ln">3</span><span class="cl">done &lt; filename.md
+</span></span></code></pre></div><p>because I went and read the answers to <a href="https://stackoverflow.com/questions/43697746/how-to-change-date-format-in-linux-unix-text-file">this StackOverflow question</a> and I thought, &ldquo;oh that looks quite smart&rdquo; NOOOOOOT. One can simply go an read the manual (literally the first displayed screen) by typing <a href="https://www.man7.org/linux/man-pages/man1/date.1.html"><code>man date</code></a> and realize that the <code>-f</code> flag will save you from doing a silly loop, so you can also do</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">date -f filename.md +%Y-%m-%d
+</span></span></code></pre></div><p>Those are more or less equivalent, the <code>-d</code> flag reads a string which in the loop will be each line of the file, while the <code>-f</code> flag reads the entire file and tries applying the date format to each line.</p>
 <p>The problem of those approaches is that they expect you to have exactly the date you want to change in each line, no more no less&hellip;or I guess so, I haven&rsquo;t tried extensively, nevertheless this is not what I wanted.
 Remember I am applying this to my notes, in the files the dates are within the text.
 Besides, if a particular line had a date that I want to change this is always going to be enclosed by <code>[[</code> and <code>]]</code>, and this makes it not understandable for the command <code>date</code>.
@@ -124,30 +124,30 @@ If you want, go and read more <a href="https://www.redhat.com/sysadmin/pipes-com
 <p>First, I went and read this <a href="https://csiro-data-school.github.io/regex/index.html">intro to regular expressions</a>, because obviously I don&rsquo;t remember such things and I need to go and learn every time I need to use them. Really nice tutorial though. And along the way I was implementing my solution.</p>
 <p>So I went by steps, let us first find our wikilinks with dates, we can use <code>grep</code> just so we can see what we find, and then afterwards use <code>sed</code> to substitute.
 Both have the same syntax for regex.</p>
-<pre tabindex="0"><code>grep -E &#39;\[\[([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4})\]\]&#39;
-</code></pre><p>The line above will find the wikilinks of this format <code>[[MMM DDoo, YYY]]</code> and show them to you, once you are sure it works you can make your substitution by placing that into a search and replace thing in sed, this would be</p>
-<pre tabindex="0"><code>sed -E &#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&#39; &#34;$1&#34;
-</code></pre><p>There are a few things to notice there, first I realized I don&rsquo;t actually need to match <code>[[</code> and <code>]]</code> because all the instances where I have dates have been inserted with the date picker and it always creates wikilinks anyway, so it&rsquo;s redundant.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">grep -E &#39;\[\[([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4})\]\]&#39;
+</span></span></code></pre></div><p>The line above will find the wikilinks of this format <code>[[MMM DDoo, YYY]]</code> and show them to you, once you are sure it works you can make your substitution by placing that into a search and replace thing in sed, this would be</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">sed -E &#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&#39; &#34;$1&#34;
+</span></span></code></pre></div><p>There are a few things to notice there, first I realized I don&rsquo;t actually need to match <code>[[</code> and <code>]]</code> because all the instances where I have dates have been inserted with the date picker and it always creates wikilinks anyway, so it&rsquo;s redundant.
 Second, see that I have some things enclosed in circle brackets, like <code>([a-zA-Z]{3})</code>, this is so I can make back-references, so when we encircle our matches we can refer to them within <code>sed</code> by typing <code>\#</code>, this is backlash and the number of the match.
 This is why in the replacement string we have <code>\4-\1-\2</code>, we want to substitute our match with the matches 4, 1 and 2 separated by dashes.
 Notice that we skipped <code>\3</code> this is because <code>\3</code> matches the ordinal suffix which we don&rsquo;t want.
 I presume if I didn&rsquo;t enclose the suffix in circle brackets it wouldn&rsquo;t have matter but then I wouldn&rsquo;t be able to match those strings, although I could have just matched them using <code>[a-z]{2}</code>, this is matching any two consecutive lower-case letters.</p>
 <p>So let&rsquo;s explain that regex above before going to the next ones which are much simpler.</p>
-<pre tabindex="0"><code>([a-zA-Z]{3})
-</code></pre><p><code>[a-zA-Z]</code> matches any letter from the English language, and since this is localized that is enough, then <code>{3}</code> is a quantifier which says &ldquo;whatever is before me, make it three&rdquo;. You can put any positive integer <em>n</em> instead of 3 (I guess it could be non-negative but why would you match zero letters?).
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">([a-zA-Z]{3})
+</span></span></code></pre></div><p><code>[a-zA-Z]</code> matches any letter from the English language, and since this is localized that is enough, then <code>{3}</code> is a quantifier which says &ldquo;whatever is before me, make it three&rdquo;. You can put any positive integer <em>n</em> instead of 3 (I guess it could be non-negative but why would you match zero letters?).
 I encircle the three letters so I can refer back to it, this will have the reference <code>\1</code></p>
-<pre tabindex="0"><code>\s([0-9]{1,})
-</code></pre><p>matches a space with <code>\s</code>, then <code>[0-9]</code> matches any digit and the quantifier <code>{1,}</code> says &ldquo;whatever is before me, give me at least one&rdquo;, this is because the day will have either one or two digits. I could have used <code>{1,2}</code> which limits you to find 1 or 2 or whatever is before, but I just thought about that while writing this entry so I didn&rsquo;t.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">\s([0-9]{1,})
+</span></span></code></pre></div><p>matches a space with <code>\s</code>, then <code>[0-9]</code> matches any digit and the quantifier <code>{1,}</code> says &ldquo;whatever is before me, give me at least one&rdquo;, this is because the day will have either one or two digits. I could have used <code>{1,2}</code> which limits you to find 1 or 2 or whatever is before, but I just thought about that while writing this entry so I didn&rsquo;t.
 I encircle the one or two digits so I can refer back to it, this will have the reference <code>\2</code></p>
-<pre tabindex="0"><code>(st|nd|rd|th)
-</code></pre><p>Is an <em>or</em> statement, so I am asking for either one of the strings &ldquo;st&rdquo;, &ldquo;nd&rdquo;, &ldquo;rd&rdquo; or &ldquo;th&rdquo;, the ordinal suffixes in English.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">(st|nd|rd|th)
+</span></span></code></pre></div><p>Is an <em>or</em> statement, so I am asking for either one of the strings &ldquo;st&rdquo;, &ldquo;nd&rdquo;, &ldquo;rd&rdquo; or &ldquo;th&rdquo;, the ordinal suffixes in English.
 I encircle the suffix so I can refer back to it, this will have the reference <code>\3</code>, although I will not use it but I think for the <em>or</em> statement I cannot not encircle it anyway.</p>
-<pre tabindex="0"><code>,\s([0-9]{4})
-</code></pre><p>Finally, I want to match a literal comma, a space and four digits.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">,\s([0-9]{4})
+</span></span></code></pre></div><p>Finally, I want to match a literal comma, a space and four digits.
 I encircle the four digits so I can refer back to it, this will have the reference <code>\3</code></p>
 <p>Then this matches will be substituted by</p>
-<pre tabindex="0"><code>\4-\1-\2
-</code></pre><p>which is the references of the matches before, so if I had the link
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">\4-\1-\2
+</span></span></code></pre></div><p>which is the references of the matches before, so if I had the link
 <code>[[Feb 24th, 2024]]</code>
 it will be substituted to
 <code>[[2024-Feb-24]]</code>.
@@ -157,17 +157,17 @@ So, it&rsquo;s time for PIPING.</p>
 <h3 id="the-piping">The piping</h3>
 <p>Originally I wanted to call everything together but I realise I actually need the output from the sed above and then I want to substitute the month and the day if it has a single digit.</p>
 <p>So I did a big pattern matching sequence for each month of the year which you can see here</p>
-<pre tabindex="0"><code>sed -E &#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&#39;
-</code></pre><p>Yes, it&rsquo;s ugly, but it works. I wanted to do something smarter like the dictionary used by the Logseq to Obsidian migration script I mentioned above, I wanted to solve this quickly so I can write a blog entry about it, five minutes of web browsing didn&rsquo;t give me the answer so here we are.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">sed -E &#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&#39;
+</span></span></code></pre></div><p>Yes, it&rsquo;s ugly, but it works. I wanted to do something smarter like the dictionary used by the Logseq to Obsidian migration script I mentioned above, I wanted to solve this quickly so I can write a blog entry about it, five minutes of web browsing didn&rsquo;t give me the answer so here we are.</p>
 <p>This just does what it says, first looks for the string &ldquo;-Jan-&rdquo; and changes it by &ldquo;-01-&rdquo;, then for the string &ldquo;Feb&rdquo; and replaces it by &ldquo;-02-&rdquo;, you get the idea.
 The dashes were necessary because I may have those strings in other places and I don&rsquo;t want them changed, for one there is a person I know called <em>Jan</em> and sometimes I refer to this person in my notes because I may need to remember I have a meeting with him or something, so I don&rsquo;t want his name changed by &ldquo;01&rdquo;.</p>
 <p>Note, that here my search and replace is bookended by forward slashes <code>/</code> instead of semi-colons <code>;</code> as I did before.
 This is for convenience, and readability, you can use any character that you are not going to match.</p>
 <p>The final step is the following</p>
-<pre tabindex="0"><code>	sed -E &#39;s;-([0-9])\];-0\1];&#39; &gt; &#34;$1&#34;.done
-</code></pre><p>Here the match is</p>
-<pre tabindex="0"><code>-([0-9])\]
-</code></pre><p>which is one dash <code>-</code>, exactly one digit <code>[0-9]</code>, and one closing square bracket <code>\]</code>, I enclose the digit and refer to it in the substitution as <code>\1</code>.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">	sed -E &#39;s;-([0-9])\];-0\1];&#39; &gt; &#34;$1&#34;.done
+</span></span></code></pre></div><p>Here the match is</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">-([0-9])\]
+</span></span></code></pre></div><p>which is one dash <code>-</code>, exactly one digit <code>[0-9]</code>, and one closing square bracket <code>\]</code>, I enclose the digit and refer to it in the substitution as <code>\1</code>.
 This pattern is easy but it can be dangerous, the trick here is to think that I only care about digits which are between a dash and a closing square bracket.
 If I don&rsquo;t account for that, I will be matching digits everywhere and that could be problematic.</p>
 <p>Then, at the end I forward the output of the piping into a file which is going to be called <code>filename.md.done</code> if I called the script on a file called <code>filename.md</code>.
@@ -176,10 +176,10 @@ Just to have some backup, doing that you just move all files called <code>*.md</
 <p>And that&rsquo;s it, that&rsquo;s how you do it, or at least one way to do it.
 I am sure there are more elegant ways.</p>
 <p>The way I applied it was by calling a loop over the files of the directory when I wanted to apply it, i.e.</p>
-<pre tabindex="0"><code>for filename in *;
-    do ./ldate &#34;${filename}&#34;;
-done
-</code></pre><p>This calls my script <code>./ldate</code> over each file in the current working directory.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">for filename in *;
+</span></span><span class="line"><span class="ln">2</span><span class="cl">    do ./ldate &#34;${filename}&#34;;
+</span></span><span class="line"><span class="ln">3</span><span class="cl">done
+</span></span></code></pre></div><p>This calls my script <code>./ldate</code> over each file in the current working directory.
 You could potentially add the script to a directory on your <code>PATH</code> and not have to move your script around, but I didn&rsquo;t do it because most likely I won&rsquo;t need the script ever again, so I just spent a few hours writing a &ldquo;one-liner&rdquo; sed to change the date format in files and documenting it on this entry.</p>
 <p>It was quite fun.</p>
 
@@ -220,11 +220,8 @@ You could potentially add the script to a directory on your <code>PATH</code> an
 </aside>
 
 
-</article>
-</main>
-
-<footer>
-	<a href="https://lmcj.xyz/">https://lmcj.xyz/</a>
+	<footer>
+	<p>&copy; 2024 <a href="https://lmcj.xyz/">What is LM doing?</a></p>
 </footer>
 
 </body>

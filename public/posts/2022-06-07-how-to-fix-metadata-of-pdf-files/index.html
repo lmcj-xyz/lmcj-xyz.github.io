@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 <head>
-	<title>How to Fix Metadata of Pdf Files | What is LM doing?</title>
-	<link rel="canonical" href="https://lmcj.xyz/">
-	<link rel='alternate' type='application/rss+xml' title="What is LM doing? RSS" href='/index.xml'>
-	<link rel='stylesheet' type='text/css' href='/style.css'>
-	<meta name="description" content="Important disclaimer: For your own benefit you should never run random commands you find on the internet, this is why whenever I tell you to run a command, immediately after I will let you know exactly what it does. Feel free to check the documentation of the command to be sure I am not lying to you.
-This is a follow up of the quick entry I made previously on how to put metadata on your LaTeX generated documents.">
-	<meta name="keywords" content="Software">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="robots" content="index, follow">
-	<meta charset="utf-8">
+	<title>How to Fix Metadata of Pdf Files</title>
 	
-
+	
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/syntax.css">
+	
 </head>
 <body>
-<nav>
-    <ul>
-	<li><a href="/"><span class=pre></span><span class=menuname>🏠 Home</span></a></li>
-	<li><a class="menuactive" href="/posts/"><span class=pre></span><span class=menuname>📓 Posts</span></a></li>
-    </ul>
-</nav>
-<main>
-<header><h1 id="tag_How to Fix Metadata of Pdf Files"></h1></header>
-<article>
+	<header>
+	
+	
+	<nav>
+		<ul>
+			
+			<li><a href="/">🏠 Home</a></li>
+			
+			<li><a href="/posts/">📓 Posts</a></li>
+			
+		</ul>
+	</nav>
+	
+</header>
 
+	
 	<main>
 		<article>
 			<h1>How to Fix Metadata of Pdf Files</h1>
@@ -73,37 +75,37 @@ This is a follow up of the quick entry I made previously on how to put metadata 
 <p>Linearise your file for fast web loading</p>
 </li>
 </ol>
-<pre tabindex="0"><code>#!/bin/sh
-# make it a function (optional)
-clean(){
-  # pdftk dumps data from a file
-  pdftk $1 dump_data | \
-   # select all the lines starting with (InfoValue) 
-   # and the next to it
-   sed -e &#39;s/\(InfoValue:\)\s.*/\1\ /g&#39; | \
-   # remove what sed just retrieved
-   pdftk $1 update_info - output clean-$1
-  
-  # remove all tags and create a new file with the
-  # prefix &#34;clean-&#34;
-  exiftool -all:all= clean-$1
-  # print tags
-  exiftool -all:all clean-$1
-  # remove embeded stuff
-  exiftool -extractEmbedded -all:all clean-$1
-  # linearize and save in a new file with the prefix &#34;clean2-&#34;
-  qpdf --linearize clean-$1 clean2-$1
-  
-  # these just print metadata
-  pdftk clean2-$1 dump_data
-  exiftool clean2-$1
-  pdfinfo -meta clean2-$1
-}
-
-# you can add this loop for this to just put the file in the
-# directory you want it to run and then run it (optional)
-for FILE in *; do clean $FILE; done
-</code></pre><p>Okay, if you take this snippet as it is, you need to:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="cp">#!/bin/sh
+</span></span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="cp"></span><span class="c1"># make it a function (optional)</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">clean<span class="o">(){</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">  <span class="c1"># pdftk dumps data from a file</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">  pdftk <span class="nv">$1</span> dump_data <span class="p">|</span> <span class="se">\
+</span></span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="se"></span>   <span class="c1"># select all the lines starting with (InfoValue) </span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">   <span class="c1"># and the next to it</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">   sed -e <span class="s1">&#39;s/\(InfoValue:\)\s.*/\1\ /g&#39;</span> <span class="p">|</span> <span class="se">\
+</span></span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="se"></span>   <span class="c1"># remove what sed just retrieved</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">   pdftk <span class="nv">$1</span> update_info - output clean-<span class="nv">$1</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">  
+</span></span><span class="line"><span class="ln">12</span><span class="cl">  <span class="c1"># remove all tags and create a new file with the</span>
+</span></span><span class="line"><span class="ln">13</span><span class="cl">  <span class="c1"># prefix &#34;clean-&#34;</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl">  exiftool -all:all<span class="o">=</span> clean-<span class="nv">$1</span>
+</span></span><span class="line"><span class="ln">15</span><span class="cl">  <span class="c1"># print tags</span>
+</span></span><span class="line"><span class="ln">16</span><span class="cl">  exiftool -all:all clean-<span class="nv">$1</span>
+</span></span><span class="line"><span class="ln">17</span><span class="cl">  <span class="c1"># remove embeded stuff</span>
+</span></span><span class="line"><span class="ln">18</span><span class="cl">  exiftool -extractEmbedded -all:all clean-<span class="nv">$1</span>
+</span></span><span class="line"><span class="ln">19</span><span class="cl">  <span class="c1"># linearize and save in a new file with the prefix &#34;clean2-&#34;</span>
+</span></span><span class="line"><span class="ln">20</span><span class="cl">  qpdf --linearize clean-<span class="nv">$1</span> clean2-<span class="nv">$1</span>
+</span></span><span class="line"><span class="ln">21</span><span class="cl">  
+</span></span><span class="line"><span class="ln">22</span><span class="cl">  <span class="c1"># these just print metadata</span>
+</span></span><span class="line"><span class="ln">23</span><span class="cl">  pdftk clean2-<span class="nv">$1</span> dump_data
+</span></span><span class="line"><span class="ln">24</span><span class="cl">  exiftool clean2-<span class="nv">$1</span>
+</span></span><span class="line"><span class="ln">25</span><span class="cl">  pdfinfo -meta clean2-<span class="nv">$1</span>
+</span></span><span class="line"><span class="ln">26</span><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="ln">27</span><span class="cl">
+</span></span><span class="line"><span class="ln">28</span><span class="cl"><span class="c1"># you can add this loop for this to just put the file in the</span>
+</span></span><span class="line"><span class="ln">29</span><span class="cl"><span class="c1"># directory you want it to run and then run it (optional)</span>
+</span></span><span class="line"><span class="ln">30</span><span class="cl"><span class="k">for</span> FILE in *<span class="p">;</span> <span class="k">do</span> clean <span class="nv">$FILE</span><span class="p">;</span> <span class="k">done</span>
+</span></span></code></pre></div><p>Okay, if you take this snippet as it is, you need to:</p>
 <ol>
 <li>
 <p>Create a file, say you called it <code>pdfclean</code></p>
@@ -144,15 +146,15 @@ for FILE in *; do clean $FILE; done
 <p>This can be done in any text editor with search and replace functionality, or you could use any spreadsheet software to make it, be ware that spreadsheet software can do nasty stuff sometimes.</p>
 <p>I do, however, recommend to use any spreadsheet software to add all the tags you want. Or a text editor is fine too.</p>
 <p>If you use a spreadsheet software to deal with your <code>.csv</code> file, just remember to tell it what to use as separator, in the case of LibreOffice Calc you should have a pop up window like this:</p>
-<figure><img src="popup.png" width="80%"/><figcaption>
-            <h4>Calc pop up</h4>
-        </figcaption>
+<figure><img src="/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/popup.png" width="80%"><figcaption>
+      <h4>Calc pop up</h4>
+    </figcaption>
 </figure>
 
 <p>And then you will have a file like this:</p>
-<figure><img src="csvfile.png" width="80%"/><figcaption>
-            <h4>Calc file</h4>
-        </figcaption>
+<figure><img src="/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/csvfile.png" width="80%"><figcaption>
+      <h4>Calc file</h4>
+    </figcaption>
 </figure>
 
 <blockquote>
@@ -163,8 +165,8 @@ This is why <a href="https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metada
 <p>Remember to put the name of tags you want in the first row.</p>
 <p>Now that you have your <code>.csv</code> just check if some of your tags have weird characters or spaces, and if so, make sure to deal with that appropriately. By weird characters I mean anything <a href="https://www.oreilly.com/library/view/learning-the-bash/1565923472/ch01s09.html">that can mean something for the shell</a>, because we want to use the metadata to rename files. Remember?</p>
 <p>Now everything is ready, so you just need to run</p>
-<pre tabindex="0"><code>exiftool -csv=tags.csv -csvDelim ^ .
-</code></pre><p>In this case <code>exiftool</code> will use your beautiful <code>.csv</code> file with the option <code>-csv=tags.csv</code>, then <code>-csvDelim ^</code> tells it to use <code>^</code> as separator, and the dot <code>.</code> is indicating to scan the current directory.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="ln">1</span><span class="cl"><span class="n">exiftool</span> <span class="o">-</span><span class="n">csv</span><span class="o">=</span><span class="n">tags</span><span class="o">.</span><span class="n">csv</span> <span class="o">-</span><span class="n">csvDelim</span> <span class="o">^</span> <span class="o">.</span>
+</span></span></code></pre></div><p>In this case <code>exiftool</code> will use your beautiful <code>.csv</code> file with the option <code>-csv=tags.csv</code>, then <code>-csvDelim ^</code> tells it to use <code>^</code> as separator, and the dot <code>.</code> is indicating to scan the current directory.</p>
 <p>And now you have nicely labelled pdf files! Brilliant!</p>
 <blockquote>
 <p>One thing to note. I mention to be careful of <em>weird characters</em> in your tags&hellip;well sometimes you will have actually <em>weird characters</em> in your title or some other tag. For instance you might have a <strong>totally legal</strong> copy of the book <em>Measure, Integration &amp; Real Analysis</em> by <em>Sheldon Axler</em>, and you can see that it has a <code>&amp;</code> in the title. Well it is likely you want to deal with those cases separately for the sake of simplicity.</p>
@@ -172,8 +174,8 @@ This is why <a href="https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metada
 <h2 id="rename-files-using-metadata">Rename files using metadata</h2>
 <p>Now, finally got to the point that make me do all these things: Renaming files using metadata.</p>
 <p>Well, since you already have nicely tagged files you only need to run</p>
-<pre tabindex="0"><code>exiftool &#39;-filename&lt;$author---$title.%e&#39; .
-</code></pre><p>And <strong>PUFF!</strong> Just like that, like magic, <code>exiftool</code> will change the <code>SourceFile</code> and <code>FileName</code> tags using the option <code>-filename</code> giving it the <code>author</code>, and <code>title</code> tags, and the extension of the file with <code>%e</code> to all the files in the directory, this the dot <code>.</code> at the end. And of course, not only will change the tags, but also will rename them.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="ln">1</span><span class="cl"><span class="n">exiftool</span> <span class="s1">&#39;-filename&lt;$author---$title.</span><span class="si">%e</span><span class="s1">&#39;</span> <span class="o">.</span>
+</span></span></code></pre></div><p>And <strong>PUFF!</strong> Just like that, like magic, <code>exiftool</code> will change the <code>SourceFile</code> and <code>FileName</code> tags using the option <code>-filename</code> giving it the <code>author</code>, and <code>title</code> tags, and the extension of the file with <code>%e</code> to all the files in the directory, this the dot <code>.</code> at the end. And of course, not only will change the tags, but also will rename them.</p>
 <p>And that is it, you can of course you can backup your tags by using again <code>exiftool -csv . &gt; tags.csv</code> and then you can manage them from there since the only thing you need to do to update your files now is to use the command above.</p>
 <h2 id="future-work">Future work</h2>
 <p>In my obsession to have proper means of organization for my resources, I want to create some kind of PDF manager, and I already have a couple of ideas.</p>
@@ -234,11 +236,8 @@ This is why <a href="https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metada
 </aside>
 
 
-</article>
-</main>
-
-<footer>
-	<a href="https://lmcj.xyz/">https://lmcj.xyz/</a>
+	<footer>
+	<p>&copy; 2024 <a href="https://lmcj.xyz/">What is LM doing?</a></p>
 </footer>
 
 </body>

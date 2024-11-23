@@ -1,50 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 <head>
-	<title>Using KaTex Locally for Maths Typesetting in Hugo | What is LM doing?</title>
-	<link rel="canonical" href="https://lmcj.xyz/">
-	<link rel='alternate' type='application/rss+xml' title="What is LM doing? RSS" href='/index.xml'>
-	<link rel='stylesheet' type='text/css' href='/style.css'>
-	<meta name="description" content="If you work or study on mathematics related fields and have a website, you might often want to share your knowledge with the world. Of course, doing it is rather easy with many website creation tools, and there are also many tutorials to do it with any tool you can think of.
-So, I want to tell you how to do it using the static site generator Hugo and the JavaScript library KaTeX.">
-	<meta name="keywords" content="Software, Mathematics">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="robots" content="index, follow">
-	<meta charset="utf-8">
+	<title>Using KaTex Locally for Maths Typesetting in Hugo</title>
 	
-
-<link rel="stylesheet" href="/css/katex.css">
-
-
-<script defer src="/scripts/katex/katex.js"></script>
-
-
-<script defer src="/scripts/katex/auto-render.js" onload="renderMathInElement(document.body);"></script>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
-            delimiters: [
-                {left: "$$", right: "$$", display: true},
-                {left: "$", right: "$", display: false}
-            ]
-        });
-    });
-</script>
-
-
+	
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/syntax.css">
+	
 </head>
 <body>
-<nav>
-    <ul>
-	<li><a href="/"><span class=pre></span><span class=menuname>🏠 Home</span></a></li>
-	<li><a class="menuactive" href="/posts/"><span class=pre></span><span class=menuname>📓 Posts</span></a></li>
-    </ul>
-</nav>
-<main>
-<header><h1 id="tag_Using KaTex Locally for Maths Typesetting in Hugo"></h1></header>
-<article>
+	<header>
+	
+	
+	<nav>
+		<ul>
+			
+			<li><a href="/">🏠 Home</a></li>
+			
+			<li><a href="/posts/">📓 Posts</a></li>
+			
+		</ul>
+	</nav>
+	
+</header>
 
+	
 	<main>
 		<article>
 			<h1>Using KaTex Locally for Maths Typesetting in Hugo</h1>
@@ -248,20 +230,20 @@ The thing is that the <code>head.html</code> file that we created, might not be 
 </li>
 <li>
 <p>add the following content</p>
-<pre tabindex="0"><code>#!/bin/sh
-curl -s https://api.github.com/repos/KaTeX/KaTeX/releases/latest \
-| grep &#34;browser_download_url.*tar.gz&#34; \
-| cut -d : -f 2,3 \
-| tr -d \&#34; \
-| wget -qi -
-
-tar -xf katex.tar.gz
-rm katex.tar.gz
-cp -r katex/fonts/ static/css/
-cp katex/katex.css static/css/
-cp katex/katex.js static/scripts/katex/
-cp katex/contrib/auto-render.js static/scripts/katex/
-</code></pre></li>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="cp">#!/bin/sh
+</span></span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="cp"></span>curl -s https://api.github.com/repos/KaTeX/KaTeX/releases/latest <span class="se">\
+</span></span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="se"></span><span class="p">|</span> grep <span class="s2">&#34;browser_download_url.*tar.gz&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="se"></span><span class="p">|</span> cut -d : -f 2,3 <span class="se">\
+</span></span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="se"></span><span class="p">|</span> tr -d <span class="se">\&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="se"></span><span class="p">|</span> wget -qi -
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">tar -xf katex.tar.gz
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">rm katex.tar.gz
+</span></span><span class="line"><span class="ln">10</span><span class="cl">cp -r katex/fonts/ static/css/
+</span></span><span class="line"><span class="ln">11</span><span class="cl">cp katex/katex.css static/css/
+</span></span><span class="line"><span class="ln">12</span><span class="cl">cp katex/katex.js static/scripts/katex/
+</span></span><span class="line"><span class="ln">13</span><span class="cl">cp katex/contrib/auto-render.js static/scripts/katex/
+</span></span></code></pre></div></li>
 </ul>
 <p>Let me explain the code above, first the pipelines sequence:</p>
 <ul>
@@ -333,11 +315,8 @@ cp katex/contrib/auto-render.js static/scripts/katex/
 </aside>
 
 
-</article>
-</main>
-
-<footer>
-	<a href="https://lmcj.xyz/">https://lmcj.xyz/</a>
+	<footer>
+	<p>&copy; 2024 <a href="https://lmcj.xyz/">What is LM doing?</a></p>
 </footer>
 
 </body>

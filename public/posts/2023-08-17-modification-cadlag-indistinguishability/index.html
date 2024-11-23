@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>When do stochastic processes that are modifications become indistinguishable?</title>
+	
+	
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/syntax.css">
+	
+</head>
+<body>
+	<header>
+	
+	
+	<nav>
+		<ul>
+			
+			<li><a href="/">🏠 Home</a></li>
+			
+			<li><a href="/posts/">📓 Posts</a></li>
+			
+		</ul>
+	</nav>
+	
+</header>
+
+	
+	<main>
+		<article>
+			<h1>When do stochastic processes that are modifications become indistinguishable?</h1>
+			<time datetime="0001-01-01T00:00:00">01.01.0001 00:00</time>
+			<div>
+				<h1 id="when-do-stochastic-processes-that-are-modifications-become-indistinguishable">When do stochastic processes that are modifications become indistinguishable?</h1>
+<p>I first found this problem during my first few days as a PhD student on the book by Karatzas and Shreve [1], a staple for people working with continuous time stochastic processes. This is the very first problem in said book.</p>
+<p><strong>Problem 1.1.5:</strong> Let $Y$ be a <em>modification</em> of $X$, and suppose that both processes have a.s. <em>right-continuous</em> paths. Then $X$ and $Y$ are <em>indistinguishable</em>.</p>
+<p>And as stupid as I was at the time (not that much has changed ever since) the definition of <em>modification</em> and <em>indistinguishability</em> were, funnily enough, indistinguishable to me. Let us check those definitions, shall we?</p>
+<p><strong>Definition (modifications):</strong> $Y$ is a modification of $X$ if, for every point $t$, a.s. the equality $X_t = Y_t$ holds. I.e.</p>
+<p>$$\mathbb{P}[X_t = Y_t] = 1$$</p>
+<p><strong>Definition (indistinguishability):</strong> $X$ and $Y$ are indistinguishable if almost all their <em>sample paths</em> agree. I.e.</p>
+<p>$$\mathbb{P}[X_t = Y_t; \forall t \geq 0] = 1$$.</p>
+<p>Probably you can already see what I could not at first sight, but if not allow me to elaborate.
+In my mind you the only difference here was where the cuantification $\forall t \geq 0$ was placed what is the difference if we have it inside or outside the application of the probability measure, well it turns out it makes all the difference.</p>
+<p>To understand this, it&rsquo;s easier to think in terms of <em>events on a sample space</em>: modifications talk about the event ${X_t = Y_t}$ for all individual points $t \geq 0$, whereas indistinguishability deals with the event ${X_t = Y_t; \forall t \geq 0}$. Does this make it different for you now? No? Well, let us paint a picture.</p>
+<p>ADD A PICTURE</p>
+<p>The picture above is very revealing. Remember that a stochastic process can be though as a function $Z: \Omega \times (0, \infty) \to \mathbb{R}$, where $\Omega$ is the sample space and it&rsquo;s what gives the randomness to the stochastic process. For a fixed $\omega$, the map $Z_\cdot(\omega)$ is a function of time which we call sample path (sample path associated to $\omega$ you could say). On the figure above you see one sample path of $X$ in purple and one sample path of $Y$ in green, and also you see the points $X_t$ and $Y_t$ marked with an $\times$ and a $\circ$ respectively. So, what modifications take into account is that you can go over each point $t$ and find out that the event $X_t = Y_t$ happens for each sample path. Whereas indistinguishability takes the entire sample from $X$ and $Y$ paths and tell you that all of them are the same across time.</p>
+<p>Now that this is clearer, let us recall the definition of right-continuity and finish this problem:</p>
+<p><strong>Definition (right-continuity)$^{[2]}$:</strong> A function $f:\mathbb{R} \to \mathbb{R}$ is right-continuous if for every $t \in \mathbb{R}$ the limit</p>
+<p>$$\lim_{s \to t^{+}} f(s)$$</p>
+<p>exists and it&rsquo;s equal to $f(t)$.</p>
+<p>We can see this on a picture:</p>
+<p>ADD A PICTURE</p>
+<p>Finally, let&rsquo;s solve the problem.</p>
+<p><em><strong>Proof:</strong></em>
+Since the processes have sample paths a.s. right-continous we have</p>
+<p>$$\mathbb{P}[\lim_{s \to t^{+}} X_s = X_t; \forall t \geq 0] = 1$$</p>
+<p>and similarly for $Y$, and since $Y$ is a modification of $X$ we get</p>
+<p>$$\mathbb{P}[\lim_{s \to t^{+}} X_s = X_t = Y_t = \lim_{s \to t^{+}} Y_s; \forall t \geq 0] = 1,$$</p>
+<p>hence proved.</p>
+<p>Very simple, isn&rsquo;t it? Well that&rsquo;s how this thing goes, like many things in mathematics it&rsquo;s just a matter of understanding your tools.</p>
+<h2 id="references">References</h2>
+<p>[1] I. Karatzas and S. E. Shreve, Brownian motion and stochastic calculus, Second edition. in Graduate texts in mathematics, no. 113. New York ; Springer-Verlag, 1991.</p>
+<p>[2] E. Zakon, Mathematical Analysis. I, Updated edition. in The Zakon Series on Mathematical Analysis. West Lafayette, IN: University of Windsor : The Trillia Group, 2004.</p>
+
+			</div>
+			
+			<div>
+				<ul id="tags">
+					
+					<li><a href="/tags/"></a></li>
+					
+				</ul>
+			</div>
+			
+			
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/posts/never-forget-the-fundamentals/">Never Forget the Fundamentals</a></li>
+				
+				<li><a href="/posts/what-even-are-statistics-tables/">What Even Are Statistics Tables</a></li>
+				
+				<li><a href="/posts/multiple-sandwich/">Multiple Sandwich</a></li>
+				
+				<li><a href="/posts/talk-markov-processes-and-their-friends/">Talk: Markov Processes and Their Friends</a></li>
+				
+				<li><a href="/posts/a-sed-one-liner-to-fix-date-format-in-text-files/">A Sed One Liner to Fix Date Format in Text Files</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	<footer>
+	<p>&copy; 2024 <a href="http://localhost:1313/">What is LM doing?</a></p>
+</footer>
+
+</body>
+</html>
