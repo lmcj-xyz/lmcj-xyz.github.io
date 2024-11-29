@@ -6,8 +6,15 @@
     <description>Recent content in Posts on What is LM doing?</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 30 Oct 2024 08:18:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Nov 2024 16:19:15 +0000</lastBuildDate>
     <atom:link href="https://lmcj.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use LaTeX Kids</title>
+      <link>https://lmcj.xyz/posts/use-latex-kids/</link>
+      <pubDate>Fri, 29 Nov 2024 16:19:15 +0000</pubDate>
+      <guid>https://lmcj.xyz/posts/use-latex-kids/</guid>
+      <description>Here is a post in the form of a LaTeX code snippet.&#xA;On the dangers of using plain TeX 1% Let us define a header 2%% Starting with some fonts 3\font\xmplbx = cmbx10 scaled \magstephalf 4%% Here you define the font named \xmplbx by calling the actual font 5%% named cmbx10 and you say that is going to be scaled...how much 6%% is the scale, you may ask? 7%% \magstep is for magnification, and you magnify by 1.</description>
+    </item>
     <item>
       <title>Multiple Sandwich</title>
       <link>https://lmcj.xyz/posts/multiple-sandwich/</link>

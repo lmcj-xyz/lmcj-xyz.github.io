@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Use LaTeX Kids</title>
+	
+	
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/syntax.css">
+	
+	
+
+</head>
+<body>
+	<header>
+	
+	
+	<nav>
+		<ul>
+			
+			<li><a href="/">🏠 Home</a></li>
+			
+			<li><a href="/posts/">📓 Posts</a></li>
+			
+		</ul>
+	</nav>
+	
+</header>
+
+	
+	<main>
+		<article>
+			<h1>Use LaTeX Kids</h1>
+			<time datetime="2024-11-29T16:19:15">29.11.2024 16:19</time>
+			<div>
+				<p>Here is a post in the form of a LaTeX code snippet.</p>
+<h1 id="on-the-dangers-of-using-plain-tex">On the dangers of using plain TeX</h1>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="c">% Let us define a header
+</span></span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="c">%% Starting with some fonts
+</span></span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="c"></span><span class="k">\font\xmplbx</span> = cmbx10 scaled <span class="k">\magstephalf</span> 
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="c">%% Here you define the font named \xmplbx by calling the actual font
+</span></span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="c">%% named cmbx10 and you say that is going to be scaled...how much
+</span></span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="c">%% is the scale, you may ask?
+</span></span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="c">%% \magstep is for magnification, and you magnify by 1.2
+</span></span></span><span class="line"><span class="ln"> 8</span><span class="cl"><span class="c">%% i.e. cmbx10 scaled \magstep would be the font cmbx10 scaled at 1.2,
+</span></span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="c">%% meaning a 20% increase in the scale.
+</span></span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="c">%% All the `magsteps&#39; are powers of 1.2,
+</span></span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="c">%% \magstep2 for instance would be a magnification of (1.2)^2...
+</span></span></span><span class="line"><span class="ln">12</span><span class="cl"><span class="c">%% which means that \magstephalf is exactly a magnification of
+</span></span></span><span class="line"><span class="ln">13</span><span class="cl"><span class="c">%% \sqrt{1.2} because LOL!
+</span></span></span><span class="line"><span class="ln">14</span><span class="cl"><span class="c">% Same here but with the italics font
+</span></span></span><span class="line"><span class="ln">15</span><span class="cl"><span class="c"></span><span class="k">\font\xmplbxti</span> = cmbxti10 scaled <span class="k">\magstephalf</span>
+</span></span><span class="line"><span class="ln">16</span><span class="cl"><span class="c">% And now you can define the header as a two parameters command
+</span></span></span><span class="line"><span class="ln">17</span><span class="cl"><span class="c">% which you align to the left and use different fonts in different places
+</span></span></span><span class="line"><span class="ln">18</span><span class="cl"><span class="c">% then at the end you add an extra vertical space.
+</span></span></span><span class="line"><span class="ln">19</span><span class="cl"><span class="c"></span><span class="k">\def\xmpheader</span>#1#2<span class="nb">{</span><span class="k">\leftline</span><span class="nb">{</span><span class="k">\xmplbx</span> Example #1:<span class="k">\quad\xmplbxti</span> #2<span class="nb">}</span><span class="k">\vglue</span> .5<span class="k">\baselineskip</span><span class="nb">}</span>
+</span></span><span class="line"><span class="ln">20</span><span class="cl"><span class="c">%% Pure gore.
+</span></span></span><span class="line"><span class="ln">21</span><span class="cl"><span class="c">% And now you can write a header...
+</span></span></span><span class="line"><span class="ln">22</span><span class="cl"><span class="c"></span><span class="k">\xmpheader</span> 1 <span class="nb">{</span>Simple text<span class="nb">}</span>
+</span></span><span class="line"><span class="ln">23</span><span class="cl">
+</span></span><span class="line"><span class="ln">24</span><span class="cl">And this is some actual text which will appear in the document.
+</span></span><span class="line"><span class="ln">25</span><span class="cl"><span class="c">% The moral of this is: Kids use LaTeX, there is no point to this.
+</span></span></span><span class="line"><span class="ln">26</span><span class="cl"><span class="c">% Once your life is numb and want to at least feel something
+</span></span></span><span class="line"><span class="ln">27</span><span class="cl"><span class="c">% then go and use TeX.
+</span></span></span></code></pre></div>
+			</div>
+			
+			
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/posts/use-latex-kids/">Use LaTeX Kids</a></li>
+				
+				<li><a href="/posts/multiple-sandwich/">Multiple Sandwich</a></li>
+				
+				<li><a href="/posts/talk-markov-processes-and-their-friends/">Talk: Markov Processes and Their Friends</a></li>
+				
+				<li><a href="/posts/a-sed-one-liner-to-fix-date-format-in-text-files/">A Sed One Liner to Fix Date Format in Text Files</a></li>
+				
+				<li><a href="/posts/2024-02-21-mediocre-reviews/">We Need Mediocre Reviews</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	<footer>
+	<p>&copy; 2024 <a href="https://lmcj.xyz/">What is LM doing?</a></p>
+</footer>
+
+</body>
+</html>
