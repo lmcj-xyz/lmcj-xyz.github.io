@@ -6,8 +6,15 @@
     <description>Recent content on What is LM doing?</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 29 Nov 2024 16:19:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2025 16:11:33 +0000</lastBuildDate>
     <atom:link href="https://lmcj.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>https://lmcj.xyz/books/</link>
+      <pubDate>Thu, 30 Jan 2025 16:11:33 +0000</pubDate>
+      <guid>https://lmcj.xyz/books/</guid>
+      <description>List of books that I have read, or intend to read.&#xA;Additionally with the information about whether or not I own a physical copy of this book. It&amp;rsquo;s specially useful if you would like to gift me something 👀.&#xA;You can always assume that I want to own a physical copy of a book in these lists, or the series from which is part, unless otherwise specified. There are books I have read but didn&amp;rsquo;t really like, or maybe I liked at the time but now I don&amp;rsquo;t really care anymore or straight up I don&amp;rsquo;t like.</description>
+    </item>
     <item>
       <title>Use LaTeX Kids</title>
       <link>https://lmcj.xyz/posts/use-latex-kids/</link>
