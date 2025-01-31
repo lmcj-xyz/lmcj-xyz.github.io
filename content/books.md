@@ -87,6 +87,14 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <td></td>
     </tr>
     <tr>
+        <td>The Word for World is Forest</td>
+        <td>Ursula K. Le Guin</td>
+        <td>😁</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
         <td>El Aleph</td>
         <td>Jorge Luis Borges</td>
         <td></td>
@@ -306,6 +314,70 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Ebook</th>
         <th>Not owned</th>
         <th>Additional comments</th>
+    </tr>
+    <tr>
+        <td>Northern Lights</td>
+        <td>Philip Pullman</td>
+        <td>😁</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>The Black Swan</td>
+        <td>Nassim Nicholas Taleb</td>
+        <td>😁</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>A Devil's Chaplain</td>
+        <td>Richard Dawkins</td>
+        <td>😁</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>The Magic of Reality</td>
+        <td>Richard Dawkins</td>
+        <td>😁</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>The Selfish Gene</td>
+        <td>Richard Dawkins</td>
+        <td>😁</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Don Quijote de la Mancha</td>
+        <td>Miguel de Cervantes Saavedra</td>
+        <td>😁</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Bossa Nova</td>
+        <td>Ruy Castro</td>
+        <td>😁</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>The Invisible Man</td>
+        <td>H. G. Wells</td>
+        <td>😁</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>House of Suns</td>
