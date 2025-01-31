@@ -64,7 +64,7 @@ The order of the books in the list doesn't mean anything except potentially a gr
     <tr><td>Flatland</td><td>Edwin Abbott Abbott</td> <td></td> <td></td> <td>😢</td> <td></td> </tr>
     <tr><td>The Old Man and the Sea</td><td>Ernest Hemingway</td> <td>😁</td> <td></td> <td></td> <td></td> </tr>
     <tr><td>Animal Farm</td><td>George Orwell</td> <td>😁</td> <td></td> <td></td> <td></td> </tr>
-    <tr><td>Consider Phlebas</td><td>Iain M. Banks</td> <td>😁</td> <td></td> <td></td> <td><ul><li>Book 2 of the 'Culture series'</li></ul></td> </tr>
+    <tr><td>Consider Phlebas</td><td>Iain M. Banks</td> <td>😁</td> <td></td> <td></td> <td><ul><li>Book 1 of the 'Culture series'</li></ul></td> </tr>
     <tr><td>Ringworld</td><td>Larry Niven</td> <td>😁</td> <td></td> <td></td> <td></td> </tr>
     <tr> <td>Lifespan</td> <td>David Sinclair</td> <td></td> <td></td> <td>😢</td> <td> <ul> <li> I don't want to own this book. </li> </ul> </td> </tr>
     <tr> <td>Foundation</td> <td>Isaac Asimov</td> <td>😁</td> <td></td> <td></td> <td> <ul> <li> Book 1 of the 'Foundation series' </li> </ul> </td> </tr>
