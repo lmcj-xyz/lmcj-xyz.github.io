@@ -72,9 +72,9 @@ The order of the books in the list doesn't mean anything except potentially a gr
     <tr> <td>The Hitchhiker's Guide to the Galaxy</td> <td>Douglas Adams</td> <td></td> <td></td> <td>😢</td> <td> <ul> <li>Book 1 of 'The Trilogy of Five'</li> </ul> </td> </tr>
     <tr> <td>The Restaurant at the End of the Universe</td> <td>Douglas Adams</td> <td>😁</td> <td></td> <td></td> <td> <ul> <li>Book 2 'The Trilogy of Five'</li> </ul> </td> </tr>
     <tr> <td>Gardens of the Moon</td> <td>Steven Erikson</td> <td>😁</td> <td></td> <td></td> <td> <ul> <li>Book 1 'The Malazan Book of the Fallen'</li> </ul> </td> </tr>
-    <tr> <td>Dune</td> <td>Frank Herbert</td> <td>😁</td> <td></td> <td></td> <td> <ul> <li>Book 1 of the 'Dune series'</li> <li>I don't care about anything not written by Frank Herbert, so I am only interested until 'Chapterhouse: Dune'</li> </ul> </td> </tr>
-    <tr> <td>Dune Messiah</td> <td>Frank Herbert</td> <td>😁</td> <td></td> <td></td> <td> <ul> <li>Book 2 of the 'Dune series'</li> <li>I don't care about anything not written by Frank Herbert, so I am only interested until 'Chapterhouse: Dune'</li> </ul> </td> </tr>
-    <tr> <td>Children of Dune</td> <td>Frank Herbert</td> <td>😁</td> <td></td> <td></td> <td> <ul> <li>Book 3 of the 'Dune series'</li> <li>I don't care about anything not written by Frank Herbert, so I am only interested until 'Chapterhouse: Dune'</li> </ul> </td> </tr>
+    <tr> <td>Dune</td> <td>Frank Herbert</td> <td>😁</td> <td></td> <td></td> <td> <ul> <li>Book 1 of the 'Dune series'</li> <li>I only care about the books written by Frank Herbert</li> </ul> </td> </tr>
+    <tr> <td>Dune Messiah</td> <td>Frank Herbert</td> <td>😁</td> <td></td> <td></td> <td> <ul> <li>Book 2 of the 'Dune series'</li> <li>I only care about the books written by Frank Herbert</li> </ul> </td> </tr>
+    <tr> <td>Children of Dune</td> <td>Frank Herbert</td> <td>😁</td> <td></td> <td></td> <td> <ul> <li>Book 3 of the 'Dune series'</li> <li>I only care about the books written by Frank Herbert</li> </ul> </td> </tr>
 </table>
 {{</raw>}}
 
