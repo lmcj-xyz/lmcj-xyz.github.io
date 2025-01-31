@@ -87,6 +87,14 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <td></td>
     </tr>
     <tr>
+        <td>El Aleph</td>
+        <td>Jorge Luis Borges</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>Contact</td>
         <td>Carl Sagan</td>
         <td>😁</td>
@@ -133,6 +141,14 @@ The order of the books in the list doesn't mean anything except potentially a gr
     <tr>
         <td>Ringworld</td>
         <td>Larry Niven</td>
+        <td>😁</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Le Petit Prince</td>
+        <td>Antoine de Saint-Exupéry</td>
         <td>😁</td>
         <td></td>
         <td></td>
@@ -244,6 +260,30 @@ The order of the books in the list doesn't mean anything except potentially a gr
                 <li>I only care about the books written by Frank Herbert</li>
             </ul>
         </td>
+    </tr>
+    <tr>
+        <td>Shrek!</td>
+        <td>William Steig</td>
+        <td></td>
+        <td>😐️</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Fahrenheit 451</td>
+        <td>Ray Bradbury</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>The Martian Chronicles</td>
+        <td>Ray Bradbury</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
     </tr>
 </table>
 {{</raw>}}
