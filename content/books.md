@@ -830,9 +830,9 @@ The order of the books in the list doesn't mean anything except potentially a gr
     <tr>
         <td>Rendezvous with Rama</td>
         <td>Arthur C. Clarke</td>
+        <td>😁</td>
         <td></td>
         <td></td>
-        <td>😢</td>
         <td>
             <ul>
                 <li>Book 1 of 'Rama series'</li>
