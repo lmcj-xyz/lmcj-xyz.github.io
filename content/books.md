@@ -46,7 +46,7 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <td></td>
         <td>😐️</td>
         <td></td>
-        <td></td>
+        <td>Not interested in owning a copy of this</td>
     </tr>
     <tr>
         <td>Ansibles, perfiladores y otras máquinas de ingenio</td>
