@@ -316,6 +316,14 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Additional comments</th>
     </tr>
     <tr>
+        <td>Lovecraft Country</td>
+        <td>Matt Ruff</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>Northern Lights</td>
         <td>Philip Pullman</td>
         <td>😁</td>
