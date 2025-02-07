@@ -316,6 +316,14 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Additional comments</th>
     </tr>
     <tr>
+        <td>A Brief History of Vice</td>
+        <td>Robert Evans</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>Erewhon</td>
         <td>Samuel Butler</td>
         <td></td>
