@@ -316,6 +316,30 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Additional comments</th>
     </tr>
     <tr>
+        <td>Pedro Páramo</td>
+        <td>Juan Rulfo</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Cien años de soldedad</td>
+        <td>Gabriel García Márquez</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Mi país inventado</td>
+        <td>Isabel Allende</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>A Brief History of Vice</td>
         <td>Robert Evans</td>
         <td></td>
