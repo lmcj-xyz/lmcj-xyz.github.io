@@ -6,152 +6,155 @@
     <description>Recent content on What is LM doing?</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
+    <managingEditor>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</managingEditor>
+    <webMaster>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</webMaster>
+    <copyright>What is LM doing? © 2025 by Luis Mario Chaparro Jáquez is licensed under CC BY-NC-SA 4.0</copyright>
     <lastBuildDate>Thu, 30 Jan 2025 16:11:33 +0000</lastBuildDate>
     <atom:link href="https://lmcj.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Books</title>
       <link>https://lmcj.xyz/books/</link>
-      <pubDate>Thu, 30 Jan 2025 16:11:33 +0000</pubDate>
+      <pubDate>Thu, 30 Jan 2025 16:11:33 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/books/</guid>
       <description>List of books that I have read, or intend to read.&#xA;Additionally with the information about whether or not I own a physical copy of this book. It&amp;rsquo;s specially useful if you would like to gift me something 👀.&#xA;You can always assume that I want to own a physical copy of a book in these lists, or the series from which is part, unless otherwise specified. There are books I have read but didn&amp;rsquo;t really like, or maybe I liked at the time but now I don&amp;rsquo;t really care anymore or straight up I don&amp;rsquo;t like.</description>
     </item>
     <item>
       <title>Use LaTeX Kids</title>
       <link>https://lmcj.xyz/posts/use-latex-kids/</link>
-      <pubDate>Fri, 29 Nov 2024 16:19:15 +0000</pubDate>
+      <pubDate>Fri, 29 Nov 2024 16:19:15 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/posts/use-latex-kids/</guid>
       <description>Here is a post in the form of a LaTeX code snippet.&#xA;On the dangers of using plain TeX 1% Let us define a header 2%% Starting with some fonts 3\font\xmplbx = cmbx10 scaled \magstephalf 4%% Here you define the font named \xmplbx by calling the actual font 5%% named cmbx10 and you say that is going to be scaled...how much 6%% is the scale, you may ask? 7%% \magstep is for magnification, and you magnify by 1.</description>
     </item>
     <item>
       <title>Multiple Sandwich</title>
       <link>https://lmcj.xyz/posts/multiple-sandwich/</link>
-      <pubDate>Wed, 30 Oct 2024 08:18:07 +0000</pubDate>
+      <pubDate>Wed, 30 Oct 2024 08:18:07 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/posts/multiple-sandwich/</guid>
       <description>Problem: Consider an array A of length m with only non-negative integer entries, then take the sum of the entries of A and denote it by s. And find the smallest number p that is a multiple of m and is greater or equal than s.&#xA;This was a teeny tiny part of a timed coding question that I blew because I decided to, as any good mathematician would do, overthink it.</description>
     </item>
     <item>
       <title>Talk: Markov Processes and Their Friends</title>
       <link>https://lmcj.xyz/posts/talk-markov-processes-and-their-friends/</link>
-      <pubDate>Tue, 21 May 2024 17:33:13 +0100</pubDate>
+      <pubDate>Tue, 21 May 2024 17:33:13 +0100</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/posts/talk-markov-processes-and-their-friends/</guid>
       <description>I have prepared a talk which I intend to be my &amp;ldquo;sure, I can give a talk&amp;rdquo; if anyone asks me at any point.&#xA;The name is &amp;ldquo;Markov processes and their friends&amp;rdquo; and you can find the first version of it at the end of the Academic profile.&#xA;Or here:&#xA;Notes The backboard prep notes Those notes are the version one of the talk, presented in the Pure PGR Seminar in Leeds.</description>
     </item>
     <item>
       <title>Leeds Statistics &amp; Probability PGR Seminar Term 2 2023-24</title>
       <link>https://lmcj.xyz/stats-seminar/2023-24-term2/</link>
-      <pubDate>Wed, 28 Feb 2024 23:16:32 +0000</pubDate>
+      <pubDate>Wed, 28 Feb 2024 23:16:32 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/stats-seminar/2023-24-term2/</guid>
       <description>This is Term 2 2023-24, so all the dates below correspond to the year 2024&#xA;Copyright disclaimer: The titles and abstracts of the talks are the property of the speakers and their colaborators.&#xA;February 28th Comparing two functional principal component models by Sonia Dembowska&#xA;Evolution of social decision-making by Anna Sigalou&#xA;March 13th A short introduction to stochastic calculus by Yukun Cao&#xA;Abstract: As we dive into the world of randomness, a precise way to integrate with respect to a stochastic process is needed.</description>
     </item>
     <item>
       <title>CV Professional</title>
       <link>https://lmcj.xyz/cv_pro/</link>
-      <pubDate>Sun, 25 Feb 2024 09:55:59 +0000</pubDate>
+      <pubDate>Sun, 25 Feb 2024 09:55:59 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/cv_pro/</guid>
       <description>You can also download the PDF version.&#xA;Last updated: 25th Feb 2024.&#xA;Luis Mario Chaparro Jáquez Contact information Phone: (+44) 0792 709 4658 Email: pro@lmcj.xyz Website: lmcj.xyz LinkedIn: linkedin.com/in/lmcj Technical skills Mathematics: Stochastic Calculus, Partial Differential Equations (PDEs), Numerical Methods, Stochastic Processes. Programming: Python, C, R. Software and technologies: Linux based OSs, Microsoft Windows, Spreadsheets software (LibreOffice Calc, Microsoft Excel and Google Sheets), LaTeX. Education PhD Mathematics University of Leeds, UK, 2021-Present (Deadline set on the 31st December 2024).</description>
     </item>
     <item>
       <title>A Sed One Liner to Fix Date Format in Text Files</title>
       <link>https://lmcj.xyz/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</link>
-      <pubDate>Sat, 24 Feb 2024 18:30:54 +0000</pubDate>
+      <pubDate>Sat, 24 Feb 2024 18:30:54 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</guid>
       <description>TL;DR This is a know your tools entry, although I absolutely don&amp;rsquo;t know my tools as you will see if you read.&#xA;The following &amp;ldquo;one-liner&amp;rdquo; will change any wiki style link with a date string formatted as &amp;ldquo;Feb 22nd, 2024&amp;rdquo; to &amp;ldquo;2024-02-22&amp;rdquo;, god&amp;rsquo;s intended way to write a date.&#xA;Please forgive the search and replace gore of the second sed.&#xA;1sed -E &amp;#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&amp;#39; &amp;#34;$1&amp;#34; | 2&#x9;sed -E &amp;#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&amp;#39; | 3&#x9;sed -E &amp;#39;s;-([0-9])\];-0\1];&amp;#39; &amp;gt; &amp;#34;$1&amp;#34;.</description>
     </item>
     <item>
       <title>We Need Mediocre Reviews</title>
       <link>https://lmcj.xyz/posts/2024-02-21-mediocre-reviews/</link>
-      <pubDate>Wed, 21 Feb 2024 17:41:23 +0000</pubDate>
+      <pubDate>Wed, 21 Feb 2024 17:41:23 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/posts/2024-02-21-mediocre-reviews/</guid>
       <description>Currently I am in a character development arc, in particular dealing with moving because the building management in my building is awful and has just left a leak to make my flat unfit for habitation, and because of that I have learned that one has to be very wary about the company or person which manages the building where you live. And in this search it seems like people who provide reviews for these kind of things have a very strong opinion either positive or negative.</description>
     </item>
     <item>
       <title>Leeds Statistics &amp; Probability PGR Seminar Term 1 2023-24</title>
       <link>https://lmcj.xyz/stats-seminar/2023-24-term1/</link>
-      <pubDate>Wed, 18 Oct 2023 23:16:32 +0000</pubDate>
+      <pubDate>Wed, 18 Oct 2023 23:16:32 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/stats-seminar/2023-24-term1/</guid>
       <description>This is Term 1 2023-24, so all the dates below correspond to the year 2023&#xA;Copyright disclaimer: The titles and abstracts of the talks are the property of the speakers and their colaborators.&#xA;18th October Euler-Maruyama scheme for SDEs with distributional drifts: linear and McKean-Vlasov Luis Mario Chaparro Jáquez&#xA;We present an Euler scheme developed to solve SDEs with distributional drifts belonging to a Hölder-Zygmund space and unit diffusion driven by a standard Brownian motion.</description>
     </item>
     <item>
       <title>Leeds Stats PGR Seminar 2022-23 Term 2</title>
       <link>https://lmcj.xyz/stats-seminar/2022-23-term2/</link>
-      <pubDate>Fri, 10 Feb 2023 11:51:41 +0100</pubDate>
+      <pubDate>Fri, 10 Feb 2023 11:51:41 +0100</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/stats-seminar/2022-23-term2/</guid>
       <description>This is Term 2 2022-23, so all the dates below correspond to the year 2023&#xA;Copyright disclaimer: The titles and abstracts of the talks are the property of the speakers and their colaborators.&#xA;February 10th Regression Analysis for Directional Data Norah Almasoud&#xA;In this project, the aim is to build a regression model to predict the effect of linear explanatory variables on a circular response variable. Circular regressions are classified into two groups based on the data type.</description>
     </item>
     <item>
       <title>Numismatics</title>
       <link>https://lmcj.xyz/numismatics/</link>
-      <pubDate>Sun, 05 Feb 2023 01:13:17 +0000</pubDate>
+      <pubDate>Sun, 05 Feb 2023 01:13:17 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/numismatics/</guid>
       <description>This is my coin and bank notes collection. Nothing fancy, mostly circulating tender.&#xA;México (Mexican peso) Circulating coins Denomination Year Picture Design 10 pesos 2021 10 pesos 2000 5 pesos 2021 5 pesos 2008 2 pesos 2021 2 pesos Unkn 1 peso 2021 50 cents 2021 Circulating notes Denomination Year Picture Design 1000 pesos 2021 500 pesos 2021 200 pesos 2021 100 pesos 2021 50 pesos 2021 50 pesos 2021 20 pesos 2021 20 pesos 2021 Out of circulation coins Denomination Year Picture Design 20 pesos 1982 5 centavos 1936 Special coins Coin Year Picture Design 1 Oz.</description>
     </item>
     <item>
       <title>Leeds Stats PGR Seminar 2022-23 Term 1</title>
       <link>https://lmcj.xyz/stats-seminar/2022-23-term1/</link>
-      <pubDate>Fri, 07 Oct 2022 11:51:41 +0100</pubDate>
+      <pubDate>Fri, 07 Oct 2022 11:51:41 +0100</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/stats-seminar/2022-23-term1/</guid>
       <description>This is Term 1 2022-23, so all the dates below correspond to the year 2022.&#xA;Copyright disclaimer: The titles and abstracts of the talks are the property of the speakers and their colaborators.&#xA;October 14th An Euler-Maruyama scheme for SDEs with distributional drift Luis Mario Chaparro Jaquez&#xA;The Euler-Maruyama scheme is a widely used numerical method to compute approximations of the solutions to SDEs. When the coefficients have sufficient regularity the strong convergence rate is known to be $1/2$.</description>
     </item>
     <item>
       <title>Academic Profile</title>
       <link>https://lmcj.xyz/academic/</link>
-      <pubDate>Mon, 05 Sep 2022 23:14:12 +0100</pubDate>
+      <pubDate>Mon, 05 Sep 2022 23:14:12 +0100</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/academic/</guid>
       <description>Currently I am a PhD student working under the supervision of Elena Issoglio and Jan Palczewski on a project concerning theoretical analysis and implementation of numerical schemes stochastic differential equations with singular coefficients.&#xA;Research interests My research interests are a combination of stochastic analysis and numerical analysis with strong links to partial differential equations, in particular:&#xA;Theoretical Analysis and Numerical Methods for Stochastic Differencial Equations with singular coefficients: We aim to find results concerning the convergence rates of SDEs with coefficients living in spaces of generalised functions, in particular with drifs in Hölder-Zygmund spaces.</description>
     </item>
     <item>
       <title>Academic CV</title>
       <link>https://lmcj.xyz/cv_ac/</link>
-      <pubDate>Sun, 04 Sep 2022 20:32:52 +0100</pubDate>
+      <pubDate>Sun, 04 Sep 2022 20:32:52 +0100</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/cv_ac/</guid>
       <description>You can also download the PDF version.&#xA;Luis Mario Chaparro Jáquez 2nd year PhD Student at the University of Leeds&#xA;Updated: September 5th 2022&#xA;Contact information UoL Profile: luis-mario-chaparro-jaquez Personal Website: lmcj.xyz Work E-mail: mmlmcj@leeds.ac.uk Personal E-mail: academic@lmcj.xyz LinkedIn: lmcj Education PhD: Mathematics. School of Mathematics, University of Leeds. Leeds, UK. January 2021-present. Undergraduate: Engineering Mathematics. Facultad de Ingeniería, Universidad Autónoma de Chihuahua. Chihuahua, México. August 2015-December 2019. Skills Programming languages: C, Python, R.</description>
     </item>
     <item>
       <title>External links and contact info</title>
       <link>https://lmcj.xyz/external/</link>
-      <pubDate>Sun, 04 Sep 2022 20:22:29 +0100</pubDate>
+      <pubDate>Sun, 04 Sep 2022 20:22:29 +0100</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/external/</guid>
       <description>You can contact me over&amp;hellip;&#xA;Email: contact@lmcj.xyz Mastodon: @lmcj@mastodon.online Development Codeberg Github Academic University of Leeds ResearchGate ORCID Professional LinkedIn </description>
     </item>
     <item>
       <title>Donations</title>
       <link>https://lmcj.xyz/donate/</link>
-      <pubDate>Sun, 04 Sep 2022 16:22:58 +0100</pubDate>
+      <pubDate>Sun, 04 Sep 2022 16:22:58 +0100</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/donate/</guid>
       <description>If you like what I do, consider donating for me to keep posting stuff.&#xA;Monero (XMR) 🔗 URI: monero:8A9rcsarfMKDEjobzYMTEvinoaiMgyMgKKYtvQUpQ6gkaALpVymYmu8TDE7cRA2M4CXkoYfpuEeadBuqUp2JKNXyBAo1koZ&#xA;🏠 Address: 8A9rcsarfMKDEjobzYMTEvinoaiMgyMgKKYtvQUpQ6gkaALpVymYmu8TDE7cRA2M4CXkoYfpuEeadBuqUp2JKNXyBAo1koZ&#xA;Bitcoin (BTC) 🔗 URI: bitcoin:bc1q87rya5v6n8fpn4p6k90ctufrslgq3cflxvrkre?message=Donations%20website&#xA;🏠 Address: bc1q87rya5v6n8fpn4p6k90ctufrslgq3cflxvrkre&#xA;PayPal 🔗 PayPal.me</description>
     </item>
     <item>
       <title>How to Fix Metadata of Pdf Files</title>
       <link>https://lmcj.xyz/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</link>
-      <pubDate>Tue, 07 Jun 2022 23:56:15 +0200</pubDate>
+      <pubDate>Tue, 07 Jun 2022 23:56:15 +0200</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</guid>
       <description>Important disclaimer: For your own benefit you should never run random commands you find on the internet, this is why whenever I tell you to run a command, immediately after I will let you know exactly what it does. Feel free to check the documentation of the command to be sure I am not lying to you.&#xA;This is a follow up of the quick entry I made previously on how to put metadata on your LaTeX generated documents.</description>
     </item>
     <item>
       <title>Please Put Metadata in Your LaTeX Files</title>
       <link>https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/</link>
-      <pubDate>Tue, 07 Jun 2022 23:20:48 +0200</pubDate>
+      <pubDate>Tue, 07 Jun 2022 23:20:48 +0200</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/</guid>
       <description>Today I wanted to homogenize the naming on my totally legally downloaded (😉) collection of maths books, just to (unsurprisingly) see just how messed up the metadata of files you get online is.&#xA;And well, I will fix that for my files but it takes some time, and I will gift you the method I came up with to do so, once I finish. But for now, and since I was of course also guilty of not adding metadata to my documents before today, this is just a reminder of how to add metadata to documents typesetted with LaTeX.</description>
     </item>
     <item>
       <title>Using KaTex Locally for Maths Typesetting in Hugo</title>
       <link>https://lmcj.xyz/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</link>
-      <pubDate>Sun, 05 Jun 2022 12:53:26 +0200</pubDate>
+      <pubDate>Sun, 05 Jun 2022 12:53:26 +0200</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</guid>
       <description>If you work or study on mathematics related fields and have a website, you might often want to share your knowledge with the world. Of course, doing it is rather easy with many website creation tools, and there are also many tutorials to do it with any tool you can think of.&#xA;So, I want to tell you how to do it using the static site generator Hugo and the JavaScript library KaTeX.</description>
     </item>
     <item>
       <title>Acerca de toma de notas, hacer una wiki y así</title>
       <link>https://lmcj.xyz/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/</link>
-      <pubDate>Sun, 20 Mar 2022 15:51:15 +0000</pubDate>
+      <pubDate>Sun, 20 Mar 2022 15:51:15 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/</guid>
       <description>Hace poco decidí mantener mis notas de todo lo posible usando el plugin para vim/neovim&#xA;vimwiki pero terminé usando Obsidian.&#xA;Todo comenzó cuando por el inicio de febrero EL DAVID me recordó que Joplin existe, lo que derivó en una conversación sobre toma de notas y sISteMas dE gEStIón De COnOcIMiEnTo (PKM por Personal Knowledge Management) y salió a relucir Obsidian. Sobre lo cual EL DAVID dijo:&#xA;El pedo es que es de paga y no pienso pagar por un explorador de archivos glorificado.</description>
     </item>
     <item>
       <title>Me he rendido y usaré WordPress</title>
       <link>https://lmcj.xyz/posts/2022-03-20-me-he-rendido-y-usare-wordpress/</link>
-      <pubDate>Sun, 20 Mar 2022 02:49:20 +0000</pubDate>
+      <pubDate>Sun, 20 Mar 2022 02:49:20 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/posts/2022-03-20-me-he-rendido-y-usare-wordpress/</guid>
       <description>Después de un montón de tiempo intentando varias maneras de manejar mi sitio web, he caído en la cuenta de que en mi afán de tener una configuración mínima y con pocas dependencias no he logrado nada, lo cual se traduce también en mi productividad y demás cosas en las que no voy a ahondar.&#xA;Por lo tanto decidí deployear un sitio de WordPress en Vultr, y comenzar a realmente compartir lo que hago porque si no nunca voy a estar contento con la forma en que tengo las cosas.</description>
     </item>

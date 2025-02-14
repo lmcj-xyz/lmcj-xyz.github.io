@@ -6,12 +6,15 @@
     <description>Recent content in Mathematics on What is LM doing?</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
+    <managingEditor>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</managingEditor>
+    <webMaster>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</webMaster>
+    <copyright>What is LM doing? © 2025 by Luis Mario Chaparro Jáquez is licensed under CC BY-NC-SA 4.0</copyright>
     <lastBuildDate>Sun, 05 Jun 2022 12:53:26 +0200</lastBuildDate>
     <atom:link href="https://lmcj.xyz/tags/mathematics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using KaTex Locally for Maths Typesetting in Hugo</title>
       <link>https://lmcj.xyz/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</link>
-      <pubDate>Sun, 05 Jun 2022 12:53:26 +0200</pubDate>
+      <pubDate>Sun, 05 Jun 2022 12:53:26 +0200</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</guid>
       <description>If you work or study on mathematics related fields and have a website, you might often want to share your knowledge with the world. Of course, doing it is rather easy with many website creation tools, and there are also many tutorials to do it with any tool you can think of.&#xA;So, I want to tell you how to do it using the static site generator Hugo and the JavaScript library KaTeX.</description>
     </item>

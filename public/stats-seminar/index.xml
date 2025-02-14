@@ -6,33 +6,36 @@
     <description>Recent content in Leeds Statistics and Probability Seminar on What is LM doing?</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
+    <managingEditor>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</managingEditor>
+    <webMaster>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</webMaster>
+    <copyright>What is LM doing? © 2025 by Luis Mario Chaparro Jáquez is licensed under CC BY-NC-SA 4.0</copyright>
     <lastBuildDate>Wed, 28 Feb 2024 23:16:32 +0000</lastBuildDate>
     <atom:link href="https://lmcj.xyz/stats-seminar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leeds Statistics &amp; Probability PGR Seminar Term 2 2023-24</title>
       <link>https://lmcj.xyz/stats-seminar/2023-24-term2/</link>
-      <pubDate>Wed, 28 Feb 2024 23:16:32 +0000</pubDate>
+      <pubDate>Wed, 28 Feb 2024 23:16:32 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/stats-seminar/2023-24-term2/</guid>
       <description>This is Term 2 2023-24, so all the dates below correspond to the year 2024&#xA;Copyright disclaimer: The titles and abstracts of the talks are the property of the speakers and their colaborators.&#xA;February 28th Comparing two functional principal component models by Sonia Dembowska&#xA;Evolution of social decision-making by Anna Sigalou&#xA;March 13th A short introduction to stochastic calculus by Yukun Cao&#xA;Abstract: As we dive into the world of randomness, a precise way to integrate with respect to a stochastic process is needed.</description>
     </item>
     <item>
       <title>Leeds Statistics &amp; Probability PGR Seminar Term 1 2023-24</title>
       <link>https://lmcj.xyz/stats-seminar/2023-24-term1/</link>
-      <pubDate>Wed, 18 Oct 2023 23:16:32 +0000</pubDate>
+      <pubDate>Wed, 18 Oct 2023 23:16:32 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/stats-seminar/2023-24-term1/</guid>
       <description>This is Term 1 2023-24, so all the dates below correspond to the year 2023&#xA;Copyright disclaimer: The titles and abstracts of the talks are the property of the speakers and their colaborators.&#xA;18th October Euler-Maruyama scheme for SDEs with distributional drifts: linear and McKean-Vlasov Luis Mario Chaparro Jáquez&#xA;We present an Euler scheme developed to solve SDEs with distributional drifts belonging to a Hölder-Zygmund space and unit diffusion driven by a standard Brownian motion.</description>
     </item>
     <item>
       <title>Leeds Stats PGR Seminar 2022-23 Term 2</title>
       <link>https://lmcj.xyz/stats-seminar/2022-23-term2/</link>
-      <pubDate>Fri, 10 Feb 2023 11:51:41 +0100</pubDate>
+      <pubDate>Fri, 10 Feb 2023 11:51:41 +0100</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/stats-seminar/2022-23-term2/</guid>
       <description>This is Term 2 2022-23, so all the dates below correspond to the year 2023&#xA;Copyright disclaimer: The titles and abstracts of the talks are the property of the speakers and their colaborators.&#xA;February 10th Regression Analysis for Directional Data Norah Almasoud&#xA;In this project, the aim is to build a regression model to predict the effect of linear explanatory variables on a circular response variable. Circular regressions are classified into two groups based on the data type.</description>
     </item>
     <item>
       <title>Leeds Stats PGR Seminar 2022-23 Term 1</title>
       <link>https://lmcj.xyz/stats-seminar/2022-23-term1/</link>
-      <pubDate>Fri, 07 Oct 2022 11:51:41 +0100</pubDate>
+      <pubDate>Fri, 07 Oct 2022 11:51:41 +0100</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/stats-seminar/2022-23-term1/</guid>
       <description>This is Term 1 2022-23, so all the dates below correspond to the year 2022.&#xA;Copyright disclaimer: The titles and abstracts of the talks are the property of the speakers and their colaborators.&#xA;October 14th An Euler-Maruyama scheme for SDEs with distributional drift Luis Mario Chaparro Jaquez&#xA;The Euler-Maruyama scheme is a widely used numerical method to compute approximations of the solutions to SDEs. When the coefficients have sufficient regularity the strong convergence rate is known to be $1/2$.</description>
     </item>

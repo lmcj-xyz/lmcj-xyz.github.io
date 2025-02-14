@@ -3,6 +3,12 @@ languageCode = 'en-gb'
 defaultContentLanguage = 'en-gb'
 title = 'What is LM doing?'
 theme = 'melange'
+copyright = 'What is LM doing? © 2025 by Luis Mario Chaparro Jáquez is licensed under CC BY-NC-SA 4.0'
+
+[params]
+	[params.author]
+		email = 'webmaster@lmcj.xyz'
+		name = 'Luis Mario Chaparro Jáquez'
 
 # Header
 [menu]
@@ -26,3 +32,6 @@ theme = 'melange'
       lineNumbersInTable = false
       tabWidth = 4
       noClasses = false
+
+[outputs]
+	section = ['html', 'rss']
