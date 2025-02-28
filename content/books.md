@@ -48,14 +48,6 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <td></td>
         <td>Not interested in owning a copy of this</td>
     </tr>
-    <tr>
-        <td>Ansibles, perfiladores y otras máquinas de ingenio</td>
-        <td>Andrea Chapela</td>
-        <td>😁</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
 </table>
 {{</raw>}}
 
@@ -77,6 +69,14 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Ebook</th>
         <th>Not owned</th>
         <th>Additional comments</th>
+    </tr>
+    <tr>
+        <td>Ansibles, perfiladores y otras máquinas de ingenio</td>
+        <td>Andrea Chapela</td>
+        <td>😁</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>The Factory</td>
