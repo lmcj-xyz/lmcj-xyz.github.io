@@ -316,6 +316,70 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Additional comments</th>
     </tr>
     <tr>
+        <td>Writing A Compiler In Go</td>
+        <td>Thorsten Ball</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Writing An Interpreter In Go</td>
+        <td>Thorsten Ball</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Formal Verification</td>
+        <td>Erik Seligman, Tom Schubert, M Kumar</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>El Rebelde del Norte</td>
+        <td>Michael C. Meyer</td>
+        <td></td>
+        <td>😐</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Alice’s Adventures in a differentiable wonderland</td>
+        <td>Simon Scardapane</td>
+        <td></td>
+        <td>😐</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Habitat</td>
+        <td>Roy Simon</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Crafting Interpreters</td>
+        <td>Robert Nystrom</td>
+        <td></td>
+        <td>😐</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Las guerras indias en la historia de Chihuahua</td>
+        <td>Víctor Orozco</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>Pedro Páramo</td>
         <td>Juan Rulfo</td>
         <td></td>
