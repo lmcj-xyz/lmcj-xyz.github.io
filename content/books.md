@@ -316,6 +316,14 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Additional comments</th>
     </tr>
     <tr>
+        <td>La Catedral del Mar</td>
+        <td>Idelfonso Falcones</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>Writing A Compiler In Go</td>
         <td>Thorsten Ball</td>
         <td></td>
