@@ -316,6 +316,14 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Additional comments</th>
     </tr>
     <tr>
+        <td>Collins Complete Woodworking Manual</td>
+        <td>Albert Jackson and David Day</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>La Catedral del Mar</td>
         <td>Idelfonso Falcones</td>
         <td></td>
