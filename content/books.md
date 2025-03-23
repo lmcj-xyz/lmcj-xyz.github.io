@@ -316,6 +316,30 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Additional comments</th>
     </tr>
     <tr>
+        <td>The history of the decline and fall of the Roman empire</td>
+        <td>Edward Gibbon</td>
+        <td></td>
+        <td>😐</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>El Gallo de Oro</td>
+        <td>Juan Rulfo</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Careless People</td>
+        <td>Sarah Wynn-Williams</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>Collins Complete Woodworking Manual</td>
         <td>Albert Jackson and David Day</td>
         <td></td>
