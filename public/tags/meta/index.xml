@@ -6,19 +6,22 @@
     <description>Recent content in Meta on What is LM doing?</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
+    <managingEditor>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</managingEditor>
+    <webMaster>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</webMaster>
+    <copyright>What is LM doing? © 2025 by Luis Mario Chaparro Jáquez is licensed under CC BY-NC-SA 4.0</copyright>
     <lastBuildDate>Sat, 27 Aug 2022 22:43:40 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/meta/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Neh, No Other Languages, Too Much Work</title>
       <link>http://localhost:1313/posts/2022-08-27-neh-no-other-languages-too-much-work/</link>
-      <pubDate>Sat, 27 Aug 2022 22:43:40 +0100</pubDate>
+      <pubDate>Sat, 27 Aug 2022 22:43:40 +0100</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>http://localhost:1313/posts/2022-08-27-neh-no-other-languages-too-much-work/</guid>
       <description>So, some time ago I posted that I wanted to add three languages in my website. If you read that and found it completely unreasonable, as that statement is, you should have called me out on my bullshit.&#xA;Everything is in English now, the only bad thing is that I want to share the Galleries with my family and that should be in Spanish, I guess I can use the Hugo feature for multilanguage only for that.</description>
     </item>
     <item>
       <title>Languages in This Website</title>
       <link>http://localhost:1313/posts/2022-06-19-languages-in-this-website/</link>
-      <pubDate>Sun, 19 Jun 2022 23:27:20 +0200</pubDate>
+      <pubDate>Sun, 19 Jun 2022 23:27:20 +0200</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>http://localhost:1313/posts/2022-06-19-languages-in-this-website/</guid>
       <description>TL;DR So, my girlfriend said to me that my last post did not have the option to be translated from Spanish to English. And now my solution is to gradually translate it in order to have the whole thing in Spanish, English and Italian, because I am a pretencious shit.&#xA;What happened and what is going to happen? Well, this is most likely happening because previously I was using Wordpress, and in that way many Googly things are added to the website, therefore the translation is kind of automatic.</description>
     </item>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Add Insert Mode Mappings for Vimtex Into Neovim</title>
+	
+	<meta name="author" content="map[email:webmaster@lmcj.xyz name:Luis Mario Chaparro Jáquez]">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/syntax.css">
+	
+	
+
+
+
+</head>
+<body>
+	<header>
+	
+	
+	<nav>
+		<ul>
+			
+			<li><a href="/">🏠 Home</a></li>
+			
+			<li><a href="/posts/">📓 Posts</a></li>
+			
+		</ul>
+	</nav>
+	
+</header>
+
+	
+	<main>
+		<article>
+			<h1>Add Insert Mode Mappings for Vimtex Into Neovim</h1>
+			<time datetime="2025-03-25T23:26:37">25.03.2025 23:26</time>
+			<div>
+				<p>I use <a href="https://github.com/lervag/vimtex/">vimtex</a> to aid my way of writing LaTeX in Neovim, but <em>vimtex</em> is written in <em>vimscript</em> and my Neovim configuration is in Lua.
+As a result, when I am not careful I may spend more time than acceptable to configure something.</p>
+<p>Here is how to use <a href="https://neovim.io/doc/user/lua.html#vim.fn">vim.fn</a> to access functions from plugins written in <em>vimscript</em> if you use <a href="https://github.com/folke/lazy.nvim">lazy.nvim</a> as your plugin manager.</p>
+<p>This is the recommended configuration from <em>vimtex</em>&rsquo;s repo using <em>lazy</em>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="ln">1</span><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">  <span class="s2">&#34;lervag/vimtex&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">  <span class="n">lazy</span> <span class="o">=</span> <span class="kc">false</span><span class="p">,</span>     <span class="c1">-- we don&#39;t want to lazy load VimTeX</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl">  <span class="c1">-- tag = &#34;v2.15&#34;, -- uncomment to pin to a specific release</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl">  <span class="n">init</span> <span class="o">=</span> <span class="kr">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="ln">6</span><span class="cl">    <span class="c1">-- VimTeX configuration goes here, e.g.</span>
+</span></span><span class="line"><span class="ln">7</span><span class="cl">    <span class="n">vim.g</span><span class="p">.</span><span class="n">vimtex_view_method</span> <span class="o">=</span> <span class="s2">&#34;zathura&#34;</span>
+</span></span><span class="line"><span class="ln">8</span><span class="cl">  <span class="kr">end</span>
+</span></span><span class="line"><span class="ln">9</span><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>If you want to access the <code>vimtex#imaps#add_map</code> function to add a new insert mode map you can use several options, in particular <a href="https://neovim.io/doc/user/lua.html#vim.cmd()">vim.cmd</a> and <code>vim.fn</code>.
+I went with with the later because it allows for a more <em>Lua</em>-like syntax by transforming <em>Lua</em> tables into <em>vimscript</em> ones.</p>
+<p>However, you may be tempted to add any piece of configuration for <em>vimtex</em> inside of the plugin spec above.
+I am here to tell you&hellip;</p>
+<blockquote>
+<p>DO NOT CALL <code>vim.fn</code> INSIDE THE PLUGIN SPEC!</p>
+</blockquote>
+<p>I tried that, which means that I called <code>vim.fn</code> inside of the function definition provided as value to the <code>init</code> parameter.
+If you do the same, since the plugin will not be loaded before it is loaded&mdash;silly, yes, but that&rsquo;s what is happening&mdash;Neovim will scream that your function is unknown, because it is at the moment.</p>
+<p>What you want to do, since this is a <a href="https://neovim.io/doc/user/filetype.html">filetype</a> thing, is to write this function call in the corresponding filetype configuration.
+In my case&mdash;and most cases if you are configuring with <em>Lua</em>&mdash;this will be in the file <code>after/ftplugin/tex.lua</code>.
+In there you add</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="ln">1</span><span class="cl"><span class="c1">--- ~/.config/nvim/after/ftplugin/tex.lua</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="p">...</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="n">vim.fn</span><span class="p">[</span><span class="s1">&#39;vimtex#imaps#add_map&#39;</span><span class="p">]({</span><span class="n">lhs</span> <span class="o">=</span> <span class="s1">&#39;---&#39;</span><span class="p">,</span> <span class="n">rhs</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">textemdash&#39;</span><span class="p">,</span> <span class="n">wrapper</span> <span class="o">=</span> <span class="s1">&#39;vimtex#imaps#wrap_trivial&#39;</span><span class="p">})</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="p">...</span>
+</span></span></code></pre></div><p>And it&rsquo;s done!</p>
+<p>This insert mode mapping will be triggered by pressing <code>&lt;localleader&gt;---</code> and will insert a <code>\textemdash</code> command.
+I know that writing <code>---</code> in LaTeX is exactly the same as using the <code>\textemdash</code> command, but I like to have the command, that&rsquo;s how I write and that&rsquo;s why I did it.
+To learn why the code above is like that, see <a href="https://github.com/lervag/vimtex/blob/master/doc/vimtex.txt">:h vimtex-imaps</a>.</p>
+<p>The moral of this entry is, as usual: <strong>learn your tools</strong>.</p>
+
+			</div>
+			
+			
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/posts/add-insert-mode-mappings-for-vimtex-into-neovim/">Add Insert Mode Mappings for Vimtex Into Neovim</a></li>
+				
+				<li><a href="/posts/use-latex-kids/">Use LaTeX Kids</a></li>
+				
+				<li><a href="/posts/multiple-sandwich/">Multiple Sandwich</a></li>
+				
+				<li><a href="/posts/talk-markov-processes-and-their-friends/">Talk: Markov Processes and Their Friends</a></li>
+				
+				<li><a href="/posts/a-sed-one-liner-to-fix-date-format-in-text-files/">A Sed One Liner to Fix Date Format in Text Files</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	<footer>
+	<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+	<a property="dct:title" rel="cc:attributionURL" href="https://lmcj.xyz/">
+		What is LM doing?
+	</a>
+	by
+	<a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://lmcj.xyz/">Luis Mario Chaparro Jáquez</a>
+	is licensed under
+	<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
+		CC BY-NC-SA 4.0
+		<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+		<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+		<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="">
+		<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt="">
+	</a>
+	2025
+	</p> 
+	<p>
+	<a property="rssFeed" href="https://lmcj.xyz/index.xml">
+		<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src=static/images/Feed-icon.svg alt="🗞️"> RSS feed
+	</a>
+	</p>
+</footer>
+
+</body>
+</html>
