@@ -4,18 +4,13 @@ date: 2024-02-25T09:55:59Z
 draft: false
 ---
 
-You can also download the [PDF version](/docs/cv_pro.pdf).
-
 Last updated: *25th Feb 2024*.
 
 
 # Luis Mario Chaparro Jáquez
 
 ## Contact information {#contact .unnumbered}
-- Phone: (+44) 0792 709 4658 
-- Email: pro@lmcj.xyz 
 - Website: [lmcj.xyz](https://lmcj.xyz)
-- LinkedIn: [linkedin.com/in/lmcj](https://linkedin.com/in/lmcj)
 
 ## Technical skills {#technical-skills .unnumbered}
 - **Mathematics:** Stochastic Calculus, Partial Differential Equations (PDEs), Numerical Methods, Stochastic Processes.

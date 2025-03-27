@@ -3,8 +3,6 @@ title: "Academic CV"
 date: 2022-09-04T20:32:52+01:00
 draft: false
 ---
-You can also [download the PDF version](/docs/cv_ac.pdf).
-
 ## Luis Mario Chaparro Jáquez
 2nd year PhD Student at the University of Leeds\
 Updated: September 5th 2022
@@ -14,9 +12,6 @@ Updated: September 5th 2022
 ## Contact information
  - **UoL Profile:** [luis-mario-chaparro-jaquez](https://eps.leeds.ac.uk/faculty-engineering-physical-sciences/pgr/8775/luis-mario-chaparro-jaquez)
  - **Personal Website:** [lmcj.xyz](https://www.lmcj.xys)
- - **Work E-mail:** <mmlmcj@leeds.ac.uk> 
- - **Personal E-mail:** [academic\@lmcj.xyz](mailto:lmcj@lmcj.xyz)
- - **LinkedIn:** [lmcj](https://www.linkedin.com/in/lmcj/)
 
 ---
 
