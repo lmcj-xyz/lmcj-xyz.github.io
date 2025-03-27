@@ -1,7 +1,7 @@
 ---
 title: "Using nvim-lspconfig Alongside Neovim 0.11 New Interfaces"
 date: 2025-03-27T14:05:58Z
-draft: false
+draft: true
 ---
 
 [Neovim 0.11](https://gpanders.com/blog/whats-new-in-neovim-0-11/) has dropped, and with it, some new very nice features.
