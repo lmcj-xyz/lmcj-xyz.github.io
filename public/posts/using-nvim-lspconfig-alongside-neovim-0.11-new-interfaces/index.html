@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Using nvim-lspconfig Alongside Neovim 0.11 New Interfaces</title>
+	
+	<meta name="author" content="map[email:webmaster@lmcj.xyz name:Luis Mario Chaparro Jáquez]">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/syntax.css">
+	
+	
+
+
+
+</head>
+<body>
+	<header>
+	
+	
+	<nav>
+		<ul>
+			
+			<li><a href="/">🏠 Home</a></li>
+			
+			<li><a href="/posts/">📓 Posts</a></li>
+			
+		</ul>
+	</nav>
+	
+</header>
+
+	
+	<main>
+		<article>
+			<h1>Using nvim-lspconfig Alongside Neovim 0.11 New Interfaces</h1>
+			<time datetime="2025-03-27T14:05:58">27.03.2025 14:05</time>
+			<div>
+				<p><a href="https://gpanders.com/blog/whats-new-in-neovim-0-11/">Neovim 0.11</a> has dropped, and with it, some new very nice features.</p>
+<p>In particular <code>vim.lsp.config</code> and <code>vim.lsp.enable</code> to harness the built-in LSP functionality of Neovim.</p>
+<p>Some people seem confused as to how can one use the curated configurations provided by <a href="https://github.com/neovim/nvim-lspconfig">nvim-lspconfig</a> together with these new interfaces.
+Here I will show you how I did it.
+It is extremely easy, and it will take you just a few minutes.</p>
+<blockquote>
+<p>Disclaimer: Read the whole thing before copying and pasting anything, it will take you five minutes.</p>
+</blockquote>
+<h1 id="tutorial">Tutorial</h1>
+<p>If you have the <code>nvim-lspconfig</code> plugin enabled, you may know this is a data-only repository where users have contributed sensible configurations for a big number of LSP implementations for different languages.
+This plugin essentially will create a table with the default configuration suggested in it and put it in your computer.
+And normally if you wanted to extend this configuration&mdash;you may take a different approach&mdash;the recommendation is to modify the settings within the <code>config</code> option of the plugin and inside of the table from the <code>setup</code> function.
+Let&rsquo;s take the following example for my own configuration of <a href="https://github.com/valentjn/ltex-ls">ltex-ls</a> before Neovim 0.11:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="err">```</span><span class="n">lua</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="s1">&#39;neovim/nvim-lspconfig&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">        <span class="n">config</span> <span class="o">=</span> <span class="kr">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">            <span class="kd">local</span> <span class="n">eng_dict</span> <span class="o">=</span> <span class="p">{}</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">            <span class="kr">for</span> <span class="n">word</span> <span class="kr">in</span> <span class="n">io.open</span><span class="p">(</span><span class="n">vim.fn</span><span class="p">.</span><span class="n">stdpath</span><span class="p">(</span><span class="s2">&#34;config&#34;</span><span class="p">)</span> <span class="o">..</span> <span class="s2">&#34;/spell/en.utf-8.add&#34;</span><span class="p">,</span> <span class="s2">&#34;r&#34;</span><span class="p">):</span><span class="n">lines</span><span class="p">()</span> <span class="kr">do</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">            <span class="n">table.insert</span><span class="p">(</span><span class="n">eng_dict</span><span class="p">,</span> <span class="n">word</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">            <span class="kr">end</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">            <span class="n">lspconfig.ltex</span><span class="p">.</span><span class="n">setup</span><span class="p">({</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">                <span class="n">filetypes</span> <span class="o">=</span> <span class="p">{</span> <span class="s2">&#34;latex&#34;</span><span class="p">,</span> <span class="s2">&#34;tex&#34;</span><span class="p">,</span> <span class="s2">&#34;bib&#34;</span><span class="p">,</span> <span class="p">},</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">                <span class="n">settings</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl">                    <span class="n">ltex</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">13</span><span class="cl">                        <span class="n">enabled</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;bib&#39;</span><span class="p">,</span> <span class="s1">&#39;context&#39;</span><span class="p">,</span> <span class="s1">&#39;latex&#39;</span><span class="p">,</span> <span class="s1">&#39;plaintex&#39;</span><span class="p">,</span> <span class="s1">&#39;tex&#39;</span><span class="p">},</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl">                        <span class="n">language</span> <span class="o">=</span> <span class="s1">&#39;en-GB&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln">15</span><span class="cl">                        <span class="n">dictionary</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">16</span><span class="cl">                            <span class="p">[</span><span class="s2">&#34;en-GB&#34;</span><span class="p">]</span> <span class="o">=</span> <span class="n">eng_dict</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln">17</span><span class="cl">                        <span class="p">},</span>
+</span></span><span class="line"><span class="ln">18</span><span class="cl">                    <span class="p">}</span>
+</span></span><span class="line"><span class="ln">19</span><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="ln">20</span><span class="cl">            <span class="p">})</span>
+</span></span><span class="line"><span class="ln">21</span><span class="cl">        <span class="kr">end</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln">22</span><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>In there, you see the line containing <code>lspconfig.ltex.setup</code> which if you don&rsquo;t want any extra configuration is enough to call and provided the <code>ltex</code> LSP implementation is installed and reachable, it will do its thing.
+However, you can see how I am adding options to the table inside that function call, and also I have outside the definition of a variable with essentially just takes the spelling list from Neovim and gives it to the LSP so that you create a custom dictionary.
+Well, the same configuration in Neovim 0.11 looks like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="ln">1</span><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">    <span class="s1">&#39;neovim/nvim-lspconfig&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">        <span class="n">config</span> <span class="o">=</span> <span class="kr">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl">            <span class="n">lspconfig.ltex</span><span class="p">.</span><span class="n">setup</span><span class="p">({})</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl">        <span class="kr">end</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln">6</span><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Which loads the configuration by default&hellip;but then where is my extension configuration?
+You can do one of two things, to do everything in your <code>init.lua</code>, or to modularize it.</p>
+<h2 id="modular-approach">Modular approach</h2>
+<p>I decided to modularize it and put it into the file <code>~/.config/nvim/lsp/ltex.lua</code> which looks like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="c1">--- ~/.config/nvim/lsp/ltex.lua</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="kd">local</span> <span class="n">eng_dict</span> <span class="o">=</span> <span class="p">{}</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="kr">for</span> <span class="n">word</span> <span class="kr">in</span> <span class="n">io.open</span><span class="p">(</span><span class="n">vim.fn</span><span class="p">.</span><span class="n">stdpath</span><span class="p">(</span><span class="s2">&#34;config&#34;</span><span class="p">)</span> <span class="o">..</span> <span class="s2">&#34;/spell/en.utf-8.add&#34;</span><span class="p">,</span> <span class="s2">&#34;r&#34;</span><span class="p">):</span><span class="n">lines</span><span class="p">()</span> <span class="kr">do</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">    <span class="n">table.insert</span><span class="p">(</span><span class="n">eng_dict</span><span class="p">,</span> <span class="n">word</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="kr">end</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="kr">return</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">    <span class="n">filetypes</span> <span class="o">=</span> <span class="p">{</span> <span class="s2">&#34;latex&#34;</span><span class="p">,</span> <span class="s2">&#34;tex&#34;</span><span class="p">,</span> <span class="s2">&#34;bib&#34;</span><span class="p">,</span> <span class="p">},</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">    <span class="n">settings</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">        <span class="n">ltex</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">            <span class="n">enabled</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;bib&#39;</span><span class="p">,</span> <span class="s1">&#39;context&#39;</span><span class="p">,</span> <span class="s1">&#39;latex&#39;</span><span class="p">,</span> <span class="s1">&#39;plaintex&#39;</span><span class="p">,</span> <span class="s1">&#39;tex&#39;</span><span class="p">},</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">            <span class="n">language</span> <span class="o">=</span> <span class="s1">&#39;en-GB&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl">            <span class="n">dictionary</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">13</span><span class="cl">                <span class="p">[</span><span class="s2">&#34;en-GB&#34;</span><span class="p">]</span> <span class="o">=</span> <span class="n">eng_dict</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl">            <span class="p">},</span>
+</span></span><span class="line"><span class="ln">15</span><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="ln">16</span><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="ln">17</span><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>And then I can call in my <code>init.lua</code> the interface</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="ln">1</span><span class="cl"><span class="c1">--- ~/.config/nvim/init.lua</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="n">vim.lsp</span><span class="p">.</span><span class="n">enable</span><span class="p">({</span> <span class="s1">&#39;ltex&#39;</span> <span class="p">})</span>
+</span></span></code></pre></div><blockquote>
+<p>Be cautious, you have to call <code>ltex</code> in this case because the file in the <code>~/.config/nvim/lsp</code> directory is called like that. It doesn&rsquo;t have to be called as the LSP implementation, just needs to agree with the file you are looking for.
+Also, don&rsquo;t add anything that is not currently a file in the <code>lsp</code> directory, it won&rsquo;t load the configuration. And the configuration of the <code>nvim-lspconfig</code> plugin will enable a plugin that doesn&rsquo;t have any extra configuration for you.</p>
+</blockquote>
+<p>This can be modularized further, but for the sake of the tutorial I think this is best.</p>
+<h2 id="single-file-approach">Single file approach</h2>
+<p>The other option is to call the other new interface <code>vim.lsp.config</code> in your <code>init.lua</code>
+If you do that, our example will look like this</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kd">local</span> <span class="n">eng_dict</span> <span class="o">=</span> <span class="p">{}</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="kr">for</span> <span class="n">word</span> <span class="kr">in</span> <span class="n">io.open</span><span class="p">(</span><span class="n">vim.fn</span><span class="p">.</span><span class="n">stdpath</span><span class="p">(</span><span class="s2">&#34;config&#34;</span><span class="p">)</span> <span class="o">..</span> <span class="s2">&#34;/spell/en.utf-8.add&#34;</span><span class="p">,</span> <span class="s2">&#34;r&#34;</span><span class="p">):</span><span class="n">lines</span><span class="p">()</span> <span class="kr">do</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="n">table.insert</span><span class="p">(</span><span class="n">eng_dict</span><span class="p">,</span> <span class="n">word</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="kr">end</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="n">vim.lsp</span><span class="p">.</span><span class="n">config.ltex</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">    <span class="n">filetypes</span> <span class="o">=</span> <span class="p">{</span> <span class="s2">&#34;latex&#34;</span><span class="p">,</span> <span class="s2">&#34;tex&#34;</span><span class="p">,</span> <span class="s2">&#34;bib&#34;</span><span class="p">,</span> <span class="p">},</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">    <span class="n">settings</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">        <span class="n">ltex</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">            <span class="n">enabled</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;bib&#39;</span><span class="p">,</span> <span class="s1">&#39;context&#39;</span><span class="p">,</span> <span class="s1">&#39;latex&#39;</span><span class="p">,</span> <span class="s1">&#39;plaintex&#39;</span><span class="p">,</span> <span class="s1">&#39;tex&#39;</span><span class="p">},</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">            <span class="n">language</span> <span class="o">=</span> <span class="s1">&#39;en-GB&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">            <span class="n">dictionary</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl">                <span class="p">[</span><span class="s2">&#34;en-GB&#34;</span><span class="p">]</span> <span class="o">=</span> <span class="n">eng_dict</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln">13</span><span class="cl">            <span class="p">},</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="ln">15</span><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="ln">16</span><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="ln">17</span><span class="cl"><span class="n">vim.lsp</span><span class="p">.</span><span class="n">enable</span><span class="p">({</span><span class="s1">&#39;ltex&#39;</span><span class="p">})</span>
+</span></span></code></pre></div><p>Notice that here, you are modifying the table <code>vim.lsp.config.ltex</code> and then enabling it.</p>
+<p>And you are set.</p>
+<h1 id="foreword">Foreword</h1>
+<p>Remember that Lua is a programming language, so you can do programming language like things.</p>
+<p>See the <a href="https://gpanders.com/blog/whats-new-in-neovim-0-11/">entry by Gregory Anders</a> for any more details in the new features.
+In there this is an extra warning on the required options you must declare for this to work, but since <code>nvim-lspconfig</code> will enable those options, you don&rsquo;t have to worry about them unless you want to modify them.</p>
+
+			</div>
+			
+			
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/posts/using-nvim-lspconfig-alongside-neovim-0.11-new-interfaces/">Using nvim-lspconfig Alongside Neovim 0.11 New Interfaces</a></li>
+				
+				<li><a href="/posts/add-insert-mode-mappings-for-vimtex-into-neovim/">Add Insert Mode Mappings for Vimtex Into Neovim</a></li>
+				
+				<li><a href="/posts/use-latex-kids/">Use LaTeX Kids</a></li>
+				
+				<li><a href="/posts/multiple-sandwich/">Multiple Sandwich</a></li>
+				
+				<li><a href="/posts/talk-markov-processes-and-their-friends/">Talk: Markov Processes and Their Friends</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	<footer>
+	<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+	<a property="dct:title" rel="cc:attributionURL" href="https://lmcj.xyz/">
+		What is LM doing?
+	</a>
+	by
+	<a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://lmcj.xyz/">Luis Mario Chaparro Jáquez</a>
+	is licensed under
+	<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
+		CC BY-NC-SA 4.0
+		<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+		<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+		<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="">
+		<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt="">
+	</a>
+	2025
+	</p> 
+	<p>
+	<a property="rssFeed" href="https://lmcj.xyz/index.xml">
+		<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src=static/images/Feed-icon.svg alt="🗞️"> RSS feed
+	</a>
+	</p>
+</footer>
+
+</body>
+</html>

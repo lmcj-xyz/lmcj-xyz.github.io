@@ -9,8 +9,15 @@
     <managingEditor>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</managingEditor>
     <webMaster>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</webMaster>
     <copyright>What is LM doing? © 2025 by Luis Mario Chaparro Jáquez is licensed under CC BY-NC-SA 4.0</copyright>
-    <lastBuildDate>Tue, 25 Mar 2025 23:26:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Mar 2025 14:05:58 +0000</lastBuildDate>
     <atom:link href="https://lmcj.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using nvim-lspconfig Alongside Neovim 0.11 New Interfaces</title>
+      <link>https://lmcj.xyz/posts/using-nvim-lspconfig-alongside-neovim-0.11-new-interfaces/</link>
+      <pubDate>Thu, 27 Mar 2025 14:05:58 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
+      <guid>https://lmcj.xyz/posts/using-nvim-lspconfig-alongside-neovim-0.11-new-interfaces/</guid>
+      <description>Neovim 0.11 has dropped, and with it, some new very nice features.&#xA;In particular vim.lsp.config and vim.lsp.enable to harness the built-in LSP functionality of Neovim.&#xA;Some people seem confused as to how can one use the curated configurations provided by nvim-lspconfig together with these new interfaces. Here I will show you how I did it. It is extremely easy, and it will take you just a few minutes.&#xA;Disclaimer: Read the whole thing before copying and pasting anything, it will take you five minutes.</description>
+    </item>
     <item>
       <title>Add Insert Mode Mappings for Vimtex Into Neovim</title>
       <link>https://lmcj.xyz/posts/add-insert-mode-mappings-for-vimtex-into-neovim/</link>
