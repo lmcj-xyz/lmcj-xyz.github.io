@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-gb">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Luis Mario</title>
@@ -12,7 +12,7 @@
 	<link rel="alternate" type="application/rss+xml" href="/posts/index.xml" title="Luis Mario">
 	
 
-<link rel="alternate" type="application/rss+xml" href="https://lmcj.xyz/posts/index.xml" title="Luis Mario">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml" title="Luis Mario">
 
 
 </head>
@@ -43,7 +43,7 @@
 
 		
 			<article>
-	<h1><a href="https://lmcj.xyz/posts/add-insert-mode-mappings-for-vimtex-into-neovim/">Add Insert Mode Mappings for Vimtex Into Neovim</a></h1>
+	<h1><a href="http://localhost:1313/posts/add-insert-mode-mappings-for-vimtex-into-neovim/">Add Insert Mode Mappings for Vimtex Into Neovim</a></h1>
 	<time datetime="2025-03-25T23:26:37">25.03.2025 23:26</time>
 	
 	<div>
@@ -51,42 +51,42 @@
 Here is how to use vim.fn to access functions from plugins written in vimscript if you use lazy.nvim as your plugin manager.
 This is the recommended configuration from vimtex&rsquo;s repo using lazy.
 		
-			<a href="https://lmcj.xyz/posts/add-insert-mode-mappings-for-vimtex-into-neovim/">Read more...</a>
+			<a href="http://localhost:1313/posts/add-insert-mode-mappings-for-vimtex-into-neovim/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://lmcj.xyz/posts/use-latex-kids/">Use LaTeX Kids</a></h1>
+	<h1><a href="http://localhost:1313/posts/use-latex-kids/">Use LaTeX Kids</a></h1>
 	<time datetime="2024-11-29T16:19:15">29.11.2024 16:19</time>
 	
 	<div>
 		Here is a post in the form of a LaTeX code snippet.
 On the dangers of using plain TeX 1% Let us define a header 2%% Starting with some fonts 3\font\xmplbx = cmbx10 scaled \magstephalf 4%% Here you define the font named \xmplbx by calling the actual font 5%% named cmbx10 and you say that is going to be scaled...how much 6%% is the scale, you may ask? 7%% \magstep is for magnification, and you magnify by 1.
 		
-			<a href="https://lmcj.xyz/posts/use-latex-kids/">Read more...</a>
+			<a href="http://localhost:1313/posts/use-latex-kids/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://lmcj.xyz/posts/multiple-sandwich/">Multiple Sandwich</a></h1>
+	<h1><a href="http://localhost:1313/posts/multiple-sandwich/">Multiple Sandwich</a></h1>
 	<time datetime="2024-10-30T08:18:07">30.10.2024 08:18</time>
 	
 	<div>
 		Problem: Consider an array A of length m with only non-negative integer entries, then take the sum of the entries of A and denote it by s. And find the smallest number p that is a multiple of m and is greater or equal than s.
 This was a teeny tiny part of a timed coding question that I blew because I decided to, as any good mathematician would do, overthink it.
 		
-			<a href="https://lmcj.xyz/posts/multiple-sandwich/">Read more...</a>
+			<a href="http://localhost:1313/posts/multiple-sandwich/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://lmcj.xyz/posts/talk-markov-processes-and-their-friends/">Talk: Markov Processes and Their Friends</a></h1>
+	<h1><a href="http://localhost:1313/posts/talk-markov-processes-and-their-friends/">Talk: Markov Processes and Their Friends</a></h1>
 	<time datetime="2024-05-21T17:33:13">21.05.2024 17:33</time>
 	
 	<div>
@@ -95,14 +95,14 @@ The name is &ldquo;Markov processes and their friends&rdquo; and you can find th
 Or here:
 Notes The backboard prep notes Those notes are the version one of the talk, presented in the Pure PGR Seminar in Leeds.
 		
-			<a href="https://lmcj.xyz/posts/talk-markov-processes-and-their-friends/">Read more...</a>
+			<a href="http://localhost:1313/posts/talk-markov-processes-and-their-friends/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://lmcj.xyz/posts/a-sed-one-liner-to-fix-date-format-in-text-files/">A Sed One Liner to Fix Date Format in Text Files</a></h1>
+	<h1><a href="http://localhost:1313/posts/a-sed-one-liner-to-fix-date-format-in-text-files/">A Sed One Liner to Fix Date Format in Text Files</a></h1>
 	<time datetime="2024-02-24T18:30:54">24.02.2024 18:30</time>
 	
 	<a href="/tags/software">Software</a>
@@ -113,14 +113,14 @@ The following &ldquo;one-liner&rdquo; will change any wiki style link with a dat
 Please forgive the search and replace gore of the second sed.
 1sed -E &#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&#39; &#34;$1&#34; | 2	sed -E &#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&#39; | 3	sed -E &#39;s;-([0-9])\];-0\1];&#39; &gt; &#34;$1&#34;.
 		
-			<a href="https://lmcj.xyz/posts/a-sed-one-liner-to-fix-date-format-in-text-files/">Read more...</a>
+			<a href="http://localhost:1313/posts/a-sed-one-liner-to-fix-date-format-in-text-files/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://lmcj.xyz/posts/2024-02-21-mediocre-reviews/">We Need Mediocre Reviews</a></h1>
+	<h1><a href="http://localhost:1313/posts/2024-02-21-mediocre-reviews/">We Need Mediocre Reviews</a></h1>
 	<time datetime="2024-02-21T17:41:23">21.02.2024 17:41</time>
 	
 	<a href="/tags/personal">Personal</a>
@@ -128,14 +128,14 @@ Please forgive the search and replace gore of the second sed.
 	<div>
 		Currently I am in a character development arc, in particular dealing with moving because the building management in my building is awful and has just left a leak to make my flat unfit for habitation, and because of that I have learned that one has to be very wary about the company or person which manages the building where you live. And in this search it seems like people who provide reviews for these kind of things have a very strong opinion either positive or negative.
 		
-			<a href="https://lmcj.xyz/posts/2024-02-21-mediocre-reviews/">Read more...</a>
+			<a href="http://localhost:1313/posts/2024-02-21-mediocre-reviews/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://lmcj.xyz/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/">How to Fix Metadata of Pdf Files</a></h1>
+	<h1><a href="http://localhost:1313/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/">How to Fix Metadata of Pdf Files</a></h1>
 	<time datetime="2022-06-07T23:56:15">07.06.2022 23:56</time>
 	
 	<a href="/tags/software">Software</a>
@@ -144,14 +144,14 @@ Please forgive the search and replace gore of the second sed.
 		Important disclaimer: For your own benefit you should never run random commands you find on the internet, this is why whenever I tell you to run a command, immediately after I will let you know exactly what it does. Feel free to check the documentation of the command to be sure I am not lying to you.
 This is a follow up of the quick entry I made previously on how to put metadata on your LaTeX generated documents.
 		
-			<a href="https://lmcj.xyz/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/">Read more...</a>
+			<a href="http://localhost:1313/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/">Please Put Metadata in Your LaTeX Files</a></h1>
+	<h1><a href="http://localhost:1313/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/">Please Put Metadata in Your LaTeX Files</a></h1>
 	<time datetime="2022-06-07T23:20:48">07.06.2022 23:20</time>
 	
 	<a href="/tags/software">Software</a>
@@ -160,14 +160,14 @@ This is a follow up of the quick entry I made previously on how to put metadata 
 		Today I wanted to homogenize the naming on my totally legally downloaded (😉) collection of maths books, just to (unsurprisingly) see just how messed up the metadata of files you get online is.
 And well, I will fix that for my files but it takes some time, and I will gift you the method I came up with to do so, once I finish. But for now, and since I was of course also guilty of not adding metadata to my documents before today, this is just a reminder of how to add metadata to documents typesetted with LaTeX.
 		
-			<a href="https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/">Read more...</a>
+			<a href="http://localhost:1313/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://lmcj.xyz/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/">Using KaTex Locally for Maths Typesetting in Hugo</a></h1>
+	<h1><a href="http://localhost:1313/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/">Using KaTex Locally for Maths Typesetting in Hugo</a></h1>
 	<time datetime="2022-06-05T12:53:26">05.06.2022 12:53</time>
 	
 	<a href="/tags/software">Software</a>
@@ -178,14 +178,14 @@ And well, I will fix that for my files but it takes some time, and I will gift y
 		If you work or study on mathematics related fields and have a website, you might often want to share your knowledge with the world. Of course, doing it is rather easy with many website creation tools, and there are also many tutorials to do it with any tool you can think of.
 So, I want to tell you how to do it using the static site generator Hugo and the JavaScript library KaTeX.
 		
-			<a href="https://lmcj.xyz/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/">Read more...</a>
+			<a href="http://localhost:1313/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://lmcj.xyz/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/">Acerca de toma de notas, hacer una wiki y así</a></h1>
+	<h1><a href="http://localhost:1313/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/">Acerca de toma de notas, hacer una wiki y así</a></h1>
 	<time datetime="2022-03-20T15:51:15">20.03.2022 15:51</time>
 	
 	<a href="/tags/pkm">PKM</a>
@@ -198,7 +198,7 @@ vimwiki pero terminé usando Obsidian.
 Todo comenzó cuando por el inicio de febrero EL DAVID me recordó que Joplin existe, lo que derivó en una conversación sobre toma de notas y sISteMas dE gEStIón De COnOcIMiEnTo (PKM por Personal Knowledge Management) y salió a relucir Obsidian. Sobre lo cual EL DAVID dijo:
 El pedo es que es de paga y no pienso pagar por un explorador de archivos glorificado.
 		
-			<a href="https://lmcj.xyz/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/">Read more...</a>
+			<a href="http://localhost:1313/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/">Read more...</a>
 		
 	</div>
 </article>
@@ -239,11 +239,11 @@ El pedo es que es de paga y no pienso pagar por un explorador de archivos glorif
 
 	<footer>
 	<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
-	<a property="dct:title" rel="cc:attributionURL" href="https://lmcj.xyz/">
+	<a property="dct:title" rel="cc:attributionURL" href="http://localhost:1313/">
 		Luis Mario
 	</a>
 	by
-	<a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://lmcj.xyz/">Luis Mario Chaparro Jáquez</a>
+	<a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://localhost:1313/">Luis Mario Chaparro Jáquez</a>
 	is licensed under
 	<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
 		CC BY-NC-SA 4.0
@@ -255,7 +255,7 @@ El pedo es que es de paga y no pienso pagar por un explorador de archivos glorif
 	2025
 	</p> 
 	<p>
-	<a property="rssFeed" href="https://lmcj.xyz/index.xml">
+	<a property="rssFeed" href="http://localhost:1313/index.xml">
 		<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src=static/images/Feed-icon.svg alt="🗞️"> RSS feed
 	</a>
 	</p>
