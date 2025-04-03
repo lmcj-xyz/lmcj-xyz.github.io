@@ -2,103 +2,103 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://lmcj.xyz/</loc>
     <lastmod>2025-03-27T14:05:58+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://lmcj.xyz/posts/</loc>
     <lastmod>2025-03-27T14:05:58+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/add-insert-mode-mappings-for-vimtex-into-neovim/</loc>
+    <loc>https://lmcj.xyz/posts/add-insert-mode-mappings-for-vimtex-into-neovim/</loc>
     <lastmod>2025-03-25T23:26:37+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/</loc>
+    <loc>https://lmcj.xyz/books/</loc>
     <lastmod>2025-01-30T16:11:33+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/use-latex-kids/</loc>
+    <loc>https://lmcj.xyz/posts/use-latex-kids/</loc>
     <lastmod>2024-11-29T16:19:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/multiple-sandwich/</loc>
+    <loc>https://lmcj.xyz/posts/multiple-sandwich/</loc>
     <lastmod>2024-10-30T08:18:07+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/talk-markov-processes-and-their-friends/</loc>
+    <loc>https://lmcj.xyz/posts/talk-markov-processes-and-their-friends/</loc>
     <lastmod>2024-05-21T17:33:13+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/stats-seminar/2023-24-term2/</loc>
+    <loc>https://lmcj.xyz/stats-seminar/2023-24-term2/</loc>
     <lastmod>2024-02-28T23:16:32+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/stats-seminar/</loc>
+    <loc>https://lmcj.xyz/stats-seminar/</loc>
     <lastmod>2024-02-28T23:14:32+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/cv_pro/</loc>
+    <loc>https://lmcj.xyz/cv_pro/</loc>
     <lastmod>2024-02-25T09:55:59+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</loc>
+    <loc>https://lmcj.xyz/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</loc>
     <lastmod>2024-02-24T18:30:54+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://lmcj.xyz/categories/</loc>
     <lastmod>2024-02-24T18:30:54+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/software/</loc>
+    <loc>https://lmcj.xyz/tags/software/</loc>
     <lastmod>2024-02-24T18:30:54+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://lmcj.xyz/tags/</loc>
     <lastmod>2024-02-24T18:30:54+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/tutorial/</loc>
+    <loc>https://lmcj.xyz/categories/tutorial/</loc>
     <lastmod>2024-02-24T18:30:54+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/personal/</loc>
+    <loc>https://lmcj.xyz/tags/personal/</loc>
     <lastmod>2024-02-21T17:41:23+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/update/</loc>
+    <loc>https://lmcj.xyz/categories/update/</loc>
     <lastmod>2024-02-21T17:41:23+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2024-02-21-mediocre-reviews/</loc>
+    <loc>https://lmcj.xyz/posts/2024-02-21-mediocre-reviews/</loc>
     <lastmod>2024-02-21T17:41:23+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/stats-seminar/2023-24-term1/</loc>
+    <loc>https://lmcj.xyz/stats-seminar/2023-24-term1/</loc>
     <lastmod>2023-10-18T23:16:32+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/stats-seminar/2022-23-term2/</loc>
+    <loc>https://lmcj.xyz/stats-seminar/2022-23-term2/</loc>
     <lastmod>2023-02-10T11:51:41+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/numismatics/</loc>
+    <loc>https://lmcj.xyz/numismatics/</loc>
     <lastmod>2023-02-05T01:13:17+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/stats-seminar/2022-23-term1/</loc>
+    <loc>https://lmcj.xyz/stats-seminar/2022-23-term1/</loc>
     <lastmod>2022-10-07T11:51:41+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/academic/</loc>
+    <loc>https://lmcj.xyz/academic/</loc>
     <lastmod>2022-09-05T23:14:12+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/cv_ac/</loc>
+    <loc>https://lmcj.xyz/cv_ac/</loc>
     <lastmod>2022-09-04T20:32:52+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/external/</loc>
+    <loc>https://lmcj.xyz/external/</loc>
     <lastmod>2022-09-04T20:22:29+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/donate/</loc>
+    <loc>https://lmcj.xyz/donate/</loc>
     <lastmod>2022-09-04T16:22:58+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</loc>
+    <loc>https://lmcj.xyz/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</loc>
     <lastmod>2022-06-07T23:56:15+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/</loc>
+    <loc>https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/</loc>
     <lastmod>2022-06-07T23:20:48+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mathematics/</loc>
+    <loc>https://lmcj.xyz/tags/mathematics/</loc>
     <lastmod>2022-06-05T12:53:26+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</loc>
+    <loc>https://lmcj.xyz/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</loc>
     <lastmod>2022-06-05T12:53:26+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/</loc>
+    <loc>https://lmcj.xyz/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/</loc>
     <lastmod>2022-03-20T15:51:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/pkm/</loc>
+    <loc>https://lmcj.xyz/tags/pkm/</loc>
     <lastmod>2022-03-20T15:51:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2022-03-20-me-he-rendido-y-usare-wordpress/</loc>
+    <loc>https://lmcj.xyz/posts/2022-03-20-me-he-rendido-y-usare-wordpress/</loc>
     <lastmod>2022-03-20T02:49:20+00:00</lastmod>
   </url>
 </urlset>

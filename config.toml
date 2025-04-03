@@ -1,7 +1,7 @@
 baseURL = 'https://lmcj.xyz/'
 languageCode = 'en-gb'
 defaultContentLanguage = 'en-gb'
-title = 'What is LM doing?'
+title = 'Luis Mario'
 theme = 'melange'
 copyright = 'What is LM doing? © 2025 by Luis Mario Chaparro Jáquez is licensed under CC BY-NC-SA 4.0'
 
