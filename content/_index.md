@@ -1,6 +1,6 @@
 # The website of LM
 
-*I am **Luis Mario** (LM for short), a PhD student on mathematics with interests in free software, music and some other stuff.*
+*I am Luis Mario **(LM)**, a PhD student on mathematics with interests in free software, music and some other stuff.*
 
 ## Research output
 

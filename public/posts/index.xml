@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on What is LM doing?</title>
-    <link>https://lmcj.xyz/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on What is LM doing?</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
@@ -10,82 +10,82 @@
     <webMaster>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</webMaster>
     <copyright>What is LM doing? © 2025 by Luis Mario Chaparro Jáquez is licensed under CC BY-NC-SA 4.0</copyright>
     <lastBuildDate>Tue, 25 Mar 2025 23:26:37 +0000</lastBuildDate>
-    <atom:link href="https://lmcj.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Add Insert Mode Mappings for Vimtex Into Neovim</title>
-      <link>https://lmcj.xyz/posts/add-insert-mode-mappings-for-vimtex-into-neovim/</link>
+      <link>http://localhost:1313/posts/add-insert-mode-mappings-for-vimtex-into-neovim/</link>
       <pubDate>Tue, 25 Mar 2025 23:26:37 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
-      <guid>https://lmcj.xyz/posts/add-insert-mode-mappings-for-vimtex-into-neovim/</guid>
+      <guid>http://localhost:1313/posts/add-insert-mode-mappings-for-vimtex-into-neovim/</guid>
       <description>I use vimtex to aid my way of writing LaTeX in Neovim, but vimtex is written in vimscript and my Neovim configuration is in Lua. As a result, when I am not careful I may spend more time than acceptable to configure something.&#xA;Here is how to use vim.fn to access functions from plugins written in vimscript if you use lazy.nvim as your plugin manager.&#xA;This is the recommended configuration from vimtex&amp;rsquo;s repo using lazy.</description>
     </item>
     <item>
       <title>Use LaTeX Kids</title>
-      <link>https://lmcj.xyz/posts/use-latex-kids/</link>
+      <link>http://localhost:1313/posts/use-latex-kids/</link>
       <pubDate>Fri, 29 Nov 2024 16:19:15 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
-      <guid>https://lmcj.xyz/posts/use-latex-kids/</guid>
+      <guid>http://localhost:1313/posts/use-latex-kids/</guid>
       <description>Here is a post in the form of a LaTeX code snippet.&#xA;On the dangers of using plain TeX 1% Let us define a header 2%% Starting with some fonts 3\font\xmplbx = cmbx10 scaled \magstephalf 4%% Here you define the font named \xmplbx by calling the actual font 5%% named cmbx10 and you say that is going to be scaled...how much 6%% is the scale, you may ask? 7%% \magstep is for magnification, and you magnify by 1.</description>
     </item>
     <item>
       <title>Multiple Sandwich</title>
-      <link>https://lmcj.xyz/posts/multiple-sandwich/</link>
+      <link>http://localhost:1313/posts/multiple-sandwich/</link>
       <pubDate>Wed, 30 Oct 2024 08:18:07 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
-      <guid>https://lmcj.xyz/posts/multiple-sandwich/</guid>
+      <guid>http://localhost:1313/posts/multiple-sandwich/</guid>
       <description>Problem: Consider an array A of length m with only non-negative integer entries, then take the sum of the entries of A and denote it by s. And find the smallest number p that is a multiple of m and is greater or equal than s.&#xA;This was a teeny tiny part of a timed coding question that I blew because I decided to, as any good mathematician would do, overthink it.</description>
     </item>
     <item>
       <title>Talk: Markov Processes and Their Friends</title>
-      <link>https://lmcj.xyz/posts/talk-markov-processes-and-their-friends/</link>
+      <link>http://localhost:1313/posts/talk-markov-processes-and-their-friends/</link>
       <pubDate>Tue, 21 May 2024 17:33:13 +0100</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
-      <guid>https://lmcj.xyz/posts/talk-markov-processes-and-their-friends/</guid>
+      <guid>http://localhost:1313/posts/talk-markov-processes-and-their-friends/</guid>
       <description>I have prepared a talk which I intend to be my &amp;ldquo;sure, I can give a talk&amp;rdquo; if anyone asks me at any point.&#xA;The name is &amp;ldquo;Markov processes and their friends&amp;rdquo; and you can find the first version of it at the end of the Academic profile.&#xA;Or here:&#xA;Notes The backboard prep notes Those notes are the version one of the talk, presented in the Pure PGR Seminar in Leeds.</description>
     </item>
     <item>
       <title>A Sed One Liner to Fix Date Format in Text Files</title>
-      <link>https://lmcj.xyz/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</link>
+      <link>http://localhost:1313/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</link>
       <pubDate>Sat, 24 Feb 2024 18:30:54 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
-      <guid>https://lmcj.xyz/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</guid>
+      <guid>http://localhost:1313/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</guid>
       <description>TL;DR This is a know your tools entry, although I absolutely don&amp;rsquo;t know my tools as you will see if you read.&#xA;The following &amp;ldquo;one-liner&amp;rdquo; will change any wiki style link with a date string formatted as &amp;ldquo;Feb 22nd, 2024&amp;rdquo; to &amp;ldquo;2024-02-22&amp;rdquo;, god&amp;rsquo;s intended way to write a date.&#xA;Please forgive the search and replace gore of the second sed.&#xA;1sed -E &amp;#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&amp;#39; &amp;#34;$1&amp;#34; | 2&#x9;sed -E &amp;#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&amp;#39; | 3&#x9;sed -E &amp;#39;s;-([0-9])\];-0\1];&amp;#39; &amp;gt; &amp;#34;$1&amp;#34;.</description>
     </item>
     <item>
       <title>We Need Mediocre Reviews</title>
-      <link>https://lmcj.xyz/posts/2024-02-21-mediocre-reviews/</link>
+      <link>http://localhost:1313/posts/2024-02-21-mediocre-reviews/</link>
       <pubDate>Wed, 21 Feb 2024 17:41:23 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
-      <guid>https://lmcj.xyz/posts/2024-02-21-mediocre-reviews/</guid>
+      <guid>http://localhost:1313/posts/2024-02-21-mediocre-reviews/</guid>
       <description>Currently I am in a character development arc, in particular dealing with moving because the building management in my building is awful and has just left a leak to make my flat unfit for habitation, and because of that I have learned that one has to be very wary about the company or person which manages the building where you live. And in this search it seems like people who provide reviews for these kind of things have a very strong opinion either positive or negative.</description>
     </item>
     <item>
       <title>How to Fix Metadata of Pdf Files</title>
-      <link>https://lmcj.xyz/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</link>
+      <link>http://localhost:1313/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</link>
       <pubDate>Tue, 07 Jun 2022 23:56:15 +0200</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
-      <guid>https://lmcj.xyz/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</guid>
+      <guid>http://localhost:1313/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</guid>
       <description>Important disclaimer: For your own benefit you should never run random commands you find on the internet, this is why whenever I tell you to run a command, immediately after I will let you know exactly what it does. Feel free to check the documentation of the command to be sure I am not lying to you.&#xA;This is a follow up of the quick entry I made previously on how to put metadata on your LaTeX generated documents.</description>
     </item>
     <item>
       <title>Please Put Metadata in Your LaTeX Files</title>
-      <link>https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/</link>
+      <link>http://localhost:1313/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/</link>
       <pubDate>Tue, 07 Jun 2022 23:20:48 +0200</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
-      <guid>https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/</guid>
+      <guid>http://localhost:1313/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/</guid>
       <description>Today I wanted to homogenize the naming on my totally legally downloaded (😉) collection of maths books, just to (unsurprisingly) see just how messed up the metadata of files you get online is.&#xA;And well, I will fix that for my files but it takes some time, and I will gift you the method I came up with to do so, once I finish. But for now, and since I was of course also guilty of not adding metadata to my documents before today, this is just a reminder of how to add metadata to documents typesetted with LaTeX.</description>
     </item>
     <item>
       <title>Using KaTex Locally for Maths Typesetting in Hugo</title>
-      <link>https://lmcj.xyz/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</link>
+      <link>http://localhost:1313/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</link>
       <pubDate>Sun, 05 Jun 2022 12:53:26 +0200</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
-      <guid>https://lmcj.xyz/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</guid>
+      <guid>http://localhost:1313/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</guid>
       <description>If you work or study on mathematics related fields and have a website, you might often want to share your knowledge with the world. Of course, doing it is rather easy with many website creation tools, and there are also many tutorials to do it with any tool you can think of.&#xA;So, I want to tell you how to do it using the static site generator Hugo and the JavaScript library KaTeX.</description>
     </item>
     <item>
       <title>Acerca de toma de notas, hacer una wiki y así</title>
-      <link>https://lmcj.xyz/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/</link>
+      <link>http://localhost:1313/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/</link>
       <pubDate>Sun, 20 Mar 2022 15:51:15 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
-      <guid>https://lmcj.xyz/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/</guid>
+      <guid>http://localhost:1313/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/</guid>
       <description>Hace poco decidí mantener mis notas de todo lo posible usando el plugin para vim/neovim&#xA;vimwiki pero terminé usando Obsidian.&#xA;Todo comenzó cuando por el inicio de febrero EL DAVID me recordó que Joplin existe, lo que derivó en una conversación sobre toma de notas y sISteMas dE gEStIón De COnOcIMiEnTo (PKM por Personal Knowledge Management) y salió a relucir Obsidian. Sobre lo cual EL DAVID dijo:&#xA;El pedo es que es de paga y no pienso pagar por un explorador de archivos glorificado.</description>
     </item>
     <item>
       <title>Me he rendido y usaré WordPress</title>
-      <link>https://lmcj.xyz/posts/2022-03-20-me-he-rendido-y-usare-wordpress/</link>
+      <link>http://localhost:1313/posts/2022-03-20-me-he-rendido-y-usare-wordpress/</link>
       <pubDate>Sun, 20 Mar 2022 02:49:20 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
-      <guid>https://lmcj.xyz/posts/2022-03-20-me-he-rendido-y-usare-wordpress/</guid>
+      <guid>http://localhost:1313/posts/2022-03-20-me-he-rendido-y-usare-wordpress/</guid>
       <description>Después de un montón de tiempo intentando varias maneras de manejar mi sitio web, he caído en la cuenta de que en mi afán de tener una configuración mínima y con pocas dependencias no he logrado nada, lo cual se traduce también en mi productividad y demás cosas en las que no voy a ahondar.&#xA;Por lo tanto decidí deployear un sitio de WordPress en Vultr, y comenzar a realmente compartir lo que hago porque si no nunca voy a estar contento con la forma en que tengo las cosas.</description>
     </item>
   </channel>
