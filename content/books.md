@@ -33,6 +33,19 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Additional comments</th>
     </tr>
     <tr>
+        <td>Rendezvous with Rama</td>
+        <td>Arthur C. Clarke</td>
+        <td>😁</td>
+        <td></td>
+        <td></td>
+        <td>
+            <ul>
+                <li>Book 1 of 'Rama series'</li>
+                <li>I am not sure yet if I care about the rest of the series though.</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
         <td>The Faith Healers</td>
         <td>James Randi</td>
         <td></td>
@@ -984,19 +997,6 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <td>
             <ul>
                 <li>Book 1 of "Remembrance of Earth's Past"</li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>Rendezvous with Rama</td>
-        <td>Arthur C. Clarke</td>
-        <td>😁</td>
-        <td></td>
-        <td></td>
-        <td>
-            <ul>
-                <li>Book 1 of 'Rama series'</li>
-                <li>I am not sure if I care about the rest of the series though.</li>
             </ul>
         </td>
     </tr>
