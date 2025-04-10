@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorial on Luis Mario</title>
-    <link>http://localhost:1313/categories/tutorial/</link>
+    <link>https://lmcj.xyz/categories/tutorial/</link>
     <description>Recent content in Tutorial on Luis Mario</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
@@ -10,33 +10,33 @@
     <webMaster>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</webMaster>
     <copyright>What is LM doing? © 2025 by Luis Mario Chaparro Jáquez is licensed under CC BY-NC-SA 4.0</copyright>
     <lastBuildDate>Sat, 24 Feb 2024 18:30:54 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lmcj.xyz/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Sed One Liner to Fix Date Format in Text Files</title>
-      <link>http://localhost:1313/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</link>
+      <link>https://lmcj.xyz/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</link>
       <pubDate>Sat, 24 Feb 2024 18:30:54 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
-      <guid>http://localhost:1313/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</guid>
+      <guid>https://lmcj.xyz/posts/a-sed-one-liner-to-fix-date-format-in-text-files/</guid>
       <description>TL;DR This is a know your tools entry, although I absolutely don&amp;rsquo;t know my tools as you will see if you read.&#xA;The following &amp;ldquo;one-liner&amp;rdquo; will change any wiki style link with a date string formatted as &amp;ldquo;Feb 22nd, 2024&amp;rdquo; to &amp;ldquo;2024-02-22&amp;rdquo;, god&amp;rsquo;s intended way to write a date.&#xA;Please forgive the search and replace gore of the second sed.&#xA;1sed -E &amp;#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&amp;#39; &amp;#34;$1&amp;#34; | 2&#x9;sed -E &amp;#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&amp;#39; | 3&#x9;sed -E &amp;#39;s;-([0-9])\];-0\1];&amp;#39; &amp;gt; &amp;#34;$1&amp;#34;.</description>
     </item>
     <item>
       <title>How to Fix Metadata of Pdf Files</title>
-      <link>http://localhost:1313/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</link>
+      <link>https://lmcj.xyz/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</link>
       <pubDate>Tue, 07 Jun 2022 23:56:15 +0200</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
-      <guid>http://localhost:1313/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</guid>
+      <guid>https://lmcj.xyz/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</guid>
       <description>Important disclaimer: For your own benefit you should never run random commands you find on the internet, this is why whenever I tell you to run a command, immediately after I will let you know exactly what it does. Feel free to check the documentation of the command to be sure I am not lying to you.&#xA;This is a follow up of the quick entry I made previously on how to put metadata on your LaTeX generated documents.</description>
     </item>
     <item>
       <title>Please Put Metadata in Your LaTeX Files</title>
-      <link>http://localhost:1313/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/</link>
+      <link>https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/</link>
       <pubDate>Tue, 07 Jun 2022 23:20:48 +0200</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
-      <guid>http://localhost:1313/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/</guid>
+      <guid>https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/</guid>
       <description>Today I wanted to homogenize the naming on my totally legally downloaded (😉) collection of maths books, just to (unsurprisingly) see just how messed up the metadata of files you get online is.&#xA;And well, I will fix that for my files but it takes some time, and I will gift you the method I came up with to do so, once I finish. But for now, and since I was of course also guilty of not adding metadata to my documents before today, this is just a reminder of how to add metadata to documents typesetted with LaTeX.</description>
     </item>
     <item>
       <title>Using KaTex Locally for Maths Typesetting in Hugo</title>
-      <link>http://localhost:1313/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</link>
+      <link>https://lmcj.xyz/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</link>
       <pubDate>Sun, 05 Jun 2022 12:53:26 +0200</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
-      <guid>http://localhost:1313/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</guid>
+      <guid>https://lmcj.xyz/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</guid>
       <description>If you work or study on mathematics related fields and have a website, you might often want to share your knowledge with the world. Of course, doing it is rather easy with many website creation tools, and there are also many tutorials to do it with any tool you can think of.&#xA;So, I want to tell you how to do it using the static site generator Hugo and the JavaScript library KaTeX.</description>
     </item>
   </channel>

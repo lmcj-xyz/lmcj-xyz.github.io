@@ -316,6 +316,14 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Additional comments</th>
     </tr>
     <tr>
+        <td>Cultish</td>
+        <td>Amanda Montell</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>The history of the decline and fall of the Roman empire</td>
         <td>Edward Gibbon</td>
         <td></td>
