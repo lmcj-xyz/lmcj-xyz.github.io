@@ -33,17 +33,12 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Additional comments</th>
     </tr>
     <tr>
-        <td>Rendezvous with Rama</td>
-        <td>Arthur C. Clarke</td>
-        <td>😁</td>
+        <td>Dallergut Dream Department Store</td>
+        <td>Miye Lee</td>
         <td></td>
         <td></td>
-        <td>
-            <ul>
-                <li>Book 1 of 'Rama series'</li>
-                <li>I am not sure yet if I care about the rest of the series though.</li>
-            </ul>
-        </td>
+        <td>😢</td>
+        <td></td>
     </tr>
     <tr>
         <td>The Faith Healers</td>
@@ -82,6 +77,19 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Ebook</th>
         <th>Not owned</th>
         <th>Additional comments</th>
+    </tr>
+    <tr>
+        <td>Rendezvous with Rama</td>
+        <td>Arthur C. Clarke</td>
+        <td>😁</td>
+        <td></td>
+        <td></td>
+        <td>
+            <ul>
+                <li>Book 1 of 'Rama series'</li>
+                <li>I am not sure yet if I care about the rest of the series though.</li>
+            </ul>
+        </td>
     </tr>
     <tr>
         <td>Ansibles, perfiladores y otras máquinas de ingenio</td>

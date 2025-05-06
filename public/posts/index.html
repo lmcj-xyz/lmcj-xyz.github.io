@@ -47,9 +47,10 @@
 	<time datetime="2025-03-25T23:26:37">25.03.2025 23:26</time>
 	
 	<div>
-		I use vimtex to aid my way of writing LaTeX in Neovim, but vimtex is written in vimscript and my Neovim configuration is in Lua. As a result, when I am not careful I may spend more time than acceptable to configure something.
-Here is how to use vim.fn to access functions from plugins written in vimscript if you use lazy.nvim as your plugin manager.
-This is the recommended configuration from vimtex&rsquo;s repo using lazy.
+		<p>I use <a href="https://github.com/lervag/vimtex/">vimtex</a> to aid my way of writing LaTeX in Neovim, but <em>vimtex</em> is written in <em>vimscript</em> and my Neovim configuration is in Lua.
+As a result, when I am not careful I may spend more time than acceptable to configure something.</p>
+<p>Here is how to use <a href="https://neovim.io/doc/user/lua.html#vim.fn">vim.fn</a> to access functions from plugins written in <em>vimscript</em> if you use <a href="https://github.com/folke/lazy.nvim">lazy.nvim</a> as your plugin manager.</p>
+<p>This is the recommended configuration from <em>vimtex</em>&rsquo;s repo using <em>lazy</em>.</p>
 		
 			<a href="https://lmcj.xyz/posts/add-insert-mode-mappings-for-vimtex-into-neovim/">Read more...</a>
 		
@@ -62,10 +63,36 @@ This is the recommended configuration from vimtex&rsquo;s repo using lazy.
 	<time datetime="2024-11-29T16:19:15">29.11.2024 16:19</time>
 	
 	<div>
-		Here is a post in the form of a LaTeX code snippet.
-On the dangers of using plain TeX 1% Let us define a header 2%% Starting with some fonts 3\font\xmplbx = cmbx10 scaled \magstephalf 4%% Here you define the font named \xmplbx by calling the actual font 5%% named cmbx10 and you say that is going to be scaled...how much 6%% is the scale, you may ask? 7%% \magstep is for magnification, and you magnify by 1.
-		
-			<a href="https://lmcj.xyz/posts/use-latex-kids/">Read more...</a>
+		<p>Here is a post in the form of a LaTeX code snippet.</p>
+<h1 id="on-the-dangers-of-using-plain-tex">On the dangers of using plain TeX</h1>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="c">% Let us define a header
+</span></span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="c">%% Starting with some fonts
+</span></span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="c"></span><span class="k">\font\xmplbx</span> = cmbx10 scaled <span class="k">\magstephalf</span> 
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="c">%% Here you define the font named \xmplbx by calling the actual font
+</span></span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="c">%% named cmbx10 and you say that is going to be scaled...how much
+</span></span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="c">%% is the scale, you may ask?
+</span></span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="c">%% \magstep is for magnification, and you magnify by 1.2
+</span></span></span><span class="line"><span class="ln"> 8</span><span class="cl"><span class="c">%% i.e. cmbx10 scaled \magstep would be the font cmbx10 scaled at 1.2,
+</span></span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="c">%% meaning a 20% increase in the scale.
+</span></span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="c">%% All the `magsteps&#39; are powers of 1.2,
+</span></span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="c">%% \magstep2 for instance would be a magnification of (1.2)^2...
+</span></span></span><span class="line"><span class="ln">12</span><span class="cl"><span class="c">%% which means that \magstephalf is exactly a magnification of
+</span></span></span><span class="line"><span class="ln">13</span><span class="cl"><span class="c">%% \sqrt{1.2} because LOL!
+</span></span></span><span class="line"><span class="ln">14</span><span class="cl"><span class="c">% Same here but with the italics font
+</span></span></span><span class="line"><span class="ln">15</span><span class="cl"><span class="c"></span><span class="k">\font\xmplbxti</span> = cmbxti10 scaled <span class="k">\magstephalf</span>
+</span></span><span class="line"><span class="ln">16</span><span class="cl"><span class="c">% And now you can define the header as a two parameters command
+</span></span></span><span class="line"><span class="ln">17</span><span class="cl"><span class="c">% which you align to the left and use different fonts in different places
+</span></span></span><span class="line"><span class="ln">18</span><span class="cl"><span class="c">% then at the end you add an extra vertical space.
+</span></span></span><span class="line"><span class="ln">19</span><span class="cl"><span class="c"></span><span class="k">\def\xmpheader</span>#1#2<span class="nb">{</span><span class="k">\leftline</span><span class="nb">{</span><span class="k">\xmplbx</span> Example #1:<span class="k">\quad\xmplbxti</span> #2<span class="nb">}</span><span class="k">\vglue</span> .5<span class="k">\baselineskip</span><span class="nb">}</span>
+</span></span><span class="line"><span class="ln">20</span><span class="cl"><span class="c">%% Pure gore.
+</span></span></span><span class="line"><span class="ln">21</span><span class="cl"><span class="c">% And now you can write a header...
+</span></span></span><span class="line"><span class="ln">22</span><span class="cl"><span class="c"></span><span class="k">\xmpheader</span> 1 <span class="nb">{</span>Simple text<span class="nb">}</span>
+</span></span><span class="line"><span class="ln">23</span><span class="cl">
+</span></span><span class="line"><span class="ln">24</span><span class="cl">And this is some actual text which will appear in the document.
+</span></span><span class="line"><span class="ln">25</span><span class="cl"><span class="c">% The moral of this is: Kids use LaTeX, there is no point to this.
+</span></span></span><span class="line"><span class="ln">26</span><span class="cl"><span class="c">% Once your life is numb and want to at least feel something
+</span></span></span><span class="line"><span class="ln">27</span><span class="cl"><span class="c">% then go and use TeX.
+</span></span></span></code></pre></div>
 		
 	</div>
 </article>
@@ -76,8 +103,12 @@ On the dangers of using plain TeX 1% Let us define a header 2%% Starting with so
 	<time datetime="2024-10-30T08:18:07">30.10.2024 08:18</time>
 	
 	<div>
-		Problem: Consider an array A of length m with only non-negative integer entries, then take the sum of the entries of A and denote it by s. And find the smallest number p that is a multiple of m and is greater or equal than s.
-This was a teeny tiny part of a timed coding question that I blew because I decided to, as any good mathematician would do, overthink it.
+		<blockquote>
+<p><strong>Problem:</strong> Consider an array <code>A</code> of length <code>m</code> with only non-negative integer entries, then take the sum of the entries of <code>A</code> and denote it by <code>s</code>.
+And find the smallest number <code>p</code> that is a multiple of <code>m</code> and is greater or equal than <code>s</code>.</p>
+</blockquote>
+<p>This was a teeny tiny part of a timed coding question that I blew because I decided to, as any good mathematician would do, overthink it.
+So I decided to document it since anyway the damage is done.</p>
 		
 			<a href="https://lmcj.xyz/posts/multiple-sandwich/">Read more...</a>
 		
@@ -90,10 +121,16 @@ This was a teeny tiny part of a timed coding question that I blew because I deci
 	<time datetime="2024-05-21T17:33:13">21.05.2024 17:33</time>
 	
 	<div>
-		I have prepared a talk which I intend to be my &ldquo;sure, I can give a talk&rdquo; if anyone asks me at any point.
-The name is &ldquo;Markov processes and their friends&rdquo; and you can find the first version of it at the end of the Academic profile.
-Or here:
-Notes The backboard prep notes Those notes are the version one of the talk, presented in the Pure PGR Seminar in Leeds.
+		<p>I have prepared a talk which I intend to be my &ldquo;sure, I can give a talk&rdquo; if anyone asks me at any point.</p>
+<p>The name is &ldquo;Markov processes and their friends&rdquo; and you can find the first version of it at the end of the
+<a href="/academic">Academic</a>
+profile.</p>
+<p>Or here:</p>
+<ul>
+<li><a href="/academic/2024-05-20-Pure.pdf">Notes</a></li>
+<li><a href="/academic/2024-05-20-Blackboard.pdf">The backboard prep notes</a></li>
+</ul>
+<p>Those notes are the version one of the talk, presented in the Pure PGR Seminar in Leeds.</p>
 		
 			<a href="https://lmcj.xyz/posts/talk-markov-processes-and-their-friends/">Read more...</a>
 		
@@ -108,10 +145,15 @@ Notes The backboard prep notes Those notes are the version one of the talk, pres
 	<a href="/tags/software">Software</a>
 	
 	<div>
-		TL;DR This is a know your tools entry, although I absolutely don&rsquo;t know my tools as you will see if you read.
-The following &ldquo;one-liner&rdquo; will change any wiki style link with a date string formatted as &ldquo;Feb 22nd, 2024&rdquo; to &ldquo;2024-02-22&rdquo;, god&rsquo;s intended way to write a date.
-Please forgive the search and replace gore of the second sed.
-1sed -E &#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&#39; &#34;$1&#34; | 2	sed -E &#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&#39; | 3	sed -E &#39;s;-([0-9])\];-0\1];&#39; &gt; &#34;$1&#34;.
+		<h2 id="tldr">TL;DR</h2>
+<p>This is a <em>know your tools entry</em>, although I absolutely don&rsquo;t know my tools as you will see if you read.</p>
+<p>The following &ldquo;one-liner&rdquo; will change any wiki style link with a date string formatted as &ldquo;Feb 22nd, 2024&rdquo; to &ldquo;2024-02-22&rdquo;, god&rsquo;s intended way to write a date.</p>
+<p>Please forgive the search and replace gore of the second <code>sed</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="ln">1</span><span class="cl">sed -E <span class="s1">&#39;s;([a-zA-Z]{3})\s([0-9]{1,})(st|nd|rd|th),\s([0-9]{4});\4-\1-\2;&#39;</span> <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> <span class="p">|</span> 
+</span></span><span class="line"><span class="ln">2</span><span class="cl">	sed -E <span class="s1">&#39;s/-Jan-/-01-/;s/-Feb-/-02-/;s/-Mar-/-03-/;s/-Apr-/-04-/;s/-May-/-05-/;s/-Jun-/-05-/;s/-Jul-/-07-/;s/-Aug-/-08-/;s/-Sep-/-09-/;s/-Oct-/-10-/;s/-Nov-/-11-/;s/-Dec-/-12-/&#39;</span> <span class="p">|</span> 
+</span></span><span class="line"><span class="ln">3</span><span class="cl">	sed -E <span class="s1">&#39;s;-([0-9])\];-0\1];&#39;</span> &gt; <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span>.done
+</span></span></code></pre></div><h2 id="the-lore">The lore</h2>
+<p>I had a problem: <a href="https://logseq.com/">Logseq</a> is my note taking software of choice, it&rsquo;s an <a href="https://en.wikipedia.org/wiki/Outliner">outliner</a> which stores files in Markdown format so they are <em>time-proof</em>. Anyway, I wanted my Logseq wiki to be interoperable with <a href="https://obsidian.md/">Obsidian</a> because the latter respects the Markdown a bit more than the former.</p>
 		
 			<a href="https://lmcj.xyz/posts/a-sed-one-liner-to-fix-date-format-in-text-files/">Read more...</a>
 		
@@ -126,7 +168,9 @@ Please forgive the search and replace gore of the second sed.
 	<a href="/tags/personal">Personal</a>
 	
 	<div>
-		Currently I am in a character development arc, in particular dealing with moving because the building management in my building is awful and has just left a leak to make my flat unfit for habitation, and because of that I have learned that one has to be very wary about the company or person which manages the building where you live. And in this search it seems like people who provide reviews for these kind of things have a very strong opinion either positive or negative.
+		<p>Currently I am in a character development arc, in particular dealing with moving because the building management in my building is awful and has just left a leak to make my flat unfit for habitation, and because of that I have learned that one has to be very wary about the company or person which manages the building where you live.
+And in this search it seems like people who provide reviews for these kind of things have a very strong opinion either positive or negative.
+Which makes sense, since normally you only have to deal with the building management of a place when things go wrong, so you will either love them or hate them.</p>
 		
 			<a href="https://lmcj.xyz/posts/2024-02-21-mediocre-reviews/">Read more...</a>
 		
@@ -141,8 +185,10 @@ Please forgive the search and replace gore of the second sed.
 	<a href="/tags/software">Software</a>
 	
 	<div>
-		Important disclaimer: For your own benefit you should never run random commands you find on the internet, this is why whenever I tell you to run a command, immediately after I will let you know exactly what it does. Feel free to check the documentation of the command to be sure I am not lying to you.
-This is a follow up of the quick entry I made previously on how to put metadata on your LaTeX generated documents.
+		<blockquote>
+<p><strong>Important disclaimer:</strong> For your own benefit you should never run random commands you find on the internet, this is why whenever I tell you to run a command, immediately after I will let you know exactly what it does. Feel free to check the documentation of the command to be sure I am not lying to you.</p>
+</blockquote>
+<p>This is a follow up of the quick entry I made previously on <a href="https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/">how to put metadata on your LaTeX generated documents</a>.</p>
 		
 			<a href="https://lmcj.xyz/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/">Read more...</a>
 		
@@ -157,8 +203,8 @@ This is a follow up of the quick entry I made previously on how to put metadata 
 	<a href="/tags/software">Software</a>
 	
 	<div>
-		Today I wanted to homogenize the naming on my totally legally downloaded (😉) collection of maths books, just to (unsurprisingly) see just how messed up the metadata of files you get online is.
-And well, I will fix that for my files but it takes some time, and I will gift you the method I came up with to do so, once I finish. But for now, and since I was of course also guilty of not adding metadata to my documents before today, this is just a reminder of how to add metadata to documents typesetted with LaTeX.
+		<p>Today I wanted to homogenize the naming on my <strong>totally legally downloaded</strong> (😉) collection of maths books, just to (unsurprisingly) see just how messed up the metadata of files you get online is.</p>
+<p>And well, I will fix that for my files but it takes some time, and I will gift you the method I came up with to do so, once I finish. But for now, and since I was of course also guilty of not adding metadata to my documents before today, this is just a reminder of how to add metadata to documents typesetted with LaTeX.</p>
 		
 			<a href="https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/">Read more...</a>
 		
@@ -175,8 +221,12 @@ And well, I will fix that for my files but it takes some time, and I will gift y
 	<a href="/tags/mathematics">Mathematics</a>
 	
 	<div>
-		If you work or study on mathematics related fields and have a website, you might often want to share your knowledge with the world. Of course, doing it is rather easy with many website creation tools, and there are also many tutorials to do it with any tool you can think of.
-So, I want to tell you how to do it using the static site generator Hugo and the JavaScript library KaTeX.
+		<p>If you work or study on mathematics related fields and have a website, you might often want to share your knowledge with the world.
+Of course, doing it is rather easy with many website creation tools, and there are also many tutorials to do it with any tool you can think of.</p>
+<p>So, I want to tell you how to do it using the static site generator
+<a href="https://gohugo.io/">Hugo</a>
+and the JavaScript library
+<a href="https://katex.org/">KaTeX</a>.</p>
 		
 			<a href="https://lmcj.xyz/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/">Read more...</a>
 		
@@ -193,10 +243,11 @@ So, I want to tell you how to do it using the static site generator Hugo and the
 	<a href="/tags/software">Software</a>
 	
 	<div>
-		Hace poco decidí mantener mis notas de todo lo posible usando el plugin para vim/neovim
-vimwiki pero terminé usando Obsidian.
-Todo comenzó cuando por el inicio de febrero EL DAVID me recordó que Joplin existe, lo que derivó en una conversación sobre toma de notas y sISteMas dE gEStIón De COnOcIMiEnTo (PKM por Personal Knowledge Management) y salió a relucir Obsidian. Sobre lo cual EL DAVID dijo:
-El pedo es que es de paga y no pienso pagar por un explorador de archivos glorificado.
+		<p>Hace poco decidí mantener mis notas de todo lo posible usando el plugin para vim/neovim<br>
+vimwiki pero terminé usando Obsidian.</p>
+<p>Todo comenzó cuando por el inicio de febrero <a href="https://www.luevano.xyz/">EL DAVID</a> me recordó que <a href="https://joplinapp.org/">Joplin</a> existe, lo que derivó en una conversación sobre toma de notas y <em>sISteMas dE gEStIón De COnOcIMiEnTo</em> (PKM por Personal Knowledge Management) y salió a relucir <a href="https://obsidian.md/">Obsidian</a>. Sobre lo cual EL DAVID dijo:</p>
+<blockquote>
+<p>El pedo es que es de paga y no pienso pagar por un explorador de archivos glorificado.</p>
 		
 			<a href="https://lmcj.xyz/posts/2022-03-20-acerca-de-toma-de-notas-hacer-una-wiki-y-asi/">Read more...</a>
 		

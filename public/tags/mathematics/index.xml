@@ -16,7 +16,7 @@
       <link>https://lmcj.xyz/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</link>
       <pubDate>Sun, 05 Jun 2022 12:53:26 +0200</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/posts/2022-06-05-using-katex-locally-for-maths-typesetting-in-hugo/</guid>
-      <description>If you work or study on mathematics related fields and have a website, you might often want to share your knowledge with the world. Of course, doing it is rather easy with many website creation tools, and there are also many tutorials to do it with any tool you can think of.&#xA;So, I want to tell you how to do it using the static site generator Hugo and the JavaScript library KaTeX.</description>
+      <description>&lt;p&gt;If you work or study on mathematics related fields and have a website, you might often want to share your knowledge with the world.&#xA;Of course, doing it is rather easy with many website creation tools, and there are also many tutorials to do it with any tool you can think of.&lt;/p&gt;&#xA;&lt;p&gt;So, I want to tell you how to do it using the static site generator&#xA;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;&#xA;and the JavaScript library&#xA;&lt;a href=&#34;https://katex.org/&#34;&gt;KaTeX&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
