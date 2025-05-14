@@ -33,14 +33,6 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Additional comments</th>
     </tr>
     <tr>
-        <td>Dallergut Dream Department Store</td>
-        <td>Miye Lee</td>
-        <td></td>
-        <td></td>
-        <td>😢</td>
-        <td></td>
-    </tr>
-    <tr>
         <td>The Faith Healers</td>
         <td>James Randi</td>
         <td></td>
@@ -77,6 +69,14 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Ebook</th>
         <th>Not owned</th>
         <th>Additional comments</th>
+    </tr>
+    <tr>
+        <td>Dallergut Dream Department Store</td>
+        <td>Miye Lee</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td>Not necessarily want to own a copy.</td>
     </tr>
     <tr>
         <td>Rendezvous with Rama</td>
