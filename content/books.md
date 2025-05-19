@@ -33,6 +33,22 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Additional comments</th>
     </tr>
     <tr>
+        <td>The Wonderful Wizard of Oz</td>
+        <td>L. Frank Baum</td>
+        <td></td>
+        <td>😐️</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Pedro Páramo</td>
+        <td>Juan Rulfo</td>
+        <td>😀</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
         <td>The Faith Healers</td>
         <td>James Randi</td>
         <td></td>
@@ -443,14 +459,6 @@ The order of the books in the list doesn't mean anything except potentially a gr
     <tr>
         <td>Las guerras indias en la historia de Chihuahua</td>
         <td>Víctor Orozco</td>
-        <td></td>
-        <td></td>
-        <td>😢</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Pedro Páramo</td>
-        <td>Juan Rulfo</td>
         <td></td>
         <td></td>
         <td>😢</td>
