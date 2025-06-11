@@ -41,14 +41,6 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <td></td>
     </tr>
     <tr>
-        <td>Pedro Páramo</td>
-        <td>Juan Rulfo</td>
-        <td>😀</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
         <td>The Faith Healers</td>
         <td>James Randi</td>
         <td></td>
@@ -57,12 +49,12 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <td></td>
     </tr>
     <tr>
-        <td>Building a Second Brain</td>
-        <td>Tiago Forte</td>
+        <td>God Emperor of Dune</td>
+        <td>Frank Herbert</td>
+        <td>😀</td>
         <td></td>
-        <td>😐️</td>
         <td></td>
-        <td>Not interested in owning a copy of this</td>
+        <td></td>
     </tr>
 </table>
 {{</raw>}}
@@ -85,6 +77,14 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Ebook</th>
         <th>Not owned</th>
         <th>Additional comments</th>
+    </tr>
+    <tr>
+        <td>Pedro Páramo</td>
+        <td>Juan Rulfo</td>
+        <td>😀</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>Dallergut Dream Department Store</td>
