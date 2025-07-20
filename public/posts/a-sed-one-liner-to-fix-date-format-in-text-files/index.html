@@ -90,8 +90,7 @@ uncomment it and set the vale to the date format you want, in my case I actually
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">:journal/file-name-format &#34;yyyy-MM-dd&#34;
 </span></span></code></pre></div><p>additionally you can also set the page title format to</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">:journal/page-title-format &#34;yyyy-MM-dd&#34;
-</span></span></code></pre></div><p>so Logseq displays the actual title of the note.</p>
-</blockquote>
+</span></span></code></pre></div><p>so Logseq displays the actual title of the note.</p></blockquote>
 <h2 id="what-to-do-what-to-do">What to do, what to do&hellip;</h2>
 <p>The obvious solution is to create a small script which changes the date format to what I want, in fact I thought of migrating the whole thing into an Obsidian format and I found <a href="https://github.com/NishantTharani/LogSeqToObsidian/tree/main">this Python script</a>, but then I realized I don&rsquo;t really want to do this, I like Logseq, I just need to tweak it a bit.
 But then I did go and read the script and thought I could just steal the function called <code>update_files_and_tags</code> in the file <a href="https://github.com/NishantTharani/LogSeqToObsidian/blob/main/convert_notes.py">convert_notes.py</a>.</p>
@@ -124,8 +123,7 @@ Normally a command has an output, for instance</p>
 <p>will print the string &ldquo;Hello&rdquo; on your console, if you want to use the output of a command as the argument for other command you can use the pipe operator <code>|</code> to redirect the output to another utility, e.g.</p>
 <p><code>echo &quot;Hello&quot; | grep &quot;H&quot;</code></p>
 <p>which although this is a silly example it will take the word string &ldquo;Hello&rdquo; and feed it to <code>grep</code>, which will highlight the match of the letter &ldquo;H&rdquo; in the word &ldquo;Hello&rdquo;.
-If you want, go and read more <a href="https://www.redhat.com/sysadmin/pipes-command-line-linux">here</a>.</p>
-</blockquote>
+If you want, go and read more <a href="https://www.redhat.com/sysadmin/pipes-command-line-linux">here</a>.</p></blockquote>
 <p>First, I went and read this <a href="https://csiro-data-school.github.io/regex/index.html">intro to regular expressions</a>, because obviously I don&rsquo;t remember such things and I need to go and learn every time I need to use them. Really nice tutorial though. And along the way I was implementing my solution.</p>
 <p>So I went by steps, let us first find our wikilinks with dates, we can use <code>grep</code> just so we can see what we find, and then afterwards use <code>sed</code> to substitute.
 Both have the same syntax for regex.</p>

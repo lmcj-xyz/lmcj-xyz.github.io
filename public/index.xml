@@ -23,7 +23,7 @@
       <link>https://lmcj.xyz/books/</link>
       <pubDate>Thu, 30 Jan 2025 16:11:33 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/books/</guid>
-      <description>&lt;p&gt;List of books that I have read, or intend to read.&lt;/p&gt;&#xA;&lt;p&gt;Additionally with the information about whether or not I own a physical copy of this book.&#xA;It&amp;rsquo;s specially useful if you would like to gift me something 👀.&lt;/p&gt;&#xA;&lt;p&gt;You can always assume that I want to own a physical copy of a book in these lists, or the series from which is part, unless otherwise specified.&#xA;There are books I have read but didn&amp;rsquo;t really like, or maybe I liked at the time but now I don&amp;rsquo;t really care anymore or straight up I don&amp;rsquo;t like.&lt;/p&gt;</description>
+      <description>&lt;p&gt;List of books that I have read, or intend to read.&lt;/p&gt;&#xA;&lt;p&gt;Additionally with the information about whether or not I own a physical copy of this book.&#xA;It&amp;rsquo;s specially useful if you would like to gift me something 👀.&lt;/p&gt;&#xA;&lt;p&gt;You can always assume that I want to own a physical copy of a book in these tables, or the series the book is part of, unless otherwise specified.&#xA;There are books I have read but didn&amp;rsquo;t really like, or maybe I liked at the time but now I don&amp;rsquo;t really care anymore, or straight up I don&amp;rsquo;t like, I will never care to own a physical copy of those.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Use LaTeX Kids</title>
@@ -37,7 +37,7 @@
       <link>https://lmcj.xyz/posts/multiple-sandwich/</link>
       <pubDate>Wed, 30 Oct 2024 08:18:07 +0000</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/posts/multiple-sandwich/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Consider an array &lt;code&gt;A&lt;/code&gt; of length &lt;code&gt;m&lt;/code&gt; with only non-negative integer entries, then take the sum of the entries of &lt;code&gt;A&lt;/code&gt; and denote it by &lt;code&gt;s&lt;/code&gt;.&#xA;And find the smallest number &lt;code&gt;p&lt;/code&gt; that is a multiple of &lt;code&gt;m&lt;/code&gt; and is greater or equal than &lt;code&gt;s&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;This was a teeny tiny part of a timed coding question that I blew because I decided to, as any good mathematician would do, overthink it.&#xA;So I decided to document it since anyway the damage is done.&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Consider an array &lt;code&gt;A&lt;/code&gt; of length &lt;code&gt;m&lt;/code&gt; with only non-negative integer entries, then take the sum of the entries of &lt;code&gt;A&lt;/code&gt; and denote it by &lt;code&gt;s&lt;/code&gt;.&#xA;And find the smallest number &lt;code&gt;p&lt;/code&gt; that is a multiple of &lt;code&gt;m&lt;/code&gt; and is greater or equal than &lt;code&gt;s&lt;/code&gt;.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;This was a teeny tiny part of a timed coding question that I blew because I decided to, as any good mathematician would do, overthink it.&#xA;So I decided to document it since anyway the damage is done.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Talk: Markov Processes and Their Friends</title>
@@ -135,7 +135,7 @@
       <link>https://lmcj.xyz/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</link>
       <pubDate>Tue, 07 Jun 2022 23:56:15 +0200</pubDate><author>webmaster@lmcj.xyz (Luis Mario Chaparro Jáquez)</author>
       <guid>https://lmcj.xyz/posts/2022-06-07-how-to-fix-metadata-of-pdf-files/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Important disclaimer:&lt;/strong&gt; For your own benefit you should never run random commands you find on the internet, this is why whenever I tell you to run a command, immediately after I will let you know exactly what it does. Feel free to check the documentation of the command to be sure I am not lying to you.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;This is a follow up of the quick entry I made previously on &lt;a href=&#34;https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/&#34;&gt;how to put metadata on your LaTeX generated documents&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Important disclaimer:&lt;/strong&gt; For your own benefit you should never run random commands you find on the internet, this is why whenever I tell you to run a command, immediately after I will let you know exactly what it does. Feel free to check the documentation of the command to be sure I am not lying to you.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;This is a follow up of the quick entry I made previously on &lt;a href=&#34;https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/&#34;&gt;how to put metadata on your LaTeX generated documents&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Please Put Metadata in Your LaTeX Files</title>

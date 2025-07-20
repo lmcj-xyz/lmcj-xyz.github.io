@@ -38,8 +38,7 @@
 			<time datetime="2022-06-07T23:56:15">07.06.2022 23:56</time>
 			<div>
 				<blockquote>
-<p><strong>Important disclaimer:</strong> For your own benefit you should never run random commands you find on the internet, this is why whenever I tell you to run a command, immediately after I will let you know exactly what it does. Feel free to check the documentation of the command to be sure I am not lying to you.</p>
-</blockquote>
+<p><strong>Important disclaimer:</strong> For your own benefit you should never run random commands you find on the internet, this is why whenever I tell you to run a command, immediately after I will let you know exactly what it does. Feel free to check the documentation of the command to be sure I am not lying to you.</p></blockquote>
 <p>This is a follow up of the quick entry I made previously on <a href="https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/">how to put metadata on your LaTeX generated documents</a>.</p>
 <h2 id="introduction">Introduction</h2>
 <p>In this tutorial I will tell you how to do three things:</p>
@@ -127,12 +126,10 @@
 </ol>
 <p>That is what I recommend doing, because as you can tell, the function is made to run over a single file, and that is why you need to loop at the end.</p>
 <blockquote>
-<p>Other options are to take the function <code>clean()</code> and put it into your <code>.bashrc</code>, <code>.zshrc</code> <code>.profile</code> or wherever your shell stuff loads, and then you will be able to run <code>clean &lt;name of your file&gt;.pdf</code> just as a normal shell command. I would recommend calling the function something more memorable though.</p>
-</blockquote>
+<p>Other options are to take the function <code>clean()</code> and put it into your <code>.bashrc</code>, <code>.zshrc</code> <code>.profile</code> or wherever your shell stuff loads, and then you will be able to run <code>clean &lt;name of your file&gt;.pdf</code> just as a normal shell command. I would recommend calling the function something more memorable though.</p></blockquote>
 <p>So, now you have anonymised files! Yay!</p>
 <blockquote>
-<p>Oh! One more thing. As you saw, the snippet above will create three additional files for each file that you processed, which most likely you do not want. So, I recommend moving everything except for the files with the prefix <code>clean2-</code> to some directory that you can call <code>./unclean/</code> or whatever. I have not removed the creation of additional files because is good to have backups, but you can do it if you live life to the fullest and do not care for data loss.</p>
-</blockquote>
+<p>Oh! One more thing. As you saw, the snippet above will create three additional files for each file that you processed, which most likely you do not want. So, I recommend moving everything except for the files with the prefix <code>clean2-</code> to some directory that you can call <code>./unclean/</code> or whatever. I have not removed the creation of additional files because is good to have backups, but you can do it if you live life to the fullest and do not care for data loss.</p></blockquote>
 <h2 id="write-useful-metadata-to-your-files">Write useful metadata to your files</h2>
 <p>So, we want to create a <code>.csv</code> because is an easy way to save tags for files, and we will make use of <code>exiftool</code> which can write tags from <code>.csv</code> files.</p>
 <p>The first thing we need to do is to get the names of all our files. There are different way to do this, you just need to be in the directory where your files are and</p>
@@ -145,8 +142,7 @@
 </li>
 </ul>
 <blockquote>
-<p>The first (and better) option can be used instead of the option <code>-common</code> or without any, in order to load more metadata, but I don not find that useful because makes the file more messy, your choice.</p>
-</blockquote>
+<p>The first (and better) option can be used instead of the option <code>-common</code> or without any, in order to load more metadata, but I don not find that useful because makes the file more messy, your choice.</p></blockquote>
 <p>Suppose you used the first option (such a smart individual you are) it will create a <code>.csv</code> that uses comma as a separator (duhh), but you do not want that. Use something odd enough that it cannot be confused with a character in the name of your files, something like <code>^</code>, <code>@</code>, character that is not used commonly while writing, I will use <code>^</code>.</p>
 <p>This can be done in any text editor with search and replace functionality, or you could use any spreadsheet software to make it, be ware that spreadsheet software can do nasty stuff sometimes.</p>
 <p>I do, however, recommend to use any spreadsheet software to add all the tags you want. Or a text editor is fine too.</p>
@@ -163,8 +159,7 @@
 </figure>
 
 <blockquote>
-<p>Actually if you have followed the tutorial, the third column on that image will be for you in the first column and will have the name <code>SourceFile</code>, this image is just for illustrative purposes.</p>
-</blockquote>
+<p>Actually if you have followed the tutorial, the third column on that image will be for you in the first column and will have the name <code>SourceFile</code>, this image is just for illustrative purposes.</p></blockquote>
 <p>So here comes the tedious part, you will have to add to your <code>csv</code> file all the tags you want, to have in the metadata. I only want <em>title</em> and <em>author</em>, probably <em>edition</em> is useful. IDK, do as you please but remember that this is clerical work and there is no way to escape it if you want to benefit from having useful meta information in your files.
 This is why <a href="https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metadata-in-your-latex-files/">you must add metadata to your files</a>.</p>
 <p>Remember to put the name of tags you want in the first row.</p>
@@ -174,8 +169,7 @@ This is why <a href="https://lmcj.xyz/posts/2022-06-07-for-fucks-sake-put-metada
 </span></span></code></pre></div><p>In this case <code>exiftool</code> will use your beautiful <code>.csv</code> file with the option <code>-csv=tags.csv</code>, then <code>-csvDelim ^</code> tells it to use <code>^</code> as separator, and the dot <code>.</code> is indicating to scan the current directory.</p>
 <p>And now you have nicely labelled pdf files! Brilliant!</p>
 <blockquote>
-<p>One thing to note. I mention to be careful of <em>weird characters</em> in your tags&hellip;well sometimes you will have actually <em>weird characters</em> in your title or some other tag. For instance you might have a <strong>totally legal</strong> copy of the book <em>Measure, Integration &amp; Real Analysis</em> by <em>Sheldon Axler</em>, and you can see that it has a <code>&amp;</code> in the title. Well it is likely you want to deal with those cases separately for the sake of simplicity.</p>
-</blockquote>
+<p>One thing to note. I mention to be careful of <em>weird characters</em> in your tags&hellip;well sometimes you will have actually <em>weird characters</em> in your title or some other tag. For instance you might have a <strong>totally legal</strong> copy of the book <em>Measure, Integration &amp; Real Analysis</em> by <em>Sheldon Axler</em>, and you can see that it has a <code>&amp;</code> in the title. Well it is likely you want to deal with those cases separately for the sake of simplicity.</p></blockquote>
 <h2 id="rename-files-using-metadata">Rename files using metadata</h2>
 <p>Now, finally got to the point that make me do all these things: Renaming files using metadata.</p>
 <p>Well, since you already have nicely tagged files you only need to run</p>

@@ -89,8 +89,7 @@ belongs to a Hölder-Zygmund space with negative order, then let us define, form
 <p>$$X_t = X_0 + \int_0^t b(s, X_s) ds + W_t$$</p>
 <p>Now that you saw how beatiful this is, let us start.</p>
 <blockquote>
-<p><strong>Disclaimer:</strong> I am breaking down the process step by step, and that is why it looks very long, in reality it won&rsquo;t take you more than 10 mins to do the hardest version, so don&rsquo;t be discouraged if this looks too long.</p>
-</blockquote>
+<p><strong>Disclaimer:</strong> I am breaking down the process step by step, and that is why it looks very long, in reality it won&rsquo;t take you more than 10 mins to do the hardest version, so don&rsquo;t be discouraged if this looks too long.</p></blockquote>
 <h2 id="my-hugo-directory-tree">My Hugo directory tree</h2>
 <p>First let me quickly lay the ground about the folder structure I have, and in this way you can extrapolate it for your own case:</p>
 <pre><code>.
@@ -109,11 +108,9 @@ belongs to a Hölder-Zygmund space with negative order, then let us define, form
 |__themes/
 </code></pre>
 <blockquote>
-<p><strong>Attention:</strong> the <code>katex/</code> directory is not necessary to have from the beginning since it is where your downloaded scripts will be, and it will be created when you extract the archive.</p>
-</blockquote>
+<p><strong>Attention:</strong> the <code>katex/</code> directory is not necessary to have from the beginning since it is where your downloaded scripts will be, and it will be created when you extract the archive.</p></blockquote>
 <blockquote>
-<p><strong>Attention again:</strong> Also, of course the folder structure is more complex, but only the relevant parts are listed here.</p>
-</blockquote>
+<p><strong>Attention again:</strong> Also, of course the folder structure is more complex, but only the relevant parts are listed here.</p></blockquote>
 <p>We will only work on the directories
 <code>layouts/</code>
 <code>static/</code>
@@ -140,8 +137,7 @@ file, depending with what thing you are more comfortable, both archiving formats
 </li>
 </ul>
 <blockquote>
-<p><strong>Attention:</strong> For the first option you <strong>must</strong> check what version is the most recent, so you anyway should go to the releases page from option 2.</p>
-</blockquote>
+<p><strong>Attention:</strong> For the first option you <strong>must</strong> check what version is the most recent, so you anyway should go to the releases page from option 2.</p></blockquote>
 <p>Make sure the
 <code>katex</code>
 directory is in your main Hugo folder.</p>
@@ -190,8 +186,7 @@ directory can be important if you want to add some extra functionality, which by
 </li>
 </ul>
 <blockquote>
-<p><strong>Attention:</strong> You can also use the <code>katex.min.js</code> and <code>katex.min.css</code> which are &ldquo;minimal&rdquo; version of the files.</p>
-</blockquote>
+<p><strong>Attention:</strong> You can also use the <code>katex.min.js</code> and <code>katex.min.css</code> which are &ldquo;minimal&rdquo; version of the files.</p></blockquote>
 <h2 id="make-your-website-use-the-files-you-just-moved">Make your website use the files you just moved</h2>
 <p>First, on the <code>layouts/partials/</code> directory you need one <a href="https://gohugo.io/templates/partials/">partial template</a>
 and you can name it <code>katex.html</code>, add the following content to that file</p>
@@ -219,8 +214,7 @@ and you can name it <code>katex.html</code>, add the following content to that f
 <pre><code>{{ if .Params.maths }}{{ partial &quot;katex.html&quot; . }}{{ end }}
 </code></pre>
 <blockquote>
-<p><strong>Attention:</strong> You can add scripts in the <code>footer</code> or <code>header</code> or <code>body</code>, do it as you prefer I am just following the current advice about where to load scripts, because it is no longer the 17th century and we have things like <code>async</code> and <code>defer</code>, which I am using here. For more info about those things see <a href="https://stackoverflow.com/a/24070373">this SO answer</a>.</p>
-</blockquote>
+<p><strong>Attention:</strong> You can add scripts in the <code>footer</code> or <code>header</code> or <code>body</code>, do it as you prefer I am just following the current advice about where to load scripts, because it is no longer the 17th century and we have things like <code>async</code> and <code>defer</code>, which I am using here. For more info about those things see <a href="https://stackoverflow.com/a/24070373">this SO answer</a>.</p></blockquote>
 <p>This will check in the frontmatter if you enabled <code>maths</code> in that post, therefore from now on whenever you want to add maths in a post you must add, in the frontmatter, the line</p>
 <pre><code>---
 maths: true
@@ -228,19 +222,16 @@ maths: true
 </code></pre>
 <p>Because of that I would, of course, suggest to add it in your <a href="https://gohugo.io/content-management/archetypes/">archetypes</a>, and if you don&rsquo;t need it for a certain post you just make it <code>false</code>.</p>
 <blockquote>
-<p><strong>Attention:</strong> The reason we are doing this, is so that no unnecessary <code>js</code> code is loaded everywhere and it is only used where needed, if you are not interested in that, then go and add all the scripts into the base template. Which I strongly disapprove and won&rsquo;t tell you how to do it (it might depend on your theme), you might be able to figure that out on your own.</p>
-</blockquote>
+<p><strong>Attention:</strong> The reason we are doing this, is so that no unnecessary <code>js</code> code is loaded everywhere and it is only used where needed, if you are not interested in that, then go and add all the scripts into the base template. Which I strongly disapprove and won&rsquo;t tell you how to do it (it might depend on your theme), you might be able to figure that out on your own.</p></blockquote>
 <p>Finally, there is kind of a tricky part, which depending on how you have your Hugo project can or cannot be neccessary, it might also depend on your theme.
 The thing is that the <code>head.html</code> file that we created, might not be loaded into your base <code>html</code> template, and you will have to look for your main template file and add the line</p>
 <pre><code>{{ partial &quot;head&quot; . }}
 </code></pre>
 <p><strong>In my particular case</strong> (and be very mindful that this is a particular case), I am using a modified version of the theme <a href="https://themes.gohugo.io/themes/smol/">smol</a> and have kept some of the structure of the theme, so I added the line above in the file <code>themes/smol/layouts/_default/baseof.html</code> inside the <code>&lt;head&gt;</code> section. But this will depend on your own project.</p>
 <blockquote>
-<p><strong>Update at 6 Jun 2022:</strong> Turns out the above is not as dependant of the theme, since most themes have the same structure and you can very safely go and add the line to your <code>themes/&lt;your theme&gt;/layouts/_default/baseof.html</code> file. You just need to add it according to the file that loads scripts.</p>
-</blockquote>
+<p><strong>Update at 6 Jun 2022:</strong> Turns out the above is not as dependant of the theme, since most themes have the same structure and you can very safely go and add the line to your <code>themes/&lt;your theme&gt;/layouts/_default/baseof.html</code> file. You just need to add it according to the file that loads scripts.</p></blockquote>
 <blockquote>
-<p><strong>Update at 25 Feb 2024:</strong> It&rsquo;s best if you don&rsquo;t touch your theme folder ever again unless necessary, but instead copy the <code>baseof.html</code> to your website&rsquo;s <code>layouts</code> directory and edit the one there, Hugo will override the theme&rsquo;s setting if it finds a file with the same name in the base directory, this applies to any file from your theme. So this is for instance a better way to change your <code>style.css</code> as well.</p>
-</blockquote>
+<p><strong>Update at 25 Feb 2024:</strong> It&rsquo;s best if you don&rsquo;t touch your theme folder ever again unless necessary, but instead copy the <code>baseof.html</code> to your website&rsquo;s <code>layouts</code> directory and edit the one there, Hugo will override the theme&rsquo;s setting if it finds a file with the same name in the base directory, this applies to any file from your theme. So this is for instance a better way to change your <code>style.css</code> as well.</p></blockquote>
 <h2 id="final-words">Final words</h2>
 <p>There you go, you must now be able to use KaTeX on you Hugo website, of course syntax is like LaTeX and you will use <code>$ $</code> for inline equations and <code>$$ $$</code> for blocks.</p>
 <p>Have fun!</p>

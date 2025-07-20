@@ -8,10 +8,10 @@ List of books that I have read, or intend to read.
 Additionally with the information about whether or not I own a physical copy of this book.
 It's specially useful if you would like to gift me something 👀.
 
-You can always assume that I want to own a physical copy of a book in these lists, or the series from which is part, unless otherwise specified.
-There are books I have read but didn't really like, or maybe I liked at the time but now I don't really care anymore or straight up I don't like.
+You can always assume that I want to own a physical copy of a book in these tables, or the series the book is part of, unless otherwise specified.
+There are books I have read but didn't really like, or maybe I liked at the time but now I don't really care anymore, or straight up I don't like, I will never care to own a physical copy of those.
 
-The order of the books in the list doesn't mean anything except potentially a group by author.
+The order of the books in the tables doesn't mean anything except potentially a group by author, or the order of reading.
 
 # Books currently reading
 {{<raw>}}
@@ -49,8 +49,8 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <td></td>
     </tr>
     <tr>
-        <td>God Emperor of Dune</td>
-        <td>Frank Herbert</td>
+        <td>Julia</td>
+        <td>Sandra Newman</td>
         <td>😀</td>
         <td></td>
         <td></td>
@@ -77,6 +77,14 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Ebook</th>
         <th>Not owned</th>
         <th>Additional comments</th>
+    </tr>
+    <tr>
+        <td>God Emperor of Dune</td>
+        <td>Frank Herbert</td>
+        <td>😀</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>Pedro Páramo</td>
@@ -351,6 +359,46 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <th>Ebook</th>
         <th>Not owned</th>
         <th>Additional comments</th>
+    </tr>
+    <tr>
+        <td>Visión de los vencidos</td>
+        <td>Miguel León-Portilla</td>
+        <td>😁</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>The handmaid's tale</td>
+        <td>Margaret Atwood</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Wuthering heights</td>
+        <td>Emily Brontë</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Helliconia spring</td>
+        <td>Brian W. Aldiss</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>We are legion</td>
+        <td>Dennis E. Taylor</td>
+        <td></td>
+        <td></td>
+        <td>😢</td>
+        <td></td>
     </tr>
     <tr>
         <td>Cultish</td>
@@ -917,19 +965,11 @@ The order of the books in the list doesn't mean anything except potentially a gr
         <td></td>
     </tr>
     <tr>
-        <td>Julia: A Novel</td>
-        <td>Sandra Newman</td>
-        <td></td>
-        <td></td>
-        <td>😢</td>
-        <td></td>
-    </tr>
-    <tr>
         <td>Solaris</td>
         <td>Stanislaw Lem</td>
+        <td>😀</td>
         <td></td>
         <td></td>
-        <td>😢</td>
         <td></td>
     </tr>
     <tr>

@@ -1,10 +1,14 @@
-# The website of LM
-*I am Luis Mario **(LM)**, a PhD student on mathematics with interests in free software, music and some other stuff.*
+# Luis Mario Chaparro Jáquez
+
+Mathematician and software developer.
 
 ## Research output
 - **Convergence rate of numerical scheme for SDEs with a distributional drift in Besov space**.
 Luis Mario Chaparro Jáquez, [Elena Issoglio](https://sites.google.com/view/elenaissoglio), [Jan Palczewski](https://www1.maths.leeds.ac.uk/~jp/).
 *Sept 2023*. [ArXiV](https://arxiv.org/abs/2309.11396).
+- **Euler-Maruyama scheme for McKean-Vlasov SDEs with distributional drift**.
+Luis Mario Chaparro Jáquez, [Elena Issoglio](https://sites.google.com/view/elenaissoglio), [Jan Palczewski](https://www1.maths.leeds.ac.uk/~jp/).
+*Writing stage*.
 
 ## Here you will find...
 <!--- 📅 [Calendar for Leeds Stats & Probability PGR Seminar](/stats-seminar)-->
