@@ -49,8 +49,8 @@ The order of the books in the tables doesn't mean anything except potentially a 
         <td></td>
     </tr>
     <tr>
-        <td>Julia</td>
-        <td>Sandra Newman</td>
+        <td>1984</td>
+        <td>George Orwell</td>
         <td>😀</td>
         <td></td>
         <td></td>
@@ -77,6 +77,14 @@ The order of the books in the tables doesn't mean anything except potentially a 
         <th>Ebook</th>
         <th>Not owned</th>
         <th>Additional comments</th>
+    </tr>
+    <tr>
+        <td>Julia</td>
+        <td>Sandra Newman</td>
+        <td>😀</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>God Emperor of Dune</td>
