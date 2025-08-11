@@ -5,7 +5,7 @@ Mathematician and software developer.
 ## Research output
 - **Convergence rate of numerical scheme for SDEs with a distributional drift in Besov space**.
 Luis Mario Chaparro Jáquez, [Elena Issoglio](https://sites.google.com/view/elenaissoglio), [Jan Palczewski](https://www1.maths.leeds.ac.uk/~jp/).
-*Sept 2023*. [ArXiV](https://arxiv.org/abs/2309.11396).
+*Sept 2023*. [ArXiV](https://arxiv.org/abs/2309.11396). To appear in *ESAIM: Mathematical Modelling and Numerical Analysis.*
 - **Euler-Maruyama scheme for McKean-Vlasov SDEs with distributional drift**.
 Luis Mario Chaparro Jáquez, [Elena Issoglio](https://sites.google.com/view/elenaissoglio), [Jan Palczewski](https://www1.maths.leeds.ac.uk/~jp/).
 *Writing stage*.
