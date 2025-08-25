@@ -10,7 +10,7 @@ Luis Mario Chaparro Jáquez, [Elena Issoglio](https://sites.google.com/view/elen
 [ArXiV](https://arxiv.org/abs/2309.11396). 
 - **Euler-Maruyama scheme for McKean-Vlasov SDEs with distributional drift**.
 Luis Mario Chaparro Jáquez, [Elena Issoglio](https://sites.google.com/view/elenaissoglio), [Jan Palczewski](https://www1.maths.leeds.ac.uk/~jp/).
-*Writing...*.
+*Writing...*
 
 ## Here you will find...
 <!--- 📅 [Calendar for Leeds Stats & Probability PGR Seminar](/stats-seminar)-->
