@@ -13,11 +13,11 @@ Luis Mario Chaparro Jáquez, [Elena Issoglio](https://sites.google.com/view/elen
 *Writing...*
 
 ## Here you will find...
-<!--- 📅 [Calendar for Leeds Stats & Probability PGR Seminar](/stats-seminar)-->
-<!--- 🏭 [Industry CV](/cv_pro)-->
-<!--- 🌅 [Academic CV](/cv_ac) and[Profile](/academic)-->
 - 🧮 [Academic interests and research projects](/academic)
 - 🌅 [Academic profile](/academic)
 - 📔 [Blog with updates and other texts](/posts/)
-<!-- - 📚️ [Books I've read or would like to read](/books/) -->
 - 🔗 [External links](/external)
+<!--- 📅 [Calendar for Leeds Stats & Probability PGR Seminar](/stats-seminar)-->
+<!--- 🏭 [Industry CV](/cv_pro)-->
+<!--- 🌅 [Academic CV](/cv_ac) and[Profile](/academic)-->
+<!-- - 📚️ [Books I've read or would like to read](/books/) -->
