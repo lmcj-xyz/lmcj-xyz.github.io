@@ -55,7 +55,8 @@ I went with with the later because it allows for a more <em>Lua</em>-like syntax
 <p>However, you may be tempted to add any piece of configuration for <em>vimtex</em> inside of the plugin spec above.
 I am here to tell you&hellip;</p>
 <blockquote>
-<p>DO NOT CALL <code>vim.fn</code> INSIDE THE PLUGIN SPEC!</p></blockquote>
+<p>DO NOT CALL <code>vim.fn</code> INSIDE THE PLUGIN SPEC!</p>
+</blockquote>
 <p>I tried that, which means that I called <code>vim.fn</code> inside of the function definition provided as value to the <code>init</code> parameter.
 If you do the same, since the plugin will not be loaded before it is loaded&mdash;silly, yes, but that&rsquo;s what is happening&mdash;Neovim will scream that your function is unknown, because it is at the moment.</p>
 <p>What you want to do, since this is a <a href="https://neovim.io/doc/user/filetype.html">filetype</a> thing, is to write this function call in the corresponding filetype configuration.

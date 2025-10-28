@@ -33,22 +33,6 @@ The order of the books in the tables doesn't mean anything except potentially a 
         <th>Additional comments</th>
     </tr>
     <tr>
-        <td>The Wonderful Wizard of Oz</td>
-        <td>L. Frank Baum</td>
-        <td></td>
-        <td>😐️</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>The Faith Healers</td>
-        <td>James Randi</td>
-        <td></td>
-        <td>😐️</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
         <td>1984</td>
         <td>George Orwell</td>
         <td>😀</td>
@@ -373,6 +357,22 @@ The order of the books in the tables doesn't mean anything except potentially a 
         <td>Miguel León-Portilla</td>
         <td>😁</td>
         <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>The Wonderful Wizard of Oz</td>
+        <td>L. Frank Baum</td>
+        <td></td>
+        <td>😐️</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>The Faith Healers</td>
+        <td>James Randi</td>
+        <td></td>
+        <td>😐️</td>
         <td></td>
         <td></td>
     </tr>

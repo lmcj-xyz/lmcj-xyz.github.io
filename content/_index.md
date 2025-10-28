@@ -19,5 +19,5 @@ Luis Mario Chaparro Jáquez, [Elena Issoglio](https://sites.google.com/view/elen
 - 🧮 [Academic interests and research projects](/academic)
 - 🌅 [Academic profile](/academic)
 - 📔 [Blog with updates and other texts](/posts/)
-- 📚️ [Books I've read or would like to read](/books/)
+<!-- - 📚️ [Books I've read or would like to read](/books/) -->
 - 🔗 [External links](/external)
